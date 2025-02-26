@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travis is Good</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            background-color: #ff5500;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #ff7722;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://open.spotify.com/artist/52fGgZWL38qHvtlrhMQcFd" target="_blank" class="button">🎵 Fingerball</a>
+    <a href="https://store.steampowered.com/app/2947110/Core_Descent/" target="_blank" class="button">🎮 Core Descent</a>
+</body>
+</html>
