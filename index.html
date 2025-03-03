@@ -4,46 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travisisgood</title>
+    <link href="https://url.ca.m.mimecastprotect.com/s/DBsACWLJ4LIxw0vpt6fwUoA6Fh?domain=fonts.googleapis.com" rel="stylesheet">
     <style>
         body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #2a0038, #1a0025);
+            color: white;
+            text-align: center;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #2a0038; /* Dark purple */
-            color: white;
-            font-family: Arial, sans-serif;
             margin: 0;
-            text-align: center;
-            padding: 20px;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            font-size: 56px; /* Large title */
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-transform: lowercase;
+        }
+        .divider {
+            width: 80%;
+            height: 3px;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 20px 0;
+            border-radius: 2px;
         }
         .button {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 80%; /* Adjusts size for mobile */
-            max-width: 300px; /* Limits width on larger screens */
-            padding: 20px; /* Larger padding */
+            width: 80%;
+            max-width: 300px;
+            padding: 20px;
             margin: 15px;
             text-align: center;
-            background-color: #00cc66; /* Green */
+            background-color: #00cc66;
             color: white;
             text-decoration: none;
-            font-size: 22px; /* Larger text */
+            font-size: 22px;
             font-weight: bold;
             border-radius: 10px;
-            transition: background-color 0.3s ease, transform 0.1s ease;
+            transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+            text-transform: lowercase;
         }
         .button:hover {
-            background-color: #00ff7f; /* Lighter green */
-            transform: scale(1.05); /* Slight pop effect */
+            background-color: #00ff7f;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 255, 127, 0.7);
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+        hr {
+            width: 60%;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <a href="https://url.ca.m.mimecastprotect.com/s/fMXUCvl0VlT4qRl7hQf5TQAvTl?domain=open.spotify.com" target="_blank" class="button">🎵 Fingerball</a>
-    <a href="https://url.ca.m.mimecastprotect.com/s/9giACwVLWVhPk2NGIqhmTJcwhA?domain=store.steampowered.com" target="_blank" class="button">🎮 Core Descent</a>
+    <h1>my stuff</h1>
+    <div class="divider"></div>
+    <a href="https://url.ca.m.mimecastprotect.com/s/iz7cCXLK4LIG7m36UVhmUWKm62?domain=open.spotify.com" target="_blank" class="button">🎵 fingerball</a>
+    <hr>
+    <a href="https://url.ca.m.mimecastprotect.com/s/NNvYCYWLgWfgo5P0i9ixUxuqzb?domain=store.steampowered.com" target="_blank" class="button">🎮 core descent</a>
 </body>
 </html>
 
