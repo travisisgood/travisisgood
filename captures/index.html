@@ -12,7 +12,12 @@
   <header><a class="home" href="/">travisisgood</a><span>Game development</span></header>
   <main>
     <div class="intro"><h1>Captures</h1>
-      <p>Tap to inspect an image. Open the original for full-resolution detail.</p>
+      <p>Test results by date. Tap images to inspect them, or open the originals for full detail.</p>
+    </div>
+    <div class="dates" aria-label="Date navigation">
+      <label for="date">Test date</label><select id="date"></select>
+      <button id="older" aria-label="Older test date">← Older</button>
+      <button id="newer" aria-label="Newer test date">Newer →</button>
     </div>
     <nav id="filters" aria-label="Filter captures"></nav>
     <p id="status" role="status">Loading captures…</p>
