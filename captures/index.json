@@ -2,6 +2,82 @@
   "version": 1,
   "albums": [
     {
+      "title": "Capture gallery · Validation",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T17:22:44.630450-04:00",
+      "images": [
+        {
+          "id": "f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a",
+          "title": "capture-gallery-phone",
+          "label": "Gallery",
+          "width": 375,
+          "height": 811,
+          "bytes": 39377,
+          "filename": "capture-gallery-phone.jpg",
+          "original": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a.jpg",
+          "thumbnail": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a-thumb.webp",
+          "preview": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a-view.webp"
+        }
+      ],
+      "result": "6 publisher regression tests passed, including Toronto dates, chronological ordering across timezones, and preserved failure history. Phone browser checks passed for date navigation, all-date ordering, capture filters and the image viewer. Homepage remains unchanged.",
+      "label": "Gallery",
+      "results": [
+        {
+          "at": "2026-10-05T17:22:44.630450-04:00",
+          "text": "Initial test-runner invocation could not import the publisher under embedded Python. The test search path was corrected before rerunning.",
+          "status": "failed",
+          "label": "Checks"
+        },
+        {
+          "at": "2026-10-05T17:26:26.081694-04:00",
+          "text": "6 publisher regression tests passed, including Toronto dates, chronological ordering across timezones, and preserved failure history. Phone browser checks passed for date navigation, all-date ordering, capture filters and the image viewer. Homepage remains unchanged.",
+          "status": "passed",
+          "label": "Gallery"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T17:26:26.081694-04:00"
+    },
+    {
+      "title": "Adaptive lightmap bake · E1M1 validation",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T17:22:17.548126-04:00",
+      "images": [],
+      "result": "OptiX bake passed. All 454 Medium mover probe entries completed; adaptive lightmaps used 3,758,468 samples versus 6,928,604 for uniform 4u. Cage captures preserve closed, halfway and open shadows with stencil shadows disabled. High cage probe: 17 entries passed with four bounces. Full adaptive density probe: 18.5 minutes.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-05T17:22:17.548126-04:00",
+          "text": "OptiX bake passed. All 454 Medium mover probe entries completed; adaptive lightmaps used 3,758,468 samples versus 6,928,604 for uniform 4u. Cage captures preserve closed, halfway and open shadows with stencil shadows disabled. High cage probe: 17 entries passed with four bounces. Full adaptive density probe: 18.5 minutes.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T17:22:17.548126-04:00"
+    },
+    {
+      "title": "Fixed lightmap scaling · Regression checks",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T17:22:17.410619-04:00",
+      "images": [],
+      "result": "14 Python baker tests and 249 editor profile assertions passed. Private E1M1 Low compile: 9.65 seconds including a fresh mover atlas; all 109 pose entries uncached. Geometry Pass remains atlas-off.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-05T17:22:17.410619-04:00",
+          "text": "14 Python baker tests and 249 editor profile assertions passed. Private E1M1 Low compile: 9.65 seconds including a fresh mover atlas; all 109 pose entries uncached. Geometry Pass remains atlas-off.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T17:22:17.410619-04:00"
+    },
+    {
       "title": "FaultLine / E1M1 · Cage shadows",
       "description": "Stencils off. Adaptive 4–16u vs. uniform 4u, with the cage closed, halfway raised, and fully raised.",
       "created": "2026-10-05T21:12:51.348844+00:00",
@@ -78,7 +154,8 @@
           "thumbnail": "assets/cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3-thumb.webp",
           "preview": "assets/cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3-view.webp"
         }
-      ]
+      ],
+      "date": "2026-10-05"
     }
   ]
 }

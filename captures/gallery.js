@@ -6,6 +6,13 @@ const viewer = document.querySelector('#viewer');
 const size = image => `${image.width} × ${image.height} · ${(image.bytes / 1048576).toFixed(1)} MB`;
 let selected = 'All';
 let data;
+let dates = [];
+let selectedDate;
+const dateSelect = document.querySelector('#date');
+const older = document.querySelector('#older');
+const newer = document.querySelector('#newer');
+const albumDate = album => album.date || album.created.slice(0, 10);
+const formatDate = day => new Date(`${day}T12:00:00`).toLocaleDateString(undefined, {year:'numeric',month:'long',day:'numeric'});
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -30,12 +37,36 @@ function show(image) {
 function render() {
   albums.replaceChildren();
   let count = 0;
-  for (const album of data.albums) {
+  let previousDay;
+  const ordered = [...data.albums].sort((a,b) => albumDate(b).localeCompare(albumDate(a)) || Date.parse(b.updated || b.created) - Date.parse(a.updated || a.created));
+  for (const album of ordered) {
+    const day = albumDate(album);
+    if (selectedDate !== 'all' && selectedDate !== day) continue;
     const images = album.images.filter(image => selected === 'All' || image.label === selected);
-    if (!images.length) continue;
+    const showResult = album.result && (selected === 'All' || album.label === selected);
+    if (!images.length && !showResult) continue;
+    if (day !== previousDay) {
+      const heading = element('h2', 'day-heading');
+      const link = element('a', '', formatDate(day));
+      link.href = `?date=${day}`;
+      heading.append(link);
+      albums.append(heading);
+      previousDay = day;
+    }
     const section = element('section', 'album');
+    if (album.status) section.append(element('span', `outcome ${album.status}`, album.status));
     section.append(element('h2', '', album.title));
     if (album.description) section.append(element('p', 'album-description', album.description));
+    if (showResult) {
+      section.append(element('p', 'test-result', album.result));
+      const earlier = (album.results || []).slice(0, -1).reverse();
+      if (earlier.length) {
+        const history = element('details', 'result-history');
+        history.append(element('summary', '', `Earlier checks (${earlier.length})`));
+        for (const result of earlier) history.append(element('p', 'test-result', `${result.at} · ${result.status}\n${result.text}`));
+        section.append(history);
+      }
+    }
     const grid = element('div', 'grid');
     for (const image of images) {
       const card = element('article', 'card');
@@ -58,15 +89,30 @@ function render() {
       info.append(original);
       card.append(button, info);
       grid.append(card);
-      count++;
     }
     section.append(grid);
     albums.append(section);
+    count++;
   }
   status.hidden = count > 0;
   if (!count) status.textContent = 'No captures in this view yet.';
   for (const button of filters.children) button.setAttribute('aria-pressed', String(button.textContent === selected));
+  dateSelect.value = selectedDate;
+  const dateIndex = dates.indexOf(selectedDate);
+  older.disabled = dateIndex < 0 || dateIndex >= dates.length - 1;
+  newer.disabled = dateIndex <= 0;
 }
+
+function changeDate(day) {
+  selectedDate = day;
+  const url = new URL(location.href);
+  url.searchParams.set('date', day);
+  history.replaceState(null, '', url);
+  render();
+}
+dateSelect.addEventListener('change', () => changeDate(dateSelect.value));
+older.addEventListener('click', () => changeDate(dates[dates.indexOf(selectedDate) + 1]));
+newer.addEventListener('click', () => changeDate(dates[dates.indexOf(selectedDate) - 1]));
 
 document.querySelector('#close').addEventListener('click', () => viewer.close());
 viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
@@ -75,7 +121,18 @@ fetch('index.json', {cache: 'no-cache'}).then(response => {
   return response.json();
 }).then(manifest => {
   data = manifest;
-  const labels = ['All', ...new Set(data.albums.flatMap(album => album.images.map(image => image.label)))];
+  dates = [...new Set(data.albums.map(albumDate))].sort().reverse();
+  const requested = new URL(location.href).searchParams.get('date');
+  selectedDate = requested === 'all' || dates.includes(requested) ? requested : dates[0] || 'all';
+  const allDates = element('option', '', 'All dates');
+  allDates.value = 'all';
+  dateSelect.append(allDates);
+  for (const day of dates) {
+    const option = element('option', '', formatDate(day));
+    option.value = day;
+    dateSelect.append(option);
+  }
+  const labels = ['All', ...new Set(data.albums.flatMap(album => [...album.images.map(image => image.label), ...(album.result && album.label ? [album.label] : [])]))];
   for (const label of labels) {
     const button = element('button', '', label);
     button.addEventListener('click', () => { selected = label; render(); });
