@@ -2,6 +2,37 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine / E1M1 · Mover bake allocation",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T19:52:02.727812-04:00",
+      "images": [],
+      "result": "Fix deployed and pushed: completed poses are cached immediately; allocation failures retry unfinished entries with fewer workers while preserving resolution, bounce settings and pose sampling. 55 baker tests and 10 chart tests passed. A controlled interruption of a real OptiX worker retained 3/4 entries and completed only the missing entry with one worker. Current exported map passed a private fixed-4u/two-bounce bake: all 109 rest/pose entries, 75 playback poses, valid 16,800,013-byte atlas. Original allocation failure did not recur; user also reports successful recompilation. Four lighting workers used roughly 12 GiB of host memory. The coarse current-map bake also passed all 109 entries. Timing is excluded because recovery validation overlapped the full probe.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-05T19:52:02.727812-04:00",
+          "text": "Reported compile failure: geometry, VIS and static OptiX lighting passed; the four-worker mover-shadow bake stopped at 99/109 entries with bad allocation. Fixed 4u lightmaps and two-bounce PBR lighting; total compile time 4m 52.3s. Investigation and recovery fix in progress.",
+          "status": "failed",
+          "label": "Checks"
+        },
+        {
+          "at": "2026-10-05T19:52:42.367230-04:00",
+          "text": "An extra editor-only test invocation referenced a nonexistent harness, so no tests ran in that invocation. The combined mover-baker suite contains the editor coverage and passed all 55 tests; the chart suite passed all 10 tests.",
+          "status": "mixed",
+          "label": "Checks"
+        },
+        {
+          "at": "2026-10-05T19:56:29.441592-04:00",
+          "text": "Fix deployed and pushed: completed poses are cached immediately; allocation failures retry unfinished entries with fewer workers while preserving resolution, bounce settings and pose sampling. 55 baker tests and 10 chart tests passed. A controlled interruption of a real OptiX worker retained 3/4 entries and completed only the missing entry with one worker. Current exported map passed a private fixed-4u/two-bounce bake: all 109 rest/pose entries, 75 playback poses, valid 16,800,013-byte atlas. Original allocation failure did not recur; user also reports successful recompilation. Four lighting workers used roughly 12 GiB of host memory. The coarse current-map bake also passed all 109 entries. Timing is excluded because recovery validation overlapped the full probe.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T19:56:29.441592-04:00"
+    },
+    {
       "title": "Capture gallery · Validation",
       "description": "",
       "date": "2026-10-05",
