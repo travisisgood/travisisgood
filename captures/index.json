@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "albums": [
+    {
+      "title": "FaultLine / E1M1 · Cage shadows",
+      "description": "Stencils off. Adaptive 4–16u vs. uniform 4u, with the cage closed, halfway raised, and fully raised.",
+      "created": "2026-10-05T21:12:51.348844+00:00",
+      "images": [
+        {
+          "id": "3ea53eeabfa1af24061adbe71f8786156788fabbf290ea2fea75709a0b0dd940",
+          "title": "Closed cage",
+          "label": "Adaptive 4–16u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6400391,
+          "filename": "cage_animated_0_0000.png",
+          "original": "assets/3ea53eeabfa1af24061adbe71f8786156788fabbf290ea2fea75709a0b0dd940.png",
+          "thumbnail": "assets/3ea53eeabfa1af24061adbe71f8786156788fabbf290ea2fea75709a0b0dd940-thumb.webp",
+          "preview": "assets/3ea53eeabfa1af24061adbe71f8786156788fabbf290ea2fea75709a0b0dd940-view.webp"
+        },
+        {
+          "id": "383df5eed18f1ef9beeace2e7dce3fd7ec928705aa6d0c79923282e59f1e618f",
+          "title": "Halfway raised",
+          "label": "Adaptive 4–16u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6289329,
+          "filename": "cage_animated_44_0000.png",
+          "original": "assets/383df5eed18f1ef9beeace2e7dce3fd7ec928705aa6d0c79923282e59f1e618f.png",
+          "thumbnail": "assets/383df5eed18f1ef9beeace2e7dce3fd7ec928705aa6d0c79923282e59f1e618f-thumb.webp",
+          "preview": "assets/383df5eed18f1ef9beeace2e7dce3fd7ec928705aa6d0c79923282e59f1e618f-view.webp"
+        },
+        {
+          "id": "a6ea545c2f78b736abf263e9cc12a03880fe0606c68c810895bdeb2e55ec693a",
+          "title": "Fully raised",
+          "label": "Adaptive 4–16u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6132510,
+          "filename": "cage_animated_88_0000.png",
+          "original": "assets/a6ea545c2f78b736abf263e9cc12a03880fe0606c68c810895bdeb2e55ec693a.png",
+          "thumbnail": "assets/a6ea545c2f78b736abf263e9cc12a03880fe0606c68c810895bdeb2e55ec693a-thumb.webp",
+          "preview": "assets/a6ea545c2f78b736abf263e9cc12a03880fe0606c68c810895bdeb2e55ec693a-view.webp"
+        },
+        {
+          "id": "db9201322f4ef2bc7392b1bee7921d2f0f322df60957987d180e89f0ed667259",
+          "title": "Closed cage",
+          "label": "Uniform 4u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6389306,
+          "filename": "cage_animated_0_0000.png",
+          "original": "assets/db9201322f4ef2bc7392b1bee7921d2f0f322df60957987d180e89f0ed667259.png",
+          "thumbnail": "assets/db9201322f4ef2bc7392b1bee7921d2f0f322df60957987d180e89f0ed667259-thumb.webp",
+          "preview": "assets/db9201322f4ef2bc7392b1bee7921d2f0f322df60957987d180e89f0ed667259-view.webp"
+        },
+        {
+          "id": "8a3681dd8e4d19297713fb5e49925a2d4386ab5fd5312f9562f8294f9b49e152",
+          "title": "Halfway raised",
+          "label": "Uniform 4u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6281191,
+          "filename": "cage_animated_44_0000.png",
+          "original": "assets/8a3681dd8e4d19297713fb5e49925a2d4386ab5fd5312f9562f8294f9b49e152.png",
+          "thumbnail": "assets/8a3681dd8e4d19297713fb5e49925a2d4386ab5fd5312f9562f8294f9b49e152-thumb.webp",
+          "preview": "assets/8a3681dd8e4d19297713fb5e49925a2d4386ab5fd5312f9562f8294f9b49e152-view.webp"
+        },
+        {
+          "id": "cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3",
+          "title": "Fully raised",
+          "label": "Uniform 4u",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6123845,
+          "filename": "cage_animated_88_0000.png",
+          "original": "assets/cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3.png",
+          "thumbnail": "assets/cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3-thumb.webp",
+          "preview": "assets/cbd1ba4a4dd8adbf5b2ac02e69ab61089987db3e59d9cd354f0b3a8e8ea6edc3-view.webp"
+        }
+      ]
+    }
+  ]
+}
