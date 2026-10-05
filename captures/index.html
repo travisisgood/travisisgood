@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a0025">
+  <title>Captures · travisisgood</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <header><a class="home" href="/">travisisgood</a><span>Game development</span></header>
+  <main>
+    <div class="intro"><h1>Captures</h1>
+      <p>Tap to inspect an image. Open the original for full-resolution detail.</p>
+    </div>
+    <nav id="filters" aria-label="Filter captures"></nav>
+    <p id="status" role="status">Loading captures…</p>
+    <div id="albums"></div>
+    <noscript>JavaScript is needed to load the gallery.</noscript>
+  </main>
+  <dialog id="viewer" aria-label="Capture preview">
+    <div class="viewer-head"><div><h2 id="viewer-title"></h2><p id="viewer-detail"></p></div><button id="close" aria-label="Close preview">✕</button></div>
+    <img id="large" alt="">
+    <div class="viewer-footer"><a id="original" class="action" target="_blank" rel="noopener">Open original</a><a id="download" download>Download original</a></div>
+  </dialog>
+  <footer>Original files are preserved. Preview images are smaller for easier viewing on a phone.</footer>
+</body>
+</html>
