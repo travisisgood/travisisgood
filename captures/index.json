@@ -20,7 +20,7 @@
           "preview": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a-view.webp"
         }
       ],
-      "result": "6 publisher regression tests passed, including Toronto dates, chronological ordering across timezones, and preserved failure history. Phone browser checks passed for date navigation, all-date ordering, capture filters and the image viewer. Homepage remains unchanged.",
+      "result": "First live deployment exposed cached JavaScript: new date controls loaded alongside the old gallery script. Script and stylesheet URLs were versioned to prevent this mismatch. Local checks passed; live cache verification pending.",
       "label": "Gallery",
       "results": [
         {
@@ -34,10 +34,16 @@
           "text": "6 publisher regression tests passed, including Toronto dates, chronological ordering across timezones, and preserved failure history. Phone browser checks passed for date navigation, all-date ordering, capture filters and the image viewer. Homepage remains unchanged.",
           "status": "passed",
           "label": "Gallery"
+        },
+        {
+          "at": "2026-10-05T17:33:36.216163-04:00",
+          "text": "First live deployment exposed cached JavaScript: new date controls loaded alongside the old gallery script. Script and stylesheet URLs were versioned to prevent this mismatch. Local checks passed; live cache verification pending.",
+          "status": "incomplete",
+          "label": "Gallery"
         }
       ],
-      "status": "passed",
-      "updated": "2026-10-05T17:26:26.081694-04:00"
+      "status": "incomplete",
+      "updated": "2026-10-05T17:33:36.216163-04:00"
     },
     {
       "title": "Adaptive lightmap bake · E1M1 validation",
