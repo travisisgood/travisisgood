@@ -18,9 +18,21 @@
           "original": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a.jpg",
           "thumbnail": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a-thumb.webp",
           "preview": "assets/2026-10-05/f46a72b392032d4ec5168b357e05d3ca6390437d444aa91814c949e1c5640b6a-view.webp"
+        },
+        {
+          "id": "881817130de7c8863a43de823f638f036389776412e2f0b706ea603733ac4422",
+          "title": "capture-gallery-live-phone",
+          "label": "Gallery",
+          "width": 375,
+          "height": 811,
+          "bytes": 39845,
+          "filename": "capture-gallery-live-phone.jpg",
+          "original": "assets/2026-10-05/881817130de7c8863a43de823f638f036389776412e2f0b706ea603733ac4422.jpg",
+          "thumbnail": "assets/2026-10-05/881817130de7c8863a43de823f638f036389776412e2f0b706ea603733ac4422-thumb.webp",
+          "preview": "assets/2026-10-05/881817130de7c8863a43de823f638f036389776412e2f0b706ea603733ac4422-view.webp"
         }
       ],
-      "result": "First live deployment exposed cached JavaScript: new date controls loaded alongside the old gallery script. Script and stylesheet URLs were versioned to prevent this mismatch. Local checks passed; live cache verification pending.",
+      "result": "6 regression tests passed. Live phone check passed after the cache fix: Toronto date picker, capture filters, shadow comparison images, preview dialog and original/download links are working. Earlier failures remain in the entry history. Homepage unchanged.",
       "label": "Gallery",
       "results": [
         {
@@ -40,10 +52,16 @@
           "text": "First live deployment exposed cached JavaScript: new date controls loaded alongside the old gallery script. Script and stylesheet URLs were versioned to prevent this mismatch. Local checks passed; live cache verification pending.",
           "status": "incomplete",
           "label": "Gallery"
+        },
+        {
+          "at": "2026-10-05T17:35:12.376229-04:00",
+          "text": "6 regression tests passed. Live phone check passed after the cache fix: Toronto date picker, capture filters, shadow comparison images, preview dialog and original/download links are working. Earlier failures remain in the entry history. Homepage unchanged.",
+          "status": "passed",
+          "label": "Gallery"
         }
       ],
-      "status": "incomplete",
-      "updated": "2026-10-05T17:33:36.216163-04:00"
+      "status": "passed",
+      "updated": "2026-10-05T17:35:12.376229-04:00"
     },
     {
       "title": "Adaptive lightmap bake · E1M1 validation",
