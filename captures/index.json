@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine E1M1 stencil shadows FPS on-off",
+      "description": "RTX 4090, deployed workspace FaultLine engine, 3840x2160, uncapped, vsync and GPU profiler off, no sound. Same-session alternating stencil on/off, three roughly 3-second wall-clock bench intervals per state. SPOM, SSR (64 steps, quarter resolution) and baked mover lighting enabled throughout. Entry camera: player 480 -352 88, angles 0 90 0. Initial wall probe camera: 1614 -971 -682, angles 26 270 0; close-up wall view is less representative. Screenshots were captured outside measurement windows; their FPS overlay is transient, not the benchmark result. Project and deployed configs remain stencil-off; tests used isolated configs.",
+      "date": "2026-10-06",
+      "created": "2026-10-06T15:36:39.865852-04:00",
+      "images": [
+        {
+          "id": "a10ab6bb1a6d7fc2e0a2d3e227981ea777a28796061b782aae63bf5fd1cf8b4d",
+          "title": "entry stencil off",
+          "label": "Stencil FPS",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5138238,
+          "filename": "entry_stencil_off.png",
+          "original": "assets/2026-10-06/a10ab6bb1a6d7fc2e0a2d3e227981ea777a28796061b782aae63bf5fd1cf8b4d.png",
+          "thumbnail": "assets/2026-10-06/a10ab6bb1a6d7fc2e0a2d3e227981ea777a28796061b782aae63bf5fd1cf8b4d-thumb.webp",
+          "preview": "assets/2026-10-06/a10ab6bb1a6d7fc2e0a2d3e227981ea777a28796061b782aae63bf5fd1cf8b4d-view.webp"
+        },
+        {
+          "id": "a479f6ccc799cb5bfa5fb9acacdadc250b18aa4dcdca2d94c630a65a0cacd57c",
+          "title": "entry stencil on",
+          "label": "Stencil FPS",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5138312,
+          "filename": "entry_stencil_on.png",
+          "original": "assets/2026-10-06/a479f6ccc799cb5bfa5fb9acacdadc250b18aa4dcdca2d94c630a65a0cacd57c.png",
+          "thumbnail": "assets/2026-10-06/a479f6ccc799cb5bfa5fb9acacdadc250b18aa4dcdca2d94c630a65a0cacd57c-thumb.webp",
+          "preview": "assets/2026-10-06/a479f6ccc799cb5bfa5fb9acacdadc250b18aa4dcdca2d94c630a65a0cacd57c-view.webp"
+        },
+        {
+          "id": "4adf02e70c0cfff99ae675239a4cf4ed20c3d7e3a1636fcfe3304204f7e777e8",
+          "title": "wall probe stencil off",
+          "label": "Stencil FPS",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3410375,
+          "filename": "wall_probe_stencil_off.png",
+          "original": "assets/2026-10-06/4adf02e70c0cfff99ae675239a4cf4ed20c3d7e3a1636fcfe3304204f7e777e8.png",
+          "thumbnail": "assets/2026-10-06/4adf02e70c0cfff99ae675239a4cf4ed20c3d7e3a1636fcfe3304204f7e777e8-thumb.webp",
+          "preview": "assets/2026-10-06/4adf02e70c0cfff99ae675239a4cf4ed20c3d7e3a1636fcfe3304204f7e777e8-view.webp"
+        },
+        {
+          "id": "c566535b8e9d12a92a27aaa40032b3920e0d2efe21084328b4db84f2b2ecbc35",
+          "title": "wall probe stencil on",
+          "label": "Stencil FPS",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3410471,
+          "filename": "wall_probe_stencil_on.png",
+          "original": "assets/2026-10-06/c566535b8e9d12a92a27aaa40032b3920e0d2efe21084328b4db84f2b2ecbc35.png",
+          "thumbnail": "assets/2026-10-06/c566535b8e9d12a92a27aaa40032b3920e0d2efe21084328b4db84f2b2ecbc35-thumb.webp",
+          "preview": "assets/2026-10-06/c566535b8e9d12a92a27aaa40032b3920e0d2efe21084328b4db84f2b2ecbc35-view.webp"
+        }
+      ],
+      "result": "Passed: 12 FPS intervals across two cameras. Entry room median: stencil ON 185.0 FPS / 5.4043 ms (184.5-185.9 FPS); OFF 233.0 FPS / 4.2917 ms (231.0-235.3 FPS): +25.95% FPS, 1.1126 ms saved. Initial close-up wall probe: ON 194.1 FPS / 5.1510 ms; OFF 262.7 FPS / 3.8067 ms: +35.34% FPS. Both runs completed successfully; no renderer changes.",
+      "label": "Stencil FPS",
+      "results": [
+        {
+          "at": "2026-10-06T15:36:39.865852-04:00",
+          "text": "Passed: 12 FPS intervals across two cameras. Entry room median: stencil ON 185.0 FPS / 5.4043 ms (184.5-185.9 FPS); OFF 233.0 FPS / 4.2917 ms (231.0-235.3 FPS): +25.95% FPS, 1.1126 ms saved. Initial close-up wall probe: ON 194.1 FPS / 5.1510 ms; OFF 262.7 FPS / 3.8067 ms: +35.34% FPS. Both runs completed successfully; no renderer changes.",
+          "status": "passed",
+          "label": "Stencil FPS"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-06T15:36:39.865852-04:00"
+    },
+    {
       "title": "FaultLine baked-shadow configuration verification",
       "description": "Verified project and deployed saved/default configs disable stencil shadows. Baked mover lighting remains enabled. Shader review only; no new GPU benchmark was run.",
       "date": "2026-10-06",
