@@ -2,6 +2,152 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T20:18:56.572382-04:00",
+      "images": [
+        {
+          "id": "46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996",
+          "title": "Before - dark stencil patches",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1193578,
+          "filename": "Before - dark stencil patches.png",
+          "original": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996.png",
+          "thumbnail": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-thumb.webp",
+          "preview": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-view.webp"
+        },
+        {
+          "id": "c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2",
+          "title": "Depth bias disabled - relief retained",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 997818,
+          "filename": "Depth bias disabled - relief retained.png",
+          "original": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2.png",
+          "thumbnail": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-thumb.webp",
+          "preview": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-view.webp"
+        },
+        {
+          "id": "b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a",
+          "title": "Stencil disabled - patches gone",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 997190,
+          "filename": "Stencil disabled - patches gone.png",
+          "original": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a.png",
+          "thumbnail": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-thumb.webp",
+          "preview": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-view.webp"
+        },
+        {
+          "id": "a94372488bb77c9a1bbf8b546ab5f242fae65d8728a62ce61e9eb4d60afb7199",
+          "title": "Displaced mover - shadow enabled",
+          "label": "Fixed depth",
+          "width": 800,
+          "height": 600,
+          "bytes": 1176583,
+          "filename": "Displaced mover - shadow enabled.png",
+          "original": "assets/2026-10-05/a94372488bb77c9a1bbf8b546ab5f242fae65d8728a62ce61e9eb4d60afb7199.png",
+          "thumbnail": "assets/2026-10-05/a94372488bb77c9a1bbf8b546ab5f242fae65d8728a62ce61e9eb4d60afb7199-thumb.webp",
+          "preview": "assets/2026-10-05/a94372488bb77c9a1bbf8b546ab5f242fae65d8728a62ce61e9eb4d60afb7199-view.webp"
+        },
+        {
+          "id": "cfbf46dd71bd3e47c422b97c3ede72cb3dd37956bf3979db91ddc3c65c46a023",
+          "title": "Fixed skull - full depth - 4K",
+          "label": "Fixed depth",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3446563,
+          "filename": "Fixed skull - full depth - 4K.png",
+          "original": "assets/2026-10-05/cfbf46dd71bd3e47c422b97c3ede72cb3dd37956bf3979db91ddc3c65c46a023.png",
+          "thumbnail": "assets/2026-10-05/cfbf46dd71bd3e47c422b97c3ede72cb3dd37956bf3979db91ddc3c65c46a023-thumb.webp",
+          "preview": "assets/2026-10-05/cfbf46dd71bd3e47c422b97c3ede72cb3dd37956bf3979db91ddc3c65c46a023-view.webp"
+        },
+        {
+          "id": "60864d0e9f84692fed960f6c6b329b030e39885110e46dab3d74696d1800288d",
+          "title": "Fixed skull - hard stencil - 4K",
+          "label": "Fixed depth",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3446363,
+          "filename": "Fixed skull - hard stencil - 4K.png",
+          "original": "assets/2026-10-05/60864d0e9f84692fed960f6c6b329b030e39885110e46dab3d74696d1800288d.png",
+          "thumbnail": "assets/2026-10-05/60864d0e9f84692fed960f6c6b329b030e39885110e46dab3d74696d1800288d-thumb.webp",
+          "preview": "assets/2026-10-05/60864d0e9f84692fed960f6c6b329b030e39885110e46dab3d74696d1800288d-view.webp"
+        },
+        {
+          "id": "e71b0fbf66408b741f1d0780f55b096b20734fd1b6dc7b55db20206bda8e8eba",
+          "title": "Fixed skull - scale 0.2 - 4K",
+          "label": "Fixed depth",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3433512,
+          "filename": "Fixed skull - scale 0.2 - 4K.png",
+          "original": "assets/2026-10-05/e71b0fbf66408b741f1d0780f55b096b20734fd1b6dc7b55db20206bda8e8eba.png",
+          "thumbnail": "assets/2026-10-05/e71b0fbf66408b741f1d0780f55b096b20734fd1b6dc7b55db20206bda8e8eba-thumb.webp",
+          "preview": "assets/2026-10-05/e71b0fbf66408b741f1d0780f55b096b20734fd1b6dc7b55db20206bda8e8eba-view.webp"
+        },
+        {
+          "id": "b21540ff3608c4e1c1e70e367ac8445f4f32a40ed83fbdad1794e045a5908d6f",
+          "title": "POM floor regression - 4K",
+          "label": "Fixed depth",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3408326,
+          "filename": "POM floor regression - 4K.png",
+          "original": "assets/2026-10-05/b21540ff3608c4e1c1e70e367ac8445f4f32a40ed83fbdad1794e045a5908d6f.png",
+          "thumbnail": "assets/2026-10-05/b21540ff3608c4e1c1e70e367ac8445f4f32a40ed83fbdad1794e045a5908d6f-thumb.webp",
+          "preview": "assets/2026-10-05/b21540ff3608c4e1c1e70e367ac8445f4f32a40ed83fbdad1794e045a5908d6f-view.webp"
+        },
+        {
+          "id": "8d41bd04aa5b8b55b7f5daccaf3e03785311cd495bd8d676c203eec40dd1757a",
+          "title": "Stationary mover - control disabled",
+          "label": "Fixed depth",
+          "width": 800,
+          "height": 600,
+          "bytes": 1177812,
+          "filename": "Stationary mover - control disabled.png",
+          "original": "assets/2026-10-05/8d41bd04aa5b8b55b7f5daccaf3e03785311cd495bd8d676c203eec40dd1757a.png",
+          "thumbnail": "assets/2026-10-05/8d41bd04aa5b8b55b7f5daccaf3e03785311cd495bd8d676c203eec40dd1757a-thumb.webp",
+          "preview": "assets/2026-10-05/8d41bd04aa5b8b55b7f5daccaf3e03785311cd495bd8d676c203eec40dd1757a-view.webp"
+        },
+        {
+          "id": "cf18b386b5bdcf9dd70d6e3c32f1061844d4c8ee3f35ce043241243c454a09d3",
+          "title": "Stationary mover - shadow enabled",
+          "label": "Fixed depth",
+          "width": 800,
+          "height": 600,
+          "bytes": 1178690,
+          "filename": "Stationary mover - shadow enabled.png",
+          "original": "assets/2026-10-05/cf18b386b5bdcf9dd70d6e3c32f1061844d4c8ee3f35ce043241243c454a09d3.png",
+          "thumbnail": "assets/2026-10-05/cf18b386b5bdcf9dd70d6e3c32f1061844d4c8ee3f35ce043241243c454a09d3-thumb.webp",
+          "preview": "assets/2026-10-05/cf18b386b5bdcf9dd70d6e3c32f1061844d4c8ee3f35ce043241243c454a09d3-view.webp"
+        }
+      ],
+      "result": "Fixed and deployed: legacy brush depth bias no longer pushes shell relief inside its own stencil shadow. Release build succeeded; engine SHA-256 6b9a3da267e343f1be526d1ccfb91dfab5a22382dd5ad19347bf04a437a595ec matches all three deployment targets. At 3840x2160, full-depth, scale 0.2, and hard-stencil skull cases exactly match their stencil-off and z-fix-off controls within the door crop (six comparisons, maximum difference 0); POM still changes 67,392 pixels versus flat. Mover fixture passed at rest, displaced, and returned: 14,552 / 24,147 / 14,552 shadow pixels; returned mask and world-only difference 0. Earlier POM floor camera still passes at 4K: 0 backstop changes or exposed backstop pixels across 5,088,027 pixels; 421,627 relief changes. First staged 4K launch lacked adjacent runtime DLLs and produced no images; checker reported missing inputs. DLLs were supplied, then capture and checks passed. Previous diagnosis failures remain in this album history. Default reversed-Z tested; compatibility depth path not retested. Shader cache retained locally to avoid repeating the cold compile. No map rebake needed. Source committed and pushed as 101f3e29.",
+      "label": "Fixed depth",
+      "results": [
+        {
+          "at": "2026-10-05T20:18:56.572382-04:00",
+          "text": "Reproduced the reported skull-panel patches behind spawn at 1080p. Backstop, baked self-shadow, and SSR isolation did not remove them; disabling stencil shadows did. Disabling gl_zfix removed them with relief and stencil shadows still enabled. Cold startup was interrupted and retried with a shader cache; the initial close camera went through the door and was corrected. An experimental flat-receiver approach did not fix the patches; its initial GLSL reserved-name error was corrected. That broader experiment was removed. Final physical-depth fix remains under test.",
+          "status": "incomplete",
+          "label": "Diagnosis"
+        },
+        {
+          "at": "2026-10-05T20:25:06.085444-04:00",
+          "text": "Fixed and deployed: legacy brush depth bias no longer pushes shell relief inside its own stencil shadow. Release build succeeded; engine SHA-256 6b9a3da267e343f1be526d1ccfb91dfab5a22382dd5ad19347bf04a437a595ec matches all three deployment targets. At 3840x2160, full-depth, scale 0.2, and hard-stencil skull cases exactly match their stencil-off and z-fix-off controls within the door crop (six comparisons, maximum difference 0); POM still changes 67,392 pixels versus flat. Mover fixture passed at rest, displaced, and returned: 14,552 / 24,147 / 14,552 shadow pixels; returned mask and world-only difference 0. Earlier POM floor camera still passes at 4K: 0 backstop changes or exposed backstop pixels across 5,088,027 pixels; 421,627 relief changes. First staged 4K launch lacked adjacent runtime DLLs and produced no images; checker reported missing inputs. DLLs were supplied, then capture and checks passed. Previous diagnosis failures remain in this album history. Default reversed-Z tested; compatibility depth path not retested. Shader cache retained locally to avoid repeating the cold compile. No map rebake needed. Source committed and pushed as 101f3e29.",
+          "status": "passed",
+          "label": "Fixed depth"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T20:25:06.085444-04:00"
+    },
+    {
       "title": "Standard player ramp entrances and exits",
       "description": "FaultLine E1M1 standard-player ramp recovery fix, engine 0.183.159. Screenshots show the actual authored ramp; chart measures full standing floor/ramp/wall traversals, including contact handoffs.",
       "date": "2026-10-05",
@@ -86,62 +232,6 @@
       ],
       "status": "mixed",
       "updated": "2026-10-05T20:24:44.259020-04:00"
-    },
-    {
-      "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
-      "description": "",
-      "date": "2026-10-05",
-      "created": "2026-10-05T20:18:56.572382-04:00",
-      "images": [
-        {
-          "id": "46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996",
-          "title": "Before - dark stencil patches",
-          "label": "Diagnosis",
-          "width": 1920,
-          "height": 1080,
-          "bytes": 1193578,
-          "filename": "Before - dark stencil patches.png",
-          "original": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996.png",
-          "thumbnail": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-thumb.webp",
-          "preview": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-view.webp"
-        },
-        {
-          "id": "c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2",
-          "title": "Depth bias disabled - relief retained",
-          "label": "Diagnosis",
-          "width": 1920,
-          "height": 1080,
-          "bytes": 997818,
-          "filename": "Depth bias disabled - relief retained.png",
-          "original": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2.png",
-          "thumbnail": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-thumb.webp",
-          "preview": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-view.webp"
-        },
-        {
-          "id": "b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a",
-          "title": "Stencil disabled - patches gone",
-          "label": "Diagnosis",
-          "width": 1920,
-          "height": 1080,
-          "bytes": 997190,
-          "filename": "Stencil disabled - patches gone.png",
-          "original": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a.png",
-          "thumbnail": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-thumb.webp",
-          "preview": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-view.webp"
-        }
-      ],
-      "result": "Reproduced the reported skull-panel patches behind spawn at 1080p. Backstop, baked self-shadow, and SSR isolation did not remove them; disabling stencil shadows did. Disabling gl_zfix removed them with relief and stencil shadows still enabled. Cold startup was interrupted and retried with a shader cache; the initial close camera went through the door and was corrected. An experimental flat-receiver approach did not fix the patches; its initial GLSL reserved-name error was corrected. That broader experiment was removed. Final physical-depth fix remains under test.",
-      "label": "Diagnosis",
-      "results": [
-        {
-          "at": "2026-10-05T20:18:56.572382-04:00",
-          "text": "Reproduced the reported skull-panel patches behind spawn at 1080p. Backstop, baked self-shadow, and SSR isolation did not remove them; disabling stencil shadows did. Disabling gl_zfix removed them with relief and stencil shadows still enabled. Cold startup was interrupted and retried with a shader cache; the initial close camera went through the door and was corrected. An experimental flat-receiver approach did not fix the patches; its initial GLSL reserved-name error was corrected. That broader experiment was removed. Final physical-depth fix remains under test.",
-          "status": "incomplete",
-          "label": "Diagnosis"
-        }
-      ],
-      "status": "incomplete",
-      "updated": "2026-10-05T20:18:56.572382-04:00"
     },
     {
       "title": "FaultLine / E1M1 · Mover bake allocation",
