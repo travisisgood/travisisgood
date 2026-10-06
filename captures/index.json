@@ -2,6 +2,56 @@
   "version": 1,
   "albums": [
     {
+      "title": "StreetSweeper 0.183.59: displacement multi-selection",
+      "description": "The contextual Displace panel opens when two displacement brushes are selected, including selections mixed with ordinary brushes. Explicitly activated Rotate keeps control of the panel. Offscreen Qt evidence, not a live map viewport.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:38:39.632732-04:00",
+      "images": [
+        {
+          "id": "aaabf12dd53046856c23ff3150aafcc19b4da5b02bc7943e18594ab0182640ab",
+          "title": "initial offscreen missing fonts",
+          "label": "Initial capture",
+          "width": 400,
+          "height": 1100,
+          "bytes": 12012,
+          "filename": "initial_offscreen_missing_fonts.png",
+          "original": "assets/2026-10-05/aaabf12dd53046856c23ff3150aafcc19b4da5b02bc7943e18594ab0182640ab.png",
+          "thumbnail": "assets/2026-10-05/aaabf12dd53046856c23ff3150aafcc19b4da5b02bc7943e18594ab0182640ab-thumb.webp",
+          "preview": "assets/2026-10-05/aaabf12dd53046856c23ff3150aafcc19b4da5b02bc7943e18594ab0182640ab-view.webp"
+        },
+        {
+          "id": "8d9b1da7756287b332af1508801a58b7d322be9886e00d6d8b0ba2b708184278",
+          "title": "multi brush context",
+          "label": "Fixed capture",
+          "width": 400,
+          "height": 1100,
+          "bytes": 43609,
+          "filename": "multi_brush_context.png",
+          "original": "assets/2026-10-05/8d9b1da7756287b332af1508801a58b7d322be9886e00d6d8b0ba2b708184278.png",
+          "thumbnail": "assets/2026-10-05/8d9b1da7756287b332af1508801a58b7d322be9886e00d6d8b0ba2b708184278-thumb.webp",
+          "preview": "assets/2026-10-05/8d9b1da7756287b332af1508801a58b7d322be9886e00d6d8b0ba2b708184278-view.webp"
+        }
+      ],
+      "result": "After setting the offscreen font directory, the same 5,134 assertions passed in 6 test cases and the contextual panel screenshot is readable. Release 0.183.59 built, deployed to streetsweeper.exe, and source/deployed SHA256 hashes match.",
+      "label": "Fixed capture",
+      "results": [
+        {
+          "at": "2026-10-05T22:38:39.632732-04:00",
+          "text": "Initial run: 5,134 assertions passed in 6 test cases. Screenshot text was unreadable because the offscreen Qt font directory was unset.",
+          "status": "mixed",
+          "label": "Initial capture"
+        },
+        {
+          "at": "2026-10-05T22:38:39.990233-04:00",
+          "text": "After setting the offscreen font directory, the same 5,134 assertions passed in 6 test cases and the contextual panel screenshot is readable. Release 0.183.59 built, deployed to streetsweeper.exe, and source/deployed SHA256 hashes match.",
+          "status": "passed",
+          "label": "Fixed capture"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:38:39.990233-04:00"
+    },
+    {
       "title": "StreetSweeper 0.183.58: light-style flicker and pattern overlays",
       "description": "Editor viewport harness (real MapView3D, textures and models). 1: face-UV Voronoi func_pattern and an along-path Lines run on a path_corner chain. 2-3: a style-10 light_fluorospark, two frames of the same camera (floor 4.7 vs 32.4). 4: E1M1's own conduit pattern runs.",
       "date": "2026-10-05",
