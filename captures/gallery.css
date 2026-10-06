@@ -50,5 +50,7 @@ dialog::backdrop { background: #030106dc; }
 .viewer-footer { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; padding: 20px 24px; font-size: 14px; }
 .action { text-decoration: none; background: var(--green); border-radius: 9px; color: #062410; padding: 13px 18px; font-weight: 700; }
 footer { max-width: 1440px; margin: auto; padding: 0 32px 36px; line-height: 1.6; }
+nav.projects { max-width: 1440px; margin: 0 auto; padding: 14px 32px 0; gap: 12px; color: var(--muted); font-size: 15px; }
+nav.projects strong { color: var(--green); }
 @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 600px) { header { padding: 22px 20px; } header span { display: none; } main { padding: 35px 20px 24px; } .grid { grid-template-columns: 1fr; gap: 18px; } nav { margin-bottom: 30px; } footer { padding: 0 20px 28px; } .viewer-head, .viewer-footer { padding: 16px; } }
+@media (max-width: 600px) { header { padding: 22px 20px; } header span { display: none; } main { padding: 35px 20px 24px; } .grid { grid-template-columns: 1fr; gap: 18px; } nav { margin-bottom: 30px; } nav.projects { padding: 12px 20px 0; margin: 0; } footer { padding: 0 20px 28px; } .viewer-head, .viewer-footer { padding: 16px; } }
