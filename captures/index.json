@@ -42,20 +42,50 @@
           "original": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952.png",
           "thumbnail": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952-thumb.webp",
           "preview": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952-view.webp"
+        },
+        {
+          "id": "9a721ca30656a9a37a50bf2551bb006e12939053dede58ef770c3feb99c06bc8",
+          "title": "ramp entry0000",
+          "label": "Released 0.183.159",
+          "width": 640,
+          "height": 480,
+          "bytes": 312916,
+          "filename": "ramp_entry0000.png",
+          "original": "assets/2026-10-05/9a721ca30656a9a37a50bf2551bb006e12939053dede58ef770c3feb99c06bc8.png",
+          "thumbnail": "assets/2026-10-05/9a721ca30656a9a37a50bf2551bb006e12939053dede58ef770c3feb99c06bc8-thumb.webp",
+          "preview": "assets/2026-10-05/9a721ca30656a9a37a50bf2551bb006e12939053dede58ef770c3feb99c06bc8-view.webp"
+        },
+        {
+          "id": "5e7eabc6e647a5ec74a248d72e58d584b1e7b802510bc088c53363369a0f9c0a",
+          "title": "ramp exit0000",
+          "label": "Released 0.183.159",
+          "width": 640,
+          "height": 480,
+          "bytes": 320788,
+          "filename": "ramp_exit0000.png",
+          "original": "assets/2026-10-05/5e7eabc6e647a5ec74a248d72e58d584b1e7b802510bc088c53363369a0f9c0a.png",
+          "thumbnail": "assets/2026-10-05/5e7eabc6e647a5ec74a248d72e58d584b1e7b802510bc088c53363369a0f9c0a-thumb.webp",
+          "preview": "assets/2026-10-05/5e7eabc6e647a5ec74a248d72e58d584b1e7b802510bc088c53363369a0f9c0a-view.webp"
         }
       ],
-      "result": "Completed: standard and MVQ baseline traversals at 144 and 1000 FPS caps; standard candidate passes 757 and 591 movement checks respectively. All eight standing comparisons reduce camera velocity-change RMS by more than 10%, with no blocked probes. Six-direction ramp suite passes 4,073 checks and 24 standing windows have no blocked camera probes. Ledge suite passes 48 checks; all 864 mantle frames are filtered. Wall-run phase suite passes 1,156 checks, peak angular speed 59.84 degrees/sec. Production smoothing math passes 88 checks; Python compilation and diff whitespace checks pass. Initial release link failed with output permission denied; retry succeeded. The latest shared release binary verification is still in startup. Hands-on MVQ parity remains unverified; crouch/slide viewheight steps are recorded separately.",
-      "label": "Camera checks",
+      "result": "Final shared release passes 596 actual-E1M1 movement checks and all four standing handoff comparisons at 144 FPS; camera velocity-change RMS is 50%, 90%, 55%, and 60% lower than the respective 0.183.158 baseline traversals. Standing camera probes are clear and offsets stay bounded. Initial candidate also passes all eight standing comparisons at 144/1000 FPS, 4,073 six-direction ramp checks, 48 ledge checks, 1,156 wall-run phase checks, and 88 smoothing-math checks. Engine 0.183.159 deployed to all three engine targets with matching SHA256 6b9a3da267e343f1be526d1ccfb91dfab5a22382dd5ad19347bf04a437a595ec; camera fix pushed on main in a98e8897. Initial link permission failure recovered. First final-release startup was deliberately stopped before map loading; the repeated run with a fresh shader cache passed. Automated improvements do not establish subjective MVQ parity. Crouch/slide viewheight steps remain a separate contributor.",
+      "label": "Released 0.183.159",
       "results": [
         {
           "at": "2026-10-05T20:20:08.020185-04:00",
           "text": "Completed: standard and MVQ baseline traversals at 144 and 1000 FPS caps; standard candidate passes 757 and 591 movement checks respectively. All eight standing comparisons reduce camera velocity-change RMS by more than 10%, with no blocked probes. Six-direction ramp suite passes 4,073 checks and 24 standing windows have no blocked camera probes. Ledge suite passes 48 checks; all 864 mantle frames are filtered. Wall-run phase suite passes 1,156 checks, peak angular speed 59.84 degrees/sec. Production smoothing math passes 88 checks; Python compilation and diff whitespace checks pass. Initial release link failed with output permission denied; retry succeeded. The latest shared release binary verification is still in startup. Hands-on MVQ parity remains unverified; crouch/slide viewheight steps are recorded separately.",
           "status": "incomplete",
           "label": "Camera checks"
+        },
+        {
+          "at": "2026-10-05T20:24:44.259020-04:00",
+          "text": "Final shared release passes 596 actual-E1M1 movement checks and all four standing handoff comparisons at 144 FPS; camera velocity-change RMS is 50%, 90%, 55%, and 60% lower than the respective 0.183.158 baseline traversals. Standing camera probes are clear and offsets stay bounded. Initial candidate also passes all eight standing comparisons at 144/1000 FPS, 4,073 six-direction ramp checks, 48 ledge checks, 1,156 wall-run phase checks, and 88 smoothing-math checks. Engine 0.183.159 deployed to all three engine targets with matching SHA256 6b9a3da267e343f1be526d1ccfb91dfab5a22382dd5ad19347bf04a437a595ec; camera fix pushed on main in a98e8897. Initial link permission failure recovered. First final-release startup was deliberately stopped before map loading; the repeated run with a fresh shader cache passed. Automated improvements do not establish subjective MVQ parity. Crouch/slide viewheight steps remain a separate contributor.",
+          "status": "mixed",
+          "label": "Released 0.183.159"
         }
       ],
-      "status": "incomplete",
-      "updated": "2026-10-05T20:20:08.020185-04:00"
+      "status": "mixed",
+      "updated": "2026-10-05T20:24:44.259020-04:00"
     },
     {
       "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
