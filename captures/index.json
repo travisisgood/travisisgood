@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Stationary ramp jitter / standard player",
+      "description": "FaultLine E1M1: reproduced zero-input jitter at (858, -694, -373), compared engine 0.183.159 with 0.183.160, and stabilized physical ramp support. The graph shows matched stationary camera and gravity traces; screenshots show the final standard player on both movement backends.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T21:34:55.561005-04:00",
+      "images": [
+        {
+          "id": "80cca774dcc5997d3d0eecccbf3c4ae61ef4af241ee4684396fb7ad6bde5270a",
+          "title": "reported spot comparison",
+          "label": "Idle gravity 0.183.160",
+          "width": 1920,
+          "height": 1120,
+          "bytes": 313853,
+          "filename": "reported_spot_comparison.png",
+          "original": "assets/2026-10-05/80cca774dcc5997d3d0eecccbf3c4ae61ef4af241ee4684396fb7ad6bde5270a.png",
+          "thumbnail": "assets/2026-10-05/80cca774dcc5997d3d0eecccbf3c4ae61ef4af241ee4684396fb7ad6bde5270a-thumb.webp",
+          "preview": "assets/2026-10-05/80cca774dcc5997d3d0eecccbf3c4ae61ef4af241ee4684396fb7ad6bde5270a-view.webp"
+        },
+        {
+          "id": "0fff50c560e914840dc7522114f1cfd6375c032bca63736c5e140d11b9066ec1",
+          "title": "user spot 0 0000",
+          "label": "Idle gravity 0.183.160",
+          "width": 640,
+          "height": 480,
+          "bytes": 229782,
+          "filename": "user_spot_0_0000.png",
+          "original": "assets/2026-10-05/0fff50c560e914840dc7522114f1cfd6375c032bca63736c5e140d11b9066ec1.png",
+          "thumbnail": "assets/2026-10-05/0fff50c560e914840dc7522114f1cfd6375c032bca63736c5e140d11b9066ec1-thumb.webp",
+          "preview": "assets/2026-10-05/0fff50c560e914840dc7522114f1cfd6375c032bca63736c5e140d11b9066ec1-view.webp"
+        },
+        {
+          "id": "bbe334b5a540c9d51f867e1dee8e5506d1e4ab17c029a377e62a268fca4fd1a3",
+          "title": "user spot 1 0000",
+          "label": "Idle gravity 0.183.160",
+          "width": 640,
+          "height": 480,
+          "bytes": 230289,
+          "filename": "user_spot_1_0000.png",
+          "original": "assets/2026-10-05/bbe334b5a540c9d51f867e1dee8e5506d1e4ab17c029a377e62a268fca4fd1a3.png",
+          "thumbnail": "assets/2026-10-05/bbe334b5a540c9d51f867e1dee8e5506d1e4ab17c029a377e62a268fca4fd1a3-thumb.webp",
+          "preview": "assets/2026-10-05/bbe334b5a540c9d51f867e1dee8e5506d1e4ab17c029a377e62a268fca4fd1a3-view.webp"
+        },
+        {
+          "id": "99ca86b4e287c669aee8dd7386a6a37bd3439ff1fd5b16cdde1bc9c2b80030fe",
+          "title": "stationary 0 0000",
+          "label": "Idle gravity 0.183.160",
+          "width": 640,
+          "height": 480,
+          "bytes": 357446,
+          "filename": "stationary_0_0000.png",
+          "original": "assets/2026-10-05/99ca86b4e287c669aee8dd7386a6a37bd3439ff1fd5b16cdde1bc9c2b80030fe.png",
+          "thumbnail": "assets/2026-10-05/99ca86b4e287c669aee8dd7386a6a37bd3439ff1fd5b16cdde1bc9c2b80030fe-thumb.webp",
+          "preview": "assets/2026-10-05/99ca86b4e287c669aee8dd7386a6a37bd3439ff1fd5b16cdde1bc9c2b80030fe-view.webp"
+        },
+        {
+          "id": "757f1e2f7668e687f10ee0936b856be2b0a1dd3f2fe190bb978ee5156710fad9",
+          "title": "stationary 1 0000",
+          "label": "Idle gravity 0.183.160",
+          "width": 640,
+          "height": 480,
+          "bytes": 363988,
+          "filename": "stationary_1_0000.png",
+          "original": "assets/2026-10-05/757f1e2f7668e687f10ee0936b856be2b0a1dd3f2fe190bb978ee5156710fad9.png",
+          "thumbnail": "assets/2026-10-05/757f1e2f7668e687f10ee0936b856be2b0a1dd3f2fe190bb978ee5156710fad9-thumb.webp",
+          "preview": "assets/2026-10-05/757f1e2f7668e687f10ee0936b856be2b0a1dd3f2fe190bb978ee5156710fad9-view.webp"
+        }
+      ],
+      "result": "Baseline: stationary jitter reproduced on both backends, including the reported position (camera spans 0.246 and 0.392 units). Two intermediate candidates failed the stationary seam gate; contact-detail diagnostics completed. Final fix: all ten idle windows pass, body span and velocity zero, no support switching or camera clipping, maximum remaining eye settling 0.001942 units. Exact deployed release repeat: both reported-position windows have zero body/camera/basis movement and five clearance checks pass. Movement regression: 5,353 checks pass across six gravity directions on both backends. Initial forced-240-Hz regression was stopped as too slow and recorded incomplete; 72-Hz rerun passed. Release builds, Python compilation, whitespace checks and three deployment hashes pass. An obsolete build-target attempt failed, then the normal target built successfully; a temporary plotting-module filename conflict was corrected. Fix committed and pushed as 2d4cecab. Deployed version 0.183.160 SHA256 7b9799a61bdcd5107953efdb1224b4e4c1d87d1f76bd405778e43baf123a62e0. Project map and QC unchanged.",
+      "label": "Idle gravity 0.183.160",
+      "results": [
+        {
+          "at": "2026-10-05T21:34:55.561005-04:00",
+          "text": "Baseline: stationary jitter reproduced on both backends, including the reported position (camera spans 0.246 and 0.392 units). Two intermediate candidates failed the stationary seam gate; contact-detail diagnostics completed. Final fix: all ten idle windows pass, body span and velocity zero, no support switching or camera clipping, maximum remaining eye settling 0.001942 units. Exact deployed release repeat: both reported-position windows have zero body/camera/basis movement and five clearance checks pass. Movement regression: 5,353 checks pass across six gravity directions on both backends. Initial forced-240-Hz regression was stopped as too slow and recorded incomplete; 72-Hz rerun passed. Release builds, Python compilation, whitespace checks and three deployment hashes pass. An obsolete build-target attempt failed, then the normal target built successfully; a temporary plotting-module filename conflict was corrected. Fix committed and pushed as 2d4cecab. Deployed version 0.183.160 SHA256 7b9799a61bdcd5107953efdb1224b4e4c1d87d1f76bd405778e43baf123a62e0. Project map and QC unchanged.",
+          "status": "mixed",
+          "label": "Idle gravity 0.183.160"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-05T21:34:55.561005-04:00"
+    },
+    {
       "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
       "description": "",
       "date": "2026-10-05",
