@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "StreetSweeper 0.183.58: light-style flicker and pattern overlays",
+      "description": "Editor viewport harness (real MapView3D, textures and models). 1: face-UV Voronoi func_pattern and an along-path Lines run on a path_corner chain. 2-3: a style-10 light_fluorospark, two frames of the same camera (floor 4.7 vs 32.4). 4: E1M1's own conduit pattern runs.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T21:53:49.663770-04:00",
+      "images": [
+        {
+          "id": "3186b797e739b162ad7d4435025f5d96374fb81c960049bd14ad0eaa153a1aae",
+          "title": "1 pattern overlay voronoi and lines",
+          "label": "Editor preview",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 2742181,
+          "filename": "1_pattern_overlay_voronoi_and_lines.png",
+          "original": "assets/2026-10-05/3186b797e739b162ad7d4435025f5d96374fb81c960049bd14ad0eaa153a1aae.png",
+          "thumbnail": "assets/2026-10-05/3186b797e739b162ad7d4435025f5d96374fb81c960049bd14ad0eaa153a1aae-thumb.webp",
+          "preview": "assets/2026-10-05/3186b797e739b162ad7d4435025f5d96374fb81c960049bd14ad0eaa153a1aae-view.webp"
+        },
+        {
+          "id": "6bd501dbdd798e9bc3e1d145f82ca361f6f89b783312bcda147971de45abfbf3",
+          "title": "2 fluorospark dark frame",
+          "label": "Editor preview",
+          "width": 1500,
+          "height": 875,
+          "bytes": 404814,
+          "filename": "2_fluorospark_dark_frame.png",
+          "original": "assets/2026-10-05/6bd501dbdd798e9bc3e1d145f82ca361f6f89b783312bcda147971de45abfbf3.png",
+          "thumbnail": "assets/2026-10-05/6bd501dbdd798e9bc3e1d145f82ca361f6f89b783312bcda147971de45abfbf3-thumb.webp",
+          "preview": "assets/2026-10-05/6bd501dbdd798e9bc3e1d145f82ca361f6f89b783312bcda147971de45abfbf3-view.webp"
+        },
+        {
+          "id": "e901c153e35c05e8a838aa278d7309168ce4564b0572283db047da86a3823fc4",
+          "title": "3 fluorospark lit frame",
+          "label": "Editor preview",
+          "width": 1500,
+          "height": 875,
+          "bytes": 1284840,
+          "filename": "3_fluorospark_lit_frame.png",
+          "original": "assets/2026-10-05/e901c153e35c05e8a838aa278d7309168ce4564b0572283db047da86a3823fc4.png",
+          "thumbnail": "assets/2026-10-05/e901c153e35c05e8a838aa278d7309168ce4564b0572283db047da86a3823fc4-thumb.webp",
+          "preview": "assets/2026-10-05/e901c153e35c05e8a838aa278d7309168ce4564b0572283db047da86a3823fc4-view.webp"
+        },
+        {
+          "id": "94ced86b0d22b09fe7c1378c582c32ee38b08e597f66c3a85e7ac808ce3f59f9",
+          "title": "4 e1m1 conduit patterns",
+          "label": "Editor preview",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 1075923,
+          "filename": "4_e1m1_conduit_patterns.png",
+          "original": "assets/2026-10-05/94ced86b0d22b09fe7c1378c582c32ee38b08e597f66c3a85e7ac808ce3f59f9.png",
+          "thumbnail": "assets/2026-10-05/94ced86b0d22b09fe7c1378c582c32ee38b08e597f66c3a85e7ac808ce3f59f9-thumb.webp",
+          "preview": "assets/2026-10-05/94ced86b0d22b09fe7c1378c582c32ee38b08e597f66c3a85e7ac808ce3f59f9-view.webp"
+        }
+      ],
+      "result": "OptiX suite 16 pass / 2 skipped incl. new light-style test (a=0, m=85, 2x=169, unstyled 85); MapWindow tests pass; overlay animates (213k pixels change between frames); fluorospark flickers",
+      "label": "Editor preview",
+      "results": [
+        {
+          "at": "2026-10-05T21:53:49.663770-04:00",
+          "text": "OptiX suite 16 pass / 2 skipped incl. new light-style test (a=0, m=85, 2x=169, unstyled 85); MapWindow tests pass; overlay animates (213k pixels change between frames); fluorospark flickers",
+          "status": "passed",
+          "label": "Editor preview"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T21:53:49.663770-04:00"
+    },
+    {
       "title": "Stationary ramp jitter / standard player",
       "description": "FaultLine E1M1: reproduced zero-input jitter at (858, -694, -373), compared engine 0.183.159 with 0.183.160, and stabilized physical ramp support. The graph shows matched stationary camera and gravity traces; screenshots show the final standard player on both movement backends.",
       "date": "2026-10-05",
