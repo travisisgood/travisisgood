@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Models and Animate real asset checks",
+      "description": "",
+      "date": "2026-10-06",
+      "created": "2026-10-06T16:45:06.580489-04:00",
+      "images": [],
+      "result": "Existing project model: 32 assertions passed; node queries, visibility, locking and layers: 543 assertions in 4 cases passed; model workflows: 592 assertions passed. Initial real-model check failed because generic node queries omitted mesh nodes; repaired and rerun successfully. One test launch failed before execution while the executable was rebuilding. Embedded MDLX metadata: all 5 production package checks passed, including invalid and oversized entries.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-06T16:45:06.580489-04:00",
+          "text": "Existing project model: 32 assertions passed; node queries, visibility, locking and layers: 543 assertions in 4 cases passed; model workflows: 592 assertions passed. Initial real-model check failed because generic node queries omitted mesh nodes; repaired and rerun successfully. One test launch failed before execution while the executable was rebuilding. Embedded MDLX metadata: all 5 production package checks passed, including invalid and oversized entries.",
+          "status": "mixed",
+          "label": "Checks"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-06T16:45:06.580489-04:00"
+    },
+    {
       "title": "FaultLine E1M1 stencil shadows FPS on-off",
       "description": "RTX 4090, deployed workspace FaultLine engine, 3840x2160, uncapped, vsync and GPU profiler off, no sound. Same-session alternating stencil on/off, three roughly 3-second wall-clock bench intervals per state. SPOM, SSR (64 steps, quarter resolution) and baked mover lighting enabled throughout. Entry camera: player 480 -352 88, angles 0 90 0. Initial wall probe camera: 1614 -971 -682, angles 26 270 0; close-up wall view is less representative. Screenshots were captured outside measurement windows; their FPS overlay is transient, not the benchmark result. Project and deployed configs remain stencil-off; tests used isolated configs.",
       "date": "2026-10-06",
