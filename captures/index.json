@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Completion audit: authoring and engine checks",
+      "description": "",
+      "date": "2026-10-06",
+      "created": "2026-10-06T11:04:49.356219-04:00",
+      "images": [],
+      "result": "StreetSweeper 0.183.62 and FaultLine release builds passed. 42 authoring test cases passed (2,279 assertions); 2 resource test cases passed (108 assertions). Production glTF pose bounds passed 5 cases. MDLX runtime metadata passed embedded, stale-sidecar and legacy-fallback cases. Initial build/link and cubic-persistence failures were fixed and retested. Portal runtime was incomplete: the first run timed out during video initialization; desktop rerun pending.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-06T11:04:49.356219-04:00",
+          "text": "StreetSweeper 0.183.62 and FaultLine release builds passed. 42 authoring test cases passed (2,279 assertions); 2 resource test cases passed (108 assertions). Production glTF pose bounds passed 5 cases. MDLX runtime metadata passed embedded, stale-sidecar and legacy-fallback cases. Initial build/link and cubic-persistence failures were fixed and retested. Portal runtime was incomplete: the first run timed out during video initialization; desktop rerun pending.",
+          "status": "incomplete",
+          "label": "Checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-06T11:04:49.356219-04:00"
+    },
+    {
       "title": "StreetSweeper 0.183.61: right-click Disable and Enable",
       "description": "Actual map-view context menus captured in offscreen Qt. Disable/Enable is the final action after Create User Entity. Mixed or enabled targets offer Disable; all-disabled targets offer Enable. Checks exercise the menu action, mixed selection, entity brush owners, independent undo steps, empty-selection protection, and the existing Entity tab checkbox.",
       "date": "2026-10-06",
