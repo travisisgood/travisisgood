@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T20:18:56.572382-04:00",
+      "images": [
+        {
+          "id": "46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996",
+          "title": "Before - dark stencil patches",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1193578,
+          "filename": "Before - dark stencil patches.png",
+          "original": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996.png",
+          "thumbnail": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-thumb.webp",
+          "preview": "assets/2026-10-05/46598e66be7efa90279984b26c9125f89d34cd155e4f7bb52b5fbdbe16439996-view.webp"
+        },
+        {
+          "id": "c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2",
+          "title": "Depth bias disabled - relief retained",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 997818,
+          "filename": "Depth bias disabled - relief retained.png",
+          "original": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2.png",
+          "thumbnail": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-thumb.webp",
+          "preview": "assets/2026-10-05/c14861037b9855026c2421411730bca9d19c041d44e0ddaa20a1946af7c975c2-view.webp"
+        },
+        {
+          "id": "b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a",
+          "title": "Stencil disabled - patches gone",
+          "label": "Diagnosis",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 997190,
+          "filename": "Stencil disabled - patches gone.png",
+          "original": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a.png",
+          "thumbnail": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-thumb.webp",
+          "preview": "assets/2026-10-05/b77371a25e7b26e247c08c54c7fbf1e4174cf247637356deed1ba8adad5e109a-view.webp"
+        }
+      ],
+      "result": "Reproduced the reported skull-panel patches behind spawn at 1080p. Backstop, baked self-shadow, and SSR isolation did not remove them; disabling stencil shadows did. Disabling gl_zfix removed them with relief and stencil shadows still enabled. Cold startup was interrupted and retried with a shader cache; the initial close camera went through the door and was corrected. An experimental flat-receiver approach did not fix the patches; its initial GLSL reserved-name error was corrected. That broader experiment was removed. Final physical-depth fix remains under test.",
+      "label": "Diagnosis",
+      "results": [
+        {
+          "at": "2026-10-05T20:18:56.572382-04:00",
+          "text": "Reproduced the reported skull-panel patches behind spawn at 1080p. Backstop, baked self-shadow, and SSR isolation did not remove them; disabling stencil shadows did. Disabling gl_zfix removed them with relief and stencil shadows still enabled. Cold startup was interrupted and retried with a shader cache; the initial close camera went through the door and was corrected. An experimental flat-receiver approach did not fix the patches; its initial GLSL reserved-name error was corrected. That broader experiment was removed. Final physical-depth fix remains under test.",
+          "status": "incomplete",
+          "label": "Diagnosis"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-05T20:18:56.572382-04:00"
+    },
+    {
       "title": "FaultLine / E1M1 · Mover bake allocation",
       "description": "",
       "date": "2026-10-05",
