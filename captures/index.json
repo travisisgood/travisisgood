@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "StreetSweeper 0.183.60: disable entities and stable texture reveal",
+      "description": "Entity tab Disabled checkbox with two entities selected, captured in offscreen Qt. Code checks cover source-map round trips, clipboard retention, compiled-export omission, undo/redo, delayed texture dimensions, latest reveal target, and manual navigation. Texture checks use a synthetic browser layout and real Qt resource-notification/timer paths; no live map viewport test is claimed.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:54:51.364256-04:00",
+      "images": [
+        {
+          "id": "b2741bde256902dfbce9f008a43373fa75950398e389938375d09cab53fc230f",
+          "title": "initial undo failure",
+          "label": "Initial undo failure",
+          "width": 440,
+          "height": 450,
+          "bytes": 12944,
+          "filename": "initial_undo_failure.png",
+          "original": "assets/2026-10-05/b2741bde256902dfbce9f008a43373fa75950398e389938375d09cab53fc230f.png",
+          "thumbnail": "assets/2026-10-05/b2741bde256902dfbce9f008a43373fa75950398e389938375d09cab53fc230f-thumb.webp",
+          "preview": "assets/2026-10-05/b2741bde256902dfbce9f008a43373fa75950398e389938375d09cab53fc230f-view.webp"
+        },
+        {
+          "id": "06423b12aae1afd5153299ecf6534001159f8ab59f930a389d3f364360807af2",
+          "title": "entity disabled panel",
+          "label": "Corrected entity control",
+          "width": 440,
+          "height": 450,
+          "bytes": 12326,
+          "filename": "entity_disabled_panel.png",
+          "original": "assets/2026-10-05/06423b12aae1afd5153299ecf6534001159f8ab59f930a389d3f364360807af2.png",
+          "thumbnail": "assets/2026-10-05/06423b12aae1afd5153299ecf6534001159f8ab59f930a389d3f364360807af2-thumb.webp",
+          "preview": "assets/2026-10-05/06423b12aae1afd5153299ecf6534001159f8ab59f930a389d3f364360807af2-view.webp"
+        }
+      ],
+      "result": "Final rerun: all 138 assertions passed in 4 test cases (texture reveal 13, Entity UI and browser coalescing 25, save/export 100). Release 0.183.60 built and deployed to streetsweeper.exe; source and deployed SHA256 hashes match.",
+      "label": "Corrected entity control",
+      "results": [
+        {
+          "at": "2026-10-05T22:54:51.364256-04:00",
+          "text": "Initial build failed: the new texture test passed an untyped empty initializer list to a templated notifier. Replaced it with an explicit resource-ID vector; the rebuild succeeded.",
+          "status": "failed",
+          "label": "Initial build"
+        },
+        {
+          "at": "2026-10-05T22:54:51.546665-04:00",
+          "text": "Initial checks: texture test 7/10 assertions passed; 3 visibility assertions failed because animated SliderMove cancelled the retained reveal. Entity UI test 24/25 assertions passed; undo collated rapid toggles. Save/export tests passed all 100 assertions in 2 cases. Both behavioral failures were fixed.",
+          "status": "mixed",
+          "label": "Initial undo failure"
+        },
+        {
+          "at": "2026-10-05T22:54:51.826599-04:00",
+          "text": "Final rerun: all 138 assertions passed in 4 test cases (texture reveal 13, Entity UI and browser coalescing 25, save/export 100). Release 0.183.60 built and deployed to streetsweeper.exe; source and deployed SHA256 hashes match.",
+          "status": "passed",
+          "label": "Corrected entity control"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:54:51.826599-04:00"
+    },
+    {
       "title": "StreetSweeper 0.183.59: displacement multi-selection",
       "description": "The contextual Displace panel opens when two displacement brushes are selected, including selections mixed with ordinary brushes. Explicitly activated Rotate keeps control of the panel. Offscreen Qt evidence, not a live map viewport.",
       "date": "2026-10-05",
