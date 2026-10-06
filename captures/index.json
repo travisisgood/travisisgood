@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "StreetSweeper 0.183.61: right-click Disable and Enable",
+      "description": "Actual map-view context menus captured in offscreen Qt. Disable/Enable is the final action after Create User Entity. Mixed or enabled targets offer Disable; all-disabled targets offer Enable. Checks exercise the menu action, mixed selection, entity brush owners, independent undo steps, empty-selection protection, and the existing Entity tab checkbox.",
+      "date": "2026-10-06",
+      "created": "2026-10-06T07:28:20.976422-04:00",
+      "images": [
+        {
+          "id": "61bdcf7a384b38ec388e7cda108a11207ccbfb84abf6b1f8cb075adeea105e18",
+          "title": "menu disable",
+          "label": "Context menu",
+          "width": 366,
+          "height": 516,
+          "bytes": 25874,
+          "filename": "menu_disable.png",
+          "original": "assets/2026-10-06/61bdcf7a384b38ec388e7cda108a11207ccbfb84abf6b1f8cb075adeea105e18.png",
+          "thumbnail": "assets/2026-10-06/61bdcf7a384b38ec388e7cda108a11207ccbfb84abf6b1f8cb075adeea105e18-thumb.webp",
+          "preview": "assets/2026-10-06/61bdcf7a384b38ec388e7cda108a11207ccbfb84abf6b1f8cb075adeea105e18-view.webp"
+        },
+        {
+          "id": "5788e9253f3cd95fc10fa91fdd5fe174b4374fae062f6678b519c4c45038402c",
+          "title": "menu enable",
+          "label": "Context menu",
+          "width": 366,
+          "height": 516,
+          "bytes": 25725,
+          "filename": "menu_enable.png",
+          "original": "assets/2026-10-06/5788e9253f3cd95fc10fa91fdd5fe174b4374fae062f6678b519c4c45038402c.png",
+          "thumbnail": "assets/2026-10-06/5788e9253f3cd95fc10fa91fdd5fe174b4374fae062f6678b519c4c45038402c-thumb.webp",
+          "preview": "assets/2026-10-06/5788e9253f3cd95fc10fa91fdd5fe174b4374fae062f6678b519c4c45038402c-view.webp"
+        }
+      ],
+      "result": "All 55 assertions passed in 1 test case covering both the context menu and existing checkbox. Release 0.183.61 built and deployed to streetsweeper.exe; source and deployed SHA256 hashes match. Screenshots show both labels at the bottom of the real popup; no live map viewport test is claimed.",
+      "label": "Context menu",
+      "results": [
+        {
+          "at": "2026-10-06T07:28:20.976422-04:00",
+          "text": "All 55 assertions passed in 1 test case covering both the context menu and existing checkbox. Release 0.183.61 built and deployed to streetsweeper.exe; source and deployed SHA256 hashes match. Screenshots show both labels at the bottom of the real popup; no live map viewport test is claimed.",
+          "status": "passed",
+          "label": "Context menu"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-06T07:28:20.976422-04:00"
+    },
+    {
       "title": "StreetSweeper 0.183.60: disable entities and stable texture reveal",
       "description": "Entity tab Disabled checkbox with two entities selected, captured in offscreen Qt. Code checks cover source-map round trips, clipboard retention, compiled-export omission, undo/redo, delayed texture dimensions, latest reveal target, and manual navigation. Texture checks use a synthetic browser layout and real Qt resource-notification/timer paths; no live map viewport test is claimed.",
       "date": "2026-10-05",
