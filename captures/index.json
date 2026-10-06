@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "Standard player ramp entrances and exits",
+      "description": "FaultLine E1M1 standard-player ramp recovery fix, engine 0.183.159. Screenshots show the actual authored ramp; chart measures full standing floor/ramp/wall traversals, including contact handoffs.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T20:20:08.020185-04:00",
+      "images": [
+        {
+          "id": "10eeab392b3ef27f7cced895e3d6693518d15d003b827237c268004bd054f2a3",
+          "title": "handoff comparison",
+          "label": "Camera checks",
+          "width": 1920,
+          "height": 800,
+          "bytes": 97802,
+          "filename": "handoff_comparison.png",
+          "original": "assets/2026-10-05/10eeab392b3ef27f7cced895e3d6693518d15d003b827237c268004bd054f2a3.png",
+          "thumbnail": "assets/2026-10-05/10eeab392b3ef27f7cced895e3d6693518d15d003b827237c268004bd054f2a3-thumb.webp",
+          "preview": "assets/2026-10-05/10eeab392b3ef27f7cced895e3d6693518d15d003b827237c268004bd054f2a3-view.webp"
+        },
+        {
+          "id": "584a19e5993f99abb3dabc3d62b6abbfd4293c477d3248918fc00d3865c01aa4",
+          "title": "ramp entry0000",
+          "label": "Camera checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 311491,
+          "filename": "ramp_entry0000.png",
+          "original": "assets/2026-10-05/584a19e5993f99abb3dabc3d62b6abbfd4293c477d3248918fc00d3865c01aa4.png",
+          "thumbnail": "assets/2026-10-05/584a19e5993f99abb3dabc3d62b6abbfd4293c477d3248918fc00d3865c01aa4-thumb.webp",
+          "preview": "assets/2026-10-05/584a19e5993f99abb3dabc3d62b6abbfd4293c477d3248918fc00d3865c01aa4-view.webp"
+        },
+        {
+          "id": "1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952",
+          "title": "ramp exit0000",
+          "label": "Camera checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 320236,
+          "filename": "ramp_exit0000.png",
+          "original": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952.png",
+          "thumbnail": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952-thumb.webp",
+          "preview": "assets/2026-10-05/1702f05bc16985bc23176bcbdcdaae21e621717e390e0ce1b94f8c7dc6e36952-view.webp"
+        }
+      ],
+      "result": "Completed: standard and MVQ baseline traversals at 144 and 1000 FPS caps; standard candidate passes 757 and 591 movement checks respectively. All eight standing comparisons reduce camera velocity-change RMS by more than 10%, with no blocked probes. Six-direction ramp suite passes 4,073 checks and 24 standing windows have no blocked camera probes. Ledge suite passes 48 checks; all 864 mantle frames are filtered. Wall-run phase suite passes 1,156 checks, peak angular speed 59.84 degrees/sec. Production smoothing math passes 88 checks; Python compilation and diff whitespace checks pass. Initial release link failed with output permission denied; retry succeeded. The latest shared release binary verification is still in startup. Hands-on MVQ parity remains unverified; crouch/slide viewheight steps are recorded separately.",
+      "label": "Camera checks",
+      "results": [
+        {
+          "at": "2026-10-05T20:20:08.020185-04:00",
+          "text": "Completed: standard and MVQ baseline traversals at 144 and 1000 FPS caps; standard candidate passes 757 and 591 movement checks respectively. All eight standing comparisons reduce camera velocity-change RMS by more than 10%, with no blocked probes. Six-direction ramp suite passes 4,073 checks and 24 standing windows have no blocked camera probes. Ledge suite passes 48 checks; all 864 mantle frames are filtered. Wall-run phase suite passes 1,156 checks, peak angular speed 59.84 degrees/sec. Production smoothing math passes 88 checks; Python compilation and diff whitespace checks pass. Initial release link failed with output permission denied; retry succeeded. The latest shared release binary verification is still in startup. Hands-on MVQ parity remains unverified; crouch/slide viewheight steps are recorded separately.",
+          "status": "incomplete",
+          "label": "Camera checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-05T20:20:08.020185-04:00"
+    },
+    {
       "title": "FaultLine / E1M1 · Skull relief and stencil shadows",
       "description": "",
       "date": "2026-10-05",
