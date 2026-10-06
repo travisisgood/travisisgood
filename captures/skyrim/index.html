@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a0025">
+  <title>Skyrim captures · travisisgood</title>
+  <link rel="stylesheet" href="../gallery.css?v=20261005-3">
+  <script src="../gallery.js?v=20261005-2" defer></script>
+</head>
+<body>
+  <header><a class="home" href="/">travisisgood</a><span>Game development</span></header>
+  <nav class="projects" aria-label="Projects"><a href="../">Quake</a> · <strong>Skyrim</strong></nav>
+  <main>
+    <div class="intro"><h1>Skyrim captures</h1>
+      <p>Borderrim (Borderlands 2 combat in Skyrim): test results by date. Tap images to inspect them, or open the originals for full detail.</p>
+    </div>
+    <div class="dates" aria-label="Date navigation">
+      <label for="date">Test date</label><select id="date"></select>
+      <button id="older" aria-label="Older test date">← Older</button>
+      <button id="newer" aria-label="Newer test date">Newer →</button>
+    </div>
+    <nav id="filters" aria-label="Filter captures"></nav>
+    <p id="status" role="status">Loading captures…</p>
+    <div id="albums"></div>
+    <noscript>JavaScript is needed to load the gallery.</noscript>
+  </main>
+  <dialog id="viewer" aria-label="Capture preview">
+    <div class="viewer-head"><div><h2 id="viewer-title"></h2><p id="viewer-detail"></p></div><button id="close" aria-label="Close preview">✕</button></div>
+    <img id="large" alt="">
+    <div class="viewer-footer"><a id="original" class="action" target="_blank" rel="noopener">Open original</a><a id="download" download>Download original</a></div>
+  </dialog>
+  <footer>Original files are preserved. Preview images are smaller for easier viewing on a phone.</footer>
+</body>
+</html>
