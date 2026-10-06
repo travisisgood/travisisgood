@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "MDLX engine playback and hidden portal checks",
+      "description": "",
+      "date": "2026-10-06",
+      "created": "2026-10-06T17:47:57.069727-04:00",
+      "images": [
+        {
+          "id": "0f7a1f882d990a5cb6a5bebed97f9cd2ed83809b5649f1b75c421319acd6039f",
+          "title": "rest",
+          "label": "Runtime checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 120417,
+          "filename": "rest.png",
+          "original": "assets/2026-10-06/0f7a1f882d990a5cb6a5bebed97f9cd2ed83809b5649f1b75c421319acd6039f.png",
+          "thumbnail": "assets/2026-10-06/0f7a1f882d990a5cb6a5bebed97f9cd2ed83809b5649f1b75c421319acd6039f-thumb.webp",
+          "preview": "assets/2026-10-06/0f7a1f882d990a5cb6a5bebed97f9cd2ed83809b5649f1b75c421319acd6039f-view.webp"
+        },
+        {
+          "id": "e55785e11575ab7f82041623bbb74b18e4e4a97037e2e5b821b321311545527b",
+          "title": "posed",
+          "label": "Runtime checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 120732,
+          "filename": "posed.png",
+          "original": "assets/2026-10-06/e55785e11575ab7f82041623bbb74b18e4e4a97037e2e5b821b321311545527b.png",
+          "thumbnail": "assets/2026-10-06/e55785e11575ab7f82041623bbb74b18e4e4a97037e2e5b821b321311545527b-thumb.webp",
+          "preview": "assets/2026-10-06/e55785e11575ab7f82041623bbb74b18e4e4a97037e2e5b821b321311545527b-view.webp"
+        }
+      ],
+      "result": "Authored MDLX, embedded metadata only: engine exit 0, two fresh 640x480 captures, 160.653px model displacement. Portal fixture passed 8 visibility modes and 3 monster-wake checks. Hidden progress swapping and premature fixture quit were fixed after initial timeouts. A newer concurrently built engine exceeded the first 120s cold-shader limit, then passed with a 600s limit; tested engine SHA256 540551230c9fabf66fe4f301ca4bca2f181227ea282e931b0d82b1f496debc65. Another session subsequently deployed a newer build; these results identify the tested snapshot.",
+      "label": "Runtime checks",
+      "results": [
+        {
+          "at": "2026-10-06T17:47:57.069727-04:00",
+          "text": "Authored MDLX, embedded metadata only: engine exit 0, two fresh 640x480 captures, 160.653px model displacement. Portal fixture passed 8 visibility modes and 3 monster-wake checks. Hidden progress swapping and premature fixture quit were fixed after initial timeouts. A newer concurrently built engine exceeded the first 120s cold-shader limit, then passed with a 600s limit; tested engine SHA256 540551230c9fabf66fe4f301ca4bca2f181227ea282e931b0d82b1f496debc65. Another session subsequently deployed a newer build; these results identify the tested snapshot.",
+          "status": "mixed",
+          "label": "Runtime checks"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-06T17:47:57.069727-04:00"
+    },
+    {
       "title": "E1M1 selective SSR and SPOM performance checks",
       "description": "RTX 4090, 3840x2160, uncapped with vsync off. Stencil shadows off, baked mover atlas on, SSR downscale 4 with 64 steps, POM/fold steps 4. Three bench samples per view and cutoff. Captures include scene images and reflection-coverage views. Arithmetic prototypes were measured but not retained. Higher cutoffs intentionally remove faint reflections; game defaults were not raised.",
       "date": "2026-10-06",
