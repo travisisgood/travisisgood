@@ -1,4 +1,267 @@
 {
   "version": 1,
-  "albums": []
+  "albums": [
+    {
+      "title": "Regression suites",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:49.226145-04:00",
+      "images": [],
+      "result": "default 41/41, weapons 46/46, levels 22/22 (guns replace bows incl. undead, item levels, level lock, own-gun drops), armed 33/33 on 2 of 3 runs (one run: 7 bandit shots, under the bar)",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:49.226145-04:00",
+          "text": "default 41/41, weapons 46/46, levels 22/22 (guns replace bows incl. undead, item levels, level lock, own-gun drops), armed 33/33 on 2 of 3 runs (one run: 7 bandit shots, under the bar)",
+          "status": "mixed",
+          "label": "Checks"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-05T22:53:49.226145-04:00"
+    },
+    {
+      "title": "Sprint jump",
+      "description": "",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:49.065243-04:00",
+      "images": [],
+      "result": "Fix shipped (a jump the animation graph refuses mid-sprint ends the sprint and retries, logged), but untested: the test window can't truly sprint without the real keyboard, so the jump focus doesn't reach a sprint. Needs a check in play.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:49.065243-04:00",
+          "text": "Fix shipped (a jump the animation graph refuses mid-sprint ends the sprint and retries, logged), but untested: the test window can't truly sprint without the real keyboard, so the jump focus doesn't reach a sprint. Needs a check in play.",
+          "status": "incomplete",
+          "label": "Checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-05T22:53:49.065243-04:00"
+    },
+    {
+      "title": "Sneaking with a gun out",
+      "description": "Skyrim's stealth eye with the hip-fire ticks (left) and the aimed diamond reticle (right).",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:48.696189-04:00",
+      "images": [
+        {
+          "id": "f67a23a201c5cef031fefd5aeb5d8e876ad921bcad33f4b3f32a2700990e8603",
+          "title": "sneak-eye-zoom",
+          "label": "Reticles",
+          "width": 1152,
+          "height": 324,
+          "bytes": 480629,
+          "filename": "sneak-eye-zoom.png",
+          "original": "assets/2026-10-05/f67a23a201c5cef031fefd5aeb5d8e876ad921bcad33f4b3f32a2700990e8603.png",
+          "thumbnail": "assets/2026-10-05/f67a23a201c5cef031fefd5aeb5d8e876ad921bcad33f4b3f32a2700990e8603-thumb.webp",
+          "preview": "assets/2026-10-05/f67a23a201c5cef031fefd5aeb5d8e876ad921bcad33f4b3f32a2700990e8603-view.webp"
+        }
+      ],
+      "result": "sneak focus 12/12",
+      "label": "Reticles",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:48.696189-04:00",
+          "text": "sneak focus 12/12",
+          "status": "passed",
+          "label": "Reticles"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:53:48.696189-04:00"
+    },
+    {
+      "title": "Loadout and HUD in SkyUI style",
+      "description": "The player's own SkyUI inventory (reference), the restyled loadout menu, and the HUD in a fight.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:47.322758-04:00",
+      "images": [
+        {
+          "id": "f362242b439b34f02a174c2f5163fea6675d4d845590f286353b23c8248f467f",
+          "title": "skyui-hud",
+          "label": "SkyUI match",
+          "width": 1440,
+          "height": 810,
+          "bytes": 2191444,
+          "filename": "skyui-hud.png",
+          "original": "assets/2026-10-05/f362242b439b34f02a174c2f5163fea6675d4d845590f286353b23c8248f467f.png",
+          "thumbnail": "assets/2026-10-05/f362242b439b34f02a174c2f5163fea6675d4d845590f286353b23c8248f467f-thumb.webp",
+          "preview": "assets/2026-10-05/f362242b439b34f02a174c2f5163fea6675d4d845590f286353b23c8248f467f-view.webp"
+        },
+        {
+          "id": "f629f63c8bdfa172c8e3cac064da6df3c53c233f98ec04bbe47e8dbe91d2850c",
+          "title": "skyui-loadout",
+          "label": "SkyUI match",
+          "width": 1440,
+          "height": 810,
+          "bytes": 2024582,
+          "filename": "skyui-loadout.png",
+          "original": "assets/2026-10-05/f629f63c8bdfa172c8e3cac064da6df3c53c233f98ec04bbe47e8dbe91d2850c.png",
+          "thumbnail": "assets/2026-10-05/f629f63c8bdfa172c8e3cac064da6df3c53c233f98ec04bbe47e8dbe91d2850c-thumb.webp",
+          "preview": "assets/2026-10-05/f629f63c8bdfa172c8e3cac064da6df3c53c233f98ec04bbe47e8dbe91d2850c-view.webp"
+        },
+        {
+          "id": "2482969bf5a185c938f71f923de58c6d90c288261e10546c7ea224fc041f6cdb",
+          "title": "skyui-reference",
+          "label": "SkyUI match",
+          "width": 1440,
+          "height": 810,
+          "bytes": 1394231,
+          "filename": "skyui-reference.png",
+          "original": "assets/2026-10-05/2482969bf5a185c938f71f923de58c6d90c288261e10546c7ea224fc041f6cdb.png",
+          "thumbnail": "assets/2026-10-05/2482969bf5a185c938f71f923de58c6d90c288261e10546c7ea224fc041f6cdb-thumb.webp",
+          "preview": "assets/2026-10-05/2482969bf5a185c938f71f923de58c6d90c288261e10546c7ea224fc041f6cdb-view.webp"
+        }
+      ],
+      "result": "loadout focus 17/17",
+      "label": "SkyUI match",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:47.322758-04:00",
+          "text": "loadout focus 17/17",
+          "status": "passed",
+          "label": "SkyUI match"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:53:47.322758-04:00"
+    },
+    {
+      "title": "Undead gunners and NPC grips",
+      "description": "Draugr and skeleton archers fight left-handed with BL2 guns (BL2's bandit pose mirrored). The gun hand is posed as a grip and the gun re-seated in it. Magenta lines show where each barrel points.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:44.746139-04:00",
+      "images": [
+        {
+          "id": "0a531777a5fadbdb85dea63d36930339e6547fcd16601edf0ab714c2ec8b9966",
+          "title": "bandit-vs-draugr-mirrored",
+          "label": "Pose gallery",
+          "width": 1120,
+          "height": 1134,
+          "bytes": 2441974,
+          "filename": "bandit-vs-draugr-mirrored.png",
+          "original": "assets/2026-10-05/0a531777a5fadbdb85dea63d36930339e6547fcd16601edf0ab714c2ec8b9966.png",
+          "thumbnail": "assets/2026-10-05/0a531777a5fadbdb85dea63d36930339e6547fcd16601edf0ab714c2ec8b9966-thumb.webp",
+          "preview": "assets/2026-10-05/0a531777a5fadbdb85dea63d36930339e6547fcd16601edf0ab714c2ec8b9966-view.webp"
+        },
+        {
+          "id": "a71d8baf2a9f3ea7f001c8e8b3bd448c9303d32b30e06b9cbde1fec82bdb7d59",
+          "title": "compare-assault rifle",
+          "label": "Pose gallery",
+          "width": 1440,
+          "height": 972,
+          "bytes": 2724488,
+          "filename": "compare-assault_rifle.png",
+          "original": "assets/2026-10-05/a71d8baf2a9f3ea7f001c8e8b3bd448c9303d32b30e06b9cbde1fec82bdb7d59.png",
+          "thumbnail": "assets/2026-10-05/a71d8baf2a9f3ea7f001c8e8b3bd448c9303d32b30e06b9cbde1fec82bdb7d59-thumb.webp",
+          "preview": "assets/2026-10-05/a71d8baf2a9f3ea7f001c8e8b3bd448c9303d32b30e06b9cbde1fec82bdb7d59-view.webp"
+        },
+        {
+          "id": "92b65f156dc74ba2ba254468bd4a60b29a0a58ee7d11eaf03c6738f2971891f1",
+          "title": "compare-pistol",
+          "label": "Pose gallery",
+          "width": 1440,
+          "height": 972,
+          "bytes": 2609663,
+          "filename": "compare-pistol.png",
+          "original": "assets/2026-10-05/92b65f156dc74ba2ba254468bd4a60b29a0a58ee7d11eaf03c6738f2971891f1.png",
+          "thumbnail": "assets/2026-10-05/92b65f156dc74ba2ba254468bd4a60b29a0a58ee7d11eaf03c6738f2971891f1-thumb.webp",
+          "preview": "assets/2026-10-05/92b65f156dc74ba2ba254468bd4a60b29a0a58ee7d11eaf03c6738f2971891f1-view.webp"
+        },
+        {
+          "id": "43edb1b13116c2988e8a6b32d2900a718c824b6d773be6f9e21214bc5d877c24",
+          "title": "grips",
+          "label": "Pose gallery",
+          "width": 1440,
+          "height": 1396,
+          "bytes": 3951354,
+          "filename": "grips.png",
+          "original": "assets/2026-10-05/43edb1b13116c2988e8a6b32d2900a718c824b6d773be6f9e21214bc5d877c24.png",
+          "thumbnail": "assets/2026-10-05/43edb1b13116c2988e8a6b32d2900a718c824b6d773be6f9e21214bc5d877c24-thumb.webp",
+          "preview": "assets/2026-10-05/43edb1b13116c2988e8a6b32d2900a718c824b6d773be6f9e21214bc5d877c24-view.webp"
+        }
+      ],
+      "result": "npcanim 20/20 for bandit, skeleton and draugr; aim within 10 degrees on 25/25, 9/10 and 17/18 samples",
+      "label": "Pose gallery",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:44.746139-04:00",
+          "text": "npcanim 20/20 for bandit, skeleton and draugr; aim within 10 degrees on 25/25, 9/10 and 17/18 samples",
+          "status": "passed",
+          "label": "Pose gallery"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:53:44.746139-04:00"
+    },
+    {
+      "title": "Skills menu: gun perk trees",
+      "description": "Zooming into a gun constellation and stepping through its perks. Before the fix, zooming into SMG landed on Shotgun (the sky's anchor points kept the old 20-degree facings) and every step jumped trees.",
+      "date": "2026-10-05",
+      "created": "2026-10-05T22:53:42.878431-04:00",
+      "images": [
+        {
+          "id": "7f47a5f7e754380ecb5926bccc5e59b2bda1cb6e06408f2aff8e66ab01b1dcb4",
+          "title": "skills-BRM Shotgun-step3",
+          "label": "Fixed",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 2717012,
+          "filename": "skills-BRM_Shotgun-step3.png",
+          "original": "assets/2026-10-05/7f47a5f7e754380ecb5926bccc5e59b2bda1cb6e06408f2aff8e66ab01b1dcb4.png",
+          "thumbnail": "assets/2026-10-05/7f47a5f7e754380ecb5926bccc5e59b2bda1cb6e06408f2aff8e66ab01b1dcb4-thumb.webp",
+          "preview": "assets/2026-10-05/7f47a5f7e754380ecb5926bccc5e59b2bda1cb6e06408f2aff8e66ab01b1dcb4-view.webp"
+        },
+        {
+          "id": "9b676145ef7aaa44faed8fcb7c977084430ffc39d3598fb5219aaf9f103dcc1e",
+          "title": "skills-BRM Shotgun-tree",
+          "label": "Fixed",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 2723617,
+          "filename": "skills-BRM_Shotgun-tree.png",
+          "original": "assets/2026-10-05/9b676145ef7aaa44faed8fcb7c977084430ffc39d3598fb5219aaf9f103dcc1e.png",
+          "thumbnail": "assets/2026-10-05/9b676145ef7aaa44faed8fcb7c977084430ffc39d3598fb5219aaf9f103dcc1e-thumb.webp",
+          "preview": "assets/2026-10-05/9b676145ef7aaa44faed8fcb7c977084430ffc39d3598fb5219aaf9f103dcc1e-view.webp"
+        },
+        {
+          "id": "2dd2a7f138fd7292ee0bbfed65d801d0c367ad41ef769e7dafeeebe9b93b1983",
+          "title": "skills-BRM SMG-step2",
+          "label": "Fixed",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 2675090,
+          "filename": "skills-BRM_SMG-step2.png",
+          "original": "assets/2026-10-05/2dd2a7f138fd7292ee0bbfed65d801d0c367ad41ef769e7dafeeebe9b93b1983.png",
+          "thumbnail": "assets/2026-10-05/2dd2a7f138fd7292ee0bbfed65d801d0c367ad41ef769e7dafeeebe9b93b1983-thumb.webp",
+          "preview": "assets/2026-10-05/2dd2a7f138fd7292ee0bbfed65d801d0c367ad41ef769e7dafeeebe9b93b1983-view.webp"
+        },
+        {
+          "id": "08db8cd49ad211fc01d197d9f4ed8d06f2db20f8de2f7fca5d4bb64592319e0b",
+          "title": "skills-BRM SMG-tree",
+          "label": "Fixed",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 2708881,
+          "filename": "skills-BRM_SMG-tree.png",
+          "original": "assets/2026-10-05/08db8cd49ad211fc01d197d9f4ed8d06f2db20f8de2f7fca5d4bb64592319e0b.png",
+          "thumbnail": "assets/2026-10-05/08db8cd49ad211fc01d197d9f4ed8d06f2db20f8de2f7fca5d4bb64592319e0b-thumb.webp",
+          "preview": "assets/2026-10-05/08db8cd49ad211fc01d197d9f4ed8d06f2db20f8de2f7fca5d4bb64592319e0b-view.webp"
+        }
+      ],
+      "result": "Zoom and six perk steps stay on SMG (tree 7) and Shotgun (tree 9); skills focus 15/15",
+      "label": "Fixed",
+      "results": [
+        {
+          "at": "2026-10-05T22:53:42.878431-04:00",
+          "text": "Zoom and six perk steps stay on SMG (tree 7) and Shotgun (tree 9); skills focus 15/15",
+          "status": "passed",
+          "label": "Fixed"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-05T22:53:42.878431-04:00"
+    }
+  ]
 }
