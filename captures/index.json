@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine baked-shadow configuration verification",
+      "description": "Verified project and deployed saved/default configs disable stencil shadows. Baked mover lighting remains enabled. Shader review only; no new GPU benchmark was run.",
+      "date": "2026-10-06",
+      "created": "2026-10-06T15:11:23.636147-04:00",
+      "images": [],
+      "result": "Passed: all four configs explicitly set r_stencilshadow 0; both saved configs retain r_moveratlas 1; unrelated settings preserved. FaultLine setting change committed and pushed as 09f4375. Runtime rendering and performance were not tested.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-06T15:11:23.636147-04:00",
+          "text": "Passed: all four configs explicitly set r_stencilshadow 0; both saved configs retain r_moveratlas 1; unrelated settings preserved. FaultLine setting change committed and pushed as 09f4375. Runtime rendering and performance were not tested.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-06T15:11:23.636147-04:00"
+    },
+    {
       "title": "Models and Animate stabilization",
       "description": "Actual editor widget and OpenGL framebuffer tests. Synthetic 16384-vertex mesh measured before and after; identical rendered pixels. These are harness captures; interactive desktop input is blocked while the user is away.",
       "date": "2026-10-06",
