@@ -2,6 +2,110 @@
   "version": 1,
   "albums": [
     {
+      "title": "Models and Animate stabilization",
+      "description": "Actual editor widget and OpenGL framebuffer tests. Synthetic 16384-vertex mesh measured before and after; identical rendered pixels. These are harness captures; interactive desktop input is blocked while the user is away.",
+      "date": "2026-10-06",
+      "created": "2026-10-06T11:42:41.056873-04:00",
+      "images": [
+        {
+          "id": "8439536a4b91074fcb1a11ec5994c5518fc7495d061b6b41a466b0e122f4ee41",
+          "title": "animate controls",
+          "label": "Editor checks",
+          "width": 2018,
+          "height": 1058,
+          "bytes": 117635,
+          "filename": "animate_controls.png",
+          "original": "assets/2026-10-06/8439536a4b91074fcb1a11ec5994c5518fc7495d061b6b41a466b0e122f4ee41.png",
+          "thumbnail": "assets/2026-10-06/8439536a4b91074fcb1a11ec5994c5518fc7495d061b6b41a466b0e122f4ee41-thumb.webp",
+          "preview": "assets/2026-10-06/8439536a4b91074fcb1a11ec5994c5518fc7495d061b6b41a466b0e122f4ee41-view.webp"
+        },
+        {
+          "id": "36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0",
+          "title": "animate rest",
+          "label": "Editor checks",
+          "width": 1468,
+          "height": 790,
+          "bytes": 72271,
+          "filename": "animate_rest.png",
+          "original": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0.png",
+          "thumbnail": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0-thumb.webp",
+          "preview": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0-view.webp"
+        },
+        {
+          "id": "a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8",
+          "title": "animate keyed pose",
+          "label": "Editor checks",
+          "width": 1468,
+          "height": 790,
+          "bytes": 72801,
+          "filename": "animate_keyed_pose.png",
+          "original": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8.png",
+          "thumbnail": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8-thumb.webp",
+          "preview": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8-view.webp"
+        },
+        {
+          "id": "3028ef4d929fb098969ac7ff57606823ab1491a16498783108cdd2efb01bc520",
+          "title": "large mesh vertices",
+          "label": "Editor checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 14610,
+          "filename": "large_mesh_vertices.png",
+          "original": "assets/2026-10-06/3028ef4d929fb098969ac7ff57606823ab1491a16498783108cdd2efb01bc520.png",
+          "thumbnail": "assets/2026-10-06/3028ef4d929fb098969ac7ff57606823ab1491a16498783108cdd2efb01bc520-thumb.webp",
+          "preview": "assets/2026-10-06/3028ef4d929fb098969ac7ff57606823ab1491a16498783108cdd2efb01bc520-view.webp"
+        },
+        {
+          "id": "8d967a4e29b0d3a367c519ff6e9c6e4961fa1996abfdd2648e5ff964e024c540",
+          "title": "mesh renderer backface comparison",
+          "label": "Editor checks",
+          "width": 1280,
+          "height": 534,
+          "bytes": 13343,
+          "filename": "mesh_renderer_backface_comparison.png",
+          "original": "assets/2026-10-06/8d967a4e29b0d3a367c519ff6e9c6e4961fa1996abfdd2648e5ff964e024c540.png",
+          "thumbnail": "assets/2026-10-06/8d967a4e29b0d3a367c519ff6e9c6e4961fa1996abfdd2648e5ff964e024c540-thumb.webp",
+          "preview": "assets/2026-10-06/8d967a4e29b0d3a367c519ff6e9c6e4961fa1996abfdd2648e5ff964e024c540-view.webp"
+        },
+        {
+          "id": "edd25eb511383f960b75bb7a72559d05e8be6795a1e1e98a45733b50c894c678",
+          "title": "mesh renderer box exposed",
+          "label": "Editor checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 2553,
+          "filename": "mesh_renderer_box_exposed.png",
+          "original": "assets/2026-10-06/edd25eb511383f960b75bb7a72559d05e8be6795a1e1e98a45733b50c894c678.png",
+          "thumbnail": "assets/2026-10-06/edd25eb511383f960b75bb7a72559d05e8be6795a1e1e98a45733b50c894c678-thumb.webp",
+          "preview": "assets/2026-10-06/edd25eb511383f960b75bb7a72559d05e8be6795a1e1e98a45733b50c894c678-view.webp"
+        },
+        {
+          "id": "c80d059b903a5132c0bd6b037c1daa889a30d3fbf686a705ba0c7179945d4922",
+          "title": "mesh renderer loaded map",
+          "label": "Editor checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 3001,
+          "filename": "mesh_renderer_loaded_map.png",
+          "original": "assets/2026-10-06/c80d059b903a5132c0bd6b037c1daa889a30d3fbf686a705ba0c7179945d4922.png",
+          "thumbnail": "assets/2026-10-06/c80d059b903a5132c0bd6b037c1daa889a30d3fbf686a705ba0c7179945d4922-thumb.webp",
+          "preview": "assets/2026-10-06/c80d059b903a5132c0bd6b037c1daa889a30d3fbf686a705ba0c7179945d4922-view.webp"
+        }
+      ],
+      "result": "45 focused authoring cases passed (2501 assertions). Targeted MapWindow meshify, operation legality and animation preservation passed (302 assertions). Animation control/HiDPI capture check passed (35 assertions) after correcting 3 window-size/rounding assertions. Baseline redraw 654.932 ms; fixed redraws 13.139 ms and 9.106 ms. Before/after mesh PNG SHA256 matched. Expanded full MapWindow batch stalled and was terminated; no full-suite pass claimed. Engine pose-bounds 5 checks and embedded MDLX qanim 3 checks passed; initial harness compile/link errors were corrected. Desktop clicks remain blocked by Access denied.",
+      "label": "Editor checks",
+      "results": [
+        {
+          "at": "2026-10-06T11:42:41.056873-04:00",
+          "text": "45 focused authoring cases passed (2501 assertions). Targeted MapWindow meshify, operation legality and animation preservation passed (302 assertions). Animation control/HiDPI capture check passed (35 assertions) after correcting 3 window-size/rounding assertions. Baseline redraw 654.932 ms; fixed redraws 13.139 ms and 9.106 ms. Before/after mesh PNG SHA256 matched. Expanded full MapWindow batch stalled and was terminated; no full-suite pass claimed. Engine pose-bounds 5 checks and embedded MDLX qanim 3 checks passed; initial harness compile/link errors were corrected. Desktop clicks remain blocked by Access denied.",
+          "status": "mixed",
+          "label": "Editor checks"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-06T11:42:41.056873-04:00"
+    },
+    {
       "title": "Completion audit: authoring and engine checks",
       "description": "",
       "date": "2026-10-06",
