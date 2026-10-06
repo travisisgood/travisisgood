@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Pose keyframer, grid controls and autorig acceptance",
+      "description": "",
+      "date": "2026-10-06",
+      "created": "2026-10-06T17:51:06.713927-04:00",
+      "images": [
+        {
+          "id": "71a4ba304d3f0dd1fdee81857624244f9a92f1c4c25b0efe296cbb3384e7502e",
+          "title": "animate controls",
+          "label": "Models and Animate",
+          "width": 2018,
+          "height": 1058,
+          "bytes": 119238,
+          "filename": "animate_controls.png",
+          "original": "assets/2026-10-06/71a4ba304d3f0dd1fdee81857624244f9a92f1c4c25b0efe296cbb3384e7502e.png",
+          "thumbnail": "assets/2026-10-06/71a4ba304d3f0dd1fdee81857624244f9a92f1c4c25b0efe296cbb3384e7502e-thumb.webp",
+          "preview": "assets/2026-10-06/71a4ba304d3f0dd1fdee81857624244f9a92f1c4c25b0efe296cbb3384e7502e-view.webp"
+        },
+        {
+          "id": "5ff11ef651f84e3e971797b0dbfc563017b6e3dca7fcda233078f80428cc5b42",
+          "title": "animate drag pose",
+          "label": "Models and Animate",
+          "width": 818,
+          "height": 600,
+          "bytes": 53886,
+          "filename": "animate_drag_pose.png",
+          "original": "assets/2026-10-06/5ff11ef651f84e3e971797b0dbfc563017b6e3dca7fcda233078f80428cc5b42.png",
+          "thumbnail": "assets/2026-10-06/5ff11ef651f84e3e971797b0dbfc563017b6e3dca7fcda233078f80428cc5b42-thumb.webp",
+          "preview": "assets/2026-10-06/5ff11ef651f84e3e971797b0dbfc563017b6e3dca7fcda233078f80428cc5b42-view.webp"
+        },
+        {
+          "id": "36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0",
+          "title": "animate rest",
+          "label": "Models and Animate",
+          "width": 1468,
+          "height": 790,
+          "bytes": 72271,
+          "filename": "animate_rest.png",
+          "original": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0.png",
+          "thumbnail": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0-thumb.webp",
+          "preview": "assets/2026-10-06/36a5f2b5c17951b7a83c3bc16d1a98a94e8eb5702b154b8abeffcf0da1f4e4b0-view.webp"
+        },
+        {
+          "id": "a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8",
+          "title": "animate keyed pose",
+          "label": "Models and Animate",
+          "width": 1468,
+          "height": 790,
+          "bytes": 72801,
+          "filename": "animate_keyed_pose.png",
+          "original": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8.png",
+          "thumbnail": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8-thumb.webp",
+          "preview": "assets/2026-10-06/a44fafe568feb84141465acef2c0692f4a9586b4f981af4992d87f69e83dbfb8-view.webp"
+        }
+      ],
+      "result": "Final MDLX authoring suite: 605 assertions passed, including real Qt mouse dragging with visible mesh pixels, grid snapping, arrow/Page Up nudges, affected-parent Auto-Key, whole-pose keys, save/reopen, 180-degree pulls, transformed roots and atomic autorig rollback. Existing project model: 33 assertions passed for edit/undo, autorig, key/bake/reimport; original source unchanged. Earlier test build used a const getter incorrectly, then 5 expectations assumed an origin-centered cube instead of its actual centroid; both corrected. An earlier 603-assertion run lacked mesh buffers in its standalone drag capture; visual review caught it and the final fixture now requires visible model pixels. These are in-process Qt/OpenGL checks; manual desktop input remains unavailable.",
+      "label": "Models and Animate",
+      "results": [
+        {
+          "at": "2026-10-06T17:51:06.713927-04:00",
+          "text": "Final MDLX authoring suite: 605 assertions passed, including real Qt mouse dragging with visible mesh pixels, grid snapping, arrow/Page Up nudges, affected-parent Auto-Key, whole-pose keys, save/reopen, 180-degree pulls, transformed roots and atomic autorig rollback. Existing project model: 33 assertions passed for edit/undo, autorig, key/bake/reimport; original source unchanged. Earlier test build used a const getter incorrectly, then 5 expectations assumed an origin-centered cube instead of its actual centroid; both corrected. An earlier 603-assertion run lacked mesh buffers in its standalone drag capture; visual review caught it and the final fixture now requires visible model pixels. These are in-process Qt/OpenGL checks; manual desktop input remains unavailable.",
+          "status": "mixed",
+          "label": "Models and Animate"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-06T17:51:06.713927-04:00"
+    },
+    {
       "title": "MDLX engine playback and hidden portal checks",
       "description": "",
       "date": "2026-10-06",
