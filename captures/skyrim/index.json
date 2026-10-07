@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / BL2 pickups, shields and grenades",
+      "description": "BL2's own ammo pickup, shield and grenade meshes, painted per maker and rarity from BL2's materials. Pickups in a row, shields and grenade mods on the floor, plus an offline preview sheet of every model.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T11:46:59.536190-04:00",
+      "images": [
+        {
+          "id": "6c58b8dfad66a5d6d1357f0261a5968fc2f2bedbe3f210a682967da11651fe8d",
+          "title": "all-models-preview",
+          "label": "Models",
+          "width": 1760,
+          "height": 880,
+          "bytes": 926439,
+          "filename": "all-models-preview.png",
+          "original": "assets/2026-10-07/6c58b8dfad66a5d6d1357f0261a5968fc2f2bedbe3f210a682967da11651fe8d.png",
+          "thumbnail": "assets/2026-10-07/6c58b8dfad66a5d6d1357f0261a5968fc2f2bedbe3f210a682967da11651fe8d-thumb.webp",
+          "preview": "assets/2026-10-07/6c58b8dfad66a5d6d1357f0261a5968fc2f2bedbe3f210a682967da11651fe8d-view.webp"
+        },
+        {
+          "id": "ec740cb9cf08632a7153c2ab94e6deef1ee76608e9c85de9974e4f1fde4aed60",
+          "title": "floor-closeup",
+          "label": "Models",
+          "width": 1560,
+          "height": 420,
+          "bytes": 1106446,
+          "filename": "floor-closeup.png",
+          "original": "assets/2026-10-07/ec740cb9cf08632a7153c2ab94e6deef1ee76608e9c85de9974e4f1fde4aed60.png",
+          "thumbnail": "assets/2026-10-07/ec740cb9cf08632a7153c2ab94e6deef1ee76608e9c85de9974e4f1fde4aed60-thumb.webp",
+          "preview": "assets/2026-10-07/ec740cb9cf08632a7153c2ab94e6deef1ee76608e9c85de9974e4f1fde4aed60-view.webp"
+        },
+        {
+          "id": "aa9786b1828cf3524f9fbcff068f771bf43ea7126adf39210c9d0969d66e3ea4",
+          "title": "items-floor",
+          "label": "Models",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3997537,
+          "filename": "items-floor.png",
+          "original": "assets/2026-10-07/aa9786b1828cf3524f9fbcff068f771bf43ea7126adf39210c9d0969d66e3ea4.png",
+          "thumbnail": "assets/2026-10-07/aa9786b1828cf3524f9fbcff068f771bf43ea7126adf39210c9d0969d66e3ea4-thumb.webp",
+          "preview": "assets/2026-10-07/aa9786b1828cf3524f9fbcff068f771bf43ea7126adf39210c9d0969d66e3ea4-view.webp"
+        },
+        {
+          "id": "79713634a8dbd373cf7d3261ca691b9fd1fe822b9190fce48b527daa2a927867",
+          "title": "items-pickups",
+          "label": "Models",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4082698,
+          "filename": "items-pickups.png",
+          "original": "assets/2026-10-07/79713634a8dbd373cf7d3261ca691b9fd1fe822b9190fce48b527daa2a927867.png",
+          "thumbnail": "assets/2026-10-07/79713634a8dbd373cf7d3261ca691b9fd1fe822b9190fce48b527daa2a927867-thumb.webp",
+          "preview": "assets/2026-10-07/79713634a8dbd373cf7d3261ca691b9fd1fe822b9190fce48b527daa2a927867-view.webp"
+        },
+        {
+          "id": "70da1cc7f4670ed3719deef5e9e1dcd5e4370c965664bc1bcdedca1a68a02f87",
+          "title": "pickups-closeup",
+          "label": "Models",
+          "width": 1440,
+          "height": 360,
+          "bytes": 911928,
+          "filename": "pickups-closeup.png",
+          "original": "assets/2026-10-07/70da1cc7f4670ed3719deef5e9e1dcd5e4370c965664bc1bcdedca1a68a02f87.png",
+          "thumbnail": "assets/2026-10-07/70da1cc7f4670ed3719deef5e9e1dcd5e4370c965664bc1bcdedca1a68a02f87-thumb.webp",
+          "preview": "assets/2026-10-07/70da1cc7f4670ed3719deef5e9e1dcd5e4370c965664bc1bcdedca1a68a02f87-view.webp"
+        }
+      ],
+      "result": "items 13/13, armed 33/33, default 41/41",
+      "label": "Models",
+      "results": [
+        {
+          "at": "2026-10-07T11:46:59.536190-04:00",
+          "text": "items 13/13, armed 33/33, default 41/41",
+          "status": "passed",
+          "label": "Models"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T11:46:59.536190-04:00"
+    },
+    {
       "title": "Borderrim / Wrist cap and stash",
       "description": "Support wrist capped at 30 degrees: the hand pivots about its knuckles, so it stays on the gun. BL2's own holds bend it up to 86 degrees on these guns. Stash: pooled records are cached against the co-save.",
       "date": "2026-10-07",
