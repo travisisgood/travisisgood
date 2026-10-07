@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / No drops in the opening",
+      "description": "While Unbound runs and the player is in Helgen, deaths drop nothing and containers wait until the opening is over.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T19:00:06.784484-04:00",
+      "images": [],
+      "result": "fragments focus 25/25 (incl. real Helgen Keep check), default 41/41, armed 33/33",
+      "label": "Loot",
+      "results": [
+        {
+          "at": "2026-10-07T19:00:06.784484-04:00",
+          "text": "fragments focus 25/25 (incl. real Helgen Keep check), default 41/41, armed 33/33",
+          "status": "passed",
+          "label": "Loot"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T19:00:06.784484-04:00"
+    },
+    {
       "title": "Borderrim / Soul gem fragments in the world",
       "description": "Fragments seeded on Dwemer machines, undead, spellcasters and Daedra, and in dungeon containers (most in soul-heavy places, none in towns).",
       "date": "2026-10-07",
