@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Loot previews and gun icons",
+      "description": "SkyUI container and inventory menus: each gun type gets a BL2 silhouette icon and its own type in place of Crossbow, and highlighted guns show their 3D model side on.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T12:49:04.538854-04:00",
+      "images": [
+        {
+          "id": "987d88e6eda237fde03d2062c8b84339991734e17c2e235fed8662b3295e85b1",
+          "title": "container-launcher",
+          "label": "Menus",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2069686,
+          "filename": "container-launcher.png",
+          "original": "assets/2026-10-07/987d88e6eda237fde03d2062c8b84339991734e17c2e235fed8662b3295e85b1.png",
+          "thumbnail": "assets/2026-10-07/987d88e6eda237fde03d2062c8b84339991734e17c2e235fed8662b3295e85b1-thumb.webp",
+          "preview": "assets/2026-10-07/987d88e6eda237fde03d2062c8b84339991734e17c2e235fed8662b3295e85b1-view.webp"
+        },
+        {
+          "id": "7037281d5334562e783ade84bc8e865f5c32d272e77e7e4dde8e334ef329bc69",
+          "title": "gun-previews",
+          "label": "Menus",
+          "width": 1380,
+          "height": 660,
+          "bytes": 1271332,
+          "filename": "gun-previews.png",
+          "original": "assets/2026-10-07/7037281d5334562e783ade84bc8e865f5c32d272e77e7e4dde8e334ef329bc69.png",
+          "thumbnail": "assets/2026-10-07/7037281d5334562e783ade84bc8e865f5c32d272e77e7e4dde8e334ef329bc69-thumb.webp",
+          "preview": "assets/2026-10-07/7037281d5334562e783ade84bc8e865f5c32d272e77e7e4dde8e334ef329bc69-view.webp"
+        },
+        {
+          "id": "5e8b5ad71e66d4ae945502f8ef029707eadc5fc6838e9751c9bcfa5b35883af7",
+          "title": "icons-vs-skyui",
+          "label": "Menus",
+          "width": 1540,
+          "height": 110,
+          "bytes": 41471,
+          "filename": "icons-vs-skyui.png",
+          "original": "assets/2026-10-07/5e8b5ad71e66d4ae945502f8ef029707eadc5fc6838e9751c9bcfa5b35883af7.png",
+          "thumbnail": "assets/2026-10-07/5e8b5ad71e66d4ae945502f8ef029707eadc5fc6838e9751c9bcfa5b35883af7-thumb.webp",
+          "preview": "assets/2026-10-07/5e8b5ad71e66d4ae945502f8ef029707eadc5fc6838e9751c9bcfa5b35883af7-view.webp"
+        },
+        {
+          "id": "9b2ae48076da710f0e15b618fdacfa0218a231ca0564341a0074a2902ffdfb6a",
+          "title": "inventory-shield",
+          "label": "Menus",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2102166,
+          "filename": "inventory-shield.png",
+          "original": "assets/2026-10-07/9b2ae48076da710f0e15b618fdacfa0218a231ca0564341a0074a2902ffdfb6a.png",
+          "thumbnail": "assets/2026-10-07/9b2ae48076da710f0e15b618fdacfa0218a231ca0564341a0074a2902ffdfb6a-thumb.webp",
+          "preview": "assets/2026-10-07/9b2ae48076da710f0e15b618fdacfa0218a231ca0564341a0074a2902ffdfb6a-view.webp"
+        },
+        {
+          "id": "ae177ab166487980389e2df926de9a646c7ac0b1ed3a1c72f4130e679da8043d",
+          "title": "list-icons",
+          "label": "Menus",
+          "width": 1660,
+          "height": 600,
+          "bytes": 557064,
+          "filename": "list-icons.png",
+          "original": "assets/2026-10-07/ae177ab166487980389e2df926de9a646c7ac0b1ed3a1c72f4130e679da8043d.png",
+          "thumbnail": "assets/2026-10-07/ae177ab166487980389e2df926de9a646c7ac0b1ed3a1c72f4130e679da8043d-thumb.webp",
+          "preview": "assets/2026-10-07/ae177ab166487980389e2df926de9a646c7ac0b1ed3a1c72f4130e679da8043d-view.webp"
+        }
+      ],
+      "result": "lootmenu 15/15, weapons 47/47, default 41/41",
+      "label": "Menus",
+      "results": [
+        {
+          "at": "2026-10-07T12:49:04.538854-04:00",
+          "text": "lootmenu 15/15, weapons 47/47, default 41/41",
+          "status": "passed",
+          "label": "Menus"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T12:49:04.538854-04:00"
+    },
+    {
       "title": "Borderrim / BL2 pickups, shields and grenades",
       "description": "BL2's own ammo pickup, shield and grenade meshes, painted per maker and rarity from BL2's materials. Pickups in a row, shields and grenade mods on the floor, plus an offline preview sheet of every model.",
       "date": "2026-10-07",
