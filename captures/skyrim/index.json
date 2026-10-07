@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Soul gem fragments in the world",
+      "description": "Fragments seeded on Dwemer machines, undead, spellcasters and Daedra, and in dungeon containers (most in soul-heavy places, none in towns).",
+      "date": "2026-10-07",
+      "created": "2026-10-07T18:40:12.589802-04:00",
+      "images": [],
+      "result": "fragments 21/21 (bodies by kind, chests by place, 7 real locations classified), default 41/41, armed 33/33",
+      "label": "Loot",
+      "results": [
+        {
+          "at": "2026-10-07T18:40:12.589802-04:00",
+          "text": "fragments 21/21 (bodies by kind, chests by place, 7 real locations classified), default 41/41, armed 33/33",
+          "status": "passed",
+          "label": "Loot"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T18:40:12.589802-04:00"
+    },
+    {
       "title": "Borderrim / Fragment HUD readout",
       "description": "An E-tech gun with its reserve spent shows the soul gem fragments you carry, in violet with a gem, in place of / 0.",
       "date": "2026-10-07",
