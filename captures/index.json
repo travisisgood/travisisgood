@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Guided rigs and constrained pose authoring",
+      "description": "",
+      "date": "2026-10-07",
+      "created": "2026-10-07T17:09:42.901873-04:00",
+      "images": [
+        {
+          "id": "90e803e272ba21d0f1d784180b31b410ce49e37c8cb2e04bfffd12d2986929b6",
+          "title": "guided rig controls",
+          "label": "Models and Animate",
+          "width": 1618,
+          "height": 1000,
+          "bytes": 122806,
+          "filename": "guided_rig_controls.png",
+          "original": "assets/2026-10-07/90e803e272ba21d0f1d784180b31b410ce49e37c8cb2e04bfffd12d2986929b6.png",
+          "thumbnail": "assets/2026-10-07/90e803e272ba21d0f1d784180b31b410ce49e37c8cb2e04bfffd12d2986929b6-thumb.webp",
+          "preview": "assets/2026-10-07/90e803e272ba21d0f1d784180b31b410ce49e37c8cb2e04bfffd12d2986929b6-view.webp"
+        },
+        {
+          "id": "d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57",
+          "title": "animate controls",
+          "label": "Models and Animate",
+          "width": 2018,
+          "height": 1058,
+          "bytes": 121193,
+          "filename": "animate_controls.png",
+          "original": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57.png",
+          "thumbnail": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57-thumb.webp",
+          "preview": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57-view.webp"
+        }
+      ],
+      "result": "First rebuilt authoring run: 845 assertions passed in 2 cases. Covers editable humanoid/quadruped/chain templates, real guided-rig dialog Apply, two-link reach and bend limits, elbow/knee pole direction, MDLX limb-settings persistence, normalized blending, all-influence bone deletion, pose paste and double mirroring, plus existing MDLX authoring. Initial acceptance-test build failed because the fixture passed QString to a filesystem-path API; corrected and rebuilt before the passing run. Further real-character and pose-tool acceptance is in progress.",
+      "label": "Models and Animate",
+      "results": [
+        {
+          "at": "2026-10-07T17:09:42.901873-04:00",
+          "text": "First rebuilt authoring run: 845 assertions passed in 2 cases. Covers editable humanoid/quadruped/chain templates, real guided-rig dialog Apply, two-link reach and bend limits, elbow/knee pole direction, MDLX limb-settings persistence, normalized blending, all-influence bone deletion, pose paste and double mirroring, plus existing MDLX authoring. Initial acceptance-test build failed because the fixture passed QString to a filesystem-path API; corrected and rebuilt before the passing run. Further real-character and pose-tool acceptance is in progress.",
+          "status": "mixed",
+          "label": "Models and Animate"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-07T17:09:42.901873-04:00"
+    },
+    {
       "title": "FaultLine and DarkPlaces - native 4K camera benchmark",
       "description": "Native 3840x2160, scale 1, pixelation off, FOV 100, weapons hidden. Identical protocol-15 camera demos on modified FaultLine E1M1 and registered stock E1M1. ours current: canon SSR/SPOM/DISP/bloom; ours shared and dp shared: portable brushes with baked lighting and heavy effects off; dp baked relief: existing generated material maps, relief and bloom; dp world shadows: unmatched real-time lighting stress test with visibly incorrect overexposure. Reused 156 normal/height/specular material sets; DP bump generation only fills missing maps. Portable copy converts LMSHIFT light charts without changing brush geometry. GPU clocks unlocked; final measurements supersede setup runs, which showed large between-pass swings.",
       "date": "2026-10-07",
