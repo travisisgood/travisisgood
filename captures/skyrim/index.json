@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Crash evidence and level-lock repro",
+      "description": "Crash handler (log + minidump), previous log kept; level-locked equips from the world and the open inventory don't reproduce the reported Helgen crash.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T19:55:28.137235-04:00",
+      "images": [],
+      "result": "lock 11/11, default 41/41, armed 33/33; crash not reproduced",
+      "label": "Stability",
+      "results": [
+        {
+          "at": "2026-10-07T19:55:28.137235-04:00",
+          "text": "lock 11/11, default 41/41, armed 33/33; crash not reproduced",
+          "status": "mixed",
+          "label": "Stability"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-07T19:55:28.137235-04:00"
+    },
+    {
       "title": "Borderrim / No drops in the opening",
       "description": "While Unbound runs and the player is in Helgen, deaths drop nothing and containers wait until the opening is over.",
       "date": "2026-10-07",
