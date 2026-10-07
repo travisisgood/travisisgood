@@ -30,20 +30,38 @@
           "original": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57.png",
           "thumbnail": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57-thumb.webp",
           "preview": "assets/2026-10-07/d6664e56da086f653665f43f113453c36568647bd0d49b4902a55f4fcf57cc57-view.webp"
+        },
+        {
+          "id": "fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168",
+          "title": "character misrigged",
+          "label": "Initial rig failure",
+          "width": 1143,
+          "height": 875,
+          "bytes": 169058,
+          "filename": "character_misrigged.png",
+          "original": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168.png",
+          "thumbnail": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168-thumb.webp",
+          "preview": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168-view.webp"
         }
       ],
-      "result": "First rebuilt authoring run: 845 assertions passed in 2 cases. Covers editable humanoid/quadruped/chain templates, real guided-rig dialog Apply, two-link reach and bend limits, elbow/knee pole direction, MDLX limb-settings persistence, normalized blending, all-influence bone deletion, pose paste and double mirroring, plus existing MDLX authoring. Initial acceptance-test build failed because the fixture passed QString to a filesystem-path API; corrected and rebuilt before the passing run. Further real-character and pose-tool acceptance is in progress.",
-      "label": "Models and Animate",
+      "result": "Expanded initial control batch: 869 assertions passed in 2 cases. Character save/reopen: 26 assertions passed; engine root-motion bake/render passed with 317.286 pixels of displacement. Visual acceptance FAILED: the template assumed Z-forward while MDL faces X, and the six-arm creature was incorrectly given a biped skeleton. Numeric round trips did not establish rig quality. Correction and limb deformation checks are in progress. A second fixture compile failure used an incorrect timeline signal; corrected before these runs.",
+      "label": "Initial rig failure",
       "results": [
         {
           "at": "2026-10-07T17:09:42.901873-04:00",
           "text": "First rebuilt authoring run: 845 assertions passed in 2 cases. Covers editable humanoid/quadruped/chain templates, real guided-rig dialog Apply, two-link reach and bend limits, elbow/knee pole direction, MDLX limb-settings persistence, normalized blending, all-influence bone deletion, pose paste and double mirroring, plus existing MDLX authoring. Initial acceptance-test build failed because the fixture passed QString to a filesystem-path API; corrected and rebuilt before the passing run. Further real-character and pose-tool acceptance is in progress.",
           "status": "mixed",
           "label": "Models and Animate"
+        },
+        {
+          "at": "2026-10-07T17:35:38.222014-04:00",
+          "text": "Expanded initial control batch: 869 assertions passed in 2 cases. Character save/reopen: 26 assertions passed; engine root-motion bake/render passed with 317.286 pixels of displacement. Visual acceptance FAILED: the template assumed Z-forward while MDL faces X, and the six-arm creature was incorrectly given a biped skeleton. Numeric round trips did not establish rig quality. Correction and limb deformation checks are in progress. A second fixture compile failure used an incorrect timeline signal; corrected before these runs.",
+          "status": "incomplete",
+          "label": "Initial rig failure"
         }
       ],
-      "status": "mixed",
-      "updated": "2026-10-07T17:09:42.901873-04:00"
+      "status": "incomplete",
+      "updated": "2026-10-07T17:35:38.222014-04:00"
     },
     {
       "title": "FaultLine and DarkPlaces - native 4K camera benchmark",
