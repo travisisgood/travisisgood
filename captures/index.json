@@ -2,8 +2,83 @@
   "version": 1,
   "albums": [
     {
+      "title": "Root FaultLine executable - verified native 4K",
+      "description": "D:/Q-Maker/FaultLine.exe with root id1 assets and an isolated copy of its root config. Genuine Quake E1M1 from root mods/Quake/id1. Native 3840x2160, r_scale 1, pixelation and dithering off, stencil shadows off, MSAA off, uncapped. SSR/POM/shell/bloom/self-shadowing retain enabled root settings; SSR downscale 2. Every capture has runtime cvar assertions. Four captures compare displacement grouping off/on in corridor-facing and reverse views.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T06:34:21.549961-04:00",
+      "images": [
+        {
+          "id": "f31f5e8dbcb091f95df4754060aa547a2c8dc85230d6bedd4e4cf2bd57848b64",
+          "title": "root native4k reverse chunks0 0000",
+          "label": "Root E1M1",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 3917555,
+          "filename": "root_native4k_reverse_chunks0_0000.png",
+          "original": "assets/2026-10-07/f31f5e8dbcb091f95df4754060aa547a2c8dc85230d6bedd4e4cf2bd57848b64.png",
+          "thumbnail": "assets/2026-10-07/f31f5e8dbcb091f95df4754060aa547a2c8dc85230d6bedd4e4cf2bd57848b64-thumb.webp",
+          "preview": "assets/2026-10-07/f31f5e8dbcb091f95df4754060aa547a2c8dc85230d6bedd4e4cf2bd57848b64-view.webp"
+        },
+        {
+          "id": "6978d44bf6bf20d24064b69499d72e317ea40dcbd2910b3bb0ab7ed332bd4bfa",
+          "title": "root native4k spawn chunks0 0000",
+          "label": "Root E1M1",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5008697,
+          "filename": "root_native4k_spawn_chunks0_0000.png",
+          "original": "assets/2026-10-07/6978d44bf6bf20d24064b69499d72e317ea40dcbd2910b3bb0ab7ed332bd4bfa.png",
+          "thumbnail": "assets/2026-10-07/6978d44bf6bf20d24064b69499d72e317ea40dcbd2910b3bb0ab7ed332bd4bfa-thumb.webp",
+          "preview": "assets/2026-10-07/6978d44bf6bf20d24064b69499d72e317ea40dcbd2910b3bb0ab7ed332bd4bfa-view.webp"
+        },
+        {
+          "id": "537d8d74372ba7264d70516acd44ba7fe239f2f83cd42d00042a5aca5afbd0fa",
+          "title": "root native4k spawn chunks1 0000",
+          "label": "Root E1M1",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 4992454,
+          "filename": "root_native4k_spawn_chunks1_0000.png",
+          "original": "assets/2026-10-07/537d8d74372ba7264d70516acd44ba7fe239f2f83cd42d00042a5aca5afbd0fa.png",
+          "thumbnail": "assets/2026-10-07/537d8d74372ba7264d70516acd44ba7fe239f2f83cd42d00042a5aca5afbd0fa-thumb.webp",
+          "preview": "assets/2026-10-07/537d8d74372ba7264d70516acd44ba7fe239f2f83cd42d00042a5aca5afbd0fa-view.webp"
+        }
+      ],
+      "result": "Passed: 12 interleaved timing samples and four verified 3840x2160 captures. Median corridor FPS: 333.9 off / 334.2 on; reverse: 403.2 off / 403.3 on. Stock E1M1 contains zero DISP surfaces, so this confirms the root render profile, not displacement-culling efficacy. Separately, a fresh startup verified the saved root config now keeps stencil shadows off and grouping defaults off. GPU clocks were not locked.",
+      "label": "Root E1M1",
+      "results": [
+        {
+          "at": "2026-10-07T06:34:21.549961-04:00",
+          "text": "Passed: 12 interleaved timing samples and four verified 3840x2160 captures. Median corridor FPS: 333.9 off / 334.2 on; reverse: 403.2 off / 403.3 on. Stock E1M1 contains zero DISP surfaces, so this confirms the root render profile, not displacement-culling efficacy. Separately, a fresh startup verified the saved root config now keeps stencil shadows off and grouping defaults off. GPU clocks were not locked.",
+          "status": "passed",
+          "label": "Root E1M1"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T06:34:21.549961-04:00"
+    },
+    {
+      "title": "Standard-profile harness attempt",
+      "description": "Attempted standard-render profile verification before the root-installation clarification.",
+      "date": "2026-10-06",
+      "created": "2026-10-07T06:31:17.749667-04:00",
+      "images": [],
+      "result": "Aborted before screenshots or FPS measurements: the harness used the numeric cvar getter to verify the empty palette string. The corrected October 7 root run uses the string getter and passes.",
+      "label": "Harness failure",
+      "results": [
+        {
+          "at": "2026-10-07T06:31:17.749667-04:00",
+          "text": "Aborted before screenshots or FPS measurements: the harness used the numeric cvar getter to verify the empty palette string. The corrected October 7 root run uses the string getter and passes.",
+          "status": "failed",
+          "label": "Harness failure"
+        }
+      ],
+      "status": "failed",
+      "updated": "2026-10-07T06:31:17.749667-04:00"
+    },
+    {
       "title": "Displacement culling and FaultLine native 4K checks",
-      "description": "Native 3840x2160 main scene, r_scale 1, MSAA/vsync/frame caps off, stencil and visibility locks off. Current FaultLine project: 665 displacement surfaces, SSR/POM/shell enabled, SSR retains its configured downscale 4. Installed FaultLine: a different E1M1 BSP with no displacement surfaces and SSR/POM/shell disabled. A separately labelled diagnostic applies project shader settings to the installed BSP. Captures also cover baked static and translated/rotated synthetic geometry, independent PVS/frustum locks, and the final default-off switch.",
+      "description": "Earlier mixed album: synthetic displacement fixtures plus separate installed-game and F-drive FaultLine project runs. Some fixtures used pixelation-on engine defaults. These are not the subsequently requested D:/Q-Maker root-installation profile; see the October 7 root-only album.",
       "date": "2026-10-06",
       "created": "2026-10-06T20:09:39.124190-04:00",
       "images": [
@@ -368,18 +443,24 @@
           "preview": "assets/2026-10-06/a6cec947902a01a445a26332652b0885a7a10fdfb38b8f3570e2f491874af86c-view.webp"
         }
       ],
-      "result": "Release builds succeeded. 25 baked-static and 31 entity checks passed, with exact scene image parity and main/SSR selection agreement. Final build default-off, opt-in and reset checks passed. Initial synthetic attempts failed because the fixture exceeded the loader grid limit and omitted a reserved header word; corrected runs passed. Current project at native 4K, chunking off/on median FPS: entry 317.4/317.9; door 386.2/383.7; grazing 406.5/406.7. Door triangles 24064/20633, same four material batches. No demonstrated FPS improvement, so chunking remains off by default. Installed-game entry/door/grazing baselines: 1751/1748.8/1778.5 FPS; that BSP cannot exercise chunking. All 54 4K timing samples and 18 corresponding captures completed successfully.",
-      "label": "Checks",
+      "result": "Context correction: these tests used fixtures and separate FaultLine game configurations, not the requested root installation. Earlier outcomes remain in this album history. Corrected root-only testing is dated October 7.",
+      "label": "Context correction",
       "results": [
         {
           "at": "2026-10-06T20:09:39.124190-04:00",
           "text": "Release builds succeeded. 25 baked-static and 31 entity checks passed, with exact scene image parity and main/SSR selection agreement. Final build default-off, opt-in and reset checks passed. Initial synthetic attempts failed because the fixture exceeded the loader grid limit and omitted a reserved header word; corrected runs passed. Current project at native 4K, chunking off/on median FPS: entry 317.4/317.9; door 386.2/383.7; grazing 406.5/406.7. Door triangles 24064/20633, same four material batches. No demonstrated FPS improvement, so chunking remains off by default. Installed-game entry/door/grazing baselines: 1751/1748.8/1778.5 FPS; that BSP cannot exercise chunking. All 54 4K timing samples and 18 corresponding captures completed successfully.",
           "status": "mixed",
           "label": "Checks"
+        },
+        {
+          "at": "2026-10-07T06:31:16.822962-04:00",
+          "text": "Context correction: these tests used fixtures and separate FaultLine game configurations, not the requested root installation. Earlier outcomes remain in this album history. Corrected root-only testing is dated October 7.",
+          "status": "mixed",
+          "label": "Context correction"
         }
       ],
       "status": "mixed",
-      "updated": "2026-10-06T20:09:39.124190-04:00"
+      "updated": "2026-10-07T06:31:16.822962-04:00"
     },
     {
       "title": "Pose keyframer, grid controls and autorig acceptance",
