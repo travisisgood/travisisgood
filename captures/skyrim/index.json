@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Fragment HUD readout",
+      "description": "An E-tech gun with its reserve spent shows the soul gem fragments you carry, in violet with a gem, in place of / 0.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T17:32:23.075213-04:00",
+      "images": [
+        {
+          "id": "d16f37476db5ccd48d5afe40f171a80841af8cfe823042e847144788b026f95a",
+          "title": "hud-fragments-closeup",
+          "label": "HUD",
+          "width": 1080,
+          "height": 360,
+          "bytes": 525249,
+          "filename": "hud-fragments-closeup.png",
+          "original": "assets/2026-10-07/d16f37476db5ccd48d5afe40f171a80841af8cfe823042e847144788b026f95a.png",
+          "thumbnail": "assets/2026-10-07/d16f37476db5ccd48d5afe40f171a80841af8cfe823042e847144788b026f95a-thumb.webp",
+          "preview": "assets/2026-10-07/d16f37476db5ccd48d5afe40f171a80841af8cfe823042e847144788b026f95a-view.webp"
+        },
+        {
+          "id": "685a45c25141b566f8a406778cd2e95023f170266777c72bab3f417f0f9e9f0e",
+          "title": "hud-fragments",
+          "label": "HUD",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4007243,
+          "filename": "hud-fragments.png",
+          "original": "assets/2026-10-07/685a45c25141b566f8a406778cd2e95023f170266777c72bab3f417f0f9e9f0e.png",
+          "thumbnail": "assets/2026-10-07/685a45c25141b566f8a406778cd2e95023f170266777c72bab3f417f0f9e9f0e-thumb.webp",
+          "preview": "assets/2026-10-07/685a45c25141b566f8a406778cd2e95023f170266777c72bab3f417f0f9e9f0e-view.webp"
+        }
+      ],
+      "result": "fragments 17/17, default 41/41",
+      "label": "HUD",
+      "results": [
+        {
+          "at": "2026-10-07T17:32:23.075213-04:00",
+          "text": "fragments 17/17, default 41/41",
+          "status": "passed",
+          "label": "HUD"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T17:32:23.075213-04:00"
+    },
+    {
       "title": "Borderrim / Soul gem fragments",
       "description": "An empty E-tech gun reloads by crushing a soul gem fragment for a full magazine (frame: mid-reload with 0/0 left).",
       "date": "2026-10-07",
