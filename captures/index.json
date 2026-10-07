@@ -2,8 +2,100 @@
   "version": 1,
   "albums": [
     {
+      "title": "Canon config with modified FaultLine E1M1 - native 4K",
+      "description": "Confirmed combination: D:/Q-Maker/FaultLine.exe plus root canon id1/config.cfg plus the modified FaultLine project E1M1 BSP. Byte-identical scratch copy ensures the modified map loads, and runtime reports its 665 displacement surfaces. Native 3840x2160 r_scale 1, all pixelation and dithering off, stencil shadows off, MSAA off, uncapped; visibility locks off. Canon SSR/POM/shell/bloom/self-shadowing remain enabled, SSR downscale 2. Project config is not applied. No live game/config changes.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T07:42:46.480556-04:00",
+      "images": [
+        {
+          "id": "c18effd2704087846b78bebbe128ac4a898d0c4538f2d7b348accf05a282f0a8",
+          "title": "canon faultline door chunks0 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5001230,
+          "filename": "canon_faultline_door_chunks0_0000.png",
+          "original": "assets/2026-10-07/c18effd2704087846b78bebbe128ac4a898d0c4538f2d7b348accf05a282f0a8.png",
+          "thumbnail": "assets/2026-10-07/c18effd2704087846b78bebbe128ac4a898d0c4538f2d7b348accf05a282f0a8-thumb.webp",
+          "preview": "assets/2026-10-07/c18effd2704087846b78bebbe128ac4a898d0c4538f2d7b348accf05a282f0a8-view.webp"
+        },
+        {
+          "id": "fa3c10d676286c2d48fdf3df5d09d869e9c3e6669103aa7109237131c9061209",
+          "title": "canon faultline door chunks1 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5001302,
+          "filename": "canon_faultline_door_chunks1_0000.png",
+          "original": "assets/2026-10-07/fa3c10d676286c2d48fdf3df5d09d869e9c3e6669103aa7109237131c9061209.png",
+          "thumbnail": "assets/2026-10-07/fa3c10d676286c2d48fdf3df5d09d869e9c3e6669103aa7109237131c9061209-thumb.webp",
+          "preview": "assets/2026-10-07/fa3c10d676286c2d48fdf3df5d09d869e9c3e6669103aa7109237131c9061209-view.webp"
+        },
+        {
+          "id": "85e965910891d29060475b45f16d0ff402fbe0e41008913a33759e973cb02405",
+          "title": "canon faultline entry chunks0 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5098899,
+          "filename": "canon_faultline_entry_chunks0_0000.png",
+          "original": "assets/2026-10-07/85e965910891d29060475b45f16d0ff402fbe0e41008913a33759e973cb02405.png",
+          "thumbnail": "assets/2026-10-07/85e965910891d29060475b45f16d0ff402fbe0e41008913a33759e973cb02405-thumb.webp",
+          "preview": "assets/2026-10-07/85e965910891d29060475b45f16d0ff402fbe0e41008913a33759e973cb02405-view.webp"
+        },
+        {
+          "id": "7e40c4cc9d3e4c9e443dc97f2d136e56220a14c1081a6cd54e1696b02b49a0da",
+          "title": "canon faultline entry chunks1 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 5073637,
+          "filename": "canon_faultline_entry_chunks1_0000.png",
+          "original": "assets/2026-10-07/7e40c4cc9d3e4c9e443dc97f2d136e56220a14c1081a6cd54e1696b02b49a0da.png",
+          "thumbnail": "assets/2026-10-07/7e40c4cc9d3e4c9e443dc97f2d136e56220a14c1081a6cd54e1696b02b49a0da-thumb.webp",
+          "preview": "assets/2026-10-07/7e40c4cc9d3e4c9e443dc97f2d136e56220a14c1081a6cd54e1696b02b49a0da-view.webp"
+        },
+        {
+          "id": "01b4628d707a86ca87f3941b6a65b346e452808fbb3feeb7eb468d4ef795e957",
+          "title": "canon faultline grazing chunks0 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6053222,
+          "filename": "canon_faultline_grazing_chunks0_0000.png",
+          "original": "assets/2026-10-07/01b4628d707a86ca87f3941b6a65b346e452808fbb3feeb7eb468d4ef795e957.png",
+          "thumbnail": "assets/2026-10-07/01b4628d707a86ca87f3941b6a65b346e452808fbb3feeb7eb468d4ef795e957-thumb.webp",
+          "preview": "assets/2026-10-07/01b4628d707a86ca87f3941b6a65b346e452808fbb3feeb7eb468d4ef795e957-view.webp"
+        },
+        {
+          "id": "5df8e94c6771571d56417c746ddc03b89f668cefa06f46d6bd6b0ca72a798603",
+          "title": "canon faultline grazing chunks1 0000",
+          "label": "Confirmed FaultLine target",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6045837,
+          "filename": "canon_faultline_grazing_chunks1_0000.png",
+          "original": "assets/2026-10-07/5df8e94c6771571d56417c746ddc03b89f668cefa06f46d6bd6b0ca72a798603.png",
+          "thumbnail": "assets/2026-10-07/5df8e94c6771571d56417c746ddc03b89f668cefa06f46d6bd6b0ca72a798603-thumb.webp",
+          "preview": "assets/2026-10-07/5df8e94c6771571d56417c746ddc03b89f668cefa06f46d6bd6b0ca72a798603-view.webp"
+        }
+      ],
+      "result": "Passed: six verified 3840x2160 captures and 18 interleaved timing samples. Displacement grouping off/on medians: entry 276.2/274.1 FPS, door 327.3/327.8 FPS, grazing 336.6/336.3 FPS. Door triangles fall 24064 to 20633 (14.3%) with four batches unchanged; main/SSR counts agree. Sample ranges overlap in all views: no clear FPS gain; grouping stays opt-in and defaults off. GPU clocks not locked.",
+      "label": "Confirmed FaultLine target",
+      "results": [
+        {
+          "at": "2026-10-07T07:42:46.480556-04:00",
+          "text": "Passed: six verified 3840x2160 captures and 18 interleaved timing samples. Displacement grouping off/on medians: entry 276.2/274.1 FPS, door 327.3/327.8 FPS, grazing 336.6/336.3 FPS. Door triangles fall 24064 to 20633 (14.3%) with four batches unchanged; main/SSR counts agree. Sample ranges overlap in all views: no clear FPS gain; grouping stays opt-in and defaults off. GPU clocks not locked.",
+          "status": "passed",
+          "label": "Confirmed FaultLine target"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T07:42:46.480556-04:00"
+    },
+    {
       "title": "Root FaultLine executable - verified native 4K",
-      "description": "D:/Q-Maker/FaultLine.exe with root id1 assets and an isolated copy of its root config. Genuine Quake E1M1 from root mods/Quake/id1. Native 3840x2160, r_scale 1, pixelation and dithering off, stencil shadows off, MSAA off, uncapped. SSR/POM/shell/bloom/self-shadowing retain enabled root settings; SSR downscale 2. Every capture has runtime cvar assertions. Four captures compare displacement grouping off/on in corridor-facing and reverse views.",
+      "description": "Superseded target interpretation: this valid root-render diagnostic used STOCK E1M1. The user clarified the intended target is the root canon config combined with the MODIFIED FaultLine project E1M1. See the separate Canon config with modified FaultLine E1M1 - native 4K album.",
       "date": "2026-10-07",
       "created": "2026-10-07T06:34:21.549961-04:00",
       "images": [
@@ -44,18 +136,24 @@
           "preview": "assets/2026-10-07/537d8d74372ba7264d70516acd44ba7fe239f2f83cd42d00042a5aca5afbd0fa-view.webp"
         }
       ],
-      "result": "Passed: 12 interleaved timing samples and four verified 3840x2160 captures. Median corridor FPS: 333.9 off / 334.2 on; reverse: 403.2 off / 403.3 on. Stock E1M1 contains zero DISP surfaces, so this confirms the root render profile, not displacement-culling efficacy. Separately, a fresh startup verified the saved root config now keeps stencil shadows off and grouping defaults off. GPU clocks were not locked.",
-      "label": "Root E1M1",
+      "result": "Target correction: the 334/403 FPS results here are for stock E1M1 and must not be used as the requested modified-FaultLine-map benchmark. The confirmed-target test is published separately on October 7; historical diagnostic outcomes are retained.",
+      "label": "Stock-map diagnostic",
       "results": [
         {
           "at": "2026-10-07T06:34:21.549961-04:00",
           "text": "Passed: 12 interleaved timing samples and four verified 3840x2160 captures. Median corridor FPS: 333.9 off / 334.2 on; reverse: 403.2 off / 403.3 on. Stock E1M1 contains zero DISP surfaces, so this confirms the root render profile, not displacement-culling efficacy. Separately, a fresh startup verified the saved root config now keeps stencil shadows off and grouping defaults off. GPU clocks were not locked.",
           "status": "passed",
           "label": "Root E1M1"
+        },
+        {
+          "at": "2026-10-07T07:13:00.826692-04:00",
+          "text": "Target correction: the 334/403 FPS results here are for stock E1M1 and must not be used as the requested modified-FaultLine-map benchmark. The confirmed-target test is published separately on October 7; historical diagnostic outcomes are retained.",
+          "status": "passed",
+          "label": "Stock-map diagnostic"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-07T06:34:21.549961-04:00"
+      "updated": "2026-10-07T07:13:00.826692-04:00"
     },
     {
       "title": "Standard-profile harness attempt",
