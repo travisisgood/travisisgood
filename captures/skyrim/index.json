@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Wrist cap and stash",
+      "description": "Support wrist capped at 30 degrees: the hand pivots about its knuckles, so it stays on the gun. BL2's own holds bend it up to 86 degrees on these guns. Stash: pooled records are cached against the co-save.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T11:26:50.211590-04:00",
+      "images": [
+        {
+          "id": "13801bd3ef97681133e5cdfb735ce078e52326e9323d8b92aa703da57368900f",
+          "title": "wpn-assault rifle-Dahl-r35",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3814431,
+          "filename": "wpn-assault_rifle-Dahl-r35.png",
+          "original": "assets/2026-10-07/13801bd3ef97681133e5cdfb735ce078e52326e9323d8b92aa703da57368900f.png",
+          "thumbnail": "assets/2026-10-07/13801bd3ef97681133e5cdfb735ce078e52326e9323d8b92aa703da57368900f-thumb.webp",
+          "preview": "assets/2026-10-07/13801bd3ef97681133e5cdfb735ce078e52326e9323d8b92aa703da57368900f-view.webp"
+        },
+        {
+          "id": "509ca416d9f23baf24c1a95ae605fb334b89552179115b7ca09f2714d4896d2f",
+          "title": "wpn-launcher-Torgue-r35",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3261625,
+          "filename": "wpn-launcher-Torgue-r35.png",
+          "original": "assets/2026-10-07/509ca416d9f23baf24c1a95ae605fb334b89552179115b7ca09f2714d4896d2f.png",
+          "thumbnail": "assets/2026-10-07/509ca416d9f23baf24c1a95ae605fb334b89552179115b7ca09f2714d4896d2f-thumb.webp",
+          "preview": "assets/2026-10-07/509ca416d9f23baf24c1a95ae605fb334b89552179115b7ca09f2714d4896d2f-view.webp"
+        },
+        {
+          "id": "1e2f1d81418a5523ee6b983034963ad9b0f0057d6a4ebe71d09730cec3bfcb46",
+          "title": "wpn-launcher-Torgue-r65",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3127811,
+          "filename": "wpn-launcher-Torgue-r65.png",
+          "original": "assets/2026-10-07/1e2f1d81418a5523ee6b983034963ad9b0f0057d6a4ebe71d09730cec3bfcb46.png",
+          "thumbnail": "assets/2026-10-07/1e2f1d81418a5523ee6b983034963ad9b0f0057d6a4ebe71d09730cec3bfcb46-thumb.webp",
+          "preview": "assets/2026-10-07/1e2f1d81418a5523ee6b983034963ad9b0f0057d6a4ebe71d09730cec3bfcb46-view.webp"
+        },
+        {
+          "id": "5ab0b90370a6025278a1c18c298915fe7126de0ac4b9f83b4976c3337e3e7ad5",
+          "title": "wpn-pistol-Bandit-r35",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4082141,
+          "filename": "wpn-pistol-Bandit-r35.png",
+          "original": "assets/2026-10-07/5ab0b90370a6025278a1c18c298915fe7126de0ac4b9f83b4976c3337e3e7ad5.png",
+          "thumbnail": "assets/2026-10-07/5ab0b90370a6025278a1c18c298915fe7126de0ac4b9f83b4976c3337e3e7ad5-thumb.webp",
+          "preview": "assets/2026-10-07/5ab0b90370a6025278a1c18c298915fe7126de0ac4b9f83b4976c3337e3e7ad5-view.webp"
+        },
+        {
+          "id": "9f8e078c2d73a32c38146fb666e7fc4b8e8fa3232718c909fa597459568c3092",
+          "title": "wpn-pistol-Jakobs-hip",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3628248,
+          "filename": "wpn-pistol-Jakobs-hip.png",
+          "original": "assets/2026-10-07/9f8e078c2d73a32c38146fb666e7fc4b8e8fa3232718c909fa597459568c3092.png",
+          "thumbnail": "assets/2026-10-07/9f8e078c2d73a32c38146fb666e7fc4b8e8fa3232718c909fa597459568c3092-thumb.webp",
+          "preview": "assets/2026-10-07/9f8e078c2d73a32c38146fb666e7fc4b8e8fa3232718c909fa597459568c3092-view.webp"
+        },
+        {
+          "id": "ad11c51ef56ba26fb7102d3e9536378c2ecedcff3bb9dd4369b0372d34361268",
+          "title": "wpn-shotgun-Hyperion-r65",
+          "label": "Rig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3850487,
+          "filename": "wpn-shotgun-Hyperion-r65.png",
+          "original": "assets/2026-10-07/ad11c51ef56ba26fb7102d3e9536378c2ecedcff3bb9dd4369b0372d34361268.png",
+          "thumbnail": "assets/2026-10-07/ad11c51ef56ba26fb7102d3e9536378c2ecedcff3bb9dd4369b0372d34361268-thumb.webp",
+          "preview": "assets/2026-10-07/ad11c51ef56ba26fb7102d3e9536378c2ecedcff3bb9dd4369b0372d34361268-view.webp"
+        }
+      ],
+      "result": "weapons 22/22 (8 guns, worst wrist 30.4 deg), armed 33/33 x3, stash 16/16, loadout 17/17, default 41/41",
+      "label": "Rig",
+      "results": [
+        {
+          "at": "2026-10-07T11:26:50.211590-04:00",
+          "text": "weapons 22/22 (8 guns, worst wrist 30.4 deg), armed 33/33 x3, stash 16/16, loadout 17/17, default 41/41",
+          "status": "passed",
+          "label": "Rig"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T11:26:50.211590-04:00"
+    },
+    {
       "title": "Borderrim / Left-handed quick melee",
       "description": "The left hand jabs or swings a one-handed weapon in a diagonal slash while the gun stays in the right. Frames are held at 15/30/50/72% of the swing.",
       "date": "2026-10-07",
