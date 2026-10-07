@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Left-handed quick melee",
+      "description": "The left hand jabs or swings a one-handed weapon in a diagonal slash while the gun stays in the right. Frames are held at 15/30/50/72% of the swing.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T11:26:03.199364-04:00",
+      "images": [
+        {
+          "id": "741ef190baeaef50394476fe0049b575a3b81ba2a6eaa13c5aba87523a9a3386",
+          "title": "melee-jab-15",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3639697,
+          "filename": "melee-jab-15.png",
+          "original": "assets/2026-10-07/741ef190baeaef50394476fe0049b575a3b81ba2a6eaa13c5aba87523a9a3386.png",
+          "thumbnail": "assets/2026-10-07/741ef190baeaef50394476fe0049b575a3b81ba2a6eaa13c5aba87523a9a3386-thumb.webp",
+          "preview": "assets/2026-10-07/741ef190baeaef50394476fe0049b575a3b81ba2a6eaa13c5aba87523a9a3386-view.webp"
+        },
+        {
+          "id": "bd5533b2eca2b0b33f24bedfa20d670e2469a65e7a7b547e5d3a58706c8e01a3",
+          "title": "melee-jab-50",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4020799,
+          "filename": "melee-jab-50.png",
+          "original": "assets/2026-10-07/bd5533b2eca2b0b33f24bedfa20d670e2469a65e7a7b547e5d3a58706c8e01a3.png",
+          "thumbnail": "assets/2026-10-07/bd5533b2eca2b0b33f24bedfa20d670e2469a65e7a7b547e5d3a58706c8e01a3-thumb.webp",
+          "preview": "assets/2026-10-07/bd5533b2eca2b0b33f24bedfa20d670e2469a65e7a7b547e5d3a58706c8e01a3-view.webp"
+        },
+        {
+          "id": "cf0919346feb75886771a35723e9834a7009870b052e6090c7cbfeea426f49bf",
+          "title": "melee-slash-15",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4001525,
+          "filename": "melee-slash-15.png",
+          "original": "assets/2026-10-07/cf0919346feb75886771a35723e9834a7009870b052e6090c7cbfeea426f49bf.png",
+          "thumbnail": "assets/2026-10-07/cf0919346feb75886771a35723e9834a7009870b052e6090c7cbfeea426f49bf-thumb.webp",
+          "preview": "assets/2026-10-07/cf0919346feb75886771a35723e9834a7009870b052e6090c7cbfeea426f49bf-view.webp"
+        },
+        {
+          "id": "2aab12509b1abdbef9ab85eb86a615b60fafe827575930bcfb5b6c222f7507b6",
+          "title": "melee-slash-30",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4060994,
+          "filename": "melee-slash-30.png",
+          "original": "assets/2026-10-07/2aab12509b1abdbef9ab85eb86a615b60fafe827575930bcfb5b6c222f7507b6.png",
+          "thumbnail": "assets/2026-10-07/2aab12509b1abdbef9ab85eb86a615b60fafe827575930bcfb5b6c222f7507b6-thumb.webp",
+          "preview": "assets/2026-10-07/2aab12509b1abdbef9ab85eb86a615b60fafe827575930bcfb5b6c222f7507b6-view.webp"
+        },
+        {
+          "id": "6cc051f80fa4cff7695bc2f29d2b61a696499cd5f629f7042e6aef33b93fc6b4",
+          "title": "melee-slash-50",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4051931,
+          "filename": "melee-slash-50.png",
+          "original": "assets/2026-10-07/6cc051f80fa4cff7695bc2f29d2b61a696499cd5f629f7042e6aef33b93fc6b4.png",
+          "thumbnail": "assets/2026-10-07/6cc051f80fa4cff7695bc2f29d2b61a696499cd5f629f7042e6aef33b93fc6b4-thumb.webp",
+          "preview": "assets/2026-10-07/6cc051f80fa4cff7695bc2f29d2b61a696499cd5f629f7042e6aef33b93fc6b4-view.webp"
+        },
+        {
+          "id": "abbd0e9108417b7879262481bb9350cb2054cf4b5cedc4b8d1d962715bc8ea9c",
+          "title": "melee-slash-72",
+          "label": "Melee",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4085509,
+          "filename": "melee-slash-72.png",
+          "original": "assets/2026-10-07/abbd0e9108417b7879262481bb9350cb2054cf4b5cedc4b8d1d962715bc8ea9c.png",
+          "thumbnail": "assets/2026-10-07/abbd0e9108417b7879262481bb9350cb2054cf4b5cedc4b8d1d962715bc8ea9c-thumb.webp",
+          "preview": "assets/2026-10-07/abbd0e9108417b7879262481bb9350cb2054cf4b5cedc4b8d1d962715bc8ea9c-view.webp"
+        }
+      ],
+      "result": "melee 19/19",
+      "label": "Melee",
+      "results": [
+        {
+          "at": "2026-10-07T11:26:03.199364-04:00",
+          "text": "melee 19/19",
+          "status": "passed",
+          "label": "Melee"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T11:26:03.199364-04:00"
+    },
+    {
       "title": "Regression suites",
       "description": "",
       "date": "2026-10-05",
