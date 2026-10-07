@@ -3,7 +3,7 @@
   "albums": [
     {
       "title": "Guided rigs and constrained pose authoring",
-      "description": "",
+      "description": "Guided templates with explicit facing, editable branches, constrained endpoint posing, blended weights, copy/mirror, ghosts, and a six-arm creature acceptance test. Qt controls and framebuffer captures plus isolated engine rendering; no physical desktop walkthrough or game deployment claimed.",
       "date": "2026-10-07",
       "created": "2026-10-07T17:09:42.901873-04:00",
       "images": [
@@ -42,10 +42,130 @@
           "original": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168.png",
           "thumbnail": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168-thumb.webp",
           "preview": "assets/2026-10-07/fdcb224fb6b14f1266cca5aa83424a4970e1d1763be5520b932f1ae375f88168-view.webp"
+        },
+        {
+          "id": "727d76fc2b1580e33e55381e243c23853d7a7d38dcad0090dca44450e94d96d1",
+          "title": "character rest",
+          "label": "Corrected rig and animation",
+          "width": 1143,
+          "height": 875,
+          "bytes": 238430,
+          "filename": "character_rest.png",
+          "original": "assets/2026-10-07/727d76fc2b1580e33e55381e243c23853d7a7d38dcad0090dca44450e94d96d1.png",
+          "thumbnail": "assets/2026-10-07/727d76fc2b1580e33e55381e243c23853d7a7d38dcad0090dca44450e94d96d1-thumb.webp",
+          "preview": "assets/2026-10-07/727d76fc2b1580e33e55381e243c23853d7a7d38dcad0090dca44450e94d96d1-view.webp"
+        },
+        {
+          "id": "d504af9107153ec8d4060bbdf9084df9421db2e2f532c8d52d169289911700d4",
+          "title": "character attack",
+          "label": "Corrected rig and animation",
+          "width": 1143,
+          "height": 875,
+          "bytes": 236691,
+          "filename": "character_attack.png",
+          "original": "assets/2026-10-07/d504af9107153ec8d4060bbdf9084df9421db2e2f532c8d52d169289911700d4.png",
+          "thumbnail": "assets/2026-10-07/d504af9107153ec8d4060bbdf9084df9421db2e2f532c8d52d169289911700d4-thumb.webp",
+          "preview": "assets/2026-10-07/d504af9107153ec8d4060bbdf9084df9421db2e2f532c8d52d169289911700d4-view.webp"
+        },
+        {
+          "id": "e3b445dc73138cbf90609195e407f930b24a1f94a6986ca0713f4d4815b20350",
+          "title": "character attack detail",
+          "label": "Corrected rig and animation",
+          "width": 1143,
+          "height": 875,
+          "bytes": 170350,
+          "filename": "character_attack_detail.png",
+          "original": "assets/2026-10-07/e3b445dc73138cbf90609195e407f930b24a1f94a6986ca0713f4d4815b20350.png",
+          "thumbnail": "assets/2026-10-07/e3b445dc73138cbf90609195e407f930b24a1f94a6986ca0713f4d4815b20350-thumb.webp",
+          "preview": "assets/2026-10-07/e3b445dc73138cbf90609195e407f930b24a1f94a6986ca0713f4d4815b20350-view.webp"
+        },
+        {
+          "id": "1e098eaf6bca6d916e3b7dec3303fdc8e6e101f9f2883813a998ec4166f6e2d4",
+          "title": "character weights",
+          "label": "Corrected rig and animation",
+          "width": 1143,
+          "height": 875,
+          "bytes": 171100,
+          "filename": "character_weights.png",
+          "original": "assets/2026-10-07/1e098eaf6bca6d916e3b7dec3303fdc8e6e101f9f2883813a998ec4166f6e2d4.png",
+          "thumbnail": "assets/2026-10-07/1e098eaf6bca6d916e3b7dec3303fdc8e6e101f9f2883813a998ec4166f6e2d4-thumb.webp",
+          "preview": "assets/2026-10-07/1e098eaf6bca6d916e3b7dec3303fdc8e6e101f9f2883813a998ec4166f6e2d4-view.webp"
+        },
+        {
+          "id": "67a98c0bf17152cf43454fa2ecb6672ab899714ab26ea31187ed6fecd9a058b4",
+          "title": "character animation tab",
+          "label": "Corrected rig and animation",
+          "width": 1622,
+          "height": 1020,
+          "bytes": 160624,
+          "filename": "character_animation_tab.png",
+          "original": "assets/2026-10-07/67a98c0bf17152cf43454fa2ecb6672ab899714ab26ea31187ed6fecd9a058b4.png",
+          "thumbnail": "assets/2026-10-07/67a98c0bf17152cf43454fa2ecb6672ab899714ab26ea31187ed6fecd9a058b4-thumb.webp",
+          "preview": "assets/2026-10-07/67a98c0bf17152cf43454fa2ecb6672ab899714ab26ea31187ed6fecd9a058b4-view.webp"
+        },
+        {
+          "id": "ea9f429b0ef94812e75b3bcf37bdf4f6ea231b306aabc36bc07de3bc02858e61",
+          "title": "guided rig controls",
+          "label": "Corrected rig and animation",
+          "width": 1618,
+          "height": 1000,
+          "bytes": 123071,
+          "filename": "guided_rig_controls.png",
+          "original": "assets/2026-10-07/ea9f429b0ef94812e75b3bcf37bdf4f6ea231b306aabc36bc07de3bc02858e61.png",
+          "thumbnail": "assets/2026-10-07/ea9f429b0ef94812e75b3bcf37bdf4f6ea231b306aabc36bc07de3bc02858e61-thumb.webp",
+          "preview": "assets/2026-10-07/ea9f429b0ef94812e75b3bcf37bdf4f6ea231b306aabc36bc07de3bc02858e61-view.webp"
+        },
+        {
+          "id": "8bbe656fb7a9304b82cf3cf16c12689503aedab98920d966e2a4a6250cf2c12a",
+          "title": "rest",
+          "label": "Corrected rig and animation",
+          "width": 640,
+          "height": 480,
+          "bytes": 126629,
+          "filename": "rest.png",
+          "original": "assets/2026-10-07/8bbe656fb7a9304b82cf3cf16c12689503aedab98920d966e2a4a6250cf2c12a.png",
+          "thumbnail": "assets/2026-10-07/8bbe656fb7a9304b82cf3cf16c12689503aedab98920d966e2a4a6250cf2c12a-thumb.webp",
+          "preview": "assets/2026-10-07/8bbe656fb7a9304b82cf3cf16c12689503aedab98920d966e2a4a6250cf2c12a-view.webp"
+        },
+        {
+          "id": "0c52407291f0618842e52d9edaa5c7359d6a0c2ea95caf1c96cf5a6fc55f0479",
+          "title": "posed",
+          "label": "Corrected rig and animation",
+          "width": 640,
+          "height": 480,
+          "bytes": 126419,
+          "filename": "posed.png",
+          "original": "assets/2026-10-07/0c52407291f0618842e52d9edaa5c7359d6a0c2ea95caf1c96cf5a6fc55f0479.png",
+          "thumbnail": "assets/2026-10-07/0c52407291f0618842e52d9edaa5c7359d6a0c2ea95caf1c96cf5a6fc55f0479-thumb.webp",
+          "preview": "assets/2026-10-07/0c52407291f0618842e52d9edaa5c7359d6a0c2ea95caf1c96cf5a6fc55f0479-view.webp"
+        },
+        {
+          "id": "299983cb85a101e1cc53fdda68a3e2e57c7d5eb1086224926883218571604058",
+          "title": "rest",
+          "label": "Corrected rig and animation",
+          "width": 640,
+          "height": 480,
+          "bytes": 121444,
+          "filename": "rest.png",
+          "original": "assets/2026-10-07/299983cb85a101e1cc53fdda68a3e2e57c7d5eb1086224926883218571604058.png",
+          "thumbnail": "assets/2026-10-07/299983cb85a101e1cc53fdda68a3e2e57c7d5eb1086224926883218571604058-thumb.webp",
+          "preview": "assets/2026-10-07/299983cb85a101e1cc53fdda68a3e2e57c7d5eb1086224926883218571604058-view.webp"
+        },
+        {
+          "id": "506bdfd62de4c8477c10812c297bdcabec2204f543e18e97d3a2e7dbcd576a51",
+          "title": "posed",
+          "label": "Corrected rig and animation",
+          "width": 640,
+          "height": 480,
+          "bytes": 123160,
+          "filename": "posed.png",
+          "original": "assets/2026-10-07/506bdfd62de4c8477c10812c297bdcabec2204f543e18e97d3a2e7dbcd576a51.png",
+          "thumbnail": "assets/2026-10-07/506bdfd62de4c8477c10812c297bdcabec2204f543e18e97d3a2e7dbcd576a51-thumb.webp",
+          "preview": "assets/2026-10-07/506bdfd62de4c8477c10812c297bdcabec2204f543e18e97d3a2e7dbcd576a51-view.webp"
         }
       ],
-      "result": "Expanded initial control batch: 869 assertions passed in 2 cases. Character save/reopen: 26 assertions passed; engine root-motion bake/render passed with 317.286 pixels of displacement. Visual acceptance FAILED: the template assumed Z-forward while MDL faces X, and the six-arm creature was incorrectly given a biped skeleton. Numeric round trips did not establish rig quality. Correction and limb deformation checks are in progress. A second fixture compile failure used an incorrect timeline signal; corrected before these runs.",
-      "label": "Initial rig failure",
+      "result": "Final checks: 925 assertions passed in 2 authoring/control cases; 41 assertions passed on a temporary Gusareth copy (4817 vertices, 5795 triangles, 26-joint six-arm/tail rig). Attack hand averaged 10.1195 Quake units of motion; opposite hand 0; torso 0.00701012. Mesh edit/undo/redo 7.4859 ms. Source bytes unchanged. Engine front-view attack passed with 920 changed pixels; corrected root-motion test passed with 317.319 pixels displacement. Earlier deformation fixture failed due to an empty vertex sample and wrong interleaved stride; fixed. Side-view engine check failed at 72 changed pixels; closer front view exposed the occluded arm and passed the original 100-pixel threshold. Editor deployed with matching release hash F3A3513999C6C5301049D33C0F1DED1DA874637FB6B7E2FE7FDC62545978AE09. Initial wrong rig and all earlier outcomes remain recorded.",
+      "label": "Corrected rig and animation",
       "results": [
         {
           "at": "2026-10-07T17:09:42.901873-04:00",
@@ -58,10 +178,16 @@
           "text": "Expanded initial control batch: 869 assertions passed in 2 cases. Character save/reopen: 26 assertions passed; engine root-motion bake/render passed with 317.286 pixels of displacement. Visual acceptance FAILED: the template assumed Z-forward while MDL faces X, and the six-arm creature was incorrectly given a biped skeleton. Numeric round trips did not establish rig quality. Correction and limb deformation checks are in progress. A second fixture compile failure used an incorrect timeline signal; corrected before these runs.",
           "status": "incomplete",
           "label": "Initial rig failure"
+        },
+        {
+          "at": "2026-10-07T18:09:55.665135-04:00",
+          "text": "Final checks: 925 assertions passed in 2 authoring/control cases; 41 assertions passed on a temporary Gusareth copy (4817 vertices, 5795 triangles, 26-joint six-arm/tail rig). Attack hand averaged 10.1195 Quake units of motion; opposite hand 0; torso 0.00701012. Mesh edit/undo/redo 7.4859 ms. Source bytes unchanged. Engine front-view attack passed with 920 changed pixels; corrected root-motion test passed with 317.319 pixels displacement. Earlier deformation fixture failed due to an empty vertex sample and wrong interleaved stride; fixed. Side-view engine check failed at 72 changed pixels; closer front view exposed the occluded arm and passed the original 100-pixel threshold. Editor deployed with matching release hash F3A3513999C6C5301049D33C0F1DED1DA874637FB6B7E2FE7FDC62545978AE09. Initial wrong rig and all earlier outcomes remain recorded.",
+          "status": "passed",
+          "label": "Corrected rig and animation"
         }
       ],
-      "status": "incomplete",
-      "updated": "2026-10-07T17:35:38.222014-04:00"
+      "status": "passed",
+      "updated": "2026-10-07T18:09:55.665135-04:00"
     },
     {
       "title": "FaultLine and DarkPlaces - native 4K camera benchmark",
