@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Soul gem fragments",
+      "description": "An empty E-tech gun reloads by crushing a soul gem fragment for a full magazine (frame: mid-reload with 0/0 left).",
+      "date": "2026-10-07",
+      "created": "2026-10-07T14:05:47.580773-04:00",
+      "images": [
+        {
+          "id": "cfe1d7744035f7138183dda738eb8146b2b774fe963ed8196230a55268623892",
+          "title": "etech-fragment-reload",
+          "label": "Mechanics",
+          "width": 1280,
+          "height": 720,
+          "bytes": 1805245,
+          "filename": "etech-fragment-reload.png",
+          "original": "assets/2026-10-07/cfe1d7744035f7138183dda738eb8146b2b774fe963ed8196230a55268623892.png",
+          "thumbnail": "assets/2026-10-07/cfe1d7744035f7138183dda738eb8146b2b774fe963ed8196230a55268623892-thumb.webp",
+          "preview": "assets/2026-10-07/cfe1d7744035f7138183dda738eb8146b2b774fe963ed8196230a55268623892-view.webp"
+        }
+      ],
+      "result": "fragments 15/15, default 41/41",
+      "label": "Mechanics",
+      "results": [
+        {
+          "at": "2026-10-07T14:05:47.580773-04:00",
+          "text": "fragments 15/15, default 41/41",
+          "status": "passed",
+          "label": "Mechanics"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T14:05:47.580773-04:00"
+    },
+    {
       "title": "Borderrim / Loot previews and gun icons",
       "description": "SkyUI container and inventory menus: each gun type gets a BL2 silhouette icon and its own type in place of Crossbow, and highlighted guns show their 3D model side on.",
       "date": "2026-10-07",
