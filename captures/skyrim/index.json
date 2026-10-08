@@ -66,20 +66,86 @@
           "original": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999.jpg",
           "thumbnail": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999-thumb.webp",
           "preview": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999-view.webp"
+        },
+        {
+          "id": "c1c2b9970586ebca3dbc1ce413760fbb1971c63c9117e53c3cfa102dbb0c50aa",
+          "title": "loader-ashfallow-blast",
+          "label": "loaders-complete",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 237838,
+          "filename": "loader-ashfallow-blast.jpg",
+          "original": "assets/2026-10-08/c1c2b9970586ebca3dbc1ce413760fbb1971c63c9117e53c3cfa102dbb0c50aa.jpg",
+          "thumbnail": "assets/2026-10-08/c1c2b9970586ebca3dbc1ce413760fbb1971c63c9117e53c3cfa102dbb0c50aa-thumb.webp",
+          "preview": "assets/2026-10-08/c1c2b9970586ebca3dbc1ce413760fbb1971c63c9117e53c3cfa102dbb0c50aa-view.webp"
+        },
+        {
+          "id": "350211bee53b347d0607f888af7be523cd2334dc327295a192807f3c5ca96fa0",
+          "title": "loader-ashfallow-dead",
+          "label": "loaders-complete",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 482186,
+          "filename": "loader-ashfallow-dead.jpg",
+          "original": "assets/2026-10-08/350211bee53b347d0607f888af7be523cd2334dc327295a192807f3c5ca96fa0.jpg",
+          "thumbnail": "assets/2026-10-08/350211bee53b347d0607f888af7be523cd2334dc327295a192807f3c5ca96fa0-thumb.webp",
+          "preview": "assets/2026-10-08/350211bee53b347d0607f888af7be523cd2334dc327295a192807f3c5ca96fa0-view.webp"
+        },
+        {
+          "id": "f4db8faafba69de0f52d537f838e34ab8f249b8858a5ac9ad38e696ace0ce170",
+          "title": "loader-ashfallow-eye",
+          "label": "loaders-complete",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 555957,
+          "filename": "loader-ashfallow-eye.jpg",
+          "original": "assets/2026-10-08/f4db8faafba69de0f52d537f838e34ab8f249b8858a5ac9ad38e696ace0ce170.jpg",
+          "thumbnail": "assets/2026-10-08/f4db8faafba69de0f52d537f838e34ab8f249b8858a5ac9ad38e696ace0ce170-thumb.webp",
+          "preview": "assets/2026-10-08/f4db8faafba69de0f52d537f838e34ab8f249b8858a5ac9ad38e696ace0ce170-view.webp"
+        },
+        {
+          "id": "a438651940c686e9916bde06f456d970531db4de4aac82d6db0712a8dc587d12",
+          "title": "loader-white ridge-eye",
+          "label": "loaders-complete",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 361182,
+          "filename": "loader-white_ridge-eye.jpg",
+          "original": "assets/2026-10-08/a438651940c686e9916bde06f456d970531db4de4aac82d6db0712a8dc587d12.jpg",
+          "thumbnail": "assets/2026-10-08/a438651940c686e9916bde06f456d970531db4de4aac82d6db0712a8dc587d12-thumb.webp",
+          "preview": "assets/2026-10-08/a438651940c686e9916bde06f456d970531db4de4aac82d6db0712a8dc587d12-view.webp"
+        },
+        {
+          "id": "754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36",
+          "title": "loader-white ridge-walk2",
+          "label": "loaders-complete",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 535156,
+          "filename": "loader-white_ridge-walk2.jpg",
+          "original": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36.jpg",
+          "thumbnail": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36-thumb.webp",
+          "preview": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36-view.webp"
         }
       ],
-      "result": "Two crash sites on Solstheim, each guarded by three of BL2's Loaders: worn over a Skyrim actor, posed with BL2's own clips, armed with a rolled BL2 gun held at BL2's Weapon socket; they fight you (and the island's Reavers and ash spawn), die as BL2's Loader does and drop one legendary at your level. Map markers hidden until you reach the wrecks. loaders 21/21 twice; site 18/18, fields 18/18, armed 34/34, default 41/41.",
-      "label": "loaders",
+      "result": "Loaders completed: BL2's sounds (feet, servos, sparks, voice and barks, the blast), the eye as their crit spot (BL2's critical stagger; the hidden human's skeleton is put on the Loader's parts), melee up close, knockdown and getting up, and on death they blow apart, pieces thrown. Walk fix: the crawling the user saw came from BL2's legless-Loader clips used for strafing; now the legs walk where it goes and the upper body stays on target. loaders 23/23, armed 34/34, default 41/41.",
+      "label": "loaders-complete",
       "results": [
         {
           "at": "2026-10-08T16:33:23.453041-04:00",
           "text": "Two crash sites on Solstheim, each guarded by three of BL2's Loaders: worn over a Skyrim actor, posed with BL2's own clips, armed with a rolled BL2 gun held at BL2's Weapon socket; they fight you (and the island's Reavers and ash spawn), die as BL2's Loader does and drop one legendary at your level. Map markers hidden until you reach the wrecks. loaders 21/21 twice; site 18/18, fields 18/18, armed 34/34, default 41/41.",
           "status": "passed",
           "label": "loaders"
+        },
+        {
+          "at": "2026-10-08T18:47:09.679740-04:00",
+          "text": "Loaders completed: BL2's sounds (feet, servos, sparks, voice and barks, the blast), the eye as their crit spot (BL2's critical stagger; the hidden human's skeleton is put on the Loader's parts), melee up close, knockdown and getting up, and on death they blow apart, pieces thrown. Walk fix: the crawling the user saw came from BL2's legless-Loader clips used for strafing; now the legs walk where it goes and the upper body stays on target. loaders 23/23, armed 34/34, default 41/41.",
+          "status": "passed",
+          "label": "loaders-complete"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T16:33:23.453041-04:00"
+      "updated": "2026-10-08T18:47:09.679740-04:00"
     },
     {
       "title": "Borderrim / No BL2 running, ECHO logs",
