@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / No BL2 running, ECHO logs",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T11:27:10.889013-04:00",
+      "images": [
+        {
+          "id": "c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34",
+          "title": "site-echo",
+          "label": "echo-logs",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 282885,
+          "filename": "site-echo.jpg",
+          "original": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34.jpg",
+          "thumbnail": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34-thumb.webp",
+          "preview": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34-view.webp"
+        }
+      ],
+      "result": "No Borderlands 2 process: rolls from an 18,664-roll library of BL2's own rolls (default 41/41, weapons 47/47, armed 34/34, items 13/13, trades 26/26, site 17/17, fields 14/14). ECHO log scaffolding: Helgen's log opened, set in BL2's own fonts (Compacta, WillowHead, WillowBody); placeholder text.",
+      "label": "echo-logs",
+      "results": [
+        {
+          "at": "2026-10-08T11:27:10.889013-04:00",
+          "text": "No Borderlands 2 process: rolls from an 18,664-roll library of BL2's own rolls (default 41/41, weapons 47/47, armed 34/34, items 13/13, trades 26/26, site 17/17, fields 14/14). ECHO log scaffolding: Helgen's log opened, set in BL2's own fonts (Compacta, WillowHead, WillowBody); placeholder text.",
+          "status": "passed",
+          "label": "echo-logs"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T11:27:10.889013-04:00"
+    },
+    {
       "title": "Borderrim / Ammunition and the trades",
       "description": "",
       "date": "2026-10-08",
