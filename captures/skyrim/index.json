@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Field wrecks verified",
+      "description": "All four field crash sites placed: tundra, north of Whiterun and Eastmarch shown; east of Whiterun placed on its new dry spot but hidden behind a rise from the test's viewpoint.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T23:16:47.473841-04:00",
+      "images": [
+        {
+          "id": "fb777f4072555b24691d3f86ce35c331c7f2ad9ea13706a116512a5dfa838825",
+          "title": "field-eastmarch",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3194574,
+          "filename": "field-eastmarch.png",
+          "original": "assets/2026-10-07/fb777f4072555b24691d3f86ce35c331c7f2ad9ea13706a116512a5dfa838825.png",
+          "thumbnail": "assets/2026-10-07/fb777f4072555b24691d3f86ce35c331c7f2ad9ea13706a116512a5dfa838825-thumb.webp",
+          "preview": "assets/2026-10-07/fb777f4072555b24691d3f86ce35c331c7f2ad9ea13706a116512a5dfa838825-view.webp"
+        },
+        {
+          "id": "9566af5d2c27aa4d1b327ff335cd60a533d7ecb0639625d39806fd192c3c5a01",
+          "title": "field-tundra",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2754502,
+          "filename": "field-tundra.png",
+          "original": "assets/2026-10-07/9566af5d2c27aa4d1b327ff335cd60a533d7ecb0639625d39806fd192c3c5a01.png",
+          "thumbnail": "assets/2026-10-07/9566af5d2c27aa4d1b327ff335cd60a533d7ecb0639625d39806fd192c3c5a01-thumb.webp",
+          "preview": "assets/2026-10-07/9566af5d2c27aa4d1b327ff335cd60a533d7ecb0639625d39806fd192c3c5a01-view.webp"
+        },
+        {
+          "id": "5da2e1c6ff375bc06c632f6affc817e69841a049ed5fe9e0968986f6e22d694c",
+          "title": "field-whiterun east",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2999860,
+          "filename": "field-whiterun_east.png",
+          "original": "assets/2026-10-07/5da2e1c6ff375bc06c632f6affc817e69841a049ed5fe9e0968986f6e22d694c.png",
+          "thumbnail": "assets/2026-10-07/5da2e1c6ff375bc06c632f6affc817e69841a049ed5fe9e0968986f6e22d694c-thumb.webp",
+          "preview": "assets/2026-10-07/5da2e1c6ff375bc06c632f6affc817e69841a049ed5fe9e0968986f6e22d694c-view.webp"
+        },
+        {
+          "id": "166efd48b6430bf8db86985286f336e2f0bbfa923fbe9f0548ed58f9b7ba1b98",
+          "title": "field-whiterun north",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3353359,
+          "filename": "field-whiterun_north.png",
+          "original": "assets/2026-10-07/166efd48b6430bf8db86985286f336e2f0bbfa923fbe9f0548ed58f9b7ba1b98.png",
+          "thumbnail": "assets/2026-10-07/166efd48b6430bf8db86985286f336e2f0bbfa923fbe9f0548ed58f9b7ba1b98-thumb.webp",
+          "preview": "assets/2026-10-07/166efd48b6430bf8db86985286f336e2f0bbfa923fbe9f0548ed58f9b7ba1b98-view.webp"
+        }
+      ],
+      "result": "fields 14/14",
+      "label": "Sites",
+      "results": [
+        {
+          "at": "2026-10-07T23:16:47.473841-04:00",
+          "text": "fields 14/14",
+          "status": "passed",
+          "label": "Sites"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T23:16:47.473841-04:00"
+    },
+    {
       "title": "Borderrim / Hyperion wrecks in the fields",
       "description": "Field crash sites: tundra west of Whiterun and north of Whiterun look right; the east-of-Whiterun shot shows the old spot in a pond (since moved to dry ground, not yet re-captured). Helgen's site moved into the open with smoke.",
       "date": "2026-10-07",
