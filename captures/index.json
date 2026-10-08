@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Core Descent coding style versus QLS",
+      "description": "Read-only comparison of gameplay event code against the current QLS compiler and runtime. This was a compatibility audit, not a game port.",
+      "date": "2026-10-08",
+      "created": "2026-10-08T16:22:08.514436-04:00",
+      "images": [],
+      "result": "1,917 event files checked: 1,880 compiled and loaded as Lua; 37 rejected. Seven focused probe groups confirmed differences in numeric-zero conditions, single-equals comparisons, compound conditions, alarm indexing, helpers shared from Create to Step, and three-argument instance creation; ordinary variable/global/struct operations worked. Probes used real QLS compiler/runtime with mocked engine storage and spawn calls; the full game was not executed. Initial harness linking failed twice, then succeeded after required dependencies were supplied.",
+      "label": "QLS compatibility",
+      "results": [
+        {
+          "at": "2026-10-08T16:22:08.514436-04:00",
+          "text": "1,917 event files checked: 1,880 compiled and loaded as Lua; 37 rejected. Seven focused probe groups confirmed differences in numeric-zero conditions, single-equals comparisons, compound conditions, alarm indexing, helpers shared from Create to Step, and three-argument instance creation; ordinary variable/global/struct operations worked. Probes used real QLS compiler/runtime with mocked engine storage and spawn calls; the full game was not executed. Initial harness linking failed twice, then succeeded after required dependencies were supplied.",
+          "status": "mixed",
+          "label": "QLS compatibility"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-08T16:22:08.514436-04:00"
+    },
+    {
       "title": "Compact capture gallery filters",
       "description": "",
       "date": "2026-10-08",
