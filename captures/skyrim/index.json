@@ -66,10 +66,22 @@
           "original": "assets/2026-10-08/2d9581ac07326542cc28fd2496bd70915bb53461e9fa65eb5fe3c7228177569f.jpg",
           "thumbnail": "assets/2026-10-08/2d9581ac07326542cc28fd2496bd70915bb53461e9fa65eb5fe3c7228177569f-thumb.webp",
           "preview": "assets/2026-10-08/2d9581ac07326542cc28fd2496bd70915bb53461e9fa65eb5fe3c7228177569f-view.webp"
+        },
+        {
+          "id": "d62ad6a1d884667e43004e8ff021e26d6f5fb80c332f39034491b2cebbf55ebc",
+          "title": "trades-fire-salts",
+          "label": "fire-salts",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 523686,
+          "filename": "trades-fire-salts.jpg",
+          "original": "assets/2026-10-08/d62ad6a1d884667e43004e8ff021e26d6f5fb80c332f39034491b2cebbf55ebc.jpg",
+          "thumbnail": "assets/2026-10-08/d62ad6a1d884667e43004e8ff021e26d6f5fb80c332f39034491b2cebbf55ebc-thumb.webp",
+          "preview": "assets/2026-10-08/d62ad6a1d884667e43004e8ff021e26d6f5fb80c332f39034491b2cebbf55ebc-view.webp"
         }
       ],
-      "result": "trades 22/22: ammo boxes in the inventory with SkyUI's ammunition icon and their gun type, BL2's ammo model in the preview. Also today: loading screens 12/12 (drafts), a dead Constructor at the Helgen site (site 16/16, fields 14/14), our HUD no longer over loading screens; default 41/41, weapons 47/47.",
-      "label": "trades-icons",
+      "result": "trades 26/26: gunpowder is charcoal and fire salts; a fire salt pile beside one of Eastmarch's steam vents (48 piles at 16 vents), fire salts on a fire mage, in a mine's chest. fields 14/14.",
+      "label": "fire-salts",
       "results": [
         {
           "at": "2026-10-08T08:06:11.800114-04:00",
@@ -82,10 +94,16 @@
           "text": "trades 22/22: ammo boxes in the inventory with SkyUI's ammunition icon and their gun type, BL2's ammo model in the preview. Also today: loading screens 12/12 (drafts), a dead Constructor at the Helgen site (site 16/16, fields 14/14), our HUD no longer over loading screens; default 41/41, weapons 47/47.",
           "status": "passed",
           "label": "trades-icons"
+        },
+        {
+          "at": "2026-10-08T09:56:13.388633-04:00",
+          "text": "trades 26/26: gunpowder is charcoal and fire salts; a fire salt pile beside one of Eastmarch's steam vents (48 piles at 16 vents), fire salts on a fire mage, in a mine's chest. fields 14/14.",
+          "status": "passed",
+          "label": "fire-salts"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T09:04:58.528962-04:00"
+      "updated": "2026-10-08T09:56:13.388633-04:00"
     },
     {
       "title": "Borderrim / Crash site collision",
