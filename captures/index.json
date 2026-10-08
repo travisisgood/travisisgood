@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS Entity and Object action events",
+      "description": "Place an Entity, add Activate, and write code. Raw Entities and shared Objects now route trigger overlaps, Use and Blocked consistently. Local and promoted controllers can address Object instances. Screenshots show the same room with the QLS warm directional palette and neutral gray palette. Earlier iterations failed dedicated-only palette checks, pusher fixture setup, shared Object selection, save/load callbacks and outdated self-handle comparisons; these were corrected and rerun. Compiler environment and Pandoc access/stale-output checks were also resolved.",
+      "date": "2026-10-08",
+      "created": "2026-10-08T11:00:33.410947-04:00",
+      "images": [
+        {
+          "id": "927d2ecfabff92712ab30b03a1eee39f70205f1cc4402db475190da12d140790",
+          "title": "qls actions 2026-10-08 10-50-38",
+          "label": "QLS actions",
+          "width": 960,
+          "height": 540,
+          "bytes": 331325,
+          "filename": "qls_actions_2026-10-08_10-50-38.png",
+          "original": "assets/2026-10-08/927d2ecfabff92712ab30b03a1eee39f70205f1cc4402db475190da12d140790.png",
+          "thumbnail": "assets/2026-10-08/927d2ecfabff92712ab30b03a1eee39f70205f1cc4402db475190da12d140790-thumb.webp",
+          "preview": "assets/2026-10-08/927d2ecfabff92712ab30b03a1eee39f70205f1cc4402db475190da12d140790-view.webp"
+        },
+        {
+          "id": "89604442e93c698efbc94cca708b52f4066fc046dcb42d595161e66ce8f1319e",
+          "title": "qls actions 2026-10-08 10-50-39",
+          "label": "QLS actions",
+          "width": 960,
+          "height": 540,
+          "bytes": 293547,
+          "filename": "qls_actions_2026-10-08_10-50-39.png",
+          "original": "assets/2026-10-08/89604442e93c698efbc94cca708b52f4066fc046dcb42d595161e66ce8f1319e.png",
+          "thumbnail": "assets/2026-10-08/89604442e93c698efbc94cca708b52f4066fc046dcb42d595161e66ce8f1319e-thumb.webp",
+          "preview": "assets/2026-10-08/89604442e93c698efbc94cca708b52f4066fc046dcb42d595161e66ce8f1319e-view.webp"
+        }
+      ],
+      "result": "Final: 53 dedicated action checks, 55 local-client action checks, 4 save/load checks, 352 nested-wait/lifetime checks, 202 instance checks, 18 event-context checks, 1720 scheduler checks, and 88 editor assertions in 8 cases passed. Solid-contact override and recycled-entity regression suites passed. Canonical QC compiled with zero warnings; editor/engine builds, manual check and deployment hashes verified.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T11:00:33.410947-04:00",
+          "text": "Final: 53 dedicated action checks, 55 local-client action checks, 4 save/load checks, 352 nested-wait/lifetime checks, 202 instance checks, 18 event-context checks, 1720 scheduler checks, and 88 editor assertions in 8 cases passed. Solid-contact override and recycled-entity regression suites passed. Canonical QC compiled with zero warnings; editor/engine builds, manual check and deployment hashes verified.",
+          "status": "passed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T11:00:33.410947-04:00"
+    },
+    {
       "title": "Guided rigs and constrained pose authoring",
       "description": "Guided templates with explicit facing, editable branches, constrained endpoint posing, blended weights, copy/mirror, ghosts, and a six-arm creature acceptance test. Qt controls and framebuffer captures plus isolated engine rendering; no physical desktop walkthrough or game deployment claimed.",
       "date": "2026-10-07",
