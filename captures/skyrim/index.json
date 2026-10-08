@@ -42,10 +42,22 @@
           "original": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6.jpg",
           "thumbnail": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6-thumb.webp",
           "preview": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6-view.webp"
+        },
+        {
+          "id": "20718949c7b4763f466430aea84886bd6c9d2fa39a393c6a3b8d750b67578b68",
+          "title": "echo-01-frame",
+          "label": "echo-frame",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 299935,
+          "filename": "echo-01-frame.jpg",
+          "original": "assets/2026-10-08/20718949c7b4763f466430aea84886bd6c9d2fa39a393c6a3b8d750b67578b68.jpg",
+          "thumbnail": "assets/2026-10-08/20718949c7b4763f466430aea84886bd6c9d2fa39a393c6a3b8d750b67578b68-thumb.webp",
+          "preview": "assets/2026-10-08/20718949c7b4763f466430aea84886bd6c9d2fa39a393c6a3b8d750b67578b68-view.webp"
         }
       ],
-      "result": "site 17/17, fields 14/14, trades 26/26: the ECHO page flat and square (the note's paper rebuilt as an exact rectangle), log 01 'Landing Report, Survey Team Four' as it reads at Helgen.",
-      "label": "echo-logs-written",
+      "result": "site 17/17: the ECHO page's outline is only the bright cyan frame (chamfered, BL2's edge steps, soft glow), transparent beyond it.",
+      "label": "echo-frame",
       "results": [
         {
           "at": "2026-10-08T11:27:10.889013-04:00",
@@ -64,10 +76,16 @@
           "text": "site 17/17, fields 14/14, trades 26/26: the ECHO page flat and square (the note's paper rebuilt as an exact rectangle), log 01 'Landing Report, Survey Team Four' as it reads at Helgen.",
           "status": "passed",
           "label": "echo-logs-written"
+        },
+        {
+          "at": "2026-10-08T13:17:58.541477-04:00",
+          "text": "site 17/17: the ECHO page's outline is only the bright cyan frame (chamfered, BL2's edge steps, soft glow), transparent beyond it.",
+          "status": "passed",
+          "label": "echo-frame"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T12:57:59.265828-04:00"
+      "updated": "2026-10-08T13:17:58.541477-04:00"
     },
     {
       "title": "Borderrim / Ammunition and the trades",
