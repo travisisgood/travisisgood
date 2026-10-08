@@ -30,10 +30,22 @@
           "original": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161.jpg",
           "thumbnail": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161-thumb.webp",
           "preview": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161-view.webp"
+        },
+        {
+          "id": "0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6",
+          "title": "echo-01-landing-report",
+          "label": "echo-logs-written",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 307635,
+          "filename": "echo-01-landing-report.jpg",
+          "original": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6.jpg",
+          "thumbnail": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6-thumb.webp",
+          "preview": "assets/2026-10-08/0506fe7bae3853adcc716e3901da2031e6f6ee5e29a28c37f91289ecbd702ba6-view.webp"
         }
       ],
-      "result": "site 17/17: Helgen's ECHO log open as BL2's ECHO panel (its own HUD art), title Hyperion yellow, text in BL2's fonts. Placeholder text.",
-      "label": "echo-bl2-look",
+      "result": "site 17/17, fields 14/14, trades 26/26: the ECHO page flat and square (the note's paper rebuilt as an exact rectangle), log 01 'Landing Report, Survey Team Four' as it reads at Helgen.",
+      "label": "echo-logs-written",
       "results": [
         {
           "at": "2026-10-08T11:27:10.889013-04:00",
@@ -46,10 +58,16 @@
           "text": "site 17/17: Helgen's ECHO log open as BL2's ECHO panel (its own HUD art), title Hyperion yellow, text in BL2's fonts. Placeholder text.",
           "status": "passed",
           "label": "echo-bl2-look"
+        },
+        {
+          "at": "2026-10-08T12:57:59.265828-04:00",
+          "text": "site 17/17, fields 14/14, trades 26/26: the ECHO page flat and square (the note's paper rebuilt as an exact rectangle), log 01 'Landing Report, Survey Team Four' as it reads at Helgen.",
+          "status": "passed",
+          "label": "echo-logs-written"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T12:02:03.801190-04:00"
+      "updated": "2026-10-08T12:57:59.265828-04:00"
     },
     {
       "title": "Borderrim / Ammunition and the trades",
