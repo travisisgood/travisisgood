@@ -18,20 +18,38 @@
           "original": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34.jpg",
           "thumbnail": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34-thumb.webp",
           "preview": "assets/2026-10-08/c394fdeb0417f34f93d90af939f4c58440fcde69a94401b50b0441435011ce34-view.webp"
+        },
+        {
+          "id": "d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161",
+          "title": "site-echo-bl2",
+          "label": "echo-bl2-look",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 276387,
+          "filename": "site-echo-bl2.jpg",
+          "original": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161.jpg",
+          "thumbnail": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161-thumb.webp",
+          "preview": "assets/2026-10-08/d516de6efc30c08062c9ba1a1c874708a38d0e9b8d42aaa4b39d91545da25161-view.webp"
         }
       ],
-      "result": "No Borderlands 2 process: rolls from an 18,664-roll library of BL2's own rolls (default 41/41, weapons 47/47, armed 34/34, items 13/13, trades 26/26, site 17/17, fields 14/14). ECHO log scaffolding: Helgen's log opened, set in BL2's own fonts (Compacta, WillowHead, WillowBody); placeholder text.",
-      "label": "echo-logs",
+      "result": "site 17/17: Helgen's ECHO log open as BL2's ECHO panel (its own HUD art), title Hyperion yellow, text in BL2's fonts. Placeholder text.",
+      "label": "echo-bl2-look",
       "results": [
         {
           "at": "2026-10-08T11:27:10.889013-04:00",
           "text": "No Borderlands 2 process: rolls from an 18,664-roll library of BL2's own rolls (default 41/41, weapons 47/47, armed 34/34, items 13/13, trades 26/26, site 17/17, fields 14/14). ECHO log scaffolding: Helgen's log opened, set in BL2's own fonts (Compacta, WillowHead, WillowBody); placeholder text.",
           "status": "passed",
           "label": "echo-logs"
+        },
+        {
+          "at": "2026-10-08T12:02:03.801190-04:00",
+          "text": "site 17/17: Helgen's ECHO log open as BL2's ECHO panel (its own HUD art), title Hyperion yellow, text in BL2's fonts. Placeholder text.",
+          "status": "passed",
+          "label": "echo-bl2-look"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T11:27:10.889013-04:00"
+      "updated": "2026-10-08T12:02:03.801190-04:00"
     },
     {
       "title": "Borderrim / Ammunition and the trades",
