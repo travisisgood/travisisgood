@@ -2,6 +2,44 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS tick alarms and numeric flags",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T18:52:41.564382-04:00",
+      "images": [
+        {
+          "id": "1a2c2cf5c98e83690e2aa08368fe288499c9db986c24590902d9cba66de782e6",
+          "title": "codex-clipboard-42d5b137-2105-4877-8a35-7292807d76ac",
+          "label": "QLS actions",
+          "width": 529,
+          "height": 252,
+          "bytes": 15320,
+          "filename": "codex-clipboard-42d5b137-2105-4877-8a35-7292807d76ac.png",
+          "original": "assets/2026-10-08/1a2c2cf5c98e83690e2aa08368fe288499c9db986c24590902d9cba66de782e6.png",
+          "thumbnail": "assets/2026-10-08/1a2c2cf5c98e83690e2aa08368fe288499c9db986c24590902d9cba66de782e6-thumb.webp",
+          "preview": "assets/2026-10-08/1a2c2cf5c98e83690e2aa08368fe288499c9db986c24590902d9cba66de782e6-view.webp"
+        }
+      ],
+      "result": "Final release build passed 321 live indexed-alarm checks (311 main plus 10 fresh-load), including 2m + 30s = 2.5m = 10800 ticks, phase timing, 260 owners, per-instance and named-target timers, cancellation and saved views. Broad language regressions passed: 65 compiler probes; wait transpilation and 5000 locals; buffer 63782, values 412, color 21674, math 183, strings 208, types 38, arrays 401, structs 228, global carry and draw regressions. Existing seconds scheduling passed 82 assertions, helper save/load/reload passed 102, persistence passed 235, and editor language helpers passed 106 assertions in 8 cases. Release builds, documentation generation/check and API coverage passed. Initial missing API metadata and alarm inventory checks were corrected before the final checks.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T18:52:41.564382-04:00",
+          "text": "Initial live alarm fixture failed twice: the probe used legacy model spawning for an Object named controller, producing SV_ModelIndex: model controller not precached. Corrected the test to instance_create_object.",
+          "status": "failed",
+          "label": "QLS actions"
+        },
+        {
+          "at": "2026-10-08T18:53:07.553784-04:00",
+          "text": "Final release build passed 321 live indexed-alarm checks (311 main plus 10 fresh-load), including 2m + 30s = 2.5m = 10800 ticks, phase timing, 260 owners, per-instance and named-target timers, cancellation and saved views. Broad language regressions passed: 65 compiler probes; wait transpilation and 5000 locals; buffer 63782, values 412, color 21674, math 183, strings 208, types 38, arrays 401, structs 228, global carry and draw regressions. Existing seconds scheduling passed 82 assertions, helper save/load/reload passed 102, persistence passed 235, and editor language helpers passed 106 assertions in 8 cases. Release builds, documentation generation/check and API coverage passed. Initial missing API metadata and alarm inventory checks were corrected before the final checks.",
+          "status": "passed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T18:53:07.553784-04:00"
+    },
+    {
       "title": "QLS helper persistence and editor discovery",
       "description": "Create helpers survive save/load with their captured state and owner. The editor discovers helpers across event files, inherited events, unsaved buffers and explicit Object references.",
       "date": "2026-10-08",
