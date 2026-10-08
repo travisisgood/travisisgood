@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Hyperion wrecks in the fields",
+      "description": "Field crash sites: tundra west of Whiterun and north of Whiterun look right; the east-of-Whiterun shot shows the old spot in a pond (since moved to dry ground, not yet re-captured). Helgen's site moved into the open with smoke.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T22:55:56.109730-04:00",
+      "images": [
+        {
+          "id": "8aff228ba0f660dbd042d731bff6e2ae7e3e5295df4576dc4f6a528da8614528",
+          "title": "field-tundra",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2754227,
+          "filename": "field-tundra.png",
+          "original": "assets/2026-10-07/8aff228ba0f660dbd042d731bff6e2ae7e3e5295df4576dc4f6a528da8614528.png",
+          "thumbnail": "assets/2026-10-07/8aff228ba0f660dbd042d731bff6e2ae7e3e5295df4576dc4f6a528da8614528-thumb.webp",
+          "preview": "assets/2026-10-07/8aff228ba0f660dbd042d731bff6e2ae7e3e5295df4576dc4f6a528da8614528-view.webp"
+        },
+        {
+          "id": "c7a8c1aa4465f49f880cf206fcdfd0e7ce362139cf47ce279eb8b16513bfa304",
+          "title": "field-whiterun east",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2657675,
+          "filename": "field-whiterun_east.png",
+          "original": "assets/2026-10-07/c7a8c1aa4465f49f880cf206fcdfd0e7ce362139cf47ce279eb8b16513bfa304.png",
+          "thumbnail": "assets/2026-10-07/c7a8c1aa4465f49f880cf206fcdfd0e7ce362139cf47ce279eb8b16513bfa304-thumb.webp",
+          "preview": "assets/2026-10-07/c7a8c1aa4465f49f880cf206fcdfd0e7ce362139cf47ce279eb8b16513bfa304-view.webp"
+        },
+        {
+          "id": "07f137f405bebf466a27dc7c8a60ce2450c9da32bfc7af7077cb86e4b352aa64",
+          "title": "field-whiterun north",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3243390,
+          "filename": "field-whiterun_north.png",
+          "original": "assets/2026-10-07/07f137f405bebf466a27dc7c8a60ce2450c9da32bfc7af7077cb86e4b352aa64.png",
+          "thumbnail": "assets/2026-10-07/07f137f405bebf466a27dc7c8a60ce2450c9da32bfc7af7077cb86e4b352aa64-thumb.webp",
+          "preview": "assets/2026-10-07/07f137f405bebf466a27dc7c8a60ce2450c9da32bfc7af7077cb86e4b352aa64-view.webp"
+        },
+        {
+          "id": "89c59a32b4015dd05e6c1a1ba19793a16338cdca0fdcfa723de32ff0099444b3",
+          "title": "site-chest-open",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3394858,
+          "filename": "site-chest-open.png",
+          "original": "assets/2026-10-07/89c59a32b4015dd05e6c1a1ba19793a16338cdca0fdcfa723de32ff0099444b3.png",
+          "thumbnail": "assets/2026-10-07/89c59a32b4015dd05e6c1a1ba19793a16338cdca0fdcfa723de32ff0099444b3-thumb.webp",
+          "preview": "assets/2026-10-07/89c59a32b4015dd05e6c1a1ba19793a16338cdca0fdcfa723de32ff0099444b3-view.webp"
+        },
+        {
+          "id": "5e92f5098e343ba099ff41bbd2c08d0f7e2ea11d2e960e1a5859b45bff6007e4",
+          "title": "site-near",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3310863,
+          "filename": "site-near.png",
+          "original": "assets/2026-10-07/5e92f5098e343ba099ff41bbd2c08d0f7e2ea11d2e960e1a5859b45bff6007e4.png",
+          "thumbnail": "assets/2026-10-07/5e92f5098e343ba099ff41bbd2c08d0f7e2ea11d2e960e1a5859b45bff6007e4-thumb.webp",
+          "preview": "assets/2026-10-07/5e92f5098e343ba099ff41bbd2c08d0f7e2ea11d2e960e1a5859b45bff6007e4-view.webp"
+        }
+      ],
+      "result": "fields 3/4 placed (Eastmarch unrun: Steam closed, BL2 can't start); site 13/13; default 41/41",
+      "label": "Sites",
+      "results": [
+        {
+          "at": "2026-10-07T22:55:56.109730-04:00",
+          "text": "fields 3/4 placed (Eastmarch unrun: Steam closed, BL2 can't start); site 13/13; default 41/41",
+          "status": "mixed",
+          "label": "Sites"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-07T22:55:56.109730-04:00"
+    },
+    {
       "title": "Borderrim / Hyperion crash site (proof of concept)",
       "description": "First Hyperion wreck below Helgen Keep's tunnel exit: dropship, crates, barrels and BL2's loot chest, which opens as you walk up (a plain Hyperion pistol inside). Not yet visible from the exit itself; trees grow through the hull.",
       "date": "2026-10-07",
