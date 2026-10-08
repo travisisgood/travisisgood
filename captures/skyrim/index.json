@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Level lock waits for menus",
+      "description": "Over-level gear equipped from an open item menu now comes off when the menu closes, not from under it (the reported inventory crash).",
+      "date": "2026-10-07",
+      "created": "2026-10-07T20:30:00.640648-04:00",
+      "images": [],
+      "result": "lock 13/13, levels 22/22, armed 33/33, default 41/41; exact double click not reproducible in tests",
+      "label": "Stability",
+      "results": [
+        {
+          "at": "2026-10-07T20:30:00.640648-04:00",
+          "text": "lock 13/13, levels 22/22, armed 33/33, default 41/41; exact double click not reproducible in tests",
+          "status": "passed",
+          "label": "Stability"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T20:30:00.640648-04:00"
+    },
+    {
       "title": "Borderrim / Crash evidence and level-lock repro",
       "description": "Crash handler (log + minidump), previous log kept; level-locked equips from the world and the open inventory don't reproduce the reported Helgen crash.",
       "date": "2026-10-07",
