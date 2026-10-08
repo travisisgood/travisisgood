@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Ammunition and the trades",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T08:06:11.800114-04:00",
+      "images": [
+        {
+          "id": "dd3cb0df85f711c93ac43781143924c030a98784ad3109f5b02fce27b5f0b5b6",
+          "title": "trades-breakdown",
+          "label": "trades",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 200833,
+          "filename": "trades-breakdown.jpg",
+          "original": "assets/2026-10-08/dd3cb0df85f711c93ac43781143924c030a98784ad3109f5b02fce27b5f0b5b6.jpg",
+          "thumbnail": "assets/2026-10-08/dd3cb0df85f711c93ac43781143924c030a98784ad3109f5b02fce27b5f0b5b6-thumb.webp",
+          "preview": "assets/2026-10-08/dd3cb0df85f711c93ac43781143924c030a98784ad3109f5b02fce27b5f0b5b6-view.webp"
+        },
+        {
+          "id": "e97cb95961b816dba81034b137d5958745eb3f128f3d4aa5011b1827bb164dc8",
+          "title": "trades-items",
+          "label": "trades",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 666653,
+          "filename": "trades-items.jpg",
+          "original": "assets/2026-10-08/e97cb95961b816dba81034b137d5958745eb3f128f3d4aa5011b1827bb164dc8.jpg",
+          "thumbnail": "assets/2026-10-08/e97cb95961b816dba81034b137d5958745eb3f128f3d4aa5011b1827bb164dc8-thumb.webp",
+          "preview": "assets/2026-10-08/e97cb95961b816dba81034b137d5958745eb3f128f3d4aa5011b1827bb164dc8-view.webp"
+        },
+        {
+          "id": "646edab769d88d8685f917935a665cff9a44f163468d70a86ea6afdf14eb15be",
+          "title": "trades-lab-question",
+          "label": "trades",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 647950,
+          "filename": "trades-lab-question.jpg",
+          "original": "assets/2026-10-08/646edab769d88d8685f917935a665cff9a44f163468d70a86ea6afdf14eb15be.jpg",
+          "thumbnail": "assets/2026-10-08/646edab769d88d8685f917935a665cff9a44f163468d70a86ea6afdf14eb15be-thumb.webp",
+          "preview": "assets/2026-10-08/646edab769d88d8685f917935a665cff9a44f163468d70a86ea6afdf14eb15be-view.webp"
+        },
+        {
+          "id": "cbefcc57d3cd0583a5b3b793a2285f522dd11feeea5e49b91cb7e7b70caa1da5",
+          "title": "trades-smelter-question",
+          "label": "trades",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 434044,
+          "filename": "trades-smelter-question.jpg",
+          "original": "assets/2026-10-08/cbefcc57d3cd0583a5b3b793a2285f522dd11feeea5e49b91cb7e7b70caa1da5.jpg",
+          "thumbnail": "assets/2026-10-08/cbefcc57d3cd0583a5b3b793a2285f522dd11feeea5e49b91cb7e7b70caa1da5-thumb.webp",
+          "preview": "assets/2026-10-08/cbefcc57d3cd0583a5b3b793a2285f522dd11feeea5e49b91cb7e7b70caa1da5-view.webp"
+        }
+      ],
+      "result": "trades 21/21: smiths (28), alchemists (23) and spell vendors (18) stocked; ammo boxes open into the pool when they fit; a sniper scroll fills sniper ammo; the alchemy lab grinds charcoal and salt into gunpowder, the smelter breaks guns into gun parts (both ask first); an enchanted gun's shots soul-trap the target, a poisoned one's carry the poison. Mix Potions / the lab as usual: handed to the game, not watched to the menu.",
+      "label": "trades",
+      "results": [
+        {
+          "at": "2026-10-08T08:06:11.800114-04:00",
+          "text": "trades 21/21: smiths (28), alchemists (23) and spell vendors (18) stocked; ammo boxes open into the pool when they fit; a sniper scroll fills sniper ammo; the alchemy lab grinds charcoal and salt into gunpowder, the smelter breaks guns into gun parts (both ask first); an enchanted gun's shots soul-trap the target, a poisoned one's carry the poison. Mix Potions / the lab as usual: handed to the game, not watched to the menu.",
+          "status": "passed",
+          "label": "trades"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T08:06:11.800114-04:00"
+    },
+    {
       "title": "Borderrim / Crash site collision",
       "description": "",
       "date": "2026-10-08",
