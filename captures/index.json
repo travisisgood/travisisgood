@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Compact capture gallery filters",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T14:00:55.602253-04:00",
+      "images": [
+        {
+          "id": "466384f97ad14111ac039cc3fc9bbf908ede98a1616a5277fe1b89453b8a43f0",
+          "title": "before-phone",
+          "label": "Gallery layout",
+          "width": 393,
+          "height": 852,
+          "bytes": 183653,
+          "filename": "before-phone.png",
+          "original": "assets/2026-10-08/466384f97ad14111ac039cc3fc9bbf908ede98a1616a5277fe1b89453b8a43f0.png",
+          "thumbnail": "assets/2026-10-08/466384f97ad14111ac039cc3fc9bbf908ede98a1616a5277fe1b89453b8a43f0-thumb.webp",
+          "preview": "assets/2026-10-08/466384f97ad14111ac039cc3fc9bbf908ede98a1616a5277fe1b89453b8a43f0-view.webp"
+        },
+        {
+          "id": "f85e692f03e4972ff34588412644f9741da443e2f37ca358011c1df3c061687e",
+          "title": "after-phone",
+          "label": "Gallery layout",
+          "width": 393,
+          "height": 852,
+          "bytes": 186111,
+          "filename": "after-phone.png",
+          "original": "assets/2026-10-08/f85e692f03e4972ff34588412644f9741da443e2f37ca358011c1df3c061687e.png",
+          "thumbnail": "assets/2026-10-08/f85e692f03e4972ff34588412644f9741da443e2f37ca358011c1df3c061687e-thumb.webp",
+          "preview": "assets/2026-10-08/f85e692f03e4972ff34588412644f9741da443e2f37ca358011c1df3c061687e-view.webp"
+        },
+        {
+          "id": "974ba45d7793b8b52fde02134a91dd073dac184488dbcfa50892ab7ef7917133",
+          "title": "after-small-phone",
+          "label": "Gallery layout",
+          "width": 320,
+          "height": 740,
+          "bytes": 123456,
+          "filename": "after-small-phone.png",
+          "original": "assets/2026-10-08/974ba45d7793b8b52fde02134a91dd073dac184488dbcfa50892ab7ef7917133.png",
+          "thumbnail": "assets/2026-10-08/974ba45d7793b8b52fde02134a91dd073dac184488dbcfa50892ab7ef7917133-thumb.webp",
+          "preview": "assets/2026-10-08/974ba45d7793b8b52fde02134a91dd073dac184488dbcfa50892ab7ef7917133-view.webp"
+        },
+        {
+          "id": "efe1880beca33a08d15f2db556e910458875bc02a4bd7be5890ab95384a3d8b5",
+          "title": "after-desktop",
+          "label": "Gallery layout",
+          "width": 1440,
+          "height": 900,
+          "bytes": 434733,
+          "filename": "after-desktop.png",
+          "original": "assets/2026-10-08/efe1880beca33a08d15f2db556e910458875bc02a4bd7be5890ab95384a3d8b5.png",
+          "thumbnail": "assets/2026-10-08/efe1880beca33a08d15f2db556e910458875bc02a4bd7be5890ab95384a3d8b5-thumb.webp",
+          "preview": "assets/2026-10-08/efe1880beca33a08d15f2db556e910458875bc02a4bd7be5890ab95384a3d8b5-view.webp"
+        }
+      ],
+      "result": "13 browser assertions passed on 393px and 320px phones and 1440px desktop: compact filter row, categories scoped to the selected date, code-only results, date selection and links, valid category retention/reset, all-date grouping, shared Skyrim initialization, no overflow and no JavaScript errors. First album moved from y=1356 to y=541 on the 393px phone. Before and after screenshots attached. Initial browser launcher expected an absent Chrome executable; reran successfully with installed Edge. Homepage unchanged.",
+      "label": "Gallery layout",
+      "results": [
+        {
+          "at": "2026-10-08T14:00:55.602253-04:00",
+          "text": "13 browser assertions passed on 393px and 320px phones and 1440px desktop: compact filter row, categories scoped to the selected date, code-only results, date selection and links, valid category retention/reset, all-date grouping, shared Skyrim initialization, no overflow and no JavaScript errors. First album moved from y=1356 to y=541 on the 393px phone. Before and after screenshots attached. Initial browser launcher expected an absent Chrome executable; reran successfully with installed Edge. Homepage unchanged.",
+          "status": "passed",
+          "label": "Gallery layout"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T14:00:55.602253-04:00"
+    },
+    {
       "title": "QLS mapper syntax and scope",
       "description": "",
       "date": "2026-10-08",
