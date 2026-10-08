@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1a0025">
   <title>Captures · travisisgood</title>
-  <link rel="stylesheet" href="gallery.css?v=20261005-3">
-  <script src="gallery.js?v=20261005-2" defer></script>
+  <link rel="stylesheet" href="gallery.css?v=20261008-1">
+  <script src="gallery.js?v=20261008-1" defer></script>
 </head>
 <body>
   <header><a class="home" href="/">travisisgood</a><span>Game development</span></header>
@@ -20,7 +20,7 @@
       <button id="older" aria-label="Older test date">← Older</button>
       <button id="newer" aria-label="Newer test date">Newer →</button>
     </div>
-    <nav id="filters" aria-label="Filter captures"></nav>
+    <div id="filters" class="filters"><label for="category">Category</label><select id="category" aria-controls="albums"></select></div>
     <p id="status" role="status">Loading captures…</p>
     <div id="albums"></div>
     <noscript>JavaScript is needed to load the gallery.</noscript>

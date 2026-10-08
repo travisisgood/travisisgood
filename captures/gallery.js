@@ -1,6 +1,6 @@
 'use strict';
 const albums = document.querySelector('#albums');
-const filters = document.querySelector('#filters');
+const filters = document.querySelector('#category');
 const status = document.querySelector('#status');
 const viewer = document.querySelector('#viewer');
 const size = image => `${image.width} × ${image.height} · ${(image.bytes / 1048576).toFixed(1)} MB`;
@@ -96,11 +96,23 @@ function render() {
   }
   status.hidden = count > 0;
   if (!count) status.textContent = 'No captures in this view yet.';
-  for (const button of filters.children) button.setAttribute('aria-pressed', String(button.textContent === selected));
+  filters.value = selected;
   dateSelect.value = selectedDate;
   const dateIndex = dates.indexOf(selectedDate);
   older.disabled = dateIndex < 0 || dateIndex >= dates.length - 1;
   newer.disabled = dateIndex <= 0;
+}
+
+function renderFilters() {
+  const available = data.albums.filter(album => selectedDate === 'all' || albumDate(album) === selectedDate);
+  const labels = [...new Set(available.flatMap(album => [...album.images.map(image => image.label), ...(album.result && album.label ? [album.label] : [])]))].filter(label => label !== 'All').sort((a, b) => a.localeCompare(b));
+  if (!labels.includes(selected)) selected = 'All';
+  filters.replaceChildren();
+  for (const label of ['All', ...labels]) {
+    const option = element('option', '', label === 'All' ? 'All categories' : label);
+    option.value = label;
+    filters.append(option);
+  }
 }
 
 function changeDate(day) {
@@ -108,8 +120,10 @@ function changeDate(day) {
   const url = new URL(location.href);
   url.searchParams.set('date', day);
   history.replaceState(null, '', url);
+  renderFilters();
   render();
 }
+filters.addEventListener('change', () => { selected = filters.value; render(); });
 dateSelect.addEventListener('change', () => changeDate(dateSelect.value));
 older.addEventListener('click', () => changeDate(dates[dates.indexOf(selectedDate) + 1]));
 newer.addEventListener('click', () => changeDate(dates[dates.indexOf(selectedDate) - 1]));
@@ -132,11 +146,6 @@ fetch('index.json', {cache: 'no-cache'}).then(response => {
     option.value = day;
     dateSelect.append(option);
   }
-  const labels = ['All', ...new Set(data.albums.flatMap(album => [...album.images.map(image => image.label), ...(album.result && album.label ? [album.label] : [])]))];
-  for (const label of labels) {
-    const button = element('button', '', label);
-    button.addEventListener('click', () => { selected = label; render(); });
-    filters.append(button);
-  }
+  renderFilters();
   render();
 }).catch(() => { status.textContent = 'Captures could not be loaded. Please try refreshing the page.'; });
