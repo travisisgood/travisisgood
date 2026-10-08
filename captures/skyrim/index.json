@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Crash site collision",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T07:40:03.473641-04:00",
+      "images": [
+        {
+          "id": "76f62047915f1618cc250bf972bd7e1d8db250c8ce3c659ab36f519ee7ee77ae",
+          "title": "site-chest-open",
+          "label": "site-collision",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 505517,
+          "filename": "site-chest-open.jpg",
+          "original": "assets/2026-10-08/76f62047915f1618cc250bf972bd7e1d8db250c8ce3c659ab36f519ee7ee77ae.jpg",
+          "thumbnail": "assets/2026-10-08/76f62047915f1618cc250bf972bd7e1d8db250c8ce3c659ab36f519ee7ee77ae-thumb.webp",
+          "preview": "assets/2026-10-08/76f62047915f1618cc250bf972bd7e1d8db250c8ce3c659ab36f519ee7ee77ae-view.webp"
+        },
+        {
+          "id": "fe52b029093e9760037fed26be8691f2569e545dd87a633b7b6a7dcafc76a210",
+          "title": "site-chest-opening",
+          "label": "site-collision",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 561730,
+          "filename": "site-chest-opening.jpg",
+          "original": "assets/2026-10-08/fe52b029093e9760037fed26be8691f2569e545dd87a633b7b6a7dcafc76a210.jpg",
+          "thumbnail": "assets/2026-10-08/fe52b029093e9760037fed26be8691f2569e545dd87a633b7b6a7dcafc76a210-thumb.webp",
+          "preview": "assets/2026-10-08/fe52b029093e9760037fed26be8691f2569e545dd87a633b7b6a7dcafc76a210-view.webp"
+        },
+        {
+          "id": "77489fb3fc480fbd5285cd931101f60a295360fe4e0f549848b28be7a801e8d9",
+          "title": "site-from-exit",
+          "label": "site-collision",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 552574,
+          "filename": "site-from-exit.jpg",
+          "original": "assets/2026-10-08/77489fb3fc480fbd5285cd931101f60a295360fe4e0f549848b28be7a801e8d9.jpg",
+          "thumbnail": "assets/2026-10-08/77489fb3fc480fbd5285cd931101f60a295360fe4e0f549848b28be7a801e8d9-thumb.webp",
+          "preview": "assets/2026-10-08/77489fb3fc480fbd5285cd931101f60a295360fe4e0f549848b28be7a801e8d9-view.webp"
+        },
+        {
+          "id": "4ee6df0c2b587b2d3de59cd44b72ba3879d9e50c9834c82cbdb15f084ee5c0a5",
+          "title": "site-near",
+          "label": "site-collision",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 461208,
+          "filename": "site-near.jpg",
+          "original": "assets/2026-10-08/4ee6df0c2b587b2d3de59cd44b72ba3879d9e50c9834c82cbdb15f084ee5c0a5.jpg",
+          "thumbnail": "assets/2026-10-08/4ee6df0c2b587b2d3de59cd44b72ba3879d9e50c9834c82cbdb15f084ee5c0a5-thumb.webp",
+          "preview": "assets/2026-10-08/4ee6df0c2b587b2d3de59cd44b72ba3879d9e50c9834c82cbdb15f084ee5c0a5-view.webp"
+        },
+        {
+          "id": "e8f6fa9eed56a461773bc1943f20e742671c1233a251ab54e1d70f8c0a636eef",
+          "title": "site-side",
+          "label": "site-collision",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 437594,
+          "filename": "site-side.jpg",
+          "original": "assets/2026-10-08/e8f6fa9eed56a461773bc1943f20e742671c1233a251ab54e1d70f8c0a636eef.jpg",
+          "thumbnail": "assets/2026-10-08/e8f6fa9eed56a461773bc1943f20e742671c1233a251ab54e1d70f8c0a636eef-thumb.webp",
+          "preview": "assets/2026-10-08/e8f6fa9eed56a461773bc1943f20e742671c1233a251ab54e1d70f8c0a636eef-view.webp"
+        }
+      ],
+      "result": "site 15/15: the dropship's collision is 20 boxes fitted to its hull; walking into either end you stop at it (1376 and 1473 of 1414 from the middle). The chest plays BL2's opening sound.",
+      "label": "site-collision",
+      "results": [
+        {
+          "at": "2026-10-08T07:40:03.473641-04:00",
+          "text": "site 15/15: the dropship's collision is 20 boxes fitted to its hull; walking into either end you stop at it (1376 and 1473 of 1414 from the middle). The chest plays BL2's opening sound.",
+          "status": "passed",
+          "label": "site-collision"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T07:40:03.473641-04:00"
+    },
+    {
       "title": "Borderrim / Field wrecks verified",
       "description": "All four field crash sites placed: tundra, north of Whiterun and Eastmarch shown; east of Whiterun placed on its new dry spot but hidden behind a rise from the test's viewpoint.",
       "date": "2026-10-07",
