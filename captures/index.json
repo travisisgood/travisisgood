@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS mapper syntax and scope",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T12:36:01.305271-04:00",
+      "images": [],
+      "result": "Passed: 82 mapper checks across live compiled QLS, save/load, map changes, persistent rooms and restart; 53 action checks; 202 instance checks; 224 struct checks plus 82 scheduling checks; 29 editor source-mapping assertions. Release engine and StreetSweeper built and deployed with matching hashes; generated manual and API inventory validated. Early probe failures exposed fixture startup timing, event-local shadowing, renamed fixture handles and missing trigger movement. A fast map transition caused a signon error; waits fixed the probe. Shared fixture files initially changed the action test; separate test mods fixed isolation. Final relevant runs passed.",
+      "label": "Code checks",
+      "results": [
+        {
+          "at": "2026-10-08T12:36:01.305271-04:00",
+          "text": "Passed: 82 mapper checks across live compiled QLS, save/load, map changes, persistent rooms and restart; 53 action checks; 202 instance checks; 224 struct checks plus 82 scheduling checks; 29 editor source-mapping assertions. Release engine and StreetSweeper built and deployed with matching hashes; generated manual and API inventory validated. Early probe failures exposed fixture startup timing, event-local shadowing, renamed fixture handles and missing trigger movement. A fast map transition caused a signon error; waits fixed the probe. Shared fixture files initially changed the action test; separate test mods fixed isolation. Final relevant runs passed.",
+          "status": "passed",
+          "label": "Code checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T12:36:01.305271-04:00"
+    },
+    {
       "title": "QLS Entity and Object action events",
       "description": "Place an Entity, add Activate, and write code. Raw Entities and shared Objects now route trigger overlaps, Use and Blocked consistently. Local and promoted controllers can address Object instances. Screenshots show the same room with the QLS warm directional palette and neutral gray palette. Earlier iterations failed dedicated-only palette checks, pusher fixture setup, shared Object selection, save/load callbacks and outdated self-handle comparisons; these were corrected and rerun. Compiler environment and Pandoc access/stale-output checks were also resolved.",
       "date": "2026-10-08",
