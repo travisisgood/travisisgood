@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Solstheim's Loaders",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T16:33:23.453041-04:00",
+      "images": [
+        {
+          "id": "7172e2168c91d35c1384d4b5f97ee5a0e51f0942bbc2d9f12482be06c0ea2ec8",
+          "title": "loader-ashfallow-close",
+          "label": "loaders",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 398610,
+          "filename": "loader-ashfallow-close.jpg",
+          "original": "assets/2026-10-08/7172e2168c91d35c1384d4b5f97ee5a0e51f0942bbc2d9f12482be06c0ea2ec8.jpg",
+          "thumbnail": "assets/2026-10-08/7172e2168c91d35c1384d4b5f97ee5a0e51f0942bbc2d9f12482be06c0ea2ec8-thumb.webp",
+          "preview": "assets/2026-10-08/7172e2168c91d35c1384d4b5f97ee5a0e51f0942bbc2d9f12482be06c0ea2ec8-view.webp"
+        },
+        {
+          "id": "ab35a86901da511969719d993fd335b9ce358f9e089da53d1ecae6f397223500",
+          "title": "loader-ashfallow-dead",
+          "label": "loaders",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 409442,
+          "filename": "loader-ashfallow-dead.jpg",
+          "original": "assets/2026-10-08/ab35a86901da511969719d993fd335b9ce358f9e089da53d1ecae6f397223500.jpg",
+          "thumbnail": "assets/2026-10-08/ab35a86901da511969719d993fd335b9ce358f9e089da53d1ecae6f397223500-thumb.webp",
+          "preview": "assets/2026-10-08/ab35a86901da511969719d993fd335b9ce358f9e089da53d1ecae6f397223500-view.webp"
+        },
+        {
+          "id": "95ff2c96c9350d8ba0de5895e1414d205b369c8b1d965a7749d99b574173f06e",
+          "title": "loader-ashfallow-fight",
+          "label": "loaders",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 239089,
+          "filename": "loader-ashfallow-fight.jpg",
+          "original": "assets/2026-10-08/95ff2c96c9350d8ba0de5895e1414d205b369c8b1d965a7749d99b574173f06e.jpg",
+          "thumbnail": "assets/2026-10-08/95ff2c96c9350d8ba0de5895e1414d205b369c8b1d965a7749d99b574173f06e-thumb.webp",
+          "preview": "assets/2026-10-08/95ff2c96c9350d8ba0de5895e1414d205b369c8b1d965a7749d99b574173f06e-view.webp"
+        },
+        {
+          "id": "4920b76f3c1a5ab6bfb9f1026d7e68819354eda5d033ea746bdc6f6537e92753",
+          "title": "loader-clips-preview",
+          "label": "loaders",
+          "width": 1800,
+          "height": 1800,
+          "bytes": 1251497,
+          "filename": "loader-clips-preview.png",
+          "original": "assets/2026-10-08/4920b76f3c1a5ab6bfb9f1026d7e68819354eda5d033ea746bdc6f6537e92753.png",
+          "thumbnail": "assets/2026-10-08/4920b76f3c1a5ab6bfb9f1026d7e68819354eda5d033ea746bdc6f6537e92753-thumb.webp",
+          "preview": "assets/2026-10-08/4920b76f3c1a5ab6bfb9f1026d7e68819354eda5d033ea746bdc6f6537e92753-view.webp"
+        },
+        {
+          "id": "4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999",
+          "title": "loader-white ridge-close",
+          "label": "loaders",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 396741,
+          "filename": "loader-white_ridge-close.jpg",
+          "original": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999.jpg",
+          "thumbnail": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999-thumb.webp",
+          "preview": "assets/2026-10-08/4dd9ce4439227ba30bd4d6e619fee9198ccbc20aa9b8fc3511fee139e37dd999-view.webp"
+        }
+      ],
+      "result": "Two crash sites on Solstheim, each guarded by three of BL2's Loaders: worn over a Skyrim actor, posed with BL2's own clips, armed with a rolled BL2 gun held at BL2's Weapon socket; they fight you (and the island's Reavers and ash spawn), die as BL2's Loader does and drop one legendary at your level. Map markers hidden until you reach the wrecks. loaders 21/21 twice; site 18/18, fields 18/18, armed 34/34, default 41/41.",
+      "label": "loaders",
+      "results": [
+        {
+          "at": "2026-10-08T16:33:23.453041-04:00",
+          "text": "Two crash sites on Solstheim, each guarded by three of BL2's Loaders: worn over a Skyrim actor, posed with BL2's own clips, armed with a rolled BL2 gun held at BL2's Weapon socket; they fight you (and the island's Reavers and ash spawn), die as BL2's Loader does and drop one legendary at your level. Map markers hidden until you reach the wrecks. loaders 21/21 twice; site 18/18, fields 18/18, armed 34/34, default 41/41.",
+          "status": "passed",
+          "label": "loaders"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T16:33:23.453041-04:00"
+    },
+    {
       "title": "Borderrim / No BL2 running, ECHO logs",
       "description": "",
       "date": "2026-10-08",
