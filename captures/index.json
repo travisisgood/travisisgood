@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS Create helpers and comparison checks",
+      "description": "Instance-owned Create helpers, explicit comparison diagnostics, and complete built-in function suggestions. Code-only tests; custom helper completion across event files and closure restoration after save/load remain gaps.",
+      "date": "2026-10-08",
+      "created": "2026-10-08T16:48:54.399063-04:00",
+      "images": [],
+      "result": "Final checks passed: 34 compiler controls, 47 live-engine helper assertions, 50 editor/LSP assertions, 53 existing action-event checks, 224 struct assertions plus 82 scheduler assertions. Language/library regression families passed; two stale transpiler/local-frame harnesses were updated and their reruns passed. LuaLS completion and documented hover verified for all 1878 callable symbols, with signature help active. Initial failures included two unsupported control forms, missing helper script-name metadata, stale harness expectations, and 728 autocomplete omissions caused by the default 100-suggestion cap. Supported controls, metadata registration, harness updates and a 4096-suggestion limit resolved those checks. Manual and API definitions regenerated and verified.",
+      "label": "QLS checks",
+      "results": [
+        {
+          "at": "2026-10-08T16:48:54.399063-04:00",
+          "text": "Final checks passed: 34 compiler controls, 47 live-engine helper assertions, 50 editor/LSP assertions, 53 existing action-event checks, 224 struct assertions plus 82 scheduler assertions. Language/library regression families passed; two stale transpiler/local-frame harnesses were updated and their reruns passed. LuaLS completion and documented hover verified for all 1878 callable symbols, with signature help active. Initial failures included two unsupported control forms, missing helper script-name metadata, stale harness expectations, and 728 autocomplete omissions caused by the default 100-suggestion cap. Supported controls, metadata registration, harness updates and a 4096-suggestion limit resolved those checks. Manual and API definitions regenerated and verified.",
+          "status": "passed",
+          "label": "QLS checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T16:48:54.399063-04:00"
+    },
+    {
       "title": "Core Descent coding style versus QLS",
       "description": "Read-only comparison of gameplay event code against the current QLS compiler and runtime. This was a compatibility audit, not a game port.",
       "date": "2026-10-08",
