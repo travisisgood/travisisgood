@@ -2,6 +2,110 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Hyperion crash site (proof of concept)",
+      "description": "First Hyperion wreck below Helgen Keep's tunnel exit: dropship, crates, barrels and BL2's loot chest, which opens as you walk up (a plain Hyperion pistol inside). Not yet visible from the exit itself; trees grow through the hull.",
+      "date": "2026-10-07",
+      "created": "2026-10-07T22:29:20.845229-04:00",
+      "images": [
+        {
+          "id": "85c5746f0b9c9b63ed786279ca04f08da13bf74e048160cb3122743ca5d1512c",
+          "title": "pieces-preview",
+          "label": "Sites",
+          "width": 1440,
+          "height": 720,
+          "bytes": 662692,
+          "filename": "pieces-preview.png",
+          "original": "assets/2026-10-07/85c5746f0b9c9b63ed786279ca04f08da13bf74e048160cb3122743ca5d1512c.png",
+          "thumbnail": "assets/2026-10-07/85c5746f0b9c9b63ed786279ca04f08da13bf74e048160cb3122743ca5d1512c-thumb.webp",
+          "preview": "assets/2026-10-07/85c5746f0b9c9b63ed786279ca04f08da13bf74e048160cb3122743ca5d1512c-view.webp"
+        },
+        {
+          "id": "a72ce5b57c6434cca1d250141a9db9865755d788d6e9ae09a0448a629074c71f",
+          "title": "site-chest-closed",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3459675,
+          "filename": "site-chest-closed.png",
+          "original": "assets/2026-10-07/a72ce5b57c6434cca1d250141a9db9865755d788d6e9ae09a0448a629074c71f.png",
+          "thumbnail": "assets/2026-10-07/a72ce5b57c6434cca1d250141a9db9865755d788d6e9ae09a0448a629074c71f-thumb.webp",
+          "preview": "assets/2026-10-07/a72ce5b57c6434cca1d250141a9db9865755d788d6e9ae09a0448a629074c71f-view.webp"
+        },
+        {
+          "id": "894ca3a8e3771240166bc6bb0f46a8cecc03a2aecd0187b98b254f792af0c2df",
+          "title": "site-chest-open",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3292189,
+          "filename": "site-chest-open.png",
+          "original": "assets/2026-10-07/894ca3a8e3771240166bc6bb0f46a8cecc03a2aecd0187b98b254f792af0c2df.png",
+          "thumbnail": "assets/2026-10-07/894ca3a8e3771240166bc6bb0f46a8cecc03a2aecd0187b98b254f792af0c2df-thumb.webp",
+          "preview": "assets/2026-10-07/894ca3a8e3771240166bc6bb0f46a8cecc03a2aecd0187b98b254f792af0c2df-view.webp"
+        },
+        {
+          "id": "314e61e7360aa6c970196ea810e77ae5ce3018eb9621f8c5701ce8d976fd60f0",
+          "title": "site-chest-opening",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3106048,
+          "filename": "site-chest-opening.png",
+          "original": "assets/2026-10-07/314e61e7360aa6c970196ea810e77ae5ce3018eb9621f8c5701ce8d976fd60f0.png",
+          "thumbnail": "assets/2026-10-07/314e61e7360aa6c970196ea810e77ae5ce3018eb9621f8c5701ce8d976fd60f0-thumb.webp",
+          "preview": "assets/2026-10-07/314e61e7360aa6c970196ea810e77ae5ce3018eb9621f8c5701ce8d976fd60f0-view.webp"
+        },
+        {
+          "id": "d5ba1b9bfe71341ecc4fe3e8c594f6016e72b9f2269fa9ed7b763aacbbed9a41",
+          "title": "site-from-exit",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3020840,
+          "filename": "site-from-exit.png",
+          "original": "assets/2026-10-07/d5ba1b9bfe71341ecc4fe3e8c594f6016e72b9f2269fa9ed7b763aacbbed9a41.png",
+          "thumbnail": "assets/2026-10-07/d5ba1b9bfe71341ecc4fe3e8c594f6016e72b9f2269fa9ed7b763aacbbed9a41-thumb.webp",
+          "preview": "assets/2026-10-07/d5ba1b9bfe71341ecc4fe3e8c594f6016e72b9f2269fa9ed7b763aacbbed9a41-view.webp"
+        },
+        {
+          "id": "da7f0706910873d3d9aa980e467123297c7803eb4071cb6adb0c893931f7a661",
+          "title": "site-near",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3699740,
+          "filename": "site-near.png",
+          "original": "assets/2026-10-07/da7f0706910873d3d9aa980e467123297c7803eb4071cb6adb0c893931f7a661.png",
+          "thumbnail": "assets/2026-10-07/da7f0706910873d3d9aa980e467123297c7803eb4071cb6adb0c893931f7a661-thumb.webp",
+          "preview": "assets/2026-10-07/da7f0706910873d3d9aa980e467123297c7803eb4071cb6adb0c893931f7a661-view.webp"
+        },
+        {
+          "id": "aca3583c714be13108c87d4093a2c6c8be6994515edd2640e4282b6481a29981",
+          "title": "site-side",
+          "label": "Sites",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3731601,
+          "filename": "site-side.png",
+          "original": "assets/2026-10-07/aca3583c714be13108c87d4093a2c6c8be6994515edd2640e4282b6481a29981.png",
+          "thumbnail": "assets/2026-10-07/aca3583c714be13108c87d4093a2c6c8be6994515edd2640e4282b6481a29981-thumb.webp",
+          "preview": "assets/2026-10-07/aca3583c714be13108c87d4093a2c6c8be6994515edd2640e4282b6481a29981-view.webp"
+        }
+      ],
+      "result": "site 13/13, default 41/41, armed 33/33",
+      "label": "Sites",
+      "results": [
+        {
+          "at": "2026-10-07T22:29:20.845229-04:00",
+          "text": "site 13/13, default 41/41, armed 33/33",
+          "status": "passed",
+          "label": "Sites"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-07T22:29:20.845229-04:00"
+    },
+    {
       "title": "Borderrim / Level lock waits for menus",
       "description": "Over-level gear equipped from an open item menu now comes off when the menu closes, not from under it (the reported inventory crash).",
       "date": "2026-10-07",
