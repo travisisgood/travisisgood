@@ -2,6 +2,31 @@
   "version": 1,
   "albums": [
     {
+      "title": "Second-map close regression",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T19:18:16.579476-04:00",
+      "images": [],
+      "result": "Final tests passed: 54 assertions across focused teardown and active/background project-tab closes, continuing to edit the survivor and reopening/closing another map. Broader MapWindow regressions passed 1201 assertions. Release editor build passed; deployed streetsweeper.exe SHA-256 651ab89d7db2195ad0e267e315ad5be0057801e98371f99564e96ae4acb81e7e matches the verified build. Engine deployment also hash-verified at all three required targets. Each map now retains only its own focused view.",
+      "label": "Editor checks",
+      "results": [
+        {
+          "at": "2026-10-08T19:18:16.579476-04:00",
+          "text": "Before the fix, a two-map focused-close test reproduced the user crash (0xc0000409, pure virtual actionContext during focus change). The exact reproduction passed 5 checks after restricting each map to its own views. Four intermediate tab-fixture runs failed to focus a reopened map under Qt offscreen; early assertion unwinding also crashed fixture teardown. Diagnostic run completed with 47 of 49 checks passing. Corrected fixture activation ordering by draining creation events before activating the shell.",
+          "status": "failed",
+          "label": "Editor checks"
+        },
+        {
+          "at": "2026-10-08T19:18:38.681422-04:00",
+          "text": "Final tests passed: 54 assertions across focused teardown and active/background project-tab closes, continuing to edit the survivor and reopening/closing another map. Broader MapWindow regressions passed 1201 assertions. Release editor build passed; deployed streetsweeper.exe SHA-256 651ab89d7db2195ad0e267e315ad5be0057801e98371f99564e96ae4acb81e7e matches the verified build. Engine deployment also hash-verified at all three required targets. Each map now retains only its own focused view.",
+          "status": "passed",
+          "label": "Editor checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T19:18:38.681422-04:00"
+    },
+    {
       "title": "QLS tick alarms and numeric flags",
       "description": "",
       "date": "2026-10-08",
