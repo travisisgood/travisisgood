@@ -270,9 +270,153 @@
           "original": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca.png",
           "thumbnail": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca-thumb.webp",
           "preview": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca-view.webp"
+        },
+        {
+          "id": "e3a7190ae2b812a7c864ff0954155361643e74351327b2efe965e172fb3007a4",
+          "title": "00-vault-view0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3076856,
+          "filename": "00-vault-view0.png",
+          "original": "assets/2026-10-09/e3a7190ae2b812a7c864ff0954155361643e74351327b2efe965e172fb3007a4.png",
+          "thumbnail": "assets/2026-10-09/e3a7190ae2b812a7c864ff0954155361643e74351327b2efe965e172fb3007a4-thumb.webp",
+          "preview": "assets/2026-10-09/e3a7190ae2b812a7c864ff0954155361643e74351327b2efe965e172fb3007a4-view.webp"
+        },
+        {
+          "id": "1eedbeccabe6e26d6a4b6b1ea9b0149976a0061503609f0f3de3415b67755ddc",
+          "title": "01-vault-view1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2965542,
+          "filename": "01-vault-view1.png",
+          "original": "assets/2026-10-09/1eedbeccabe6e26d6a4b6b1ea9b0149976a0061503609f0f3de3415b67755ddc.png",
+          "thumbnail": "assets/2026-10-09/1eedbeccabe6e26d6a4b6b1ea9b0149976a0061503609f0f3de3415b67755ddc-thumb.webp",
+          "preview": "assets/2026-10-09/1eedbeccabe6e26d6a4b6b1ea9b0149976a0061503609f0f3de3415b67755ddc-view.webp"
+        },
+        {
+          "id": "77754697f38c2fe9d38cbe5a1790dc06e997f8e5afd3fd16f428b59508cbeedc",
+          "title": "02-vault-view2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3444721,
+          "filename": "02-vault-view2.png",
+          "original": "assets/2026-10-09/77754697f38c2fe9d38cbe5a1790dc06e997f8e5afd3fd16f428b59508cbeedc.png",
+          "thumbnail": "assets/2026-10-09/77754697f38c2fe9d38cbe5a1790dc06e997f8e5afd3fd16f428b59508cbeedc-thumb.webp",
+          "preview": "assets/2026-10-09/77754697f38c2fe9d38cbe5a1790dc06e997f8e5afd3fd16f428b59508cbeedc-view.webp"
+        },
+        {
+          "id": "0a50c4f9127fcdc942a8eea6ea8789805c0b0db18238488e76b50038e6e4ab84",
+          "title": "03-vault-view3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3340521,
+          "filename": "03-vault-view3.png",
+          "original": "assets/2026-10-09/0a50c4f9127fcdc942a8eea6ea8789805c0b0db18238488e76b50038e6e4ab84.png",
+          "thumbnail": "assets/2026-10-09/0a50c4f9127fcdc942a8eea6ea8789805c0b0db18238488e76b50038e6e4ab84-thumb.webp",
+          "preview": "assets/2026-10-09/0a50c4f9127fcdc942a8eea6ea8789805c0b0db18238488e76b50038e6e4ab84-view.webp"
+        },
+        {
+          "id": "de1ef225a1e07f4a76b7ca90300ca3a35ae088b4581aeb584e85d4f2f590140d",
+          "title": "04-vault-lip",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3443624,
+          "filename": "04-vault-lip.png",
+          "original": "assets/2026-10-09/de1ef225a1e07f4a76b7ca90300ca3a35ae088b4581aeb584e85d4f2f590140d.png",
+          "thumbnail": "assets/2026-10-09/de1ef225a1e07f4a76b7ca90300ca3a35ae088b4581aeb584e85d4f2f590140d-thumb.webp",
+          "preview": "assets/2026-10-09/de1ef225a1e07f4a76b7ca90300ca3a35ae088b4581aeb584e85d4f2f590140d-view.webp"
+        },
+        {
+          "id": "ee0701446a4cba30900fc0b4d5473116656293c966e71c64f5da0d3168258b2a",
+          "title": "05-vault-edge",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 801753,
+          "filename": "05-vault-edge.png",
+          "original": "assets/2026-10-09/ee0701446a4cba30900fc0b4d5473116656293c966e71c64f5da0d3168258b2a.png",
+          "thumbnail": "assets/2026-10-09/ee0701446a4cba30900fc0b4d5473116656293c966e71c64f5da0d3168258b2a-thumb.webp",
+          "preview": "assets/2026-10-09/ee0701446a4cba30900fc0b4d5473116656293c966e71c64f5da0d3168258b2a-view.webp"
+        },
+        {
+          "id": "5a91d99e8f200d1f394d60da9667c68bc72736c430565f6165bf61724a7a10b0",
+          "title": "06-vault-void",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2035988,
+          "filename": "06-vault-void.png",
+          "original": "assets/2026-10-09/5a91d99e8f200d1f394d60da9667c68bc72736c430565f6165bf61724a7a10b0.png",
+          "thumbnail": "assets/2026-10-09/5a91d99e8f200d1f394d60da9667c68bc72736c430565f6165bf61724a7a10b0-thumb.webp",
+          "preview": "assets/2026-10-09/5a91d99e8f200d1f394d60da9667c68bc72736c430565f6165bf61724a7a10b0-view.webp"
+        },
+        {
+          "id": "2f64fc164dcbf5221550feac01e06b766b844da055909fb8d6fa5f96cb7da0e1",
+          "title": "07-vault-dragon0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3018622,
+          "filename": "07-vault-dragon0.png",
+          "original": "assets/2026-10-09/2f64fc164dcbf5221550feac01e06b766b844da055909fb8d6fa5f96cb7da0e1.png",
+          "thumbnail": "assets/2026-10-09/2f64fc164dcbf5221550feac01e06b766b844da055909fb8d6fa5f96cb7da0e1-thumb.webp",
+          "preview": "assets/2026-10-09/2f64fc164dcbf5221550feac01e06b766b844da055909fb8d6fa5f96cb7da0e1-view.webp"
+        },
+        {
+          "id": "88572216d872e15d6fdfabe240b3374cf844d0c574b5ea8c73f647107593c77f",
+          "title": "08-vault-dragon1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2986415,
+          "filename": "08-vault-dragon1.png",
+          "original": "assets/2026-10-09/88572216d872e15d6fdfabe240b3374cf844d0c574b5ea8c73f647107593c77f.png",
+          "thumbnail": "assets/2026-10-09/88572216d872e15d6fdfabe240b3374cf844d0c574b5ea8c73f647107593c77f-thumb.webp",
+          "preview": "assets/2026-10-09/88572216d872e15d6fdfabe240b3374cf844d0c574b5ea8c73f647107593c77f-view.webp"
+        },
+        {
+          "id": "0669be0fd27e211d3c9269fa201bc8f58dd3273ff591ea1dcc66f603a8f644c1",
+          "title": "09-vault-dragon2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3270825,
+          "filename": "09-vault-dragon2.png",
+          "original": "assets/2026-10-09/0669be0fd27e211d3c9269fa201bc8f58dd3273ff591ea1dcc66f603a8f644c1.png",
+          "thumbnail": "assets/2026-10-09/0669be0fd27e211d3c9269fa201bc8f58dd3273ff591ea1dcc66f603a8f644c1-thumb.webp",
+          "preview": "assets/2026-10-09/0669be0fd27e211d3c9269fa201bc8f58dd3273ff591ea1dcc66f603a8f644c1-view.webp"
+        },
+        {
+          "id": "ba4ece4eca249d20bd01e371da230154dd59f93f9b8cd7e7be740ec2613e4c8c",
+          "title": "10-vault-dragon3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3333827,
+          "filename": "10-vault-dragon3.png",
+          "original": "assets/2026-10-09/ba4ece4eca249d20bd01e371da230154dd59f93f9b8cd7e7be740ec2613e4c8c.png",
+          "thumbnail": "assets/2026-10-09/ba4ece4eca249d20bd01e371da230154dd59f93f9b8cd7e7be740ec2613e4c8c-thumb.webp",
+          "preview": "assets/2026-10-09/ba4ece4eca249d20bd01e371da230154dd59f93f9b8cd7e7be740ec2613e4c8c-view.webp"
+        },
+        {
+          "id": "3e3dbbf75084d40ae94f8ce31bcca88b16d917434092d7306070ec072cd6e861",
+          "title": "11-vault-dragon4",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3146731,
+          "filename": "11-vault-dragon4.png",
+          "original": "assets/2026-10-09/3e3dbbf75084d40ae94f8ce31bcca88b16d917434092d7306070ec072cd6e861.png",
+          "thumbnail": "assets/2026-10-09/3e3dbbf75084d40ae94f8ce31bcca88b16d917434092d7306070ec072cd6e861-thumb.webp",
+          "preview": "assets/2026-10-09/3e3dbbf75084d40ae94f8ce31bcca88b16d917434092d7306070ec072cd6e861-view.webp"
         }
       ],
-      "result": "Navmesh and grounding: the island's navmesh (12 cells, generated from its heights, holes round the statues); the dragon now lands on the island and takes off again; a wolf runs 2164 -> 346 to you across it. Statues set on the lowest island ground under them, bases sunk; the rim crystals half buried, each at a slight lean (the user's note). Vault focus 19/19.",
+      "result": "Eridian meets Daedric: BL2's own Eridian pieces (base game, made from the player's BL2 at setup) on the island -- the Vault's broken arch and a curled Eridian arch framing the floor, the Vault pedestal as a dais with the altar on it, Vault shards half buried in a ring, temple ruins, a path of Eridian floor tiles; their swirl lines glow Eridian purple, red Daedric fire and light beside each. Eridian fragments fall away under the rim. Vault focus 19/19 (the dragon flies, lands, takes off; a wolf paths to you round the ruins).",
       "label": "Vault",
       "results": [
         {
@@ -286,10 +430,16 @@
           "text": "Navmesh and grounding: the island's navmesh (12 cells, generated from its heights, holes round the statues); the dragon now lands on the island and takes off again; a wolf runs 2164 -> 346 to you across it. Statues set on the lowest island ground under them, bases sunk; the rim crystals half buried, each at a slight lean (the user's note). Vault focus 19/19.",
           "status": "passed",
           "label": "Vault"
+        },
+        {
+          "at": "2026-10-09T16:20:03.446867-04:00",
+          "text": "Eridian meets Daedric: BL2's own Eridian pieces (base game, made from the player's BL2 at setup) on the island -- the Vault's broken arch and a curled Eridian arch framing the floor, the Vault pedestal as a dais with the altar on it, Vault shards half buried in a ring, temple ruins, a path of Eridian floor tiles; their swirl lines glow Eridian purple, red Daedric fire and light beside each. Eridian fragments fall away under the rim. Vault focus 19/19 (the dragon flies, lands, takes off; a wolf paths to you round the ruins).",
+          "status": "passed",
+          "label": "Vault"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-09T16:04:16.506870-04:00"
+      "updated": "2026-10-09T16:20:03.446867-04:00"
     },
     {
       "title": "BL2 toughness and enemy shields",
