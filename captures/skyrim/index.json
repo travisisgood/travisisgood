@@ -2,25 +2,6 @@
   "version": 1,
   "albums": [
     {
-      "title": "BL2 toughness and enemy shields",
-      "description": "",
-      "date": "2026-10-09",
-      "created": "2026-10-09T15:43:24.390192-04:00",
-      "images": [],
-      "result": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
-      "label": "Shields",
-      "results": [
-        {
-          "at": "2026-10-09T15:43:24.390192-04:00",
-          "text": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
-          "status": "passed",
-          "label": "Shields"
-        }
-      ],
-      "status": "passed",
-      "updated": "2026-10-09T15:43:24.390192-04:00"
-    },
-    {
       "title": "The Vault: first look",
       "description": "The Vault raid's arena, first proof: its own world (no ground but one island of Skyrim landscape, hanging in a purple and red void), a ring of Daedric statues, Azura's Star crystals and hex pillars adrift, its own sky. A blood dragon let loose over it: it takes off, circles the island and the void, perches on Boethiah's shrine, breathes fire. Vanilla Skyrim/Dawnguard/Dragonborn only; BL2 terrain and Eridian statues still to come, and the navmesh for landings.",
       "date": "2026-10-09",
@@ -169,9 +150,129 @@
           "original": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c.png",
           "thumbnail": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c-thumb.webp",
           "preview": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c-view.webp"
+        },
+        {
+          "id": "12f38de5316bc8b2f111960294c0239140fa6b21dd7fe01e0e813ba83bce1cce",
+          "title": "00-vault-view0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2843422,
+          "filename": "00-vault-view0.png",
+          "original": "assets/2026-10-09/12f38de5316bc8b2f111960294c0239140fa6b21dd7fe01e0e813ba83bce1cce.png",
+          "thumbnail": "assets/2026-10-09/12f38de5316bc8b2f111960294c0239140fa6b21dd7fe01e0e813ba83bce1cce-thumb.webp",
+          "preview": "assets/2026-10-09/12f38de5316bc8b2f111960294c0239140fa6b21dd7fe01e0e813ba83bce1cce-view.webp"
+        },
+        {
+          "id": "2cd4bd4538aaf3e82817434eaecf92723960e6d0121959dfcea361d49cec2fb9",
+          "title": "01-vault-view1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2895471,
+          "filename": "01-vault-view1.png",
+          "original": "assets/2026-10-09/2cd4bd4538aaf3e82817434eaecf92723960e6d0121959dfcea361d49cec2fb9.png",
+          "thumbnail": "assets/2026-10-09/2cd4bd4538aaf3e82817434eaecf92723960e6d0121959dfcea361d49cec2fb9-thumb.webp",
+          "preview": "assets/2026-10-09/2cd4bd4538aaf3e82817434eaecf92723960e6d0121959dfcea361d49cec2fb9-view.webp"
+        },
+        {
+          "id": "18aa9e4ca5c04e1e3b17295764c79299eaab169bc68966af4976b2725e5ba809",
+          "title": "02-vault-view2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3209127,
+          "filename": "02-vault-view2.png",
+          "original": "assets/2026-10-09/18aa9e4ca5c04e1e3b17295764c79299eaab169bc68966af4976b2725e5ba809.png",
+          "thumbnail": "assets/2026-10-09/18aa9e4ca5c04e1e3b17295764c79299eaab169bc68966af4976b2725e5ba809-thumb.webp",
+          "preview": "assets/2026-10-09/18aa9e4ca5c04e1e3b17295764c79299eaab169bc68966af4976b2725e5ba809-view.webp"
+        },
+        {
+          "id": "f0a51c5d0c29cc83a0fe26917a4598f578545cf84df6a5e829b043880da3a053",
+          "title": "03-vault-view3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3151991,
+          "filename": "03-vault-view3.png",
+          "original": "assets/2026-10-09/f0a51c5d0c29cc83a0fe26917a4598f578545cf84df6a5e829b043880da3a053.png",
+          "thumbnail": "assets/2026-10-09/f0a51c5d0c29cc83a0fe26917a4598f578545cf84df6a5e829b043880da3a053-thumb.webp",
+          "preview": "assets/2026-10-09/f0a51c5d0c29cc83a0fe26917a4598f578545cf84df6a5e829b043880da3a053-view.webp"
+        },
+        {
+          "id": "a2bae551a65f6c00a43930642d61b9544222fc9e3f24ca1d258a7c7a1f063c64",
+          "title": "04-vault-lip",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3198926,
+          "filename": "04-vault-lip.png",
+          "original": "assets/2026-10-09/a2bae551a65f6c00a43930642d61b9544222fc9e3f24ca1d258a7c7a1f063c64.png",
+          "thumbnail": "assets/2026-10-09/a2bae551a65f6c00a43930642d61b9544222fc9e3f24ca1d258a7c7a1f063c64-thumb.webp",
+          "preview": "assets/2026-10-09/a2bae551a65f6c00a43930642d61b9544222fc9e3f24ca1d258a7c7a1f063c64-view.webp"
+        },
+        {
+          "id": "bb9825474fc650f40479c4b8d822b3f194fc62d5f6e5f82169df21e44df58f52",
+          "title": "05-vault-dragon0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2905822,
+          "filename": "05-vault-dragon0.png",
+          "original": "assets/2026-10-09/bb9825474fc650f40479c4b8d822b3f194fc62d5f6e5f82169df21e44df58f52.png",
+          "thumbnail": "assets/2026-10-09/bb9825474fc650f40479c4b8d822b3f194fc62d5f6e5f82169df21e44df58f52-thumb.webp",
+          "preview": "assets/2026-10-09/bb9825474fc650f40479c4b8d822b3f194fc62d5f6e5f82169df21e44df58f52-view.webp"
+        },
+        {
+          "id": "50c08c9c6b84b1a81511630b07bb2841b41461d12a1fa9e21d7d6b8c72d2b591",
+          "title": "06-vault-dragon1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2949001,
+          "filename": "06-vault-dragon1.png",
+          "original": "assets/2026-10-09/50c08c9c6b84b1a81511630b07bb2841b41461d12a1fa9e21d7d6b8c72d2b591.png",
+          "thumbnail": "assets/2026-10-09/50c08c9c6b84b1a81511630b07bb2841b41461d12a1fa9e21d7d6b8c72d2b591-thumb.webp",
+          "preview": "assets/2026-10-09/50c08c9c6b84b1a81511630b07bb2841b41461d12a1fa9e21d7d6b8c72d2b591-view.webp"
+        },
+        {
+          "id": "ddd803d4877156c6ebdfb161266908ef23ec52047473c43696226c3b3b25ff7b",
+          "title": "07-vault-dragon2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3223736,
+          "filename": "07-vault-dragon2.png",
+          "original": "assets/2026-10-09/ddd803d4877156c6ebdfb161266908ef23ec52047473c43696226c3b3b25ff7b.png",
+          "thumbnail": "assets/2026-10-09/ddd803d4877156c6ebdfb161266908ef23ec52047473c43696226c3b3b25ff7b-thumb.webp",
+          "preview": "assets/2026-10-09/ddd803d4877156c6ebdfb161266908ef23ec52047473c43696226c3b3b25ff7b-view.webp"
+        },
+        {
+          "id": "4da8767c15ad5844689ed5d0cc3a36f297822467348e3c2231ce9694daa9a47e",
+          "title": "08-vault-dragon3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3307195,
+          "filename": "08-vault-dragon3.png",
+          "original": "assets/2026-10-09/4da8767c15ad5844689ed5d0cc3a36f297822467348e3c2231ce9694daa9a47e.png",
+          "thumbnail": "assets/2026-10-09/4da8767c15ad5844689ed5d0cc3a36f297822467348e3c2231ce9694daa9a47e-thumb.webp",
+          "preview": "assets/2026-10-09/4da8767c15ad5844689ed5d0cc3a36f297822467348e3c2231ce9694daa9a47e-view.webp"
+        },
+        {
+          "id": "1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca",
+          "title": "09-vault-dragon4",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3057543,
+          "filename": "09-vault-dragon4.png",
+          "original": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca.png",
+          "thumbnail": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca-thumb.webp",
+          "preview": "assets/2026-10-09/1721d4d80f50b9c772aafed65b36ec2bc2d3deec456fec648b2ff30b7bdff8ca-view.webp"
         }
       ],
-      "result": "Vault focus 18/18: the world loads, you stand on the island, the dragon flies (cruising, hovering), ranges 7600 out over the void and up to 3200, targets you",
+      "result": "Navmesh and grounding: the island's navmesh (12 cells, generated from its heights, holes round the statues); the dragon now lands on the island and takes off again; a wolf runs 2164 -> 346 to you across it. Statues set on the lowest island ground under them, bases sunk; the rim crystals half buried, each at a slight lean (the user's note). Vault focus 19/19.",
       "label": "Vault",
       "results": [
         {
@@ -179,10 +280,35 @@
           "text": "Vault focus 18/18: the world loads, you stand on the island, the dragon flies (cruising, hovering), ranges 7600 out over the void and up to 3200, targets you",
           "status": "passed",
           "label": "Vault"
+        },
+        {
+          "at": "2026-10-09T16:04:16.506870-04:00",
+          "text": "Navmesh and grounding: the island's navmesh (12 cells, generated from its heights, holes round the statues); the dragon now lands on the island and takes off again; a wolf runs 2164 -> 346 to you across it. Statues set on the lowest island ground under them, bases sunk; the rim crystals half buried, each at a slight lean (the user's note). Vault focus 19/19.",
+          "status": "passed",
+          "label": "Vault"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-09T15:42:28.927001-04:00"
+      "updated": "2026-10-09T16:04:16.506870-04:00"
+    },
+    {
+      "title": "BL2 toughness and enemy shields",
+      "description": "",
+      "date": "2026-10-09",
+      "created": "2026-10-09T15:43:24.390192-04:00",
+      "images": [],
+      "result": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
+      "label": "Shields",
+      "results": [
+        {
+          "at": "2026-10-09T15:43:24.390192-04:00",
+          "text": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
+          "status": "passed",
+          "label": "Shields"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T15:43:24.390192-04:00"
     },
     {
       "title": "Borderrim / Conjuration: bound guns",
