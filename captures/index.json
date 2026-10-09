@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS mapper workflow and texture reveal - verified",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T20:20:05.654470-04:00",
+      "images": [
+        {
+          "id": "c140adf90adb18637968274345a1fd5069da551dc5949fa15e6ae26a2454e6d6",
+          "title": "qls actions 2026-10-08 20-14-52",
+          "label": "QLS actions",
+          "width": 960,
+          "height": 540,
+          "bytes": 331356,
+          "filename": "qls_actions_2026-10-08_20-14-52.png",
+          "original": "assets/2026-10-08/c140adf90adb18637968274345a1fd5069da551dc5949fa15e6ae26a2454e6d6.png",
+          "thumbnail": "assets/2026-10-08/c140adf90adb18637968274345a1fd5069da551dc5949fa15e6ae26a2454e6d6-thumb.webp",
+          "preview": "assets/2026-10-08/c140adf90adb18637968274345a1fd5069da551dc5949fa15e6ae26a2454e6d6-view.webp"
+        },
+        {
+          "id": "85119774f6745413253c256dda47f806e04c23556a96cc4a3ce5ea47ab3b1e42",
+          "title": "qls actions 2026-10-08 20-14-53",
+          "label": "QLS actions",
+          "width": 960,
+          "height": 540,
+          "bytes": 293830,
+          "filename": "qls_actions_2026-10-08_20-14-53.png",
+          "original": "assets/2026-10-08/85119774f6745413253c256dda47f806e04c23556a96cc4a3ce5ea47ab3b1e42.png",
+          "thumbnail": "assets/2026-10-08/85119774f6745413253c256dda47f806e04c23556a96cc4a3ce5ea47ab3b1e42-thumb.webp",
+          "preview": "assets/2026-10-08/85119774f6745413253c256dda47f806e04c23556a96cc4a3ce5ea47ab3b1e42-view.webp"
+        }
+      ],
+      "result": "Built and deployed the engine and StreetSweeper; all deployment hashes match. Live mapper acceptance passed 29 checks plus 5 fresh-load checks: immediate inherited Create, initial values, Object/QC/model spawning, child helpers, raw and promoted Enter/Stay/Leave, stale participant protection, and saved overlaps. Final independent editor checks passed 261 assertions; map-close checks passed 54. Texture checks passed 152 filesystem and 9 delayed shared-texture load/reload assertions after the originating map closes. Palette/action checks passed 55 plus 4 restored checks; inspected warm and grayscale captures. Compiler/runtime semantic suites passed, including 67 mapper probes and 401 array checks; repaired transpiler expectation passed its focused rerun. Helpers passed 34 compiler and 47 live checks plus 5/90/7 save/load/reload checks; tick alarms passed 311 plus 10 restored checks. Lua persistence passed 235 checks. Generated manual and API definitions verified. Initial failures remain in the separate initial-checks entry.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T20:20:05.654470-04:00",
+          "text": "Built and deployed the engine and StreetSweeper; all deployment hashes match. Live mapper acceptance passed 29 checks plus 5 fresh-load checks: immediate inherited Create, initial values, Object/QC/model spawning, child helpers, raw and promoted Enter/Stay/Leave, stale participant protection, and saved overlaps. Final independent editor checks passed 261 assertions; map-close checks passed 54. Texture checks passed 152 filesystem and 9 delayed shared-texture load/reload assertions after the originating map closes. Palette/action checks passed 55 plus 4 restored checks; inspected warm and grayscale captures. Compiler/runtime semantic suites passed, including 67 mapper probes and 401 array checks; repaired transpiler expectation passed its focused rerun. Helpers passed 34 compiler and 47 live checks plus 5/90/7 save/load/reload checks; tick alarms passed 311 plus 10 restored checks. Lua persistence passed 235 checks. Generated manual and API definitions verified. Initial failures remain in the separate initial-checks entry.",
+          "status": "passed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T20:20:05.654470-04:00"
+    },
+    {
       "title": "QLS mapper workflow - initial checks",
       "description": "",
       "date": "2026-10-08",
