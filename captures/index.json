@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Core Descent follow-up - initial findings",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T20:57:08.420029-04:00",
+      "images": [],
+      "result": "The combined editor checks passed seven fresh-process runs before harness hardening; the original focus failure did not reproduce. Hardened focus acquisition and automatic window cleanup then passed four randomized-order runs (315 assertions in 18 cases each). Two new Core Descent pattern probes initially failed: bracket-created menu lengths stayed zero, and subtracting boolean inputs raised an arithmetic error. After implementation both probes and the other 69 semantic probes passed. The broad regression run exposed two fixture assumptions: an obsolete generated-string expectation and a local-frame-only stub missing the new numeric-operand helper. Those fixtures are being updated. One logging attempt could not start its executable until the evidence directory was corrected.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T20:57:08.420029-04:00",
+          "text": "The combined editor checks passed seven fresh-process runs before harness hardening; the original focus failure did not reproduce. Hardened focus acquisition and automatic window cleanup then passed four randomized-order runs (315 assertions in 18 cases each). Two new Core Descent pattern probes initially failed: bracket-created menu lengths stayed zero, and subtracting boolean inputs raised an arithmetic error. After implementation both probes and the other 69 semantic probes passed. The broad regression run exposed two fixture assumptions: an obsolete generated-string expectation and a local-frame-only stub missing the new numeric-operand helper. Those fixtures are being updated. One logging attempt could not start its executable until the evidence directory was corrected.",
+          "status": "mixed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-08T20:57:08.420029-04:00"
+    },
+    {
       "title": "QLS mapper workflow and texture reveal - verified",
       "description": "",
       "date": "2026-10-08",
