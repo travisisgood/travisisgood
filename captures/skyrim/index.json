@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Loadout favourites",
+      "description": "Skyrim's favourites inside the BL2 loadout: equip to either hand, set hotkeys 1-8",
+      "date": "2026-10-09",
+      "created": "2026-10-09T12:40:42.203609-04:00",
+      "images": [
+        {
+          "id": "843e634738072796ac3741dcf4756f4168116b970e0f62cd99be1d5b397995b5",
+          "title": "loadout-favorites",
+          "label": "loadout",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3533751,
+          "filename": "loadout-favorites.png",
+          "original": "assets/2026-10-09/843e634738072796ac3741dcf4756f4168116b970e0f62cd99be1d5b397995b5.png",
+          "thumbnail": "assets/2026-10-09/843e634738072796ac3741dcf4756f4168116b970e0f62cd99be1d5b397995b5-thumb.webp",
+          "preview": "assets/2026-10-09/843e634738072796ac3741dcf4756f4168116b970e0f62cd99be1d5b397995b5-view.webp"
+        }
+      ],
+      "result": "loadout 21/21: favourites listed, hotkeys 5/6 and weapon slot 2 set, hotkey 6 drinks the potion in play",
+      "label": "loadout",
+      "results": [
+        {
+          "at": "2026-10-09T12:40:42.203609-04:00",
+          "text": "loadout 21/21: favourites listed, hotkeys 5/6 and weapon slot 2 set, hotkey 6 drinks the potion in play",
+          "status": "passed",
+          "label": "loadout"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T12:40:42.203609-04:00"
+    },
+    {
       "title": "Borderrim / BL2 toughness and enemy shields",
       "description": "Enemies take their BL2 counterpart's health at your level; BL2 enemy shields on the enemy bar (white-cyan over red)",
       "date": "2026-10-09",
