@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "BL2 toughness and enemy shields",
+      "description": "",
+      "date": "2026-10-09",
+      "created": "2026-10-09T15:43:24.390192-04:00",
+      "images": [],
+      "result": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
+      "label": "Shields",
+      "results": [
+        {
+          "at": "2026-10-09T15:43:24.390192-04:00",
+          "text": "Fix (Dot's catch): a gun's extra damage (crit bonus, Point Blank, Reaper, slag, splash, grenades, Nova) now hits a shield with the gun's element (shock x2). New check: a shock crit's 5+5 takes 20 off a shield. Toughness focus 32/32.",
+          "status": "passed",
+          "label": "Shields"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T15:43:24.390192-04:00"
+    },
+    {
       "title": "The Vault: first look",
       "description": "The Vault raid's arena, first proof: its own world (no ground but one island of Skyrim landscape, hanging in a purple and red void), a ring of Daedric statues, Azura's Star crystals and hex pillars adrift, its own sky. A blood dragon let loose over it: it takes off, circles the island and the void, perches on Boethiah's shrine, breathes fire. Vanilla Skyrim/Dawnguard/Dragonborn only; BL2 terrain and Eridian statues still to come, and the navmesh for landings.",
       "date": "2026-10-09",
