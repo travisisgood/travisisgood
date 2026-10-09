@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "ECHO logs on older saves",
+      "description": "",
+      "date": "2026-10-09",
+      "created": "2026-10-09T19:23:50.906235-04:00",
+      "images": [],
+      "result": "25/25. An old save that had found only log 8's wreck now gets logs 1-7 at the next seven wrecks (found out of order). A save the old count broke (log 1 missing, every mainland wreck found) gets log 1 at the next wreck reached. Then Solstheim's 9 and 10, and with every log read Dig Site Aurora's mouth opens.",
+      "label": "logs",
+      "results": [
+        {
+          "at": "2026-10-09T19:23:50.906235-04:00",
+          "text": "25/25. An old save that had found only log 8's wreck now gets logs 1-7 at the next seven wrecks (found out of order). A save the old count broke (log 1 missing, every mainland wreck found) gets log 1 at the next wreck reached. Then Solstheim's 9 and 10, and with every log read Dig Site Aurora's mouth opens.",
+          "status": "passed",
+          "label": "logs"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T19:23:50.906235-04:00"
+    },
+    {
       "title": "Dig Site Aurora and the Gate",
       "description": "The way down to the Vault. Read every ECHO log and Dig Site Aurora's mouth appears in the hills above the White River (its marker on the map). Inside: a vanilla cave (Haemar's Shame's first cell, copied, the vampires' lair stripped out), Skyrim at the mouth, Hyperion's crates creeping in, then Eridian tiles and stone breaking through, Hyperion's camp by a dead Constructor; through its deep door, the Gate's cavern -- Skyrim's own Epic cave kit, as Blackreach -- and the Gate: BL2's broken Vault arch, a swirling purple and red portal filling its opening (vanilla swirl textures), Molag Bal's shrines either side, an Eridian pavement before it, Loaders on guard. Through it: the Vault.",
       "date": "2026-10-09",
