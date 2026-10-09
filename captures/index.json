@@ -7,7 +7,7 @@
       "date": "2026-10-08",
       "created": "2026-10-08T20:57:08.420029-04:00",
       "images": [],
-      "result": "The combined editor checks passed seven fresh-process runs before harness hardening; the original focus failure did not reproduce. Hardened focus acquisition and automatic window cleanup then passed four randomized-order runs (315 assertions in 18 cases each). Two new Core Descent pattern probes initially failed: bracket-created menu lengths stayed zero, and subtracting boolean inputs raised an arithmetic error. After implementation both probes and the other 69 semantic probes passed. The broad regression run exposed two fixture assumptions: an obsolete generated-string expectation and a local-frame-only stub missing the new numeric-operand helper. Those fixtures are being updated. One logging attempt could not start its executable until the evidence directory was corrected.",
+      "result": "The intermediate full suite also rejected the oversized sparse-array setup in the struct clone budget test because of a newly introduced array index cap. Restored large sparse-array compatibility; the subsequent full suite passed, including 228 struct assertions. Manual generation initially could not access the installed Pandoc in the sandbox; rerun with authorized access and both generated-file checks passed.",
       "label": "QLS actions",
       "results": [
         {
@@ -15,10 +15,16 @@
           "text": "The combined editor checks passed seven fresh-process runs before harness hardening; the original focus failure did not reproduce. Hardened focus acquisition and automatic window cleanup then passed four randomized-order runs (315 assertions in 18 cases each). Two new Core Descent pattern probes initially failed: bracket-created menu lengths stayed zero, and subtracting boolean inputs raised an arithmetic error. After implementation both probes and the other 69 semantic probes passed. The broad regression run exposed two fixture assumptions: an obsolete generated-string expectation and a local-frame-only stub missing the new numeric-operand helper. Those fixtures are being updated. One logging attempt could not start its executable until the evidence directory was corrected.",
           "status": "mixed",
           "label": "QLS actions"
+        },
+        {
+          "at": "2026-10-08T21:05:10.933514-04:00",
+          "text": "The intermediate full suite also rejected the oversized sparse-array setup in the struct clone budget test because of a newly introduced array index cap. Restored large sparse-array compatibility; the subsequent full suite passed, including 228 struct assertions. Manual generation initially could not access the installed Pandoc in the sandbox; rerun with authorized access and both generated-file checks passed.",
+          "status": "mixed",
+          "label": "QLS actions"
         }
       ],
       "status": "mixed",
-      "updated": "2026-10-08T20:57:08.420029-04:00"
+      "updated": "2026-10-08T21:05:10.933514-04:00"
     },
     {
       "title": "QLS mapper workflow and texture reveal - verified",
