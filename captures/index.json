@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine E1M1 Low Render recovery bake",
+      "description": "Completed Low Render bake and engine map-load verification after canceling the High timing run.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T13:54:38.948292-04:00",
+      "images": [],
+      "result": "Saved Low Render preset completed in 10.231 seconds: preprocessing 0.741s, geometry 3.102s, fast visibility 0.459s, GPU lighting 0.614s, textures 0.144s, low shadow atlas 5.128s. Every tool exited 0. Fresh BSP, RGB/directional lightmaps, and QMF validated for matching sizes, face count, hashes, and compressed payload. New atlas: 26 layers, 58 poses, 55,229 bytes. Normal engine startup loaded E1M1, the player entered, all 26/26 atlas layers activated, and the test exited 0 automatically. An initial dedicated startup attempt was rejected by Windows console initialization before map load; that test process was closed and the normal startup check passed. Nonfatal compiler warnings included healed tiny authored edges, existing entity-key warnings, and unchanged mover faces retaining ordinary lighting. Previous complete bake backup and High measurements retained privately; saved map source unchanged; StreetSweeper left open.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-09T13:54:38.948292-04:00",
+          "text": "Saved Low Render preset completed in 10.231 seconds: preprocessing 0.741s, geometry 3.102s, fast visibility 0.459s, GPU lighting 0.614s, textures 0.144s, low shadow atlas 5.128s. Every tool exited 0. Fresh BSP, RGB/directional lightmaps, and QMF validated for matching sizes, face count, hashes, and compressed payload. New atlas: 26 layers, 58 poses, 55,229 bytes. Normal engine startup loaded E1M1, the player entered, all 26/26 atlas layers activated, and the test exited 0 automatically. An initial dedicated startup attempt was rejected by Windows console initialization before map load; that test process was closed and the normal startup check passed. Nonfatal compiler warnings included healed tiny authored edges, existing entity-key warnings, and unchanged mover faces retaining ordinary lighting. Previous complete bake backup and High measurements retained privately; saved map source unchanged; StreetSweeper left open.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T13:54:38.948292-04:00"
+    },
+    {
       "title": "High Render E1M1 timing after atlas optimizations",
       "description": "Timed run of the saved High Render list with deployed lossless atlas operations, complete adaptive measurement caching, button exclusion defaults, and worker memory limits. Existing caches preserved; editor left running.",
       "date": "2026-10-09",
