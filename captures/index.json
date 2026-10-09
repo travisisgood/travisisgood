@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "Fresh E1M1 basement cage bake",
+      "description": "The completed two-hour High bake, photographed from the saved basement testing camera. Closed, halfway raised (44u), and fully raised (88u). Stencil shadows are disabled; the baked mover atlas is enabled. Full 3840 x 2160 originals are available.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T08:51:03.188130-04:00",
+      "images": [
+        {
+          "id": "14868816eac549ea651e2480b0fd8d4dbc717a824356c73281c09bdf0a8e6788",
+          "title": "01 Closed cage0000",
+          "label": "Cage shadows",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6327712,
+          "filename": "01_Closed_cage0000.png",
+          "original": "assets/2026-10-09/14868816eac549ea651e2480b0fd8d4dbc717a824356c73281c09bdf0a8e6788.png",
+          "thumbnail": "assets/2026-10-09/14868816eac549ea651e2480b0fd8d4dbc717a824356c73281c09bdf0a8e6788-thumb.webp",
+          "preview": "assets/2026-10-09/14868816eac549ea651e2480b0fd8d4dbc717a824356c73281c09bdf0a8e6788-view.webp"
+        },
+        {
+          "id": "43f80be96ae64f4e12d6e80bff7854d432dc81dc8d23aa68ad74b7ed05944346",
+          "title": "02 Halfway raised0000",
+          "label": "Cage shadows",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6258710,
+          "filename": "02_Halfway_raised0000.png",
+          "original": "assets/2026-10-09/43f80be96ae64f4e12d6e80bff7854d432dc81dc8d23aa68ad74b7ed05944346.png",
+          "thumbnail": "assets/2026-10-09/43f80be96ae64f4e12d6e80bff7854d432dc81dc8d23aa68ad74b7ed05944346-thumb.webp",
+          "preview": "assets/2026-10-09/43f80be96ae64f4e12d6e80bff7854d432dc81dc8d23aa68ad74b7ed05944346-view.webp"
+        },
+        {
+          "id": "8795d5427eba98c158141d1dc3b74fef5844d02dd756f60f8f4dad4733980294",
+          "title": "03 Fully raised0000",
+          "label": "Cage shadows",
+          "width": 3840,
+          "height": 2160,
+          "bytes": 6122929,
+          "filename": "03_Fully_raised0000.png",
+          "original": "assets/2026-10-09/8795d5427eba98c158141d1dc3b74fef5844d02dd756f60f8f4dad4733980294.png",
+          "thumbnail": "assets/2026-10-09/8795d5427eba98c158141d1dc3b74fef5844d02dd756f60f8f4dad4733980294-thumb.webp",
+          "preview": "assets/2026-10-09/8795d5427eba98c158141d1dc3b74fef5844d02dd756f60f8f4dad4733980294-view.webp"
+        }
+      ],
+      "result": "Capture completed: deployed FaultLine engine exited 0; three 3840 x 2160 screenshots saved from an isolated copy of the freshly compiled BSP/LIT/QMF. All 34 atlas layers loaded and playback advanced with the cage. Individual bar shadows are visible with the cage closed, and floor/wall illumination changes as it rises. Runtime limitation: the 950.6 MiB decoded atlas exceeds the CPU light-point retention limit, so models under moving shadows keep their compiled lighting. Six textures also reported missing normal maps with auxiliary auto-bake disabled. Editor and live project configuration were left untouched. This is a visual capture, not a performance benchmark or whole-map quality approval.",
+      "label": "Cage shadows",
+      "results": [
+        {
+          "at": "2026-10-09T08:51:03.188130-04:00",
+          "text": "Capture completed: deployed FaultLine engine exited 0; three 3840 x 2160 screenshots saved from an isolated copy of the freshly compiled BSP/LIT/QMF. All 34 atlas layers loaded and playback advanced with the cage. Individual bar shadows are visible with the cage closed, and floor/wall illumination changes as it rises. Runtime limitation: the 950.6 MiB decoded atlas exceeds the CPU light-point retention limit, so models under moving shadows keep their compiled lighting. Six textures also reported missing normal maps with auxiliary auto-bake disabled. Editor and live project configuration were left untouched. This is a visual capture, not a performance benchmark or whole-map quality approval.",
+          "status": "passed",
+          "label": "Cage shadows"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T08:51:03.188130-04:00"
+    },
+    {
       "title": "QLS project macros",
       "description": "Project-wide #macro values and expressions, available before events run. Includes editor completion/hover/definition lookup, unsaved sources, published snapshots and packaged PAK definitions. The running editor was left open as requested; its verified update is staged for installation after the lighting compile finishes.",
       "date": "2026-10-08",
