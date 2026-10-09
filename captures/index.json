@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "High Render E1M1 timing after atlas optimizations",
+      "description": "Timed run of the saved High Render list with deployed lossless atlas operations, complete adaptive measurement caching, button exclusion defaults, and worker memory limits. Existing caches preserved; editor left running.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T12:42:24.699314-04:00",
+      "images": [],
+      "result": "In progress: started 12:39:58 PM Toronto. Saved flat E1M1 map exported directly because Windows denied restoring the minimized editor. Exact saved High Render tool list retained (four bounces, PBR, GPU VIS and High mover atlas). Adaptive batch has 601 entries; 12 complete at 12:40:58 PM. Initial estimated total 1.5–2 hours, central estimate about 1h40m. Previous outputs backed up locally. Actual total and stage timings will be added after completion; this is not a passed bake yet.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-09T12:42:24.699314-04:00",
+          "text": "In progress: started 12:39:58 PM Toronto. Saved flat E1M1 map exported directly because Windows denied restoring the minimized editor. Exact saved High Render tool list retained (four bounces, PBR, GPU VIS and High mover atlas). Adaptive batch has 601 entries; 12 complete at 12:40:58 PM. Initial estimated total 1.5–2 hours, central estimate about 1h40m. Previous outputs backed up locally. Actual total and stage timings will be added after completion; this is not a passed bake yet.",
+          "status": "incomplete",
+          "label": "Checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-09T12:42:24.699314-04:00"
+    },
+    {
       "title": "Lossless atlas processing and adaptive probe caching",
       "description": "Quality-preserving lighting tool improvements: completed adaptive measurement reuse, native atlas operations, and CPU/host-memory worker limits. Editor kept open; no full-map rebake.",
       "date": "2026-10-09",
