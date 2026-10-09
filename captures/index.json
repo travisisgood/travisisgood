@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "High mover solver lookup optimization",
+      "description": "Copied-scene benchmarks of High animated lighting, including the E1M1 basement cage. No full High bake was launched.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T17:57:22.335773-04:00",
+      "images": [],
+      "result": "Passed: final cage High batch 27.477s to 21.290s (22.5% less wall time); bounce stage 17.980s to 12.107s (32.7% less time). A broader 12-entry batch took 67.680s before and 53.299s after; repeated wall times varied with concurrent CPU build activity, while bounce timings remained lower. Four adaptive probes took 19.856s before and 19.057s after, with bounce time 11.620s to 8.287s; this short total showed only a 4% gain and is not a full-compile timing. RGB differences stayed within one level out of 255, the same bound observed between two original-solver runs. All receiver/style metadata matched, and merged adaptive probes chose identical lightmap scales. Multiple-point emitters and streamed shading also passed. Eight focused C++ checks and the final OptiX smoke bake passed. Initial harness/build errors were corrected; a tested integer-division experiment was removed because it added no meaningful gain. The test-account OptiX disk-cache warning was nonfatal. Verified executable/PTX deployed; source committed and pushed. Editor remains open and the live Low bake hashes are unchanged. The compiler update changes cache identities, so the next High run will start cold; old caches are retained. Full-bake time remains unmeasured. Private logs, map sources and profiles remain local.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-09T17:57:22.335773-04:00",
+          "text": "Passed: final cage High batch 27.477s to 21.290s (22.5% less wall time); bounce stage 17.980s to 12.107s (32.7% less time). A broader 12-entry batch took 67.680s before and 53.299s after; repeated wall times varied with concurrent CPU build activity, while bounce timings remained lower. Four adaptive probes took 19.856s before and 19.057s after, with bounce time 11.620s to 8.287s; this short total showed only a 4% gain and is not a full-compile timing. RGB differences stayed within one level out of 255, the same bound observed between two original-solver runs. All receiver/style metadata matched, and merged adaptive probes chose identical lightmap scales. Multiple-point emitters and streamed shading also passed. Eight focused C++ checks and the final OptiX smoke bake passed. Initial harness/build errors were corrected; a tested integer-division experiment was removed because it added no meaningful gain. The test-account OptiX disk-cache warning was nonfatal. Verified executable/PTX deployed; source committed and pushed. Editor remains open and the live Low bake hashes are unchanged. The compiler update changes cache identities, so the next High run will start cold; old caches are retained. Full-bake time remains unmeasured. Private logs, map sources and profiles remain local.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T17:57:22.335773-04:00"
+    },
+    {
       "title": "FaultLine E1M1 Low Render recovery bake",
       "description": "Completed Low Render bake and engine map-load verification after canceling the High timing run.",
       "date": "2026-10-09",
