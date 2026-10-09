@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Bows of legend become guns",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T20:01:33.344149-04:00",
+      "images": [
+        {
+          "id": "fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1",
+          "title": "relics-auriels-rifle-eclipse",
+          "label": "relics",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 172476,
+          "filename": "relics-auriels-rifle-eclipse.jpg",
+          "original": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1.jpg",
+          "thumbnail": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-thumb.webp",
+          "preview": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-view.webp"
+        }
+      ],
+      "result": "Each of Skyrim's named bows (Auriel's Bow, Zephyr, Nightingale Bow, Gauldur Blackbow, Bow of the Hunt, Drainspell Bow, Firiniel's End, Dwarven Black Bow of Fate, Glass Bow of the Stag Prince) becomes a legendary gun at your level carrying the bow's own enchantment; the bow is kept, out of sight, for quests. Auriel's Rifle fired at the sun with Bloodcursed rounds casts Dawnguard's eclipse (pictured: the red wash setting in). Two new loading screens: a draugr with a rifle, an enchanted sniper. relics 22/22, loading 12/13 (the miss: the capture flag, since fixed).",
+      "label": "relics",
+      "results": [
+        {
+          "at": "2026-10-08T20:01:33.344149-04:00",
+          "text": "Each of Skyrim's named bows (Auriel's Bow, Zephyr, Nightingale Bow, Gauldur Blackbow, Bow of the Hunt, Drainspell Bow, Firiniel's End, Dwarven Black Bow of Fate, Glass Bow of the Stag Prince) becomes a legendary gun at your level carrying the bow's own enchantment; the bow is kept, out of sight, for quests. Auriel's Rifle fired at the sun with Bloodcursed rounds casts Dawnguard's eclipse (pictured: the red wash setting in). Two new loading screens: a draugr with a rifle, an enchanted sniper. relics 22/22, loading 12/13 (the miss: the capture flag, since fixed).",
+          "status": "passed",
+          "label": "relics"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T20:01:33.344149-04:00"
+    },
+    {
       "title": "Borderrim / Solstheim's Loaders",
       "description": "",
       "date": "2026-10-08",
