@@ -2,6 +2,146 @@
   "version": 1,
   "albums": [
     {
+      "title": "Dig Site Aurora and the Gate",
+      "description": "The way down to the Vault. Read every ECHO log and Dig Site Aurora's mouth appears in the hills above the White River (its marker on the map). Inside: a vanilla cave (Haemar's Shame's first cell, copied, the vampires' lair stripped out), Skyrim at the mouth, Hyperion's crates creeping in, then Eridian tiles and stone breaking through, Hyperion's camp by a dead Constructor; through its deep door, the Gate's cavern -- Skyrim's own Epic cave kit, as Blackreach -- and the Gate: BL2's broken Vault arch, a swirling purple and red portal filling its opening (vanilla swirl textures), Molag Bal's shrines either side, an Eridian pavement before it, Loaders on guard. Through it: the Vault.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T18:14:12.544088-04:00",
+      "images": [
+        {
+          "id": "086f3e89e8c865534b8d1a95703d78d70b23d8d777c08caa71577449b19595d8",
+          "title": "01-dig-20pc",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3043261,
+          "filename": "01-dig-20pc.png",
+          "original": "assets/2026-10-09/086f3e89e8c865534b8d1a95703d78d70b23d8d777c08caa71577449b19595d8.png",
+          "thumbnail": "assets/2026-10-09/086f3e89e8c865534b8d1a95703d78d70b23d8d777c08caa71577449b19595d8-thumb.webp",
+          "preview": "assets/2026-10-09/086f3e89e8c865534b8d1a95703d78d70b23d8d777c08caa71577449b19595d8-view.webp"
+        },
+        {
+          "id": "07c4e8b0c4324b627a67600a1a7ea24994213604aee8df7d87dceaab074b6c4f",
+          "title": "02-dig-50pc",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3456551,
+          "filename": "02-dig-50pc.png",
+          "original": "assets/2026-10-09/07c4e8b0c4324b627a67600a1a7ea24994213604aee8df7d87dceaab074b6c4f.png",
+          "thumbnail": "assets/2026-10-09/07c4e8b0c4324b627a67600a1a7ea24994213604aee8df7d87dceaab074b6c4f-thumb.webp",
+          "preview": "assets/2026-10-09/07c4e8b0c4324b627a67600a1a7ea24994213604aee8df7d87dceaab074b6c4f-view.webp"
+        },
+        {
+          "id": "e9842aaaf311b7f18623f28f6e648ed64155e121036e739de0a615890ae13e5c",
+          "title": "03-dig-75pc",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4104163,
+          "filename": "03-dig-75pc.png",
+          "original": "assets/2026-10-09/e9842aaaf311b7f18623f28f6e648ed64155e121036e739de0a615890ae13e5c.png",
+          "thumbnail": "assets/2026-10-09/e9842aaaf311b7f18623f28f6e648ed64155e121036e739de0a615890ae13e5c-thumb.webp",
+          "preview": "assets/2026-10-09/e9842aaaf311b7f18623f28f6e648ed64155e121036e739de0a615890ae13e5c-view.webp"
+        },
+        {
+          "id": "d4340eada57fe9fc7bd22f94316d03fb49fc0e61bc41e5411e8b96b9bccffda7",
+          "title": "04-dig-camp",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4294752,
+          "filename": "04-dig-camp.png",
+          "original": "assets/2026-10-09/d4340eada57fe9fc7bd22f94316d03fb49fc0e61bc41e5411e8b96b9bccffda7.png",
+          "thumbnail": "assets/2026-10-09/d4340eada57fe9fc7bd22f94316d03fb49fc0e61bc41e5411e8b96b9bccffda7-thumb.webp",
+          "preview": "assets/2026-10-09/d4340eada57fe9fc7bd22f94316d03fb49fc0e61bc41e5411e8b96b9bccffda7-view.webp"
+        },
+        {
+          "id": "52f32591860a1fd522e1e3bbb6404abf539d43a0513052996f0a1863aadc3415",
+          "title": "05-dig-deep-door",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3971040,
+          "filename": "05-dig-deep-door.png",
+          "original": "assets/2026-10-09/52f32591860a1fd522e1e3bbb6404abf539d43a0513052996f0a1863aadc3415.png",
+          "thumbnail": "assets/2026-10-09/52f32591860a1fd522e1e3bbb6404abf539d43a0513052996f0a1863aadc3415-thumb.webp",
+          "preview": "assets/2026-10-09/52f32591860a1fd522e1e3bbb6404abf539d43a0513052996f0a1863aadc3415-view.webp"
+        },
+        {
+          "id": "435ccc8772eb1dbdc28085bf142ccd0faf139ce8644a7fec869a83ed2153c058",
+          "title": "06-cavern",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2750730,
+          "filename": "06-cavern.png",
+          "original": "assets/2026-10-09/435ccc8772eb1dbdc28085bf142ccd0faf139ce8644a7fec869a83ed2153c058.png",
+          "thumbnail": "assets/2026-10-09/435ccc8772eb1dbdc28085bf142ccd0faf139ce8644a7fec869a83ed2153c058-thumb.webp",
+          "preview": "assets/2026-10-09/435ccc8772eb1dbdc28085bf142ccd0faf139ce8644a7fec869a83ed2153c058-view.webp"
+        },
+        {
+          "id": "eacb01e0cd882ffb1fdf6f78a4d266c46ccb26d91bbd55fde1e5798af55931f5",
+          "title": "07-gate",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3180761,
+          "filename": "07-gate.png",
+          "original": "assets/2026-10-09/eacb01e0cd882ffb1fdf6f78a4d266c46ccb26d91bbd55fde1e5798af55931f5.png",
+          "thumbnail": "assets/2026-10-09/eacb01e0cd882ffb1fdf6f78a4d266c46ccb26d91bbd55fde1e5798af55931f5-thumb.webp",
+          "preview": "assets/2026-10-09/eacb01e0cd882ffb1fdf6f78a4d266c46ccb26d91bbd55fde1e5798af55931f5-view.webp"
+        },
+        {
+          "id": "40e419dec301ea805be8ae32e228a2565228a4565b5dd7f18f002f1f3cc59556",
+          "title": "08-portal",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2964562,
+          "filename": "08-portal.png",
+          "original": "assets/2026-10-09/40e419dec301ea805be8ae32e228a2565228a4565b5dd7f18f002f1f3cc59556.png",
+          "thumbnail": "assets/2026-10-09/40e419dec301ea805be8ae32e228a2565228a4565b5dd7f18f002f1f3cc59556-thumb.webp",
+          "preview": "assets/2026-10-09/40e419dec301ea805be8ae32e228a2565228a4565b5dd7f18f002f1f3cc59556-view.webp"
+        },
+        {
+          "id": "34a347c153f9f191994c3bc7e7b25b0ab5ddea9655e10a872c687a2487602a4e",
+          "title": "09-cavern-camp",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2849355,
+          "filename": "09-cavern-camp.png",
+          "original": "assets/2026-10-09/34a347c153f9f191994c3bc7e7b25b0ab5ddea9655e10a872c687a2487602a4e.png",
+          "thumbnail": "assets/2026-10-09/34a347c153f9f191994c3bc7e7b25b0ab5ddea9655e10a872c687a2487602a4e-thumb.webp",
+          "preview": "assets/2026-10-09/34a347c153f9f191994c3bc7e7b25b0ab5ddea9655e10a872c687a2487602a4e-view.webp"
+        },
+        {
+          "id": "f5e2311955a3b48190dddc6fd05891475f6f44928a8f02a382057706cd7a1c4c",
+          "title": "10-through-to-the-vault",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3360164,
+          "filename": "10-through-to-the-vault.png",
+          "original": "assets/2026-10-09/f5e2311955a3b48190dddc6fd05891475f6f44928a8f02a382057706cd7a1c4c.png",
+          "thumbnail": "assets/2026-10-09/f5e2311955a3b48190dddc6fd05891475f6f44928a8f02a382057706cd7a1c4c-thumb.webp",
+          "preview": "assets/2026-10-09/f5e2311955a3b48190dddc6fd05891475f6f44928a8f02a382057706cd7a1c4c-view.webp"
+        }
+      ],
+      "result": "Dig focus 18/18: the reveal (all logs read -> mouth and marker), in through the mouth, down through the deep door to the cavern, the Gate's Loaders made, through the Gate to the Vault, home again through the way home.",
+      "label": "Vault",
+      "results": [
+        {
+          "at": "2026-10-09T18:14:12.544088-04:00",
+          "text": "Dig focus 18/18: the reveal (all logs read -> mouth and marker), in through the mouth, down through the deep door to the cavern, the Gate's Loaders made, through the Gate to the Vault, home again through the way home.",
+          "status": "passed",
+          "label": "Vault"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T18:14:12.544088-04:00"
+    },
+    {
       "title": "The Vault: first look",
       "description": "The Vault raid's arena, first proof: its own world (no ground but one island of Skyrim landscape, hanging in a purple and red void), a ring of Daedric statues, Azura's Star crystals and hex pillars adrift, its own sky. A blood dragon let loose over it: it takes off, circles the island and the void, perches on Boethiah's shrine, breathes fire. Vanilla Skyrim/Dawnguard/Dragonborn only; BL2 terrain and Eridian statues still to come, and the navmesh for landings.",
       "date": "2026-10-09",
