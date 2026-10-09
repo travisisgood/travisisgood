@@ -7,7 +7,7 @@
       "date": "2026-10-08",
       "created": "2026-10-08T20:09:01.109311-04:00",
       "images": [],
-      "result": "Initial live checks exposed published parent-name routing, model-path validation, and trigger handle gaps; fixture mistakes also interrupted early runs. Corrected parent spawning and volume tests now pass. Initial editor checks: 136 assertions; array language checks: 67 probes. Texture regression first selected zero assertions; corrected selection passed 9. One test-fixture build failed due to a missing constructor argument, then built successfully.",
+      "result": "The full language run found one obsolete transpiler-output assertion after array auto-initialization changed the generated code. Corrected that expectation; the focused transpiler rerun passed. All semantic suites passed, including 67 mapper probes and 401 array checks. An editor test filter matched no cases; corrected selection passed 252 assertions in 16 cases. Live palette/action checks passed 55 checks plus 4 fresh-load checks; helper checks passed 34 compiler and 47 engine checks; saved helpers passed 5/90/7 checks; tick alarms passed 311 plus 10 restored checks. Texture lifetime checks passed 152 filesystem and 9 shared-texture assertions.",
       "label": "QLS actions",
       "results": [
         {
@@ -15,10 +15,16 @@
           "text": "Initial live checks exposed published parent-name routing, model-path validation, and trigger handle gaps; fixture mistakes also interrupted early runs. Corrected parent spawning and volume tests now pass. Initial editor checks: 136 assertions; array language checks: 67 probes. Texture regression first selected zero assertions; corrected selection passed 9. One test-fixture build failed due to a missing constructor argument, then built successfully.",
           "status": "failed",
           "label": "QLS actions"
+        },
+        {
+          "at": "2026-10-08T20:17:49.552870-04:00",
+          "text": "The full language run found one obsolete transpiler-output assertion after array auto-initialization changed the generated code. Corrected that expectation; the focused transpiler rerun passed. All semantic suites passed, including 67 mapper probes and 401 array checks. An editor test filter matched no cases; corrected selection passed 252 assertions in 16 cases. Live palette/action checks passed 55 checks plus 4 fresh-load checks; helper checks passed 34 compiler and 47 engine checks; saved helpers passed 5/90/7 checks; tick alarms passed 311 plus 10 restored checks. Texture lifetime checks passed 152 filesystem and 9 shared-texture assertions.",
+          "status": "mixed",
+          "label": "QLS actions"
         }
       ],
-      "status": "failed",
-      "updated": "2026-10-08T20:09:01.109311-04:00"
+      "status": "mixed",
+      "updated": "2026-10-08T20:17:49.552870-04:00"
     },
     {
       "title": "Second-map close regression",
