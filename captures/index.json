@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS project macros",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T21:34:26.494942-04:00",
+      "images": [],
+      "result": "Initial compiler checks passed: 72 existing probes, then 86 macro probes. The first editor build failed because a private compiler include was exposed through a public UI header. Corrected that boundary and rebuilt. No editor or lighting processes were stopped.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T21:34:26.494942-04:00",
+          "text": "Initial compiler checks passed: 72 existing probes, then 86 macro probes. The first editor build failed because a private compiler include was exposed through a public UI header. Corrected that boundary and rebuilt. No editor or lighting processes were stopped.",
+          "status": "mixed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-08T21:34:26.494942-04:00"
+    },
+    {
       "title": "Core Descent follow-up - verified",
       "description": "Fixed bracket-written menu lengths, boolean input arithmetic and numeric flag comparisons, and XY nearest-instance field completion. Original Core Descent syntax audit: 1,481 of 1,917 event files compiled unchanged; 435 stopped at deliberately forbidden single-equals comparisons and one used unsupported #macro. Syntax checking does not execute the full GameMaker project. Initial failures are retained in the separate findings entry.",
       "date": "2026-10-08",
