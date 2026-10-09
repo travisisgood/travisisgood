@@ -558,9 +558,81 @@
           "original": "assets/2026-10-09/d8137909946a9294a384b56c7c0edb63340bf691150953d22d86ed5d744469d5.png",
           "thumbnail": "assets/2026-10-09/d8137909946a9294a384b56c7c0edb63340bf691150953d22d86ed5d744469d5-thumb.webp",
           "preview": "assets/2026-10-09/d8137909946a9294a384b56c7c0edb63340bf691150953d22d86ed5d744469d5-view.webp"
+        },
+        {
+          "id": "a4ed06f6fc7c2e1cf9c457239b02b6e8da8f8214a8522ecc3945da162d5c5eb7",
+          "title": "00-vault-view0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3127038,
+          "filename": "00-vault-view0.png",
+          "original": "assets/2026-10-09/a4ed06f6fc7c2e1cf9c457239b02b6e8da8f8214a8522ecc3945da162d5c5eb7.png",
+          "thumbnail": "assets/2026-10-09/a4ed06f6fc7c2e1cf9c457239b02b6e8da8f8214a8522ecc3945da162d5c5eb7-thumb.webp",
+          "preview": "assets/2026-10-09/a4ed06f6fc7c2e1cf9c457239b02b6e8da8f8214a8522ecc3945da162d5c5eb7-view.webp"
+        },
+        {
+          "id": "6ba758e3650683b4e74a26bc2416789c9b58a3b2c361856cafe7d468bb1d459e",
+          "title": "01-vault-view1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3269446,
+          "filename": "01-vault-view1.png",
+          "original": "assets/2026-10-09/6ba758e3650683b4e74a26bc2416789c9b58a3b2c361856cafe7d468bb1d459e.png",
+          "thumbnail": "assets/2026-10-09/6ba758e3650683b4e74a26bc2416789c9b58a3b2c361856cafe7d468bb1d459e-thumb.webp",
+          "preview": "assets/2026-10-09/6ba758e3650683b4e74a26bc2416789c9b58a3b2c361856cafe7d468bb1d459e-view.webp"
+        },
+        {
+          "id": "c07ff6f27f89169f9ce48d5d14fe9b00f59b432289278f40ada1d775df782979",
+          "title": "02-vault-view2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3447595,
+          "filename": "02-vault-view2.png",
+          "original": "assets/2026-10-09/c07ff6f27f89169f9ce48d5d14fe9b00f59b432289278f40ada1d775df782979.png",
+          "thumbnail": "assets/2026-10-09/c07ff6f27f89169f9ce48d5d14fe9b00f59b432289278f40ada1d775df782979-thumb.webp",
+          "preview": "assets/2026-10-09/c07ff6f27f89169f9ce48d5d14fe9b00f59b432289278f40ada1d775df782979-view.webp"
+        },
+        {
+          "id": "e4facef2d11542e50a3c3dec748c0256d36dbcce3dbbf18e736969d9a3c6e09c",
+          "title": "03-vault-view3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3561725,
+          "filename": "03-vault-view3.png",
+          "original": "assets/2026-10-09/e4facef2d11542e50a3c3dec748c0256d36dbcce3dbbf18e736969d9a3c6e09c.png",
+          "thumbnail": "assets/2026-10-09/e4facef2d11542e50a3c3dec748c0256d36dbcce3dbbf18e736969d9a3c6e09c-thumb.webp",
+          "preview": "assets/2026-10-09/e4facef2d11542e50a3c3dec748c0256d36dbcce3dbbf18e736969d9a3c6e09c-view.webp"
+        },
+        {
+          "id": "7f462fbb2e00b7e87fe54662fa545cdb5c6c13727f150b1f1bc6f4ad5a0a2b50",
+          "title": "04-vault-lip",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2846589,
+          "filename": "04-vault-lip.png",
+          "original": "assets/2026-10-09/7f462fbb2e00b7e87fe54662fa545cdb5c6c13727f150b1f1bc6f4ad5a0a2b50.png",
+          "thumbnail": "assets/2026-10-09/7f462fbb2e00b7e87fe54662fa545cdb5c6c13727f150b1f1bc6f4ad5a0a2b50-thumb.webp",
+          "preview": "assets/2026-10-09/7f462fbb2e00b7e87fe54662fa545cdb5c6c13727f150b1f1bc6f4ad5a0a2b50-view.webp"
+        },
+        {
+          "id": "f0b8f3ca9653cf3c03dd9a78d550b4154de5c4398c7ea9c2b6038c1d0bdf1e37",
+          "title": "05-vault-dragon2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2364125,
+          "filename": "05-vault-dragon2.png",
+          "original": "assets/2026-10-09/f0b8f3ca9653cf3c03dd9a78d550b4154de5c4398c7ea9c2b6038c1d0bdf1e37.png",
+          "thumbnail": "assets/2026-10-09/f0b8f3ca9653cf3c03dd9a78d550b4154de5c4398c7ea9c2b6038c1d0bdf1e37-thumb.webp",
+          "preview": "assets/2026-10-09/f0b8f3ca9653cf3c03dd9a78d550b4154de5c4398c7ea9c2b6038c1d0bdf1e37-view.webp"
         }
       ],
-      "result": "BL2 ground and Skyrim's together: the island is now a crater of BL2's -- Sawtooth Cauldron's round basin, read from BL2 itself (a new BL2 harness phase dumps any map's heightmap terrain) -- its flat floor the arena (8600 across), its walls rising round it, with the crags of Skyrim's highest mountains (round the Throat of the World) worked into them; the Daedric princes stand on the rim looking down. Last image: the island from above. Vault focus 19/19.",
+      "result": "Both games' ground: BL2's crater textures (Sawtooth Cauldron's obsidian, volcanic dirt and gravel, made from the player's BL2 at setup) as Skyrim landscape textures beside Skyrim's own (Dragonborn's ash, Dawnguard's Soul Cairn rock): BL2's obsidian up the crater walls, its volcanic dirt on the floor, Skyrim's ash and BL2's gravel in patches. Vault focus 19/19. (Captured before the obsidian was darkened a quarter.)",
       "label": "Vault",
       "results": [
         {
@@ -586,10 +658,16 @@
           "text": "BL2 ground and Skyrim's together: the island is now a crater of BL2's -- Sawtooth Cauldron's round basin, read from BL2 itself (a new BL2 harness phase dumps any map's heightmap terrain) -- its flat floor the arena (8600 across), its walls rising round it, with the crags of Skyrim's highest mountains (round the Throat of the World) worked into them; the Daedric princes stand on the rim looking down. Last image: the island from above. Vault focus 19/19.",
           "status": "passed",
           "label": "Vault"
+        },
+        {
+          "at": "2026-10-09T16:50:03.504054-04:00",
+          "text": "Both games' ground: BL2's crater textures (Sawtooth Cauldron's obsidian, volcanic dirt and gravel, made from the player's BL2 at setup) as Skyrim landscape textures beside Skyrim's own (Dragonborn's ash, Dawnguard's Soul Cairn rock): BL2's obsidian up the crater walls, its volcanic dirt on the floor, Skyrim's ash and BL2's gravel in patches. Vault focus 19/19. (Captured before the obsidian was darkened a quarter.)",
+          "status": "passed",
+          "label": "Vault"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-09T16:42:13.089111-04:00"
+      "updated": "2026-10-09T16:50:03.504054-04:00"
     },
     {
       "title": "BL2 toughness and enemy shields",
