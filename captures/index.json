@@ -7,8 +7,8 @@
       "date": "2026-10-08",
       "created": "2026-10-08T20:09:01.109311-04:00",
       "images": [],
-      "result": "The full language run found one obsolete transpiler-output assertion after array auto-initialization changed the generated code. Corrected that expectation; the focused transpiler rerun passed. All semantic suites passed, including 67 mapper probes and 401 array checks. An editor test filter matched no cases; corrected selection passed 252 assertions in 16 cases. Live palette/action checks passed 55 checks plus 4 fresh-load checks; helper checks passed 34 compiler and 47 engine checks; saved helpers passed 5/90/7 checks; tick alarms passed 311 plus 10 restored checks. Texture lifetime checks passed 152 filesystem and 9 shared-texture assertions.",
-      "label": "QLS actions",
+      "result": "Final combined offscreen editor run failed to acquire a map-view focus widget and aborted during failed-test cleanup. Independent fresh-process runs passed: 261 QLS/event-editor assertions in 16 cases, and 54 map-close assertions in 2 cases. Shared texture lifetime regression passed 9 assertions again. This combined-run harness failure is retained rather than presented as a successful full-suite run.",
+      "label": "Editor checks",
       "results": [
         {
           "at": "2026-10-08T20:09:01.109311-04:00",
@@ -21,10 +21,16 @@
           "text": "The full language run found one obsolete transpiler-output assertion after array auto-initialization changed the generated code. Corrected that expectation; the focused transpiler rerun passed. All semantic suites passed, including 67 mapper probes and 401 array checks. An editor test filter matched no cases; corrected selection passed 252 assertions in 16 cases. Live palette/action checks passed 55 checks plus 4 fresh-load checks; helper checks passed 34 compiler and 47 engine checks; saved helpers passed 5/90/7 checks; tick alarms passed 311 plus 10 restored checks. Texture lifetime checks passed 152 filesystem and 9 shared-texture assertions.",
           "status": "mixed",
           "label": "QLS actions"
+        },
+        {
+          "at": "2026-10-08T20:20:03.260818-04:00",
+          "text": "Final combined offscreen editor run failed to acquire a map-view focus widget and aborted during failed-test cleanup. Independent fresh-process runs passed: 261 QLS/event-editor assertions in 16 cases, and 54 map-close assertions in 2 cases. Shared texture lifetime regression passed 9 assertions again. This combined-run harness failure is retained rather than presented as a successful full-suite run.",
+          "status": "mixed",
+          "label": "Editor checks"
         }
       ],
       "status": "mixed",
-      "updated": "2026-10-08T20:17:49.552870-04:00"
+      "updated": "2026-10-08T20:20:03.260818-04:00"
     },
     {
       "title": "Second-map close regression",
