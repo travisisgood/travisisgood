@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / Conjuration: bound guns",
+      "description": "Bound Pistol in Skyrim's bound look (Skyrim's own Bound Bow for reference), Conjure Ammunition filling the magazine",
+      "date": "2026-10-09",
+      "created": "2026-10-09T13:33:20.104526-04:00",
+      "images": [
+        {
+          "id": "a033db0045be24d725bf6816f33243ffd2103ff3fd374ce37e2cbe72cdbc2a8a",
+          "title": "conjuration-bound-fp",
+          "label": "conjuration",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4031663,
+          "filename": "conjuration-bound-fp.png",
+          "original": "assets/2026-10-09/a033db0045be24d725bf6816f33243ffd2103ff3fd374ce37e2cbe72cdbc2a8a.png",
+          "thumbnail": "assets/2026-10-09/a033db0045be24d725bf6816f33243ffd2103ff3fd374ce37e2cbe72cdbc2a8a-thumb.webp",
+          "preview": "assets/2026-10-09/a033db0045be24d725bf6816f33243ffd2103ff3fd374ce37e2cbe72cdbc2a8a-view.webp"
+        },
+        {
+          "id": "b2ef023d3ef812023ca6dc86108016a988c5168d02a09008c0eb757847351cf9",
+          "title": "conjuration-loading",
+          "label": "conjuration",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4071132,
+          "filename": "conjuration-loading.png",
+          "original": "assets/2026-10-09/b2ef023d3ef812023ca6dc86108016a988c5168d02a09008c0eb757847351cf9.png",
+          "thumbnail": "assets/2026-10-09/b2ef023d3ef812023ca6dc86108016a988c5168d02a09008c0eb757847351cf9-thumb.webp",
+          "preview": "assets/2026-10-09/b2ef023d3ef812023ca6dc86108016a988c5168d02a09008c0eb757847351cf9-view.webp"
+        },
+        {
+          "id": "cd5babc074a90c54cd2ca60cd42aae284252b85931f2737f3d5e66c801d63088",
+          "title": "conjuration-ref-boundbow",
+          "label": "conjuration",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4048984,
+          "filename": "conjuration-ref-boundbow.png",
+          "original": "assets/2026-10-09/cd5babc074a90c54cd2ca60cd42aae284252b85931f2737f3d5e66c801d63088.png",
+          "thumbnail": "assets/2026-10-09/cd5babc074a90c54cd2ca60cd42aae284252b85931f2737f3d5e66c801d63088-thumb.webp",
+          "preview": "assets/2026-10-09/cd5babc074a90c54cd2ca60cd42aae284252b85931f2737f3d5e66c801d63088-view.webp"
+        }
+      ],
+      "result": "conjuration 19/19, relics 27/27 (Gelebor's note), default 41/41, trades 26/26",
+      "label": "conjuration",
+      "results": [
+        {
+          "at": "2026-10-09T13:33:20.104526-04:00",
+          "text": "conjuration 19/19, relics 27/27 (Gelebor's note), default 41/41, trades 26/26",
+          "status": "passed",
+          "label": "conjuration"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T13:33:20.104526-04:00"
+    },
+    {
       "title": "Borderrim / Loadout favourites",
       "description": "Skyrim's favourites inside the BL2 loadout: equip to either hand, set hotkeys 1-8",
       "date": "2026-10-09",
