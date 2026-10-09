@@ -3,11 +3,11 @@
   "albums": [
     {
       "title": "QLS project macros",
-      "description": "",
+      "description": "Project-wide #macro values and expressions, available before events run. Includes editor completion/hover/definition lookup, unsaved sources, published snapshots and packaged PAK definitions. The running editor was left open as requested; its verified update is staged for installation after the lighting compile finishes.",
       "date": "2026-10-08",
       "created": "2026-10-08T21:34:26.494942-04:00",
       "images": [],
-      "result": "Initial compiler checks passed: 72 existing probes, then 86 macro probes. The first editor build failed because a private compiler include was exposed through a public UI header. Corrected that boundary and rebuilt. No editor or lighting processes were stopped.",
+      "result": "Final verification passed: 88 focused language probes and the full compiler/runtime regression suite; 235 persistence checks; combined editor tests 355 assertions in 19 cases. Real engine macro workflow passed 35 live plus 8 restore checks initially, then 36 live plus 8 restore checks with explicit PAK coverage. Core Descent syntax audit: 1,482 of 1,917 events compile unchanged; all 435 remaining errors are deliberately forbidden single-equals conditions. Manual and generated definitions checks passed. Verified engine deployed; verified editor staged. Initial build failure is preserved in this entry history.",
       "label": "QLS actions",
       "results": [
         {
@@ -15,10 +15,16 @@
           "text": "Initial compiler checks passed: 72 existing probes, then 86 macro probes. The first editor build failed because a private compiler include was exposed through a public UI header. Corrected that boundary and rebuilt. No editor or lighting processes were stopped.",
           "status": "mixed",
           "label": "QLS actions"
+        },
+        {
+          "at": "2026-10-08T21:34:29.215225-04:00",
+          "text": "Final verification passed: 88 focused language probes and the full compiler/runtime regression suite; 235 persistence checks; combined editor tests 355 assertions in 19 cases. Real engine macro workflow passed 35 live plus 8 restore checks initially, then 36 live plus 8 restore checks with explicit PAK coverage. Core Descent syntax audit: 1,482 of 1,917 events compile unchanged; all 435 remaining errors are deliberately forbidden single-equals conditions. Manual and generated definitions checks passed. Verified engine deployed; verified editor staged. Initial build failure is preserved in this entry history.",
+          "status": "passed",
+          "label": "QLS actions"
         }
       ],
-      "status": "mixed",
-      "updated": "2026-10-08T21:34:26.494942-04:00"
+      "status": "passed",
+      "updated": "2026-10-08T21:34:29.215225-04:00"
     },
     {
       "title": "Core Descent follow-up - verified",
