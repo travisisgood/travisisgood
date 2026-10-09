@@ -2,6 +2,218 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine E1M1 relief and noclip investigation",
+      "description": "Exact dented-wall camera; material and copied-map bake controls. Courtyard shadow view is nearby, not the supplied platform-shadow camera. Original project assets remain unchanged. Preliminary normal subset missed the wall; final all-texture neutral normals isolate its smooth rims.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T19:18:49.526078-04:00",
+      "images": [
+        {
+          "id": "0335e58ff608705effd93a6650b7e4b1323273e911eb62eff7321f8cf8db0c84",
+          "title": "courtyard-bake-without-dirt",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2272438,
+          "filename": "courtyard-bake-without-dirt.png",
+          "original": "assets/2026-10-09/0335e58ff608705effd93a6650b7e4b1323273e911eb62eff7321f8cf8db0c84.png",
+          "thumbnail": "assets/2026-10-09/0335e58ff608705effd93a6650b7e4b1323273e911eb62eff7321f8cf8db0c84-thumb.webp",
+          "preview": "assets/2026-10-09/0335e58ff608705effd93a6650b7e4b1323273e911eb62eff7321f8cf8db0c84-view.webp"
+        },
+        {
+          "id": "efb84335d40b501fa0ac354158a037bef8a25bb61655317d7ca908e07c7666ab",
+          "title": "courtyard-bake-without-pbr",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2225505,
+          "filename": "courtyard-bake-without-pbr.png",
+          "original": "assets/2026-10-09/efb84335d40b501fa0ac354158a037bef8a25bb61655317d7ca908e07c7666ab.png",
+          "thumbnail": "assets/2026-10-09/efb84335d40b501fa0ac354158a037bef8a25bb61655317d7ca908e07c7666ab-thumb.webp",
+          "preview": "assets/2026-10-09/efb84335d40b501fa0ac354158a037bef8a25bb61655317d7ca908e07c7666ab-view.webp"
+        },
+        {
+          "id": "599aa4ed4fd77828320ac8a4bfb33908c8d8df0bbd63e4fb9aad66d374fc288a",
+          "title": "courtyard-original",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2239383,
+          "filename": "courtyard-original.png",
+          "original": "assets/2026-10-09/599aa4ed4fd77828320ac8a4bfb33908c8d8df0bbd63e4fb9aad66d374fc288a.png",
+          "thumbnail": "assets/2026-10-09/599aa4ed4fd77828320ac8a4bfb33908c8d8df0bbd63e4fb9aad66d374fc288a-thumb.webp",
+          "preview": "assets/2026-10-09/599aa4ed4fd77828320ac8a4bfb33908c8d8df0bbd63e4fb9aad66d374fc288a-view.webp"
+        },
+        {
+          "id": "39781b8eeabb43491ed37a26615efcca0a93ca85d4264d2f53f480ba34c13e53",
+          "title": "courtyard-recorded-bake",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2239885,
+          "filename": "courtyard-recorded-bake.png",
+          "original": "assets/2026-10-09/39781b8eeabb43491ed37a26615efcca0a93ca85d4264d2f53f480ba34c13e53.png",
+          "thumbnail": "assets/2026-10-09/39781b8eeabb43491ed37a26615efcca0a93ca85d4264d2f53f480ba34c13e53-thumb.webp",
+          "preview": "assets/2026-10-09/39781b8eeabb43491ed37a26615efcca0a93ca85d4264d2f53f480ba34c13e53-view.webp"
+        },
+        {
+          "id": "50531e6f617d5b8935bff62563d76fe14e179dae68dbdc1027b527586c2f7855",
+          "title": "wall-bake-without-dirt",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1154849,
+          "filename": "wall-bake-without-dirt.png",
+          "original": "assets/2026-10-09/50531e6f617d5b8935bff62563d76fe14e179dae68dbdc1027b527586c2f7855.png",
+          "thumbnail": "assets/2026-10-09/50531e6f617d5b8935bff62563d76fe14e179dae68dbdc1027b527586c2f7855-thumb.webp",
+          "preview": "assets/2026-10-09/50531e6f617d5b8935bff62563d76fe14e179dae68dbdc1027b527586c2f7855-view.webp"
+        },
+        {
+          "id": "d41502cd56771b556724694c8449aada1cb49ed3ff81b05b2fcf6e10841f331a",
+          "title": "wall-bake-without-pbr",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1007219,
+          "filename": "wall-bake-without-pbr.png",
+          "original": "assets/2026-10-09/d41502cd56771b556724694c8449aada1cb49ed3ff81b05b2fcf6e10841f331a.png",
+          "thumbnail": "assets/2026-10-09/d41502cd56771b556724694c8449aada1cb49ed3ff81b05b2fcf6e10841f331a-thumb.webp",
+          "preview": "assets/2026-10-09/d41502cd56771b556724694c8449aada1cb49ed3ff81b05b2fcf6e10841f331a-view.webp"
+        },
+        {
+          "id": "9a85e3d490b68d3a041c9042969fd73b6c4e422aed84ec53cb19913cae267b26",
+          "title": "wall-flat",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1084805,
+          "filename": "wall-flat.png",
+          "original": "assets/2026-10-09/9a85e3d490b68d3a041c9042969fd73b6c4e422aed84ec53cb19913cae267b26.png",
+          "thumbnail": "assets/2026-10-09/9a85e3d490b68d3a041c9042969fd73b6c4e422aed84ec53cb19913cae267b26-thumb.webp",
+          "preview": "assets/2026-10-09/9a85e3d490b68d3a041c9042969fd73b6c4e422aed84ec53cb19913cae267b26-view.webp"
+        },
+        {
+          "id": "4ecee729f2c14055c1a263bd01cf1e8398a6ab8e3491fec265310bb1848d86a2",
+          "title": "wall-material-comparison",
+          "label": "Investigation",
+          "width": 1200,
+          "height": 640,
+          "bytes": 161570,
+          "filename": "wall-material-comparison.png",
+          "original": "assets/2026-10-09/4ecee729f2c14055c1a263bd01cf1e8398a6ab8e3491fec265310bb1848d86a2.png",
+          "thumbnail": "assets/2026-10-09/4ecee729f2c14055c1a263bd01cf1e8398a6ab8e3491fec265310bb1848d86a2-thumb.webp",
+          "preview": "assets/2026-10-09/4ecee729f2c14055c1a263bd01cf1e8398a6ab8e3491fec265310bb1848d86a2-view.webp"
+        },
+        {
+          "id": "d49f88f887d232bada2aa4aaaf3463786fe41271ec74ced1ffa94a9c7f1897be",
+          "title": "wall-neutral-normals",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1043343,
+          "filename": "wall-neutral-normals.png",
+          "original": "assets/2026-10-09/d49f88f887d232bada2aa4aaaf3463786fe41271ec74ced1ffa94a9c7f1897be.png",
+          "thumbnail": "assets/2026-10-09/d49f88f887d232bada2aa4aaaf3463786fe41271ec74ced1ffa94a9c7f1897be-thumb.webp",
+          "preview": "assets/2026-10-09/d49f88f887d232bada2aa4aaaf3463786fe41271ec74ced1ffa94a9c7f1897be-view.webp"
+        },
+        {
+          "id": "9310d753d82fbff0ad1c6a22e148e81863b3ed0007031fe66efbe9826e8b22e5",
+          "title": "wall-no backstop",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1102669,
+          "filename": "wall-no_backstop.png",
+          "original": "assets/2026-10-09/9310d753d82fbff0ad1c6a22e148e81863b3ed0007031fe66efbe9826e8b22e5.png",
+          "thumbnail": "assets/2026-10-09/9310d753d82fbff0ad1c6a22e148e81863b3ed0007031fe66efbe9826e8b22e5-thumb.webp",
+          "preview": "assets/2026-10-09/9310d753d82fbff0ad1c6a22e148e81863b3ed0007031fe66efbe9826e8b22e5-view.webp"
+        },
+        {
+          "id": "d0356b8297875cfa5588664e86d24ad476807ef75d2d23722ddc3b6e3536150b",
+          "title": "wall-no selfshadow",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1033164,
+          "filename": "wall-no_selfshadow.png",
+          "original": "assets/2026-10-09/d0356b8297875cfa5588664e86d24ad476807ef75d2d23722ddc3b6e3536150b.png",
+          "thumbnail": "assets/2026-10-09/d0356b8297875cfa5588664e86d24ad476807ef75d2d23722ddc3b6e3536150b-thumb.webp",
+          "preview": "assets/2026-10-09/d0356b8297875cfa5588664e86d24ad476807ef75d2d23722ddc3b6e3536150b-view.webp"
+        },
+        {
+          "id": "10befba7f07d6358160b00247b2c9c9037fea29c530d359310abc06a2fd85018",
+          "title": "wall-no ssr",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1092258,
+          "filename": "wall-no_ssr.png",
+          "original": "assets/2026-10-09/10befba7f07d6358160b00247b2c9c9037fea29c530d359310abc06a2fd85018.png",
+          "thumbnail": "assets/2026-10-09/10befba7f07d6358160b00247b2c9c9037fea29c530d359310abc06a2fd85018-thumb.webp",
+          "preview": "assets/2026-10-09/10befba7f07d6358160b00247b2c9c9037fea29c530d359310abc06a2fd85018-view.webp"
+        },
+        {
+          "id": "c83e872e8bb9d90886314c44e6486f87afa0152aa2058d76dee8b14ab859ec29",
+          "title": "wall-original",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1092480,
+          "filename": "wall-original.png",
+          "original": "assets/2026-10-09/c83e872e8bb9d90886314c44e6486f87afa0152aa2058d76dee8b14ab859ec29.png",
+          "thumbnail": "assets/2026-10-09/c83e872e8bb9d90886314c44e6486f87afa0152aa2058d76dee8b14ab859ec29-thumb.webp",
+          "preview": "assets/2026-10-09/c83e872e8bb9d90886314c44e6486f87afa0152aa2058d76dee8b14ab859ec29-view.webp"
+        },
+        {
+          "id": "4dc18433ca1f7db046edd339f54f43797720be689e813e1f345786bbc497a390",
+          "title": "wall-preliminary-normal-subset",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1091690,
+          "filename": "wall-preliminary-normal-subset.png",
+          "original": "assets/2026-10-09/4dc18433ca1f7db046edd339f54f43797720be689e813e1f345786bbc497a390.png",
+          "thumbnail": "assets/2026-10-09/4dc18433ca1f7db046edd339f54f43797720be689e813e1f345786bbc497a390-thumb.webp",
+          "preview": "assets/2026-10-09/4dc18433ca1f7db046edd339f54f43797720be689e813e1f345786bbc497a390-view.webp"
+        },
+        {
+          "id": "a7198319e698ec0c0503fe2b02348d29117770818ff76d232d3b094417b81983",
+          "title": "wall-recorded-bake",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1092674,
+          "filename": "wall-recorded-bake.png",
+          "original": "assets/2026-10-09/a7198319e698ec0c0503fe2b02348d29117770818ff76d232d3b094417b81983.png",
+          "thumbnail": "assets/2026-10-09/a7198319e698ec0c0503fe2b02348d29117770818ff76d232d3b094417b81983-thumb.webp",
+          "preview": "assets/2026-10-09/a7198319e698ec0c0503fe2b02348d29117770818ff76d232d3b094417b81983-view.webp"
+        },
+        {
+          "id": "a42001c79e6e2c76ff4f1a5262fc9d0385ea0e46a1ab955fd298a71baf3c7c77",
+          "title": "wall-sharp height",
+          "label": "Investigation",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1096579,
+          "filename": "wall-sharp_height.png",
+          "original": "assets/2026-10-09/a42001c79e6e2c76ff4f1a5262fc9d0385ea0e46a1ab955fd298a71baf3c7c77.png",
+          "thumbnail": "assets/2026-10-09/a42001c79e6e2c76ff4f1a5262fc9d0385ea0e46a1ab955fd298a71baf3c7c77-thumb.webp",
+          "preview": "assets/2026-10-09/a42001c79e6e2c76ff4f1a5262fc9d0385ea0e46a1ab955fd298a71baf3c7c77-view.webp"
+        }
+      ],
+      "result": "Noclip baseline: 13 failures in 17 checks, four directions stuck at zero travel. Repair: 17/17 passed, final 18/18 passed including ordinary mantle; QC compiled with zero warnings. Wall controls identify auxiliary normal shading; SPOM-off retains the smooth rims, SSR/stencil/backstop crop deltas are zero. Ten 1080p capture batches completed. Three copied OptiX lighting bakes completed with exit 0; removing dirt lightens wall trim. Exact platform-shadow cause remains unconfirmed. Project gamecode deployment blocked by automatic review pending approval.",
+      "label": "Investigation",
+      "results": [
+        {
+          "at": "2026-10-09T19:18:49.526078-04:00",
+          "text": "Noclip baseline: 13 failures in 17 checks, four directions stuck at zero travel. Repair: 17/17 passed, final 18/18 passed including ordinary mantle; QC compiled with zero warnings. Wall controls identify auxiliary normal shading; SPOM-off retains the smooth rims, SSR/stencil/backstop crop deltas are zero. Ten 1080p capture batches completed. Three copied OptiX lighting bakes completed with exit 0; removing dirt lightens wall trim. Exact platform-shadow cause remains unconfirmed. Project gamecode deployment blocked by automatic review pending approval.",
+          "status": "mixed",
+          "label": "Investigation"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-09T19:18:49.526078-04:00"
+    },
+    {
       "title": "High mover solver lookup optimization",
       "description": "Copied-scene benchmarks of High animated lighting, including the E1M1 basement cage. No full High bake was launched.",
       "date": "2026-10-09",
