@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "QLS mapper workflow - initial checks",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T20:09:01.109311-04:00",
+      "images": [],
+      "result": "Initial live checks exposed published parent-name routing, model-path validation, and trigger handle gaps; fixture mistakes also interrupted early runs. Corrected parent spawning and volume tests now pass. Initial editor checks: 136 assertions; array language checks: 67 probes. Texture regression first selected zero assertions; corrected selection passed 9. One test-fixture build failed due to a missing constructor argument, then built successfully.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T20:09:01.109311-04:00",
+          "text": "Initial live checks exposed published parent-name routing, model-path validation, and trigger handle gaps; fixture mistakes also interrupted early runs. Corrected parent spawning and volume tests now pass. Initial editor checks: 136 assertions; array language checks: 67 probes. Texture regression first selected zero assertions; corrected selection passed 9. One test-fixture build failed due to a missing constructor argument, then built successfully.",
+          "status": "failed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "failed",
+      "updated": "2026-10-08T20:09:01.109311-04:00"
+    },
+    {
       "title": "Second-map close regression",
       "description": "",
       "date": "2026-10-08",
