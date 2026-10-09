@@ -2,56 +2,6 @@
   "version": 1,
   "albums": [
     {
-      "title": "Borderrim / Bows of legend become guns",
-      "description": "",
-      "date": "2026-10-08",
-      "created": "2026-10-08T20:01:33.344149-04:00",
-      "images": [
-        {
-          "id": "fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1",
-          "title": "relics-auriels-rifle-eclipse",
-          "label": "relics",
-          "width": 2304,
-          "height": 1296,
-          "bytes": 172476,
-          "filename": "relics-auriels-rifle-eclipse.jpg",
-          "original": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1.jpg",
-          "thumbnail": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-thumb.webp",
-          "preview": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-view.webp"
-        },
-        {
-          "id": "69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8",
-          "title": "relics-auriels-rifle-open-sky",
-          "label": "relics-open-sky",
-          "width": 2304,
-          "height": 1296,
-          "bytes": 166701,
-          "filename": "relics-auriels-rifle-open-sky.jpg",
-          "original": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8.jpg",
-          "thumbnail": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8-thumb.webp",
-          "preview": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8-view.webp"
-        }
-      ],
-      "result": "Auriel's Rifle's sun shot now needs open sky, as the bow did (the game's own line-of-sight ray toward the sun): with a dropship hull hung between the player and the sun, two shots did nothing and spent nothing; with it gone, the eclipse and one round spent. relics 23/23.",
-      "label": "relics-open-sky",
-      "results": [
-        {
-          "at": "2026-10-08T20:01:33.344149-04:00",
-          "text": "Each of Skyrim's named bows (Auriel's Bow, Zephyr, Nightingale Bow, Gauldur Blackbow, Bow of the Hunt, Drainspell Bow, Firiniel's End, Dwarven Black Bow of Fate, Glass Bow of the Stag Prince) becomes a legendary gun at your level carrying the bow's own enchantment; the bow is kept, out of sight, for quests. Auriel's Rifle fired at the sun with Bloodcursed rounds casts Dawnguard's eclipse (pictured: the red wash setting in). Two new loading screens: a draugr with a rifle, an enchanted sniper. relics 22/22, loading 12/13 (the miss: the capture flag, since fixed).",
-          "status": "passed",
-          "label": "relics"
-        },
-        {
-          "at": "2026-10-08T20:59:26.539877-04:00",
-          "text": "Auriel's Rifle's sun shot now needs open sky, as the bow did (the game's own line-of-sight ray toward the sun): with a dropship hull hung between the player and the sun, two shots did nothing and spent nothing; with it gone, the eclipse and one round spent. relics 23/23.",
-          "status": "passed",
-          "label": "relics-open-sky"
-        }
-      ],
-      "status": "passed",
-      "updated": "2026-10-08T20:59:26.539877-04:00"
-    },
-    {
       "title": "Borderrim / Solstheim's Loaders",
       "description": "",
       "date": "2026-10-08",
@@ -176,10 +126,46 @@
           "original": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36.jpg",
           "thumbnail": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36-thumb.webp",
           "preview": "assets/2026-10-08/754b91cb3a54d04347739dfe50e6ef93cc81b296a2ac1d582f9995514853cc36-view.webp"
+        },
+        {
+          "id": "a6a02883d0de8e66bbbea7bb61e1c4a618c27da3457f63127f0d02ab54de3887",
+          "title": "loader-lab-arm-off",
+          "label": "loaders-dismemberment",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 766583,
+          "filename": "loader-lab-arm-off.jpg",
+          "original": "assets/2026-10-08/a6a02883d0de8e66bbbea7bb61e1c4a618c27da3457f63127f0d02ab54de3887.jpg",
+          "thumbnail": "assets/2026-10-08/a6a02883d0de8e66bbbea7bb61e1c4a618c27da3457f63127f0d02ab54de3887-thumb.webp",
+          "preview": "assets/2026-10-08/a6a02883d0de8e66bbbea7bb61e1c4a618c27da3457f63127f0d02ab54de3887-view.webp"
+        },
+        {
+          "id": "a07fed9ff72d0f80c1fbe7ff26fb8e7178b442ea4f66958cacb1336aac62d0d4",
+          "title": "loader-lab-crawling",
+          "label": "loaders-dismemberment",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 716270,
+          "filename": "loader-lab-crawling.jpg",
+          "original": "assets/2026-10-08/a07fed9ff72d0f80c1fbe7ff26fb8e7178b442ea4f66958cacb1336aac62d0d4.jpg",
+          "thumbnail": "assets/2026-10-08/a07fed9ff72d0f80c1fbe7ff26fb8e7178b442ea4f66958cacb1336aac62d0d4-thumb.webp",
+          "preview": "assets/2026-10-08/a07fed9ff72d0f80c1fbe7ff26fb8e7178b442ea4f66958cacb1336aac62d0d4-view.webp"
+        },
+        {
+          "id": "cfb661589e7233e9cb94f4364372f24c9eeffe5bf0e01a5dcc703413fda46c9b",
+          "title": "loader-lab-eye",
+          "label": "loaders-dismemberment",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 748600,
+          "filename": "loader-lab-eye.jpg",
+          "original": "assets/2026-10-08/cfb661589e7233e9cb94f4364372f24c9eeffe5bf0e01a5dcc703413fda46c9b.jpg",
+          "thumbnail": "assets/2026-10-08/cfb661589e7233e9cb94f4364372f24c9eeffe5bf0e01a5dcc703413fda46c9b-thumb.webp",
+          "preview": "assets/2026-10-08/cfb661589e7233e9cb94f4364372f24c9eeffe5bf0e01a5dcc703413fda46c9b-view.webp"
         }
       ],
-      "result": "Loaders completed: BL2's sounds (feet, servos, sparks, voice and barks, the blast), the eye as their crit spot (BL2's critical stagger; the hidden human's skeleton is put on the Loader's parts), melee up close, knockdown and getting up, and on death they blow apart, pieces thrown. Walk fix: the crawling the user saw came from BL2's legless-Loader clips used for strafing; now the legs walk where it goes and the upper body stays on target. loaders 23/23, armed 34/34, default 41/41.",
-      "label": "loaders-complete",
+      "result": "Loader dismemberment, as BL2's: shoot the gun arm off and its gun goes with it (it comes at you to swing); shoot a leg off and it drops and crawls (BL2's legless clips); limbs fly off and lie where they land. Limb hits land where you see the Loader (the plugin lands them when the hidden human isn't there). Also: Loaders no longer wander off to a fixed far spot (sandbox about themselves). In the test hall: arm off, leg off, crawling; eye crit. loaders 24/24 twice, armed 34/34, default 41/41.",
+      "label": "loaders-dismemberment",
       "results": [
         {
           "at": "2026-10-08T16:33:23.453041-04:00",
@@ -192,10 +178,66 @@
           "text": "Loaders completed: BL2's sounds (feet, servos, sparks, voice and barks, the blast), the eye as their crit spot (BL2's critical stagger; the hidden human's skeleton is put on the Loader's parts), melee up close, knockdown and getting up, and on death they blow apart, pieces thrown. Walk fix: the crawling the user saw came from BL2's legless-Loader clips used for strafing; now the legs walk where it goes and the upper body stays on target. loaders 23/23, armed 34/34, default 41/41.",
           "status": "passed",
           "label": "loaders-complete"
+        },
+        {
+          "at": "2026-10-08T22:20:49.102553-04:00",
+          "text": "Loader dismemberment, as BL2's: shoot the gun arm off and its gun goes with it (it comes at you to swing); shoot a leg off and it drops and crawls (BL2's legless clips); limbs fly off and lie where they land. Limb hits land where you see the Loader (the plugin lands them when the hidden human isn't there). Also: Loaders no longer wander off to a fixed far spot (sandbox about themselves). In the test hall: arm off, leg off, crawling; eye crit. loaders 24/24 twice, armed 34/34, default 41/41.",
+          "status": "passed",
+          "label": "loaders-dismemberment"
         }
       ],
       "status": "passed",
-      "updated": "2026-10-08T18:47:09.679740-04:00"
+      "updated": "2026-10-08T22:20:49.102553-04:00"
+    },
+    {
+      "title": "Borderrim / Bows of legend become guns",
+      "description": "",
+      "date": "2026-10-08",
+      "created": "2026-10-08T20:01:33.344149-04:00",
+      "images": [
+        {
+          "id": "fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1",
+          "title": "relics-auriels-rifle-eclipse",
+          "label": "relics",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 172476,
+          "filename": "relics-auriels-rifle-eclipse.jpg",
+          "original": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1.jpg",
+          "thumbnail": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-thumb.webp",
+          "preview": "assets/2026-10-08/fd3e837615c99f8e69df7d1138c05006973a8c1daad5508d3b6c9a02dbbfb3c1-view.webp"
+        },
+        {
+          "id": "69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8",
+          "title": "relics-auriels-rifle-open-sky",
+          "label": "relics-open-sky",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 166701,
+          "filename": "relics-auriels-rifle-open-sky.jpg",
+          "original": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8.jpg",
+          "thumbnail": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8-thumb.webp",
+          "preview": "assets/2026-10-08/69a55a9ec18e1b638ab03435e718ef943216d2157dea91d84cde01adb93889b8-view.webp"
+        }
+      ],
+      "result": "Auriel's Rifle's sun shot now needs open sky, as the bow did (the game's own line-of-sight ray toward the sun): with a dropship hull hung between the player and the sun, two shots did nothing and spent nothing; with it gone, the eclipse and one round spent. relics 23/23.",
+      "label": "relics-open-sky",
+      "results": [
+        {
+          "at": "2026-10-08T20:01:33.344149-04:00",
+          "text": "Each of Skyrim's named bows (Auriel's Bow, Zephyr, Nightingale Bow, Gauldur Blackbow, Bow of the Hunt, Drainspell Bow, Firiniel's End, Dwarven Black Bow of Fate, Glass Bow of the Stag Prince) becomes a legendary gun at your level carrying the bow's own enchantment; the bow is kept, out of sight, for quests. Auriel's Rifle fired at the sun with Bloodcursed rounds casts Dawnguard's eclipse (pictured: the red wash setting in). Two new loading screens: a draugr with a rifle, an enchanted sniper. relics 22/22, loading 12/13 (the miss: the capture flag, since fixed).",
+          "status": "passed",
+          "label": "relics"
+        },
+        {
+          "at": "2026-10-08T20:59:26.539877-04:00",
+          "text": "Auriel's Rifle's sun shot now needs open sky, as the bow did (the game's own line-of-sight ray toward the sun): with a dropship hull hung between the player and the sun, two shots did nothing and spent nothing; with it gone, the eclipse and one round spent. relics 23/23.",
+          "status": "passed",
+          "label": "relics-open-sky"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T20:59:26.539877-04:00"
     },
     {
       "title": "Borderrim / No BL2 running, ECHO logs",
