@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Borderrim / BL2 toughness and enemy shields",
+      "description": "Enemies take their BL2 counterpart's health at your level; BL2 enemy shields on the enemy bar (white-cyan over red)",
+      "date": "2026-10-09",
+      "created": "2026-10-09T09:34:52.768487-04:00",
+      "images": [
+        {
+          "id": "90d1dc75000c224a6d804a79f6169c10e38ee9d6cbe048c3c891a554433a8985",
+          "title": "toughness-bar-broken",
+          "label": "toughness",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3999806,
+          "filename": "toughness-bar-broken.png",
+          "original": "assets/2026-10-09/90d1dc75000c224a6d804a79f6169c10e38ee9d6cbe048c3c891a554433a8985.png",
+          "thumbnail": "assets/2026-10-09/90d1dc75000c224a6d804a79f6169c10e38ee9d6cbe048c3c891a554433a8985-thumb.webp",
+          "preview": "assets/2026-10-09/90d1dc75000c224a6d804a79f6169c10e38ee9d6cbe048c3c891a554433a8985-view.webp"
+        },
+        {
+          "id": "8fb6c645195422a0e49476d16b05d7fe19cfae76a08b0decfb50e6339540261e",
+          "title": "toughness-bar-recharged",
+          "label": "toughness",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4034023,
+          "filename": "toughness-bar-recharged.png",
+          "original": "assets/2026-10-09/8fb6c645195422a0e49476d16b05d7fe19cfae76a08b0decfb50e6339540261e.png",
+          "thumbnail": "assets/2026-10-09/8fb6c645195422a0e49476d16b05d7fe19cfae76a08b0decfb50e6339540261e-thumb.webp",
+          "preview": "assets/2026-10-09/8fb6c645195422a0e49476d16b05d7fe19cfae76a08b0decfb50e6339540261e-view.webp"
+        },
+        {
+          "id": "c5f1b9881ad6de59e39be91dc5f4c02074e88282559198c78110571e86a61c30",
+          "title": "toughness-bar-shield",
+          "label": "toughness",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 4000431,
+          "filename": "toughness-bar-shield.png",
+          "original": "assets/2026-10-09/c5f1b9881ad6de59e39be91dc5f4c02074e88282559198c78110571e86a61c30.png",
+          "thumbnail": "assets/2026-10-09/c5f1b9881ad6de59e39be91dc5f4c02074e88282559198c78110571e86a61c30-thumb.webp",
+          "preview": "assets/2026-10-09/c5f1b9881ad6de59e39be91dc5f4c02074e88282559198c78110571e86a61c30-view.webp"
+        },
+        {
+          "id": "71fe9ad37df55d084bacd06d896cfe761000cb31cebec158463dc99ef0ccfa68",
+          "title": "toughness-swing-a",
+          "label": "toughness",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3037885,
+          "filename": "toughness-swing-a.png",
+          "original": "assets/2026-10-09/71fe9ad37df55d084bacd06d896cfe761000cb31cebec158463dc99ef0ccfa68.png",
+          "thumbnail": "assets/2026-10-09/71fe9ad37df55d084bacd06d896cfe761000cb31cebec158463dc99ef0ccfa68-thumb.webp",
+          "preview": "assets/2026-10-09/71fe9ad37df55d084bacd06d896cfe761000cb31cebec158463dc99ef0ccfa68-view.webp"
+        }
+      ],
+      "result": "toughness 31/31, default 41/41, armed 34/34, loaders 24/24, relics 26/26",
+      "label": "toughness",
+      "results": [
+        {
+          "at": "2026-10-09T09:34:52.768487-04:00",
+          "text": "toughness 31/31, default 41/41, armed 34/34, loaders 24/24, relics 26/26",
+          "status": "passed",
+          "label": "toughness"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T09:34:52.768487-04:00"
+    },
+    {
       "title": "Borderrim / Solstheim's Loaders",
       "description": "",
       "date": "2026-10-08",
