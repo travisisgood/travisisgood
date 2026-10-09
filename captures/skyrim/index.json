@@ -2,6 +2,170 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Vault: first look",
+      "description": "The Vault raid's arena, first proof: its own world (no ground but one island of Skyrim landscape, hanging in a purple and red void), a ring of Daedric statues, Azura's Star crystals and hex pillars adrift, its own sky. A blood dragon let loose over it: it takes off, circles the island and the void, perches on Boethiah's shrine, breathes fire. Vanilla Skyrim/Dawnguard/Dragonborn only; BL2 terrain and Eridian statues still to come, and the navmesh for landings.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T15:42:28.927001-04:00",
+      "images": [
+        {
+          "id": "90ae306ddba0eab0b8153fd483724a77dd09513e87b32d7e132af7e759c53cdc",
+          "title": "00-vault-view0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2844982,
+          "filename": "00-vault-view0.png",
+          "original": "assets/2026-10-09/90ae306ddba0eab0b8153fd483724a77dd09513e87b32d7e132af7e759c53cdc.png",
+          "thumbnail": "assets/2026-10-09/90ae306ddba0eab0b8153fd483724a77dd09513e87b32d7e132af7e759c53cdc-thumb.webp",
+          "preview": "assets/2026-10-09/90ae306ddba0eab0b8153fd483724a77dd09513e87b32d7e132af7e759c53cdc-view.webp"
+        },
+        {
+          "id": "e10dc66911f4229a21d139f6b47731d45aeedadf383b2c1cea3ebc3849ba7e3a",
+          "title": "01-vault-view1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2883638,
+          "filename": "01-vault-view1.png",
+          "original": "assets/2026-10-09/e10dc66911f4229a21d139f6b47731d45aeedadf383b2c1cea3ebc3849ba7e3a.png",
+          "thumbnail": "assets/2026-10-09/e10dc66911f4229a21d139f6b47731d45aeedadf383b2c1cea3ebc3849ba7e3a-thumb.webp",
+          "preview": "assets/2026-10-09/e10dc66911f4229a21d139f6b47731d45aeedadf383b2c1cea3ebc3849ba7e3a-view.webp"
+        },
+        {
+          "id": "c70f405d853c7bc324eeb6eb446d8ef922016a1e8a49cd28d06c036554e8b74a",
+          "title": "02-vault-view2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3200233,
+          "filename": "02-vault-view2.png",
+          "original": "assets/2026-10-09/c70f405d853c7bc324eeb6eb446d8ef922016a1e8a49cd28d06c036554e8b74a.png",
+          "thumbnail": "assets/2026-10-09/c70f405d853c7bc324eeb6eb446d8ef922016a1e8a49cd28d06c036554e8b74a-thumb.webp",
+          "preview": "assets/2026-10-09/c70f405d853c7bc324eeb6eb446d8ef922016a1e8a49cd28d06c036554e8b74a-view.webp"
+        },
+        {
+          "id": "b3ef2164a6320de38623713cf2da6fa89f1fc575c27cf4c1e3464b9a0d08983f",
+          "title": "03-vault-view3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3162939,
+          "filename": "03-vault-view3.png",
+          "original": "assets/2026-10-09/b3ef2164a6320de38623713cf2da6fa89f1fc575c27cf4c1e3464b9a0d08983f.png",
+          "thumbnail": "assets/2026-10-09/b3ef2164a6320de38623713cf2da6fa89f1fc575c27cf4c1e3464b9a0d08983f-thumb.webp",
+          "preview": "assets/2026-10-09/b3ef2164a6320de38623713cf2da6fa89f1fc575c27cf4c1e3464b9a0d08983f-view.webp"
+        },
+        {
+          "id": "c5c8161bfe93662c8285dabb9d7ba63bd84894a851e4fc32bfda3e7ac4dba8dd",
+          "title": "04-vault-lip",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3204207,
+          "filename": "04-vault-lip.png",
+          "original": "assets/2026-10-09/c5c8161bfe93662c8285dabb9d7ba63bd84894a851e4fc32bfda3e7ac4dba8dd.png",
+          "thumbnail": "assets/2026-10-09/c5c8161bfe93662c8285dabb9d7ba63bd84894a851e4fc32bfda3e7ac4dba8dd-thumb.webp",
+          "preview": "assets/2026-10-09/c5c8161bfe93662c8285dabb9d7ba63bd84894a851e4fc32bfda3e7ac4dba8dd-view.webp"
+        },
+        {
+          "id": "29cbd22b8211cb461c053b6a4e399cfb4f5a17e10ebda23ed58c104a6c5d1eaf",
+          "title": "05-vault-edge",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 699981,
+          "filename": "05-vault-edge.png",
+          "original": "assets/2026-10-09/29cbd22b8211cb461c053b6a4e399cfb4f5a17e10ebda23ed58c104a6c5d1eaf.png",
+          "thumbnail": "assets/2026-10-09/29cbd22b8211cb461c053b6a4e399cfb4f5a17e10ebda23ed58c104a6c5d1eaf-thumb.webp",
+          "preview": "assets/2026-10-09/29cbd22b8211cb461c053b6a4e399cfb4f5a17e10ebda23ed58c104a6c5d1eaf-view.webp"
+        },
+        {
+          "id": "4a5ff8416b7d1d9dcdc04ff7734e1605ba08c0a7a1bc9bd08b2d961fb0218993",
+          "title": "06-vault-void",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2000242,
+          "filename": "06-vault-void.png",
+          "original": "assets/2026-10-09/4a5ff8416b7d1d9dcdc04ff7734e1605ba08c0a7a1bc9bd08b2d961fb0218993.png",
+          "thumbnail": "assets/2026-10-09/4a5ff8416b7d1d9dcdc04ff7734e1605ba08c0a7a1bc9bd08b2d961fb0218993-thumb.webp",
+          "preview": "assets/2026-10-09/4a5ff8416b7d1d9dcdc04ff7734e1605ba08c0a7a1bc9bd08b2d961fb0218993-view.webp"
+        },
+        {
+          "id": "7af6665dc995ef5125b8510d4e9a8c6789c094ae6003072b4358cfb826d8512f",
+          "title": "07-vault-dragon0",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2921560,
+          "filename": "07-vault-dragon0.png",
+          "original": "assets/2026-10-09/7af6665dc995ef5125b8510d4e9a8c6789c094ae6003072b4358cfb826d8512f.png",
+          "thumbnail": "assets/2026-10-09/7af6665dc995ef5125b8510d4e9a8c6789c094ae6003072b4358cfb826d8512f-thumb.webp",
+          "preview": "assets/2026-10-09/7af6665dc995ef5125b8510d4e9a8c6789c094ae6003072b4358cfb826d8512f-view.webp"
+        },
+        {
+          "id": "a60a8cb617beee484143290bb1636f9c119afd2298526534d9621fbec1065bf8",
+          "title": "08-vault-dragon1",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1909278,
+          "filename": "08-vault-dragon1.png",
+          "original": "assets/2026-10-09/a60a8cb617beee484143290bb1636f9c119afd2298526534d9621fbec1065bf8.png",
+          "thumbnail": "assets/2026-10-09/a60a8cb617beee484143290bb1636f9c119afd2298526534d9621fbec1065bf8-thumb.webp",
+          "preview": "assets/2026-10-09/a60a8cb617beee484143290bb1636f9c119afd2298526534d9621fbec1065bf8-view.webp"
+        },
+        {
+          "id": "b656fdf541f55667d0dad376c00f5bfdc35feeadb64ad077f4a094f71b50001d",
+          "title": "09-vault-dragon2",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2698634,
+          "filename": "09-vault-dragon2.png",
+          "original": "assets/2026-10-09/b656fdf541f55667d0dad376c00f5bfdc35feeadb64ad077f4a094f71b50001d.png",
+          "thumbnail": "assets/2026-10-09/b656fdf541f55667d0dad376c00f5bfdc35feeadb64ad077f4a094f71b50001d-thumb.webp",
+          "preview": "assets/2026-10-09/b656fdf541f55667d0dad376c00f5bfdc35feeadb64ad077f4a094f71b50001d-view.webp"
+        },
+        {
+          "id": "2d01451d188d288f339a7de9361d4ca6c471950305b329603eba19052bf67e1f",
+          "title": "10-vault-dragon3",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2505792,
+          "filename": "10-vault-dragon3.png",
+          "original": "assets/2026-10-09/2d01451d188d288f339a7de9361d4ca6c471950305b329603eba19052bf67e1f.png",
+          "thumbnail": "assets/2026-10-09/2d01451d188d288f339a7de9361d4ca6c471950305b329603eba19052bf67e1f-thumb.webp",
+          "preview": "assets/2026-10-09/2d01451d188d288f339a7de9361d4ca6c471950305b329603eba19052bf67e1f-view.webp"
+        },
+        {
+          "id": "c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c",
+          "title": "11-vault-dragon4",
+          "label": "Vault",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1407556,
+          "filename": "11-vault-dragon4.png",
+          "original": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c.png",
+          "thumbnail": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c-thumb.webp",
+          "preview": "assets/2026-10-09/c2340a593227e826a1a9b1f8c07057c186625637e9c329934ce13e3e3ce5c39c-view.webp"
+        }
+      ],
+      "result": "Vault focus 18/18: the world loads, you stand on the island, the dragon flies (cruising, hovering), ranges 7600 out over the void and up to 3200, targets you",
+      "label": "Vault",
+      "results": [
+        {
+          "at": "2026-10-09T15:42:28.927001-04:00",
+          "text": "Vault focus 18/18: the world loads, you stand on the island, the dragon flies (cruising, hovering), ranges 7600 out over the void and up to 3200, targets you",
+          "status": "passed",
+          "label": "Vault"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T15:42:28.927001-04:00"
+    },
+    {
       "title": "Borderrim / Conjuration: bound guns",
       "description": "Bound Pistol in Skyrim's bound look (Skyrim's own Bound Bow for reference), Conjure Ammunition filling the magazine",
       "date": "2026-10-09",
