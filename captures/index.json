@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Lossless atlas processing and adaptive probe caching",
+      "description": "Quality-preserving lighting tool improvements: completed adaptive measurement reuse, native atlas operations, and CPU/host-memory worker limits. Editor kept open; no full-map rebake.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T11:19:00.436811-04:00",
+      "images": [],
+      "result": "Passed: 98 focused tests (57 baker, 10 receiver charts, 17 adaptive, 3 native byte-equivalence, 11 portable launcher), plus 67 baker/chart checks with the Python fallback. Release native helper built and deployed with matching hashes; bundled Python loads ABI 1 without system Python. Real High cage atlas CPU assembly from existing lighting: 13.43s Python versus 5.05s native (2.66x), all 16 poses and complete 1,503,618-byte QMF identical. Separate 24-face four-bounce CPU fixture: cold/warm/forced launched 3/1/3 compiler processes and produced identical merged measurements; warm reused ordinary and mover probes. Samples, frames and bounces preserved. First-bake full-map indirect lighting remains expensive; no new full-map compile timing is claimed.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-09T11:19:00.436811-04:00",
+          "text": "Passed: 98 focused tests (57 baker, 10 receiver charts, 17 adaptive, 3 native byte-equivalence, 11 portable launcher), plus 67 baker/chart checks with the Python fallback. Release native helper built and deployed with matching hashes; bundled Python loads ABI 1 without system Python. Real High cage atlas CPU assembly from existing lighting: 13.43s Python versus 5.05s native (2.66x), all 16 poses and complete 1,503,618-byte QMF identical. Separate 24-face four-bounce CPU fixture: cold/warm/forced launched 3/1/3 compiler processes and produced identical merged measurements; warm reused ordinary and mover probes. Samples, frames and bounces preserved. First-bake full-map indirect lighting remains expensive; no new full-map compile timing is claimed.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T11:19:00.436811-04:00"
+    },
+    {
       "title": "Buttons skip animated lighting by default",
       "description": "func_button defaults to Exclude in the generated FGD and deployed baker. Missing or blank keys use that default in existing maps; explicit Auto or Force inclusion enables the normal button path. Other movers retain their defaults. Code and planner checks only; no map rebake or editor restart.",
       "date": "2026-10-09",
