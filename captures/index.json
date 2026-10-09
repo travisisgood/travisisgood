@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Core Descent follow-up - verified",
+      "description": "Fixed bracket-written menu lengths, boolean input arithmetic and numeric flag comparisons, and XY nearest-instance field completion. Original Core Descent syntax audit: 1,481 of 1,917 event files compiled unchanged; 435 stopped at deliberately forbidden single-equals comparisons and one used unsupported #macro. Syntax checking does not execute the full GameMaker project. Initial failures are retained in the separate findings entry.",
+      "date": "2026-10-08",
+      "created": "2026-10-08T21:05:13.870940-04:00",
+      "images": [],
+      "result": "Combined map-close and QLS editor checks: 317 assertions in 18 cases passed on the final build; earlier hardened runs passed in four randomized orders. All 72 focused language probes and the complete compiler/runtime regression suite passed, including 5,000 locals, stdlib, buffers, values, colors, math, strings, types, arrays, structs, global carry, and drawing wrappers. Persistence: 235 checks passed. Real engine mapper workflow: 31 live checks and 7 save/load checks passed, including nested menu lengths and boolean arithmetic after restore. Both release builds and generated documentation checks passed.",
+      "label": "QLS actions",
+      "results": [
+        {
+          "at": "2026-10-08T21:05:13.870940-04:00",
+          "text": "Combined map-close and QLS editor checks: 317 assertions in 18 cases passed on the final build; earlier hardened runs passed in four randomized orders. All 72 focused language probes and the complete compiler/runtime regression suite passed, including 5,000 locals, stdlib, buffers, values, colors, math, strings, types, arrays, structs, global carry, and drawing wrappers. Persistence: 235 checks passed. Real engine mapper workflow: 31 live checks and 7 save/load checks passed, including nested menu lengths and boolean arithmetic after restore. Both release builds and generated documentation checks passed.",
+          "status": "passed",
+          "label": "QLS actions"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-08T21:05:13.870940-04:00"
+    },
+    {
       "title": "Core Descent follow-up - initial findings",
       "description": "",
       "date": "2026-10-08",
