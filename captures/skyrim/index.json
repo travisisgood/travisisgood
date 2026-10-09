@@ -2,6 +2,134 @@
   "version": 1,
   "albums": [
     {
+      "title": "Fallback guns: Dawnguard's crossbows",
+      "description": "A gun without its generated BL2 model now shows Dawnguard's crossbow (very rare and better: the Dwarven one) instead of the Arquebus Creation's meshes. NPC shots carry BL2's muzzle flash.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T19:23:53.342555-04:00",
+      "images": [
+        {
+          "id": "f250a788a1adbc93897d104414444d3a6e0d36ba2e94f9e5f2a38292a3bd1fea",
+          "title": "fallback-bandit-0",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5825525,
+          "filename": "fallback-bandit-0.png",
+          "original": "assets/2026-10-09/f250a788a1adbc93897d104414444d3a6e0d36ba2e94f9e5f2a38292a3bd1fea.png",
+          "thumbnail": "assets/2026-10-09/f250a788a1adbc93897d104414444d3a6e0d36ba2e94f9e5f2a38292a3bd1fea-thumb.webp",
+          "preview": "assets/2026-10-09/f250a788a1adbc93897d104414444d3a6e0d36ba2e94f9e5f2a38292a3bd1fea-view.webp"
+        },
+        {
+          "id": "7862286ffe86792cdd8ded33238cf2102b903a522086f10bdebbf23202c1d16c",
+          "title": "fallback-bandit-1",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3480516,
+          "filename": "fallback-bandit-1.png",
+          "original": "assets/2026-10-09/7862286ffe86792cdd8ded33238cf2102b903a522086f10bdebbf23202c1d16c.png",
+          "thumbnail": "assets/2026-10-09/7862286ffe86792cdd8ded33238cf2102b903a522086f10bdebbf23202c1d16c-thumb.webp",
+          "preview": "assets/2026-10-09/7862286ffe86792cdd8ded33238cf2102b903a522086f10bdebbf23202c1d16c-view.webp"
+        },
+        {
+          "id": "5b9ebb2fc69f35d05fed657d5d0255a977578a7245ea9efe63dea7cca7d6775e",
+          "title": "fallback-bandit-2",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5733487,
+          "filename": "fallback-bandit-2.png",
+          "original": "assets/2026-10-09/5b9ebb2fc69f35d05fed657d5d0255a977578a7245ea9efe63dea7cca7d6775e.png",
+          "thumbnail": "assets/2026-10-09/5b9ebb2fc69f35d05fed657d5d0255a977578a7245ea9efe63dea7cca7d6775e-thumb.webp",
+          "preview": "assets/2026-10-09/5b9ebb2fc69f35d05fed657d5d0255a977578a7245ea9efe63dea7cca7d6775e-view.webp"
+        },
+        {
+          "id": "860a2892ff75641d352dee2585b6403a401811c338a8df6868d2eea74039e18c",
+          "title": "fallback-bandit-3",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5069983,
+          "filename": "fallback-bandit-3.png",
+          "original": "assets/2026-10-09/860a2892ff75641d352dee2585b6403a401811c338a8df6868d2eea74039e18c.png",
+          "thumbnail": "assets/2026-10-09/860a2892ff75641d352dee2585b6403a401811c338a8df6868d2eea74039e18c-thumb.webp",
+          "preview": "assets/2026-10-09/860a2892ff75641d352dee2585b6403a401811c338a8df6868d2eea74039e18c-view.webp"
+        },
+        {
+          "id": "c600e218eabf5e08d3867a33b7c19d56ce5f43d9b49209dc2d6d59a845e9fb8b",
+          "title": "fallback-bandit-4",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5754186,
+          "filename": "fallback-bandit-4.png",
+          "original": "assets/2026-10-09/c600e218eabf5e08d3867a33b7c19d56ce5f43d9b49209dc2d6d59a845e9fb8b.png",
+          "thumbnail": "assets/2026-10-09/c600e218eabf5e08d3867a33b7c19d56ce5f43d9b49209dc2d6d59a845e9fb8b-thumb.webp",
+          "preview": "assets/2026-10-09/c600e218eabf5e08d3867a33b7c19d56ce5f43d9b49209dc2d6d59a845e9fb8b-view.webp"
+        },
+        {
+          "id": "a9465add578e6831a47216af28cf599b1e49afe0148c28f8333923bda332050b",
+          "title": "fallback-bandit-5",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3557991,
+          "filename": "fallback-bandit-5.png",
+          "original": "assets/2026-10-09/a9465add578e6831a47216af28cf599b1e49afe0148c28f8333923bda332050b.png",
+          "thumbnail": "assets/2026-10-09/a9465add578e6831a47216af28cf599b1e49afe0148c28f8333923bda332050b-thumb.webp",
+          "preview": "assets/2026-10-09/a9465add578e6831a47216af28cf599b1e49afe0148c28f8333923bda332050b-view.webp"
+        },
+        {
+          "id": "318769c08c572d01274b1a042e20b5038c1920c6556ccd68d392027fd39b5a83",
+          "title": "fallback-common-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5841401,
+          "filename": "fallback-common-first.png",
+          "original": "assets/2026-10-09/318769c08c572d01274b1a042e20b5038c1920c6556ccd68d392027fd39b5a83.png",
+          "thumbnail": "assets/2026-10-09/318769c08c572d01274b1a042e20b5038c1920c6556ccd68d392027fd39b5a83-thumb.webp",
+          "preview": "assets/2026-10-09/318769c08c572d01274b1a042e20b5038c1920c6556ccd68d392027fd39b5a83-view.webp"
+        },
+        {
+          "id": "5e88e597bcb7b578e5ba2fcfbe370fe8c8ae329a92f019d3e4c26298f1af14b5",
+          "title": "fallback-control-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5840139,
+          "filename": "fallback-control-first.png",
+          "original": "assets/2026-10-09/5e88e597bcb7b578e5ba2fcfbe370fe8c8ae329a92f019d3e4c26298f1af14b5.png",
+          "thumbnail": "assets/2026-10-09/5e88e597bcb7b578e5ba2fcfbe370fe8c8ae329a92f019d3e4c26298f1af14b5-thumb.webp",
+          "preview": "assets/2026-10-09/5e88e597bcb7b578e5ba2fcfbe370fe8c8ae329a92f019d3e4c26298f1af14b5-view.webp"
+        },
+        {
+          "id": "900c5fe11752388b002200929e34ac4aee5f2d1361f4c66b7f7a8d7c6f289f29",
+          "title": "fallback-very rare-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5772455,
+          "filename": "fallback-very_rare-first.png",
+          "original": "assets/2026-10-09/900c5fe11752388b002200929e34ac4aee5f2d1361f4c66b7f7a8d7c6f289f29.png",
+          "thumbnail": "assets/2026-10-09/900c5fe11752388b002200929e34ac4aee5f2d1361f4c66b7f7a8d7c6f289f29-thumb.webp",
+          "preview": "assets/2026-10-09/900c5fe11752388b002200929e34ac4aee5f2d1361f4c66b7f7a8d7c6f289f29-view.webp"
+        }
+      ],
+      "result": "18/20; default autotest 41/41. NPCs hold and fire it (flash in bandit-0). In first person the fallback sits out of view, 55 degrees below (the old Arquebus did the same); a follow-up task is open. The control (a BL2 rifle) is in view.",
+      "label": "fallback",
+      "results": [
+        {
+          "at": "2026-10-09T19:23:53.342555-04:00",
+          "text": "18/20; default autotest 41/41. NPCs hold and fire it (flash in bandit-0). In first person the fallback sits out of view, 55 degrees below (the old Arquebus did the same); a follow-up task is open. The control (a BL2 rifle) is in view.",
+          "status": "mixed",
+          "label": "fallback"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-09T19:23:53.342555-04:00"
+    },
+    {
       "title": "ECHO logs on older saves",
       "description": "",
       "date": "2026-10-09",
