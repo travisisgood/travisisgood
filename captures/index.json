@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Buttons skip animated lighting by default",
+      "description": "func_button defaults to Exclude in the generated FGD and deployed baker. Missing or blank keys use that default in existing maps; explicit Auto or Force inclusion enables the normal button path. Other movers retain their defaults. Code and planner checks only; no map rebake or editor restart.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T09:49:50.563183-04:00",
+      "images": [],
+      "result": "Final validation: 56 baker tests and 14 adaptive-lightmap tests passed; 194 FGD classes passed QC parity; generated FGD copies are current and identical; deployed baker hash matches source. The initial regression run had two subtest failures caused by an incorrect expected cardinal direction; corrected the test expectation and reran successfully. Read-only planning on the compiled E1M1 BSP changed High mover renders from 664 to 601, omitted all seven default buttons, and retained the basement cage. This is a render-count reduction, not a measured compile-time saving. Source committed and pushed as 41d4ffbb.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-09T09:49:50.563183-04:00",
+          "text": "Final validation: 56 baker tests and 14 adaptive-lightmap tests passed; 194 FGD classes passed QC parity; generated FGD copies are current and identical; deployed baker hash matches source. The initial regression run had two subtest failures caused by an incorrect expected cardinal direction; corrected the test expectation and reran successfully. Read-only planning on the compiled E1M1 BSP changed High mover renders from 664 to 601, omitted all seven default buttons, and retained the basement cage. This is a render-count reduction, not a measured compile-time saving. Source committed and pushed as 41d4ffbb.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T09:49:50.563183-04:00"
+    },
+    {
       "title": "Fresh E1M1 basement cage bake",
       "description": "The completed two-hour High bake, photographed from the saved basement testing camera. Closed, halfway raised (44u), and fully raised (88u). Stencil shadows are disabled; the baked mover atlas is enabled. Full 3840 x 2160 originals are available.",
       "date": "2026-10-09",
