@@ -7,7 +7,7 @@
       "date": "2026-10-09",
       "created": "2026-10-09T12:42:24.699314-04:00",
       "images": [],
-      "result": "In progress: started 12:39:58 PM Toronto. Saved flat E1M1 map exported directly because Windows denied restoring the minimized editor. Exact saved High Render tool list retained (four bounces, PBR, GPU VIS and High mover atlas). Adaptive batch has 601 entries; 12 complete at 12:40:58 PM. Initial estimated total 1.5–2 hours, central estimate about 1h40m. Previous outputs backed up locally. Actual total and stage timings will be added after completion; this is not a passed bake yet.",
+      "result": "Canceled at user request after 59m13s elapsed. Adaptive measurement stage completed in 40m06s; final geometry, GPU visibility, ordinary lighting, and texture processing completed with exit 0 in about 15s combined. Animated-shadow atlas stopped after 192/601 entries (32%), with no fatal error observed before cancellation; no completed total bake time or final new atlas was obtained. This run used the saved High Render settings, 601 adaptive entries versus the previous 664 after button exclusions, a cold complete-measurement cache, no matching final pose cache hits, and one atlas worker under the new memory limit. It therefore does not establish a completed speedup against the previous 1h58m49s bake. Previous complete map outputs restored and hashes verified; partial measurements and logs retained privately; StreetSweeper left open; monitor paused.",
       "label": "Checks",
       "results": [
         {
@@ -15,10 +15,16 @@
           "text": "In progress: started 12:39:58 PM Toronto. Saved flat E1M1 map exported directly because Windows denied restoring the minimized editor. Exact saved High Render tool list retained (four bounces, PBR, GPU VIS and High mover atlas). Adaptive batch has 601 entries; 12 complete at 12:40:58 PM. Initial estimated total 1.5–2 hours, central estimate about 1h40m. Previous outputs backed up locally. Actual total and stage timings will be added after completion; this is not a passed bake yet.",
           "status": "incomplete",
           "label": "Checks"
+        },
+        {
+          "at": "2026-10-09T13:41:13.907182-04:00",
+          "text": "Canceled at user request after 59m13s elapsed. Adaptive measurement stage completed in 40m06s; final geometry, GPU visibility, ordinary lighting, and texture processing completed with exit 0 in about 15s combined. Animated-shadow atlas stopped after 192/601 entries (32%), with no fatal error observed before cancellation; no completed total bake time or final new atlas was obtained. This run used the saved High Render settings, 601 adaptive entries versus the previous 664 after button exclusions, a cold complete-measurement cache, no matching final pose cache hits, and one atlas worker under the new memory limit. It therefore does not establish a completed speedup against the previous 1h58m49s bake. Previous complete map outputs restored and hashes verified; partial measurements and logs retained privately; StreetSweeper left open; monitor paused.",
+          "status": "incomplete",
+          "label": "Checks"
         }
       ],
       "status": "incomplete",
-      "updated": "2026-10-09T12:42:24.699314-04:00"
+      "updated": "2026-10-09T13:41:13.907182-04:00"
     },
     {
       "title": "Lossless atlas processing and adaptive probe caching",
