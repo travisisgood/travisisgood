@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Gate's cavern: trees under the skylight",
+      "description": "The mushrooms swapped for trees: Skyrim's pines grow in the skylight's daylight, the tallest reaching toward the opening; out of the light, dead pines and dead brush where the great mushrooms stood.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T06:18:44.555912-04:00",
+      "images": [
+        {
+          "id": "b03ab0f9dc8023ac9dd98e3eef37e0a9a52f68e0e06c4ca3d2a89ac24f45aeba",
+          "title": "dig-camp",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3386233,
+          "filename": "dig-camp.png",
+          "original": "assets/2026-10-10/b03ab0f9dc8023ac9dd98e3eef37e0a9a52f68e0e06c4ca3d2a89ac24f45aeba.png",
+          "thumbnail": "assets/2026-10-10/b03ab0f9dc8023ac9dd98e3eef37e0a9a52f68e0e06c4ca3d2a89ac24f45aeba-thumb.webp",
+          "preview": "assets/2026-10-10/b03ab0f9dc8023ac9dd98e3eef37e0a9a52f68e0e06c4ca3d2a89ac24f45aeba-view.webp"
+        },
+        {
+          "id": "d20c41af35798e7ef8414744607b9895d359487895710f807dfe518882257246",
+          "title": "dig-cavern",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3067451,
+          "filename": "dig-cavern.png",
+          "original": "assets/2026-10-10/d20c41af35798e7ef8414744607b9895d359487895710f807dfe518882257246.png",
+          "thumbnail": "assets/2026-10-10/d20c41af35798e7ef8414744607b9895d359487895710f807dfe518882257246-thumb.webp",
+          "preview": "assets/2026-10-10/d20c41af35798e7ef8414744607b9895d359487895710f807dfe518882257246-view.webp"
+        },
+        {
+          "id": "75cd8af7b3570a8df6091bb2c6ab84d5a13d7407067dcbe9d4e64edb68342a21",
+          "title": "dig-skylight-up",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2560205,
+          "filename": "dig-skylight-up.png",
+          "original": "assets/2026-10-10/75cd8af7b3570a8df6091bb2c6ab84d5a13d7407067dcbe9d4e64edb68342a21.png",
+          "thumbnail": "assets/2026-10-10/75cd8af7b3570a8df6091bb2c6ab84d5a13d7407067dcbe9d4e64edb68342a21-thumb.webp",
+          "preview": "assets/2026-10-10/75cd8af7b3570a8df6091bb2c6ab84d5a13d7407067dcbe9d4e64edb68342a21-view.webp"
+        },
+        {
+          "id": "c054b5d6d95c07979d36ba3744b4939178ff4af16357ce9d4fd155b492c99aa8",
+          "title": "dig-skylight",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3470639,
+          "filename": "dig-skylight.png",
+          "original": "assets/2026-10-10/c054b5d6d95c07979d36ba3744b4939178ff4af16357ce9d4fd155b492c99aa8.png",
+          "thumbnail": "assets/2026-10-10/c054b5d6d95c07979d36ba3744b4939178ff4af16357ce9d4fd155b492c99aa8-thumb.webp",
+          "preview": "assets/2026-10-10/c054b5d6d95c07979d36ba3744b4939178ff4af16357ce9d4fd155b492c99aa8-view.webp"
+        }
+      ],
+      "result": "dig 18/18",
+      "label": "dig",
+      "results": [
+        {
+          "at": "2026-10-10T06:18:44.555912-04:00",
+          "text": "dig 18/18",
+          "status": "passed",
+          "label": "dig"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T06:18:44.555912-04:00"
+    },
+    {
       "title": "The Gate's cavern: a skylight",
       "description": "Dig Site Aurora is on the White River's north bank, east of Whiterun, between White River Watch and Valtheim Towers, below Fellglow Keep and Shimmermist Cave (the map). The hill over it rises only some 1900 and is topped by crags, while the cavern's roof stands about 2000 over the mouth's height: thin, and broken through up among the crags. Inside, a ceiling slab left out, a rock shaft rising to a glimpse of drifting cloud, and soft daylight falling to the floor.",
       "date": "2026-10-10",
