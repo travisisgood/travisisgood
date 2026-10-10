@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "Dig Site Aurora: Hyperion's bulkhead",
+      "description": "The dig's mouth, now Hyperion's bulkhead dug into the hillside: a sliding double door locked past picking until every ECHO log is read, access-denied tape across it.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T12:34:00.536861-04:00",
+      "images": [
+        {
+          "id": "1b93be5f9d8d644868b35c3a6802c750b1205fa0ae2b5041c431de996f7a3ae0",
+          "title": "1-sealed-bulkhead",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4057070,
+          "filename": "1-sealed-bulkhead.png",
+          "original": "assets/2026-10-10/1b93be5f9d8d644868b35c3a6802c750b1205fa0ae2b5041c431de996f7a3ae0.png",
+          "thumbnail": "assets/2026-10-10/1b93be5f9d8d644868b35c3a6802c750b1205fa0ae2b5041c431de996f7a3ae0-thumb.webp",
+          "preview": "assets/2026-10-10/1b93be5f9d8d644868b35c3a6802c750b1205fa0ae2b5041c431de996f7a3ae0-view.webp"
+        },
+        {
+          "id": "1f556a35e9d12dcb898973afb428ad52dc91e02b1079a6c10ef2747dbba0c7e2",
+          "title": "2-up-the-gully",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4708204,
+          "filename": "2-up-the-gully.png",
+          "original": "assets/2026-10-10/1f556a35e9d12dcb898973afb428ad52dc91e02b1079a6c10ef2747dbba0c7e2.png",
+          "thumbnail": "assets/2026-10-10/1f556a35e9d12dcb898973afb428ad52dc91e02b1079a6c10ef2747dbba0c7e2-thumb.webp",
+          "preview": "assets/2026-10-10/1f556a35e9d12dcb898973afb428ad52dc91e02b1079a6c10ef2747dbba0c7e2-view.webp"
+        },
+        {
+          "id": "a61702f74bc57015c0a9a9d4599cb94875309d43e5dfc7e2f1fd805029e6e6e7",
+          "title": "3-in-its-nook",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4450627,
+          "filename": "3-in-its-nook.png",
+          "original": "assets/2026-10-10/a61702f74bc57015c0a9a9d4599cb94875309d43e5dfc7e2f1fd805029e6e6e7.png",
+          "thumbnail": "assets/2026-10-10/a61702f74bc57015c0a9a9d4599cb94875309d43e5dfc7e2f1fd805029e6e6e7-thumb.webp",
+          "preview": "assets/2026-10-10/a61702f74bc57015c0a9a9d4599cb94875309d43e5dfc7e2f1fd805029e6e6e7-view.webp"
+        },
+        {
+          "id": "2e46de5153cb7fe55678f9c646e1a24f2ae22f693596ecc87f0e08002d31f79b",
+          "title": "4-inside-the-dig",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5379602,
+          "filename": "4-inside-the-dig.png",
+          "original": "assets/2026-10-10/2e46de5153cb7fe55678f9c646e1a24f2ae22f693596ecc87f0e08002d31f79b.png",
+          "thumbnail": "assets/2026-10-10/2e46de5153cb7fe55678f9c646e1a24f2ae22f693596ecc87f0e08002d31f79b-thumb.webp",
+          "preview": "assets/2026-10-10/2e46de5153cb7fe55678f9c646e1a24f2ae22f693596ecc87f0e08002d31f79b-view.webp"
+        }
+      ],
+      "result": "dig 18/18",
+      "label": "Screenshots",
+      "results": [
+        {
+          "at": "2026-10-10T12:34:00.536861-04:00",
+          "text": "dig 18/18",
+          "status": "passed",
+          "label": "Screenshots"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T12:34:00.536861-04:00"
+    },
+    {
       "title": "The Gate's cavern: your own grass, baked",
       "description": "The Gate stands in the skylight's light, a clearing round its broken road. The grass is the player's own (Northern Grass here), baked into one mesh so the cavern's lamps light it; pebbles in drifts over the dark floor, which now rolls.",
       "date": "2026-10-10",
