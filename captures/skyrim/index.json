@@ -2,6 +2,134 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Vault: brush, bushes, pebbles",
+      "description": "The island dressed: Skyrim's grass on its ground (Solstheim's ash grass and pebbles, a thin Soul Cairn grass), and 324 pieces strewn over it -- ash stones and rock piles, dead and charred shrubs, red scathecraw, smoking shrubs, embers, Soul Cairn crystals with red beside them. The map: green shrubs, grey stones, orange charred/smoking, red embers, purple crystals; the T kept bare (tiles, dais).",
+      "date": "2026-10-09",
+      "created": "2026-10-09T22:12:36.502132-04:00",
+      "images": [
+        {
+          "id": "d418450296b4a3c2e3836dcefc5f5c8dbf230bae207d52dbc05bf1279d06beef",
+          "title": "vault-brush-closeup-1",
+          "label": "vault",
+          "width": 1843,
+          "height": 583,
+          "bytes": 1916647,
+          "filename": "vault-brush-closeup-1.png",
+          "original": "assets/2026-10-09/d418450296b4a3c2e3836dcefc5f5c8dbf230bae207d52dbc05bf1279d06beef.png",
+          "thumbnail": "assets/2026-10-09/d418450296b4a3c2e3836dcefc5f5c8dbf230bae207d52dbc05bf1279d06beef-thumb.webp",
+          "preview": "assets/2026-10-09/d418450296b4a3c2e3836dcefc5f5c8dbf230bae207d52dbc05bf1279d06beef-view.webp"
+        },
+        {
+          "id": "1725f8009caeb86914e8fbe2b2979f9de09dd7ca0b5822d6586c823a9a3cb888",
+          "title": "vault-brush-closeup-2",
+          "label": "vault",
+          "width": 1843,
+          "height": 583,
+          "bytes": 1753903,
+          "filename": "vault-brush-closeup-2.png",
+          "original": "assets/2026-10-09/1725f8009caeb86914e8fbe2b2979f9de09dd7ca0b5822d6586c823a9a3cb888.png",
+          "thumbnail": "assets/2026-10-09/1725f8009caeb86914e8fbe2b2979f9de09dd7ca0b5822d6586c823a9a3cb888-thumb.webp",
+          "preview": "assets/2026-10-09/1725f8009caeb86914e8fbe2b2979f9de09dd7ca0b5822d6586c823a9a3cb888-view.webp"
+        },
+        {
+          "id": "ff2a536292106157203c4ff8c6a85519f645853eb93d8d34ac7edf51009874f3",
+          "title": "vault-brush-map",
+          "label": "vault",
+          "width": 900,
+          "height": 900,
+          "bytes": 122760,
+          "filename": "vault-brush-map.png",
+          "original": "assets/2026-10-09/ff2a536292106157203c4ff8c6a85519f645853eb93d8d34ac7edf51009874f3.png",
+          "thumbnail": "assets/2026-10-09/ff2a536292106157203c4ff8c6a85519f645853eb93d8d34ac7edf51009874f3-thumb.webp",
+          "preview": "assets/2026-10-09/ff2a536292106157203c4ff8c6a85519f645853eb93d8d34ac7edf51009874f3-view.webp"
+        },
+        {
+          "id": "61e92819e1c7b4fb235e5e24879924966ceae71fcb60924468c99471f31dda4e",
+          "title": "vault-dragon4",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3625690,
+          "filename": "vault-dragon4.png",
+          "original": "assets/2026-10-09/61e92819e1c7b4fb235e5e24879924966ceae71fcb60924468c99471f31dda4e.png",
+          "thumbnail": "assets/2026-10-09/61e92819e1c7b4fb235e5e24879924966ceae71fcb60924468c99471f31dda4e-thumb.webp",
+          "preview": "assets/2026-10-09/61e92819e1c7b4fb235e5e24879924966ceae71fcb60924468c99471f31dda4e-view.webp"
+        },
+        {
+          "id": "42c39cbff70c757565ea64f13e991c3df9b7313a931b0f361386d9674e3ff872",
+          "title": "vault-lip",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3960326,
+          "filename": "vault-lip.png",
+          "original": "assets/2026-10-09/42c39cbff70c757565ea64f13e991c3df9b7313a931b0f361386d9674e3ff872.png",
+          "thumbnail": "assets/2026-10-09/42c39cbff70c757565ea64f13e991c3df9b7313a931b0f361386d9674e3ff872-thumb.webp",
+          "preview": "assets/2026-10-09/42c39cbff70c757565ea64f13e991c3df9b7313a931b0f361386d9674e3ff872-view.webp"
+        },
+        {
+          "id": "e287a9025bcc9395aefbe0ecbbf54a020c5d9b0dfedcb419ba6e3dbe93432803",
+          "title": "vault-view0",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4536882,
+          "filename": "vault-view0.png",
+          "original": "assets/2026-10-09/e287a9025bcc9395aefbe0ecbbf54a020c5d9b0dfedcb419ba6e3dbe93432803.png",
+          "thumbnail": "assets/2026-10-09/e287a9025bcc9395aefbe0ecbbf54a020c5d9b0dfedcb419ba6e3dbe93432803-thumb.webp",
+          "preview": "assets/2026-10-09/e287a9025bcc9395aefbe0ecbbf54a020c5d9b0dfedcb419ba6e3dbe93432803-view.webp"
+        },
+        {
+          "id": "2fb4a93b60907a880cbc3ef8b161c500a740c6646a5fc1d159140473a8b45684",
+          "title": "vault-view1",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4648028,
+          "filename": "vault-view1.png",
+          "original": "assets/2026-10-09/2fb4a93b60907a880cbc3ef8b161c500a740c6646a5fc1d159140473a8b45684.png",
+          "thumbnail": "assets/2026-10-09/2fb4a93b60907a880cbc3ef8b161c500a740c6646a5fc1d159140473a8b45684-thumb.webp",
+          "preview": "assets/2026-10-09/2fb4a93b60907a880cbc3ef8b161c500a740c6646a5fc1d159140473a8b45684-view.webp"
+        },
+        {
+          "id": "3b6a0aa68982e216b8068a267aa7b009a4327eafc2deb6fe77b17548e2186f79",
+          "title": "vault-view2",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4990930,
+          "filename": "vault-view2.png",
+          "original": "assets/2026-10-09/3b6a0aa68982e216b8068a267aa7b009a4327eafc2deb6fe77b17548e2186f79.png",
+          "thumbnail": "assets/2026-10-09/3b6a0aa68982e216b8068a267aa7b009a4327eafc2deb6fe77b17548e2186f79-thumb.webp",
+          "preview": "assets/2026-10-09/3b6a0aa68982e216b8068a267aa7b009a4327eafc2deb6fe77b17548e2186f79-view.webp"
+        },
+        {
+          "id": "97fccd1edd46b07419b5a0e122ebe8f80b0183a1185bc5b6dcf29fd762f5613f",
+          "title": "vault-view3",
+          "label": "vault",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5185609,
+          "filename": "vault-view3.png",
+          "original": "assets/2026-10-09/97fccd1edd46b07419b5a0e122ebe8f80b0183a1185bc5b6dcf29fd762f5613f.png",
+          "thumbnail": "assets/2026-10-09/97fccd1edd46b07419b5a0e122ebe8f80b0183a1185bc5b6dcf29fd762f5613f-thumb.webp",
+          "preview": "assets/2026-10-09/97fccd1edd46b07419b5a0e122ebe8f80b0183a1185bc5b6dcf29fd762f5613f-view.webp"
+        }
+      ],
+      "result": "Vault test 19/19: the dragon still flies, lands and fights; an add still paths across the floor.",
+      "label": "vault",
+      "results": [
+        {
+          "at": "2026-10-09T22:12:36.502132-04:00",
+          "text": "Vault test 19/19: the dragon still flies, lands and fights; an add still paths across the floor.",
+          "status": "passed",
+          "label": "vault"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T22:12:36.502132-04:00"
+    },
+    {
       "title": "Fallback guns in first person",
       "description": "A gun without its generated BL2 model is held as a BL2 gun: Dawnguard's crossbow gets BL2's origin, eye, muzzle and flash in the hand.",
       "date": "2026-10-09",
