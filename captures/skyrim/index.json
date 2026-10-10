@@ -2,6 +2,170 @@
   "version": 1,
   "albums": [
     {
+      "title": "Rock faces on the Gate's cavern and the Vault's crater",
+      "description": "The walls were one landscape texture tiled up a steep slope. Now the cavern is clad in Skyrim's mountain cliffs and rock slabs, the cavern's exit is a cave face with a passage fading to black, and the crater is clad in BL2's volcanic crags, kept under the rim so the statues show over them.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T16:04:07.280980-04:00",
+      "images": [
+        {
+          "id": "6577f4290c6c7676eba1aecd0f4ddd2c5326b393898707049c0f7589ca929586",
+          "title": "00-dig-mouth-inside",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3316821,
+          "filename": "00-dig-mouth-inside.png",
+          "original": "assets/2026-10-10/6577f4290c6c7676eba1aecd0f4ddd2c5326b393898707049c0f7589ca929586.png",
+          "thumbnail": "assets/2026-10-10/6577f4290c6c7676eba1aecd0f4ddd2c5326b393898707049c0f7589ca929586-thumb.webp",
+          "preview": "assets/2026-10-10/6577f4290c6c7676eba1aecd0f4ddd2c5326b393898707049c0f7589ca929586-view.webp"
+        },
+        {
+          "id": "2faf9a1d20db669858d4ae580d37c1459239d1162d890d4e0bf1999f628344f7",
+          "title": "01-dig-wall-w",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3295674,
+          "filename": "01-dig-wall-w.png",
+          "original": "assets/2026-10-10/2faf9a1d20db669858d4ae580d37c1459239d1162d890d4e0bf1999f628344f7.png",
+          "thumbnail": "assets/2026-10-10/2faf9a1d20db669858d4ae580d37c1459239d1162d890d4e0bf1999f628344f7-thumb.webp",
+          "preview": "assets/2026-10-10/2faf9a1d20db669858d4ae580d37c1459239d1162d890d4e0bf1999f628344f7-view.webp"
+        },
+        {
+          "id": "027f0ff9eb1f1e8f5fb60063999bf42ea2caf3012e00e3b0d0d0a96af468da31",
+          "title": "02-dig-wall-e",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3357575,
+          "filename": "02-dig-wall-e.png",
+          "original": "assets/2026-10-10/027f0ff9eb1f1e8f5fb60063999bf42ea2caf3012e00e3b0d0d0a96af468da31.png",
+          "thumbnail": "assets/2026-10-10/027f0ff9eb1f1e8f5fb60063999bf42ea2caf3012e00e3b0d0d0a96af468da31-thumb.webp",
+          "preview": "assets/2026-10-10/027f0ff9eb1f1e8f5fb60063999bf42ea2caf3012e00e3b0d0d0a96af468da31-view.webp"
+        },
+        {
+          "id": "b80b60c194e7ee8c075923af75c13bbfcb52e80c661f62f815fbfda679ff8400",
+          "title": "03-dig-cavern",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3360539,
+          "filename": "03-dig-cavern.png",
+          "original": "assets/2026-10-10/b80b60c194e7ee8c075923af75c13bbfcb52e80c661f62f815fbfda679ff8400.png",
+          "thumbnail": "assets/2026-10-10/b80b60c194e7ee8c075923af75c13bbfcb52e80c661f62f815fbfda679ff8400-thumb.webp",
+          "preview": "assets/2026-10-10/b80b60c194e7ee8c075923af75c13bbfcb52e80c661f62f815fbfda679ff8400-view.webp"
+        },
+        {
+          "id": "8e658d3d8607678c89f54442796f877957cc64d61219f0a86972f86a9d446603",
+          "title": "04-dig-grove",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3016939,
+          "filename": "04-dig-grove.png",
+          "original": "assets/2026-10-10/8e658d3d8607678c89f54442796f877957cc64d61219f0a86972f86a9d446603.png",
+          "thumbnail": "assets/2026-10-10/8e658d3d8607678c89f54442796f877957cc64d61219f0a86972f86a9d446603-thumb.webp",
+          "preview": "assets/2026-10-10/8e658d3d8607678c89f54442796f877957cc64d61219f0a86972f86a9d446603-view.webp"
+        },
+        {
+          "id": "143e1f01201f7f4e7654eb7c8825cffa657cb92c6f4bbdc355a016918672c5f5",
+          "title": "05-dig-gate",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3108469,
+          "filename": "05-dig-gate.png",
+          "original": "assets/2026-10-10/143e1f01201f7f4e7654eb7c8825cffa657cb92c6f4bbdc355a016918672c5f5.png",
+          "thumbnail": "assets/2026-10-10/143e1f01201f7f4e7654eb7c8825cffa657cb92c6f4bbdc355a016918672c5f5-thumb.webp",
+          "preview": "assets/2026-10-10/143e1f01201f7f4e7654eb7c8825cffa657cb92c6f4bbdc355a016918672c5f5-view.webp"
+        },
+        {
+          "id": "bd6941b154f51eb9d7187f6a5f14bd9e663cf4ff20635a01fe4b4cc01243d0ae",
+          "title": "06-vault-view0",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3109723,
+          "filename": "06-vault-view0.png",
+          "original": "assets/2026-10-10/bd6941b154f51eb9d7187f6a5f14bd9e663cf4ff20635a01fe4b4cc01243d0ae.png",
+          "thumbnail": "assets/2026-10-10/bd6941b154f51eb9d7187f6a5f14bd9e663cf4ff20635a01fe4b4cc01243d0ae-thumb.webp",
+          "preview": "assets/2026-10-10/bd6941b154f51eb9d7187f6a5f14bd9e663cf4ff20635a01fe4b4cc01243d0ae-view.webp"
+        },
+        {
+          "id": "6d38436a80b9b933906aef4a3a7f41ed7111f6f5340a650af5d223587b4450eb",
+          "title": "07-vault-view1",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2922745,
+          "filename": "07-vault-view1.png",
+          "original": "assets/2026-10-10/6d38436a80b9b933906aef4a3a7f41ed7111f6f5340a650af5d223587b4450eb.png",
+          "thumbnail": "assets/2026-10-10/6d38436a80b9b933906aef4a3a7f41ed7111f6f5340a650af5d223587b4450eb-thumb.webp",
+          "preview": "assets/2026-10-10/6d38436a80b9b933906aef4a3a7f41ed7111f6f5340a650af5d223587b4450eb-view.webp"
+        },
+        {
+          "id": "0278d68c0bb8f882e3cadd3df791a9d7ea5238ab34b9159c9a32c4d465d321a5",
+          "title": "08-vault-view2",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3403261,
+          "filename": "08-vault-view2.png",
+          "original": "assets/2026-10-10/0278d68c0bb8f882e3cadd3df791a9d7ea5238ab34b9159c9a32c4d465d321a5.png",
+          "thumbnail": "assets/2026-10-10/0278d68c0bb8f882e3cadd3df791a9d7ea5238ab34b9159c9a32c4d465d321a5-thumb.webp",
+          "preview": "assets/2026-10-10/0278d68c0bb8f882e3cadd3df791a9d7ea5238ab34b9159c9a32c4d465d321a5-view.webp"
+        },
+        {
+          "id": "4e6078f3fd9c93253194a3501af7a2a6b93d7c5c1669c46b7dd55979a3fc34c5",
+          "title": "09-vault-view3",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3496471,
+          "filename": "09-vault-view3.png",
+          "original": "assets/2026-10-10/4e6078f3fd9c93253194a3501af7a2a6b93d7c5c1669c46b7dd55979a3fc34c5.png",
+          "thumbnail": "assets/2026-10-10/4e6078f3fd9c93253194a3501af7a2a6b93d7c5c1669c46b7dd55979a3fc34c5-thumb.webp",
+          "preview": "assets/2026-10-10/4e6078f3fd9c93253194a3501af7a2a6b93d7c5c1669c46b7dd55979a3fc34c5-view.webp"
+        },
+        {
+          "id": "08b9ecc057ae9b5136a62150eb40bdd08de358548b860deebc060717507a62a0",
+          "title": "10-vault-lip",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2917505,
+          "filename": "10-vault-lip.png",
+          "original": "assets/2026-10-10/08b9ecc057ae9b5136a62150eb40bdd08de358548b860deebc060717507a62a0.png",
+          "thumbnail": "assets/2026-10-10/08b9ecc057ae9b5136a62150eb40bdd08de358548b860deebc060717507a62a0-thumb.webp",
+          "preview": "assets/2026-10-10/08b9ecc057ae9b5136a62150eb40bdd08de358548b860deebc060717507a62a0-view.webp"
+        },
+        {
+          "id": "28e5de65c5bc3db0a1370be898df3040f2d711b900fd0ca7e4a8db3d4375176f",
+          "title": "11-vault-dais",
+          "label": "Clad walls",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3301790,
+          "filename": "11-vault-dais.png",
+          "original": "assets/2026-10-10/28e5de65c5bc3db0a1370be898df3040f2d711b900fd0ca7e4a8db3d4375176f.png",
+          "thumbnail": "assets/2026-10-10/28e5de65c5bc3db0a1370be898df3040f2d711b900fd0ca7e4a8db3d4375176f-thumb.webp",
+          "preview": "assets/2026-10-10/28e5de65c5bc3db0a1370be898df3040f2d711b900fd0ca7e4a8db3d4375176f-view.webp"
+        }
+      ],
+      "result": "dig 19/19, vault 20/20, default 41/41; 59 cavern and 55 crater rocks, all loaded from the extended light-plugin ID range",
+      "label": "Clad walls",
+      "results": [
+        {
+          "at": "2026-10-10T16:04:07.280980-04:00",
+          "text": "dig 19/19, vault 20/20, default 41/41; 59 cavern and 55 crater rocks, all loaded from the extended light-plugin ID range",
+          "status": "passed",
+          "label": "Clad walls"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T16:04:07.280980-04:00"
+    },
+    {
       "title": "Dig Site Aurora: the bulkhead and the way down",
       "description": "The sealed Hyperion bulkhead at the foot of the rock face, then the cave's dressing as re-seated: crates, Eridian tiles and stone on the rock (not floating), the camp round the dead Constructor, the deep door's passage with a dim red light.",
       "date": "2026-10-10",
