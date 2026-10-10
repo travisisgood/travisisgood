@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Gate's cavern: a clearing like Eldergleam's",
+      "description": "Under the skylight, the ground as Eldergleam Sanctuary's: painted field grass and forest floor in drifts, a worn path to the Gate, fern banks, thicket, forest shrubs, flowers, a log, a stump and mossy stones, moss hanging from the opening, glow fill and a green bounce light.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T10:12:30.824096-04:00",
+      "images": [
+        {
+          "id": "1ab8fd006cc0abffbcfef56be219dd000f23315bda4187658daa5693d2b3dbc9",
+          "title": "dig-cavern",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3394469,
+          "filename": "dig-cavern.png",
+          "original": "assets/2026-10-10/1ab8fd006cc0abffbcfef56be219dd000f23315bda4187658daa5693d2b3dbc9.png",
+          "thumbnail": "assets/2026-10-10/1ab8fd006cc0abffbcfef56be219dd000f23315bda4187658daa5693d2b3dbc9-thumb.webp",
+          "preview": "assets/2026-10-10/1ab8fd006cc0abffbcfef56be219dd000f23315bda4187658daa5693d2b3dbc9-view.webp"
+        },
+        {
+          "id": "335912765173ddd950da3a0d1fcddce076886e74b515816e95a277dd7d7a1f67",
+          "title": "dig-grove",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3527206,
+          "filename": "dig-grove.png",
+          "original": "assets/2026-10-10/335912765173ddd950da3a0d1fcddce076886e74b515816e95a277dd7d7a1f67.png",
+          "thumbnail": "assets/2026-10-10/335912765173ddd950da3a0d1fcddce076886e74b515816e95a277dd7d7a1f67-thumb.webp",
+          "preview": "assets/2026-10-10/335912765173ddd950da3a0d1fcddce076886e74b515816e95a277dd7d7a1f67-view.webp"
+        },
+        {
+          "id": "73d5177da20bf9e641cf4b880b65ec99097732fa492816c1a5512c08a56cdd62",
+          "title": "dig-grove2",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3542516,
+          "filename": "dig-grove2.png",
+          "original": "assets/2026-10-10/73d5177da20bf9e641cf4b880b65ec99097732fa492816c1a5512c08a56cdd62.png",
+          "thumbnail": "assets/2026-10-10/73d5177da20bf9e641cf4b880b65ec99097732fa492816c1a5512c08a56cdd62-thumb.webp",
+          "preview": "assets/2026-10-10/73d5177da20bf9e641cf4b880b65ec99097732fa492816c1a5512c08a56cdd62-view.webp"
+        },
+        {
+          "id": "ed16a9ea5b12b96366cb6ab3ae2a0f98110c37663fe2cc1923d50a4694a85fad",
+          "title": "dig-skylight-up",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2473004,
+          "filename": "dig-skylight-up.png",
+          "original": "assets/2026-10-10/ed16a9ea5b12b96366cb6ab3ae2a0f98110c37663fe2cc1923d50a4694a85fad.png",
+          "thumbnail": "assets/2026-10-10/ed16a9ea5b12b96366cb6ab3ae2a0f98110c37663fe2cc1923d50a4694a85fad-thumb.webp",
+          "preview": "assets/2026-10-10/ed16a9ea5b12b96366cb6ab3ae2a0f98110c37663fe2cc1923d50a4694a85fad-view.webp"
+        },
+        {
+          "id": "3eaba0805fb4033ae91369d5897bb64234922ef08dceba60a6467d53e02de4ed",
+          "title": "dig-skylight",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3444454,
+          "filename": "dig-skylight.png",
+          "original": "assets/2026-10-10/3eaba0805fb4033ae91369d5897bb64234922ef08dceba60a6467d53e02de4ed.png",
+          "thumbnail": "assets/2026-10-10/3eaba0805fb4033ae91369d5897bb64234922ef08dceba60a6467d53e02de4ed-thumb.webp",
+          "preview": "assets/2026-10-10/3eaba0805fb4033ae91369d5897bb64234922ef08dceba60a6467d53e02de4ed-view.webp"
+        }
+      ],
+      "result": "dig 18/18",
+      "label": "dig",
+      "results": [
+        {
+          "at": "2026-10-10T10:12:30.824096-04:00",
+          "text": "dig 18/18",
+          "status": "passed",
+          "label": "dig"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T10:12:30.824096-04:00"
+    },
+    {
       "title": "The Gate's cavern: trees under the skylight",
       "description": "The mushrooms swapped for trees: Skyrim's pines grow in the skylight's daylight, the tallest reaching toward the opening; out of the light, dead pines and dead brush where the great mushrooms stood.",
       "date": "2026-10-10",
