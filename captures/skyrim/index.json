@@ -2,6 +2,134 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Guardian, its hoard, and the way home",
+      "description": "Touch the Eridian Altar on the dais and the Guardian (Alduin, renamed, raid health and a BL2 shield) comes over the arch. Slain, its 18-piece hoard bursts out round the altar with beams. Behind where you arrive, the Gate's far side: the way home. The pedestal and altar from all four sides, no faces culled.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T17:37:09.317721-04:00",
+      "images": [
+        {
+          "id": "539e4f4dc3ff17ff138a5083a88064109dcd6d1210e3daf01e6655e8dd59f62e",
+          "title": "00-vault-altar",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2459414,
+          "filename": "00-vault-altar.png",
+          "original": "assets/2026-10-10/539e4f4dc3ff17ff138a5083a88064109dcd6d1210e3daf01e6655e8dd59f62e.png",
+          "thumbnail": "assets/2026-10-10/539e4f4dc3ff17ff138a5083a88064109dcd6d1210e3daf01e6655e8dd59f62e-thumb.webp",
+          "preview": "assets/2026-10-10/539e4f4dc3ff17ff138a5083a88064109dcd6d1210e3daf01e6655e8dd59f62e-view.webp"
+        },
+        {
+          "id": "991af0a42359a8a24dbb762c0a89a259ced220f69bf6e8591a7ef8dcdf54a33b",
+          "title": "01-vault-guardian0",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2726447,
+          "filename": "01-vault-guardian0.png",
+          "original": "assets/2026-10-10/991af0a42359a8a24dbb762c0a89a259ced220f69bf6e8591a7ef8dcdf54a33b.png",
+          "thumbnail": "assets/2026-10-10/991af0a42359a8a24dbb762c0a89a259ced220f69bf6e8591a7ef8dcdf54a33b-thumb.webp",
+          "preview": "assets/2026-10-10/991af0a42359a8a24dbb762c0a89a259ced220f69bf6e8591a7ef8dcdf54a33b-view.webp"
+        },
+        {
+          "id": "991ba862a6148ab267fa7c27f05f36122c01624fb67a266e5b34f7368a132b95",
+          "title": "02-vault-guardian1",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2711827,
+          "filename": "02-vault-guardian1.png",
+          "original": "assets/2026-10-10/991ba862a6148ab267fa7c27f05f36122c01624fb67a266e5b34f7368a132b95.png",
+          "thumbnail": "assets/2026-10-10/991ba862a6148ab267fa7c27f05f36122c01624fb67a266e5b34f7368a132b95-thumb.webp",
+          "preview": "assets/2026-10-10/991ba862a6148ab267fa7c27f05f36122c01624fb67a266e5b34f7368a132b95-view.webp"
+        },
+        {
+          "id": "f06e3276ae39a6cae611af07f510c88cee5776c9d105427a1b3cbe6f76044b1a",
+          "title": "03-vault-hoard",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3140602,
+          "filename": "03-vault-hoard.png",
+          "original": "assets/2026-10-10/f06e3276ae39a6cae611af07f510c88cee5776c9d105427a1b3cbe6f76044b1a.png",
+          "thumbnail": "assets/2026-10-10/f06e3276ae39a6cae611af07f510c88cee5776c9d105427a1b3cbe6f76044b1a-thumb.webp",
+          "preview": "assets/2026-10-10/f06e3276ae39a6cae611af07f510c88cee5776c9d105427a1b3cbe6f76044b1a-view.webp"
+        },
+        {
+          "id": "7d8dc4c9c3a8f0f8724f62045b4da893d041cb6401828fef12107869a64e2bfd",
+          "title": "04-vault-view2",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3032902,
+          "filename": "04-vault-view2.png",
+          "original": "assets/2026-10-10/7d8dc4c9c3a8f0f8724f62045b4da893d041cb6401828fef12107869a64e2bfd.png",
+          "thumbnail": "assets/2026-10-10/7d8dc4c9c3a8f0f8724f62045b4da893d041cb6401828fef12107869a64e2bfd-thumb.webp",
+          "preview": "assets/2026-10-10/7d8dc4c9c3a8f0f8724f62045b4da893d041cb6401828fef12107869a64e2bfd-view.webp"
+        },
+        {
+          "id": "4f6caba1055c39485e9b9b1b1cb3123ec04e14d44190f7703ca73443fecf8dfb",
+          "title": "05-vault-dais",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3294093,
+          "filename": "05-vault-dais.png",
+          "original": "assets/2026-10-10/4f6caba1055c39485e9b9b1b1cb3123ec04e14d44190f7703ca73443fecf8dfb.png",
+          "thumbnail": "assets/2026-10-10/4f6caba1055c39485e9b9b1b1cb3123ec04e14d44190f7703ca73443fecf8dfb-thumb.webp",
+          "preview": "assets/2026-10-10/4f6caba1055c39485e9b9b1b1cb3123ec04e14d44190f7703ca73443fecf8dfb-view.webp"
+        },
+        {
+          "id": "9be2afcefc0519a5e8ace55523227b420e5a6853d0ee546a2c5af13f62fb4a53",
+          "title": "06-vault-dais-e",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3227919,
+          "filename": "06-vault-dais-e.png",
+          "original": "assets/2026-10-10/9be2afcefc0519a5e8ace55523227b420e5a6853d0ee546a2c5af13f62fb4a53.png",
+          "thumbnail": "assets/2026-10-10/9be2afcefc0519a5e8ace55523227b420e5a6853d0ee546a2c5af13f62fb4a53-thumb.webp",
+          "preview": "assets/2026-10-10/9be2afcefc0519a5e8ace55523227b420e5a6853d0ee546a2c5af13f62fb4a53-view.webp"
+        },
+        {
+          "id": "28cbdcb563e6c40e79ce76549e5390e07aa6f7ea3bb912291c4bf81acdd76fba",
+          "title": "07-vault-dais-w",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2804809,
+          "filename": "07-vault-dais-w.png",
+          "original": "assets/2026-10-10/28cbdcb563e6c40e79ce76549e5390e07aa6f7ea3bb912291c4bf81acdd76fba.png",
+          "thumbnail": "assets/2026-10-10/28cbdcb563e6c40e79ce76549e5390e07aa6f7ea3bb912291c4bf81acdd76fba-thumb.webp",
+          "preview": "assets/2026-10-10/28cbdcb563e6c40e79ce76549e5390e07aa6f7ea3bb912291c4bf81acdd76fba-view.webp"
+        },
+        {
+          "id": "8698f30d55b984710bbd315bb3137966ec04c9f42d6591e5cf3a4dd7597cdcf4",
+          "title": "08-vault-dais-n",
+          "label": "Vault raid",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3441399,
+          "filename": "08-vault-dais-n.png",
+          "original": "assets/2026-10-10/8698f30d55b984710bbd315bb3137966ec04c9f42d6591e5cf3a4dd7597cdcf4.png",
+          "thumbnail": "assets/2026-10-10/8698f30d55b984710bbd315bb3137966ec04c9f42d6591e5cf3a4dd7597cdcf4-thumb.webp",
+          "preview": "assets/2026-10-10/8698f30d55b984710bbd315bb3137966ec04c9f42d6591e5cf3a4dd7597cdcf4-view.webp"
+        }
+      ],
+      "result": "vault 26/26, dig 19/19, default 41/41: the altar wakes it (20,250 health at level 10, 2,430 shield), touched again nothing more, slain 18 of 18 hoard pieces set down with 18 beams",
+      "label": "Vault raid",
+      "results": [
+        {
+          "at": "2026-10-10T17:37:09.317721-04:00",
+          "text": "vault 26/26, dig 19/19, default 41/41: the altar wakes it (20,250 health at level 10, 2,430 shield), touched again nothing more, slain 18 of 18 hoard pieces set down with 18 beams",
+          "status": "passed",
+          "label": "Vault raid"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T17:37:09.317721-04:00"
+    },
+    {
       "title": "Gun steady while panning",
       "description": "",
       "date": "2026-10-10",
