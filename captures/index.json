@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Monster hull gate and E1M1 ramp investigation",
+      "description": "Walking-monster cube compatibility switch and standard-player versus MVQ movement on FaultLine E1M1 first ramp. Screenshots show the standard-player entrance and exit.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T11:44:21.041113-04:00",
+      "images": [
+        {
+          "id": "995cecf3f6668e283dd6afda1d90a069352b0c809d9446cf8e853233a90f3d6c",
+          "title": "ramp entry0000",
+          "label": "Checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 240150,
+          "filename": "ramp_entry0000.png",
+          "original": "assets/2026-10-10/995cecf3f6668e283dd6afda1d90a069352b0c809d9446cf8e853233a90f3d6c.png",
+          "thumbnail": "assets/2026-10-10/995cecf3f6668e283dd6afda1d90a069352b0c809d9446cf8e853233a90f3d6c-thumb.webp",
+          "preview": "assets/2026-10-10/995cecf3f6668e283dd6afda1d90a069352b0c809d9446cf8e853233a90f3d6c-view.webp"
+        },
+        {
+          "id": "71a5c8f945d86a153a1bfe6aad7a7d7587c5062b3277ef8414360371616b93a7",
+          "title": "ramp exit0000",
+          "label": "Checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 253199,
+          "filename": "ramp_exit0000.png",
+          "original": "assets/2026-10-10/71a5c8f945d86a153a1bfe6aad7a7d7587c5062b3277ef8414360371616b93a7.png",
+          "thumbnail": "assets/2026-10-10/71a5c8f945d86a153a1bfe6aad7a7d7587c5062b3277ef8414360371616b93a7-thumb.webp",
+          "preview": "assets/2026-10-10/71a5c8f945d86a153a1bfe6aad7a7d7587c5062b3277ef8414360371616b93a7-view.webp"
+        }
+      ],
+      "result": "Release engine and canonical QC builds passed; QC reported zero warnings. Final monster policies 0 and 1 passed 145 checks each; the standard-player suite passed 4,403 checks across six gravity directions and both movement backends. Actual E1M1 standard/MVQ forward and reverse, standing and crouched comparisons completed at 240 and 1,000 FPS render caps. They did not reproduce the reported standard-player jitter; no player physics or smoothing fix is claimed. The extracted-ramp standard run passed, but its cube run failed the first traversal. Initial QC-only on/off results were invalid because the startup cvar command was unknown; native registration and an explicit requested-value assertion corrected this before final tests. A sideways-look diagnostic completed but drifted off the intended centerline, so its compensation was discarded. Live-map comparison stopped before movement because the current export contains an unsupported _disp face extension; this remains incomplete. Python compilation and whitespace checks passed. Tested release deployed with matching hashes at all three engine targets; canonical QC and deployment template hashes match.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-10T11:44:21.041113-04:00",
+          "text": "Release engine and canonical QC builds passed; QC reported zero warnings. Final monster policies 0 and 1 passed 145 checks each; the standard-player suite passed 4,403 checks across six gravity directions and both movement backends. Actual E1M1 standard/MVQ forward and reverse, standing and crouched comparisons completed at 240 and 1,000 FPS render caps. They did not reproduce the reported standard-player jitter; no player physics or smoothing fix is claimed. The extracted-ramp standard run passed, but its cube run failed the first traversal. Initial QC-only on/off results were invalid because the startup cvar command was unknown; native registration and an explicit requested-value assertion corrected this before final tests. A sideways-look diagnostic completed but drifted off the intended centerline, so its compensation was discarded. Live-map comparison stopped before movement because the current export contains an unsupported _disp face extension; this remains incomplete. Python compilation and whitespace checks passed. Tested release deployed with matching hashes at all three engine targets; canonical QC and deployment template hashes match.",
+          "status": "mixed",
+          "label": "Checks"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-10T11:44:21.041113-04:00"
+    },
+    {
       "title": "FaultLine minlight and black ground patches",
       "description": "Exact player view 85 1538 -86, angles 44 199 0. Before and after the deployed ambient-preserving shading repair; mover-atlas and runtime-shadow controls; pixelated wall-normal regression views.",
       "date": "2026-10-09",
