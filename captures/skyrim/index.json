@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Gun steady while panning",
+      "description": "",
+      "date": "2026-10-10",
+      "created": "2026-10-10T16:05:16.576635-04:00",
+      "images": [],
+      "result": "viewlock 15/15: the first-person gun redrawn in this frame's pose before it is drawn; 0.000 degrees and 0 px of shake on every sweep (the engine alone: 1-2 px jitter while pitching)",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-10T16:05:16.576635-04:00",
+          "text": "viewlock 15/15: the first-person gun redrawn in this frame's pose before it is drawn; 0.000 degrees and 0 px of shake on every sweep (the engine alone: 1-2 px jitter while pitching)",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T16:05:16.576635-04:00"
+    },
+    {
       "title": "Rock faces on the Gate's cavern and the Vault's crater",
       "description": "The walls were one landscape texture tiled up a steep slope. Now the cavern is clad in Skyrim's mountain cliffs and rock slabs, the cavern's exit is a cave face with a passage fading to black, and the crater is clad in BL2's volcanic crags, kept under the rim so the statues show over them.",
       "date": "2026-10-10",
