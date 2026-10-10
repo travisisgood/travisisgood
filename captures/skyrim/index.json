@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "Dig Site Aurora: the bulkhead on the ground",
+      "description": "Moved to the foot of a rock face, on the ground; seated against Skyrim's own rocks and mountains this time (grey on the map), not just the terrain.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T13:17:55.426923-04:00",
+      "images": [
+        {
+          "id": "314d5706416e2df68061c114d8f3e88741ac286cc5c31d04233ccd630136b673",
+          "title": "1-sealed-at-the-foot-of-the-rock",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5040752,
+          "filename": "1-sealed-at-the-foot-of-the-rock.png",
+          "original": "assets/2026-10-10/314d5706416e2df68061c114d8f3e88741ac286cc5c31d04233ccd630136b673.png",
+          "thumbnail": "assets/2026-10-10/314d5706416e2df68061c114d8f3e88741ac286cc5c31d04233ccd630136b673-thumb.webp",
+          "preview": "assets/2026-10-10/314d5706416e2df68061c114d8f3e88741ac286cc5c31d04233ccd630136b673-view.webp"
+        },
+        {
+          "id": "25de125027820735e4f0c55193d210b4c8b8c3548b78d5d4163e43b9ace0721b",
+          "title": "2-access-denied",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4424462,
+          "filename": "2-access-denied.png",
+          "original": "assets/2026-10-10/25de125027820735e4f0c55193d210b4c8b8c3548b78d5d4163e43b9ace0721b.png",
+          "thumbnail": "assets/2026-10-10/25de125027820735e4f0c55193d210b4c8b8c3548b78d5d4163e43b9ace0721b-thumb.webp",
+          "preview": "assets/2026-10-10/25de125027820735e4f0c55193d210b4c8b8c3548b78d5d4163e43b9ace0721b-view.webp"
+        },
+        {
+          "id": "77ab7b355a94dcd889772a02f0ba944b83d63b0c1ff1c9a477d02b5bef0eabb4",
+          "title": "3-open-every-log-read",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5134741,
+          "filename": "3-open-every-log-read.png",
+          "original": "assets/2026-10-10/77ab7b355a94dcd889772a02f0ba944b83d63b0c1ff1c9a477d02b5bef0eabb4.png",
+          "thumbnail": "assets/2026-10-10/77ab7b355a94dcd889772a02f0ba944b83d63b0c1ff1c9a477d02b5bef0eabb4-thumb.webp",
+          "preview": "assets/2026-10-10/77ab7b355a94dcd889772a02f0ba944b83d63b0c1ff1c9a477d02b5bef0eabb4-view.webp"
+        },
+        {
+          "id": "b0ac1b87da6fb9c6ca6d6afabdc99b231e4ab294fe980e7dc7d8328ffc52fff1",
+          "title": "4-from-down-the-hill",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5181690,
+          "filename": "4-from-down-the-hill.png",
+          "original": "assets/2026-10-10/b0ac1b87da6fb9c6ca6d6afabdc99b231e4ab294fe980e7dc7d8328ffc52fff1.png",
+          "thumbnail": "assets/2026-10-10/b0ac1b87da6fb9c6ca6d6afabdc99b231e4ab294fe980e7dc7d8328ffc52fff1-thumb.webp",
+          "preview": "assets/2026-10-10/b0ac1b87da6fb9c6ca6d6afabdc99b231e4ab294fe980e7dc7d8328ffc52fff1-view.webp"
+        },
+        {
+          "id": "a129b25352b5dd2d27067c5b1bd8236a5cf9f9929c19db402c204b6823a94d5c",
+          "title": "5-map-vanilla-rock-in-grey",
+          "label": "Screenshots",
+          "width": 900,
+          "height": 900,
+          "bytes": 285224,
+          "filename": "5-map-vanilla-rock-in-grey.png",
+          "original": "assets/2026-10-10/a129b25352b5dd2d27067c5b1bd8236a5cf9f9929c19db402c204b6823a94d5c.png",
+          "thumbnail": "assets/2026-10-10/a129b25352b5dd2d27067c5b1bd8236a5cf9f9929c19db402c204b6823a94d5c-thumb.webp",
+          "preview": "assets/2026-10-10/a129b25352b5dd2d27067c5b1bd8236a5cf9f9929c19db402c204b6823a94d5c-view.webp"
+        }
+      ],
+      "result": "dig 18/18",
+      "label": "Screenshots",
+      "results": [
+        {
+          "at": "2026-10-10T13:17:55.426923-04:00",
+          "text": "dig 18/18",
+          "status": "passed",
+          "label": "Screenshots"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T13:17:55.426923-04:00"
+    },
+    {
       "title": "Dig Site Aurora: Hyperion's bulkhead",
       "description": "The dig's mouth, now Hyperion's bulkhead dug into the hillside: a sliding double door locked past picking until every ECHO log is read, access-denied tape across it.",
       "date": "2026-10-10",
