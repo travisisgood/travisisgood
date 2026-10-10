@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "FaultLine minlight and black ground patches",
+      "description": "Exact player view 85 1538 -86, angles 44 199 0. Before and after the deployed ambient-preserving shading repair; mover-atlas and runtime-shadow controls; pixelated wall-normal regression views.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T21:23:23.319902-04:00",
+      "images": [
+        {
+          "id": "3a7dacc05cb96a6738f438d6be4692c539a712ba3953e6e02c5b89b5afd479a1",
+          "title": "01-before-black-rock-base",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2389050,
+          "filename": "01-before-black-rock-base.png",
+          "original": "assets/2026-10-09/3a7dacc05cb96a6738f438d6be4692c539a712ba3953e6e02c5b89b5afd479a1.png",
+          "thumbnail": "assets/2026-10-09/3a7dacc05cb96a6738f438d6be4692c539a712ba3953e6e02c5b89b5afd479a1-thumb.webp",
+          "preview": "assets/2026-10-09/3a7dacc05cb96a6738f438d6be4692c539a712ba3953e6e02c5b89b5afd479a1-view.webp"
+        },
+        {
+          "id": "2dd16d437310d58178102089cbd9798aaf759bd06cd4c05dd77e947cbb8a6073",
+          "title": "02-before-atlas-disabled",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2388573,
+          "filename": "02-before-atlas-disabled.png",
+          "original": "assets/2026-10-09/2dd16d437310d58178102089cbd9798aaf759bd06cd4c05dd77e947cbb8a6073.png",
+          "thumbnail": "assets/2026-10-09/2dd16d437310d58178102089cbd9798aaf759bd06cd4c05dd77e947cbb8a6073-thumb.webp",
+          "preview": "assets/2026-10-09/2dd16d437310d58178102089cbd9798aaf759bd06cd4c05dd77e947cbb8a6073-view.webp"
+        },
+        {
+          "id": "cd853c19191a2eb3b370d17077cf8ef613e45ef8607e26b132a82fb33661582e",
+          "title": "03-before-runtime-shadow-disabled",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2302600,
+          "filename": "03-before-runtime-shadow-disabled.png",
+          "original": "assets/2026-10-09/cd853c19191a2eb3b370d17077cf8ef613e45ef8607e26b132a82fb33661582e.png",
+          "thumbnail": "assets/2026-10-09/cd853c19191a2eb3b370d17077cf8ef613e45ef8607e26b132a82fb33661582e-thumb.webp",
+          "preview": "assets/2026-10-09/cd853c19191a2eb3b370d17077cf8ef613e45ef8607e26b132a82fb33661582e-view.webp"
+        },
+        {
+          "id": "d54400aaf7b738ada04c5be8f952d157cd58af431a41bdce80b36edd358736ea",
+          "title": "04-deployed-ambient-floor",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2378847,
+          "filename": "04-deployed-ambient-floor.png",
+          "original": "assets/2026-10-09/d54400aaf7b738ada04c5be8f952d157cd58af431a41bdce80b36edd358736ea.png",
+          "thumbnail": "assets/2026-10-09/d54400aaf7b738ada04c5be8f952d157cd58af431a41bdce80b36edd358736ea-thumb.webp",
+          "preview": "assets/2026-10-09/d54400aaf7b738ada04c5be8f952d157cd58af431a41bdce80b36edd358736ea-view.webp"
+        },
+        {
+          "id": "b320a6b2d2400b0f4ccb2817adf83128ef7d928e4b3fc7b15403b210d3f7bd4c",
+          "title": "05-wall-pixel-four",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1031183,
+          "filename": "05-wall-pixel-four.png",
+          "original": "assets/2026-10-09/b320a6b2d2400b0f4ccb2817adf83128ef7d928e4b3fc7b15403b210d3f7bd4c.png",
+          "thumbnail": "assets/2026-10-09/b320a6b2d2400b0f4ccb2817adf83128ef7d928e4b3fc7b15403b210d3f7bd4c-thumb.webp",
+          "preview": "assets/2026-10-09/b320a6b2d2400b0f4ccb2817adf83128ef7d928e4b3fc7b15403b210d3f7bd4c-view.webp"
+        },
+        {
+          "id": "c49b25b0ffc1668f69bc1ce2711c2eec2cefec241e9729a6e588bc0ba7156fd2",
+          "title": "06-wall-pixel-eight",
+          "label": "Ambient floor",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 1027560,
+          "filename": "06-wall-pixel-eight.png",
+          "original": "assets/2026-10-09/c49b25b0ffc1668f69bc1ce2711c2eec2cefec241e9729a6e588bc0ba7156fd2.png",
+          "thumbnail": "assets/2026-10-09/c49b25b0ffc1668f69bc1ce2711c2eec2cefec241e9729a6e588bc0ba7156fd2-thumb.webp",
+          "preview": "assets/2026-10-09/c49b25b0ffc1668f69bc1ce2711c2eec2cefec241e9729a6e588bc0ba7156fd2-view.webp"
+        }
+      ],
+      "result": "Final engine and OptiX builds passed. All 269 GPU shader programs loaded; exact deployed view restores rock-base texture. Four fresh OptiX control bakes with generated material/content sidecars passed: new default matches old explicit minlight_dirt 0, and explicit 1 preserves legacy behavior, within one RGB byte per face. Static E1M1 bake and 88-entry/61-pose mover atlas rebuilt successfully; deployment hashes match. Nine wall-normal captures preserve pixelation. Earlier comparison checks failed due to packed chart order, extent rounding and missing material sidecars; a backed-up tool launch initially lacked DLLs. Corrected final checks passed. The older platform-band screenshot remains unverified without its exact view.",
+      "label": "Ambient floor",
+      "results": [
+        {
+          "at": "2026-10-09T21:23:23.319902-04:00",
+          "text": "Final engine and OptiX builds passed. All 269 GPU shader programs loaded; exact deployed view restores rock-base texture. Four fresh OptiX control bakes with generated material/content sidecars passed: new default matches old explicit minlight_dirt 0, and explicit 1 preserves legacy behavior, within one RGB byte per face. Static E1M1 bake and 88-entry/61-pose mover atlas rebuilt successfully; deployment hashes match. Nine wall-normal captures preserve pixelation. Earlier comparison checks failed due to packed chart order, extent rounding and missing material sidecars; a backed-up tool launch initially lacked DLLs. Corrected final checks passed. The older platform-band screenshot remains unverified without its exact view.",
+          "status": "mixed",
+          "label": "Ambient floor"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-09T21:23:23.319902-04:00"
+    },
+    {
       "title": "FaultLine crisp normals and editor focus fixes",
       "description": "Exact wall style controls, generated-normal provenance, copied OptiX normal/cavity bake controls, final rebaked wall, and a nearby platform search view. The platform search is not the exact reported black-band view. Earlier editor focus fixtures/build attempts failed before correction; an initial profile-test filter omitted migration cases and was corrected. Fresh-generator verification first used the wrong cache path, then passed at the actual cache location. The first material-only rebake retained soft baked slopes; the final runtime-normal bake removes them.",
       "date": "2026-10-09",
