@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Supported player hull lookahead and slerp",
+      "description": "",
+      "date": "2026-10-10",
+      "created": "2026-10-10T13:12:51.296987-04:00",
+      "images": [
+        {
+          "id": "ceaf006978434a9911f768264dea5667422e39d220188472b78bf1c58b8500ad",
+          "title": "ramp entry0000",
+          "label": "FaultLine E1M1 / 0.183.163",
+          "width": 640,
+          "height": 480,
+          "bytes": 223955,
+          "filename": "ramp_entry0000.png",
+          "original": "assets/2026-10-10/ceaf006978434a9911f768264dea5667422e39d220188472b78bf1c58b8500ad.png",
+          "thumbnail": "assets/2026-10-10/ceaf006978434a9911f768264dea5667422e39d220188472b78bf1c58b8500ad-thumb.webp",
+          "preview": "assets/2026-10-10/ceaf006978434a9911f768264dea5667422e39d220188472b78bf1c58b8500ad-view.webp"
+        },
+        {
+          "id": "7d3de68cd5047e370f9dff88d57840b11d654639425543fedfc01b59a3be04d1",
+          "title": "ramp exit0000",
+          "label": "FaultLine E1M1 / 0.183.163",
+          "width": 640,
+          "height": 480,
+          "bytes": 246675,
+          "filename": "ramp_exit0000.png",
+          "original": "assets/2026-10-10/7d3de68cd5047e370f9dff88d57840b11d654639425543fedfc01b59a3be04d1.png",
+          "thumbnail": "assets/2026-10-10/7d3de68cd5047e370f9dff88d57840b11d654639425543fedfc01b59a3be04d1-thumb.webp",
+          "preview": "assets/2026-10-10/7d3de68cd5047e370f9dff88d57840b11d654639425543fedfc01b59a3be04d1-view.webp"
+        }
+      ],
+      "result": "Final engine 0.183.163 deployed with matching SHA256 976f00bb4119a34921f585239106f5aa994402ff73b9e21cab4debff18b3cd15 on all three targets; source commit 6b8193b6 pushed to main. Actual E1M1: eight standing/crouched forward/reverse traversals on both backends passed (608 checks), 81 anticipatory frames, no limited rotations or blocked camera starts. Hull recovery moves fell from 36 (maximum 4 units) in baseline to zero; maximum short-frame weapon displacement in camera space fell from 0.2657 to 0.0385 units. Six-direction suite passed 4391 checks, all 48 ramp support gates, zero recovery moves and camera gates; this run preceded the final disabled-surface-gravity history refinement, separately checked on the shipping binary with 271 basic clearance/actor/crouch/jump/flip/noclip checks. Ten stationary windows passed with zero body motion, velocity or support changes. Twelve ledge cases passed (48 checks), all 868 mantle frames filtered. A 1000 FPS render-cap run passed all eight E1M1 traversals (766 checks), anticipation and no-recovery gates. MVQ cube completed eight traversals (632 checks). Camera math passed 143 checks; Python compilation and whitespace checks passed. Two intermediate compilation failures were repaired. An initial candidate failed traversal after accidentally overwriting its preview target; fixed and rebuilt. One outdated full run was stopped incomplete and rerun. Screenshots show the final standard-player ramp entry and exit. No project files edited. These scripted results do not confirm subjective smoothness.",
+      "label": "FaultLine E1M1 / 0.183.163",
+      "results": [
+        {
+          "at": "2026-10-10T13:12:51.296987-04:00",
+          "text": "Final engine 0.183.163 deployed with matching SHA256 976f00bb4119a34921f585239106f5aa994402ff73b9e21cab4debff18b3cd15 on all three targets; source commit 6b8193b6 pushed to main. Actual E1M1: eight standing/crouched forward/reverse traversals on both backends passed (608 checks), 81 anticipatory frames, no limited rotations or blocked camera starts. Hull recovery moves fell from 36 (maximum 4 units) in baseline to zero; maximum short-frame weapon displacement in camera space fell from 0.2657 to 0.0385 units. Six-direction suite passed 4391 checks, all 48 ramp support gates, zero recovery moves and camera gates; this run preceded the final disabled-surface-gravity history refinement, separately checked on the shipping binary with 271 basic clearance/actor/crouch/jump/flip/noclip checks. Ten stationary windows passed with zero body motion, velocity or support changes. Twelve ledge cases passed (48 checks), all 868 mantle frames filtered. A 1000 FPS render-cap run passed all eight E1M1 traversals (766 checks), anticipation and no-recovery gates. MVQ cube completed eight traversals (632 checks). Camera math passed 143 checks; Python compilation and whitespace checks passed. Two intermediate compilation failures were repaired. An initial candidate failed traversal after accidentally overwriting its preview target; fixed and rebuilt. One outdated full run was stopped incomplete and rerun. Screenshots show the final standard-player ramp entry and exit. No project files edited. These scripted results do not confirm subjective smoothness.",
+          "status": "passed",
+          "label": "FaultLine E1M1 / 0.183.163"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T13:12:51.296987-04:00"
+    },
+    {
       "title": "Remove baked mover lighting debug notice",
       "description": "",
       "date": "2026-10-10",
