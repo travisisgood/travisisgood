@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Gate's cavern: a skylight",
+      "description": "Dig Site Aurora is on the White River's north bank, east of Whiterun, between White River Watch and Valtheim Towers, below Fellglow Keep and Shimmermist Cave (the map). The hill over it rises only some 1900 and is topped by crags, while the cavern's roof stands about 2000 over the mouth's height: thin, and broken through up among the crags. Inside, a ceiling slab left out, a rock shaft rising to a glimpse of drifting cloud, and soft daylight falling to the floor.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T00:26:56.069044-04:00",
+      "images": [
+        {
+          "id": "0f071ae5fdb1ebc91dcee4ab61a536ddb10397125a4470719345ed8ecc821fe4",
+          "title": "dig-cavern",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2925275,
+          "filename": "dig-cavern.png",
+          "original": "assets/2026-10-10/0f071ae5fdb1ebc91dcee4ab61a536ddb10397125a4470719345ed8ecc821fe4.png",
+          "thumbnail": "assets/2026-10-10/0f071ae5fdb1ebc91dcee4ab61a536ddb10397125a4470719345ed8ecc821fe4-thumb.webp",
+          "preview": "assets/2026-10-10/0f071ae5fdb1ebc91dcee4ab61a536ddb10397125a4470719345ed8ecc821fe4-view.webp"
+        },
+        {
+          "id": "6b6d6069be8eba73a9e3fdc33d416d79b1b743dcf2aca387407c820166a84536",
+          "title": "dig-hillside",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2694111,
+          "filename": "dig-hillside.png",
+          "original": "assets/2026-10-10/6b6d6069be8eba73a9e3fdc33d416d79b1b743dcf2aca387407c820166a84536.png",
+          "thumbnail": "assets/2026-10-10/6b6d6069be8eba73a9e3fdc33d416d79b1b743dcf2aca387407c820166a84536-thumb.webp",
+          "preview": "assets/2026-10-10/6b6d6069be8eba73a9e3fdc33d416d79b1b743dcf2aca387407c820166a84536-view.webp"
+        },
+        {
+          "id": "38f9e7b4f0701e9e2c6bb7a475136ca21d5b275b65d3caa9d53738dc71c7a113",
+          "title": "dig-skylight-up",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2316610,
+          "filename": "dig-skylight-up.png",
+          "original": "assets/2026-10-10/38f9e7b4f0701e9e2c6bb7a475136ca21d5b275b65d3caa9d53738dc71c7a113.png",
+          "thumbnail": "assets/2026-10-10/38f9e7b4f0701e9e2c6bb7a475136ca21d5b275b65d3caa9d53738dc71c7a113-thumb.webp",
+          "preview": "assets/2026-10-10/38f9e7b4f0701e9e2c6bb7a475136ca21d5b275b65d3caa9d53738dc71c7a113-view.webp"
+        },
+        {
+          "id": "dbc550caa3c70d4a0cabf6885cb2c099bff4505ccf57330beb9721df0330938f",
+          "title": "dig-skylight",
+          "label": "dig",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 2819020,
+          "filename": "dig-skylight.png",
+          "original": "assets/2026-10-10/dbc550caa3c70d4a0cabf6885cb2c099bff4505ccf57330beb9721df0330938f.png",
+          "thumbnail": "assets/2026-10-10/dbc550caa3c70d4a0cabf6885cb2c099bff4505ccf57330beb9721df0330938f-thumb.webp",
+          "preview": "assets/2026-10-10/dbc550caa3c70d4a0cabf6885cb2c099bff4505ccf57330beb9721df0330938f-view.webp"
+        },
+        {
+          "id": "0591bda6bed225d5b96789f02e778437748889df3682346c0c4e632f8a273648",
+          "title": "where-dig-site-aurora-is",
+          "label": "dig",
+          "width": 798,
+          "height": 612,
+          "bytes": 426320,
+          "filename": "where-dig-site-aurora-is.png",
+          "original": "assets/2026-10-10/0591bda6bed225d5b96789f02e778437748889df3682346c0c4e632f8a273648.png",
+          "thumbnail": "assets/2026-10-10/0591bda6bed225d5b96789f02e778437748889df3682346c0c4e632f8a273648-thumb.webp",
+          "preview": "assets/2026-10-10/0591bda6bed225d5b96789f02e778437748889df3682346c0c4e632f8a273648-view.webp"
+        }
+      ],
+      "result": "dig 18/18 (one earlier run crashed in Skyrim's own code stepping through the Gate; not seen again in five runs)",
+      "label": "dig",
+      "results": [
+        {
+          "at": "2026-10-10T00:26:56.069044-04:00",
+          "text": "dig 18/18 (one earlier run crashed in Skyrim's own code stepping through the Gate; not seen again in five runs)",
+          "status": "passed",
+          "label": "dig"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T00:26:56.069044-04:00"
+    },
+    {
       "title": "The Gate's cavern: Blackreach's mushrooms, and the portal turning",
       "description": "Blackreach's great glowing mushrooms against the walls, groves of its tall mushrooms, low clusters, bushes and ferns at the walls' foot, clumps of its crystal rocks, and pebble piles over the floor. The Gate's portal animates now (it was never flagged animated, so Skyrim didn't tick its swirl) and turns faster; portal and portal2 are half a second apart.",
       "date": "2026-10-09",
