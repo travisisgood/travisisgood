@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Continuous camera interpolation trial",
+      "description": "Engine 0.183.161 trial on FaultLine E1M1 first ramp: continuous eye-position interpolation and heavier gravity rotation smoothing, with immediate mouse aiming.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T12:22:39.314797-04:00",
+      "images": [
+        {
+          "id": "26db0087bdac9db8dca0516f1072f93e85ab37915600dac98134a719ee26eb7e",
+          "title": "ramp entry0000",
+          "label": "Interpolated",
+          "width": 640,
+          "height": 480,
+          "bytes": 226305,
+          "filename": "ramp_entry0000.png",
+          "original": "assets/2026-10-10/26db0087bdac9db8dca0516f1072f93e85ab37915600dac98134a719ee26eb7e.png",
+          "thumbnail": "assets/2026-10-10/26db0087bdac9db8dca0516f1072f93e85ab37915600dac98134a719ee26eb7e-thumb.webp",
+          "preview": "assets/2026-10-10/26db0087bdac9db8dca0516f1072f93e85ab37915600dac98134a719ee26eb7e-view.webp"
+        },
+        {
+          "id": "55fd816a59a4ecfbf63820792ba67f44cbeef6536ef3a882fd2cf4ea5931fb54",
+          "title": "ramp exit0000",
+          "label": "Interpolated",
+          "width": 640,
+          "height": 480,
+          "bytes": 238205,
+          "filename": "ramp_exit0000.png",
+          "original": "assets/2026-10-10/55fd816a59a4ecfbf63820792ba67f44cbeef6536ef3a882fd2cf4ea5931fb54.png",
+          "thumbnail": "assets/2026-10-10/55fd816a59a4ecfbf63820792ba67f44cbeef6536ef3a882fd2cf4ea5931fb54-thumb.webp",
+          "preview": "assets/2026-10-10/55fd816a59a4ecfbf63820792ba67f44cbeef6536ef3a882fd2cf4ea5931fb54-view.webp"
+        }
+      ],
+      "result": "Release build passed. Production-filter unit test: 143 checks passed. Full six-direction player suite: 4,394 checks and camera gates passed; 15,433 ramp camera samples had no blocked probe starts. Current E1M1 completed all eight standing/crouched forward/reverse traversals on both movement backends at 240 and 1,000 FPS render caps, with clear camera probes. Matched map/QC hashes verified. At 240 FPS, final ramp eye second-difference RMS fell from 0.7596 to 0.4687 (38%); basis RMS fell from 0.2651 to 0.1451 degrees (45%). The stricter complete-standing-window comparison passed three cases but failed reverse backend 1: 0.948 ratio versus required below 0.9. This remains a trial; subjective smoothness is not confirmed. Crouched forward camera-envelope clamping reached 0.13 units. All ten stationary windows passed with zero body movement, velocity, support changes or clipping; settling eye span stayed below 0.117 units. All twelve ledge cases passed; all 864 mantle frames were filtered. QC fixture builds had zero warnings; Python compilation and whitespace checks passed. Tested engine deployed to all three authorized targets with matching hashes.",
+      "label": "Interpolated",
+      "results": [
+        {
+          "at": "2026-10-10T12:22:39.314797-04:00",
+          "text": "Release build passed. Production-filter unit test: 143 checks passed. Full six-direction player suite: 4,394 checks and camera gates passed; 15,433 ramp camera samples had no blocked probe starts. Current E1M1 completed all eight standing/crouched forward/reverse traversals on both movement backends at 240 and 1,000 FPS render caps, with clear camera probes. Matched map/QC hashes verified. At 240 FPS, final ramp eye second-difference RMS fell from 0.7596 to 0.4687 (38%); basis RMS fell from 0.2651 to 0.1451 degrees (45%). The stricter complete-standing-window comparison passed three cases but failed reverse backend 1: 0.948 ratio versus required below 0.9. This remains a trial; subjective smoothness is not confirmed. Crouched forward camera-envelope clamping reached 0.13 units. All ten stationary windows passed with zero body movement, velocity, support changes or clipping; settling eye span stayed below 0.117 units. All twelve ledge cases passed; all 864 mantle frames were filtered. QC fixture builds had zero warnings; Python compilation and whitespace checks passed. Tested engine deployed to all three authorized targets with matching hashes.",
+          "status": "mixed",
+          "label": "Interpolated"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-10T12:22:39.314797-04:00"
+    },
+    {
       "title": "Monster hull gate and E1M1 ramp investigation",
       "description": "Walking-monster cube compatibility switch and standard-player versus MVQ movement on FaultLine E1M1 first ramp. Screenshots show the standard-player entrance and exit.",
       "date": "2026-10-10",
