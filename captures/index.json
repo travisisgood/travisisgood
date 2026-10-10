@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Remove baked mover lighting debug notice",
+      "description": "",
+      "date": "2026-10-10",
+      "created": "2026-10-10T12:31:40.524700-04:00",
+      "images": [],
+      "result": "Engine 0.183.162 release build passed. Binary/source check confirmed the exact Baked mover lighting playback advancing with live brush poses notice is present in the prior deployed engine and absent from the new release and source. The print was removed while retaining the motion-state assignment used by validation. Whitespace check passed. Deployed engine hashes match the release at all three authorized targets. Code-only verification; no visual test was run.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-10T12:31:40.524700-04:00",
+          "text": "Engine 0.183.162 release build passed. Binary/source check confirmed the exact Baked mover lighting playback advancing with live brush poses notice is present in the prior deployed engine and absent from the new release and source. The print was removed while retaining the motion-state assignment used by validation. Whitespace check passed. Deployed engine hashes match the release at all three authorized targets. Code-only verification; no visual test was run.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T12:31:40.524700-04:00"
+    },
+    {
       "title": "Continuous camera interpolation trial",
       "description": "Engine 0.183.161 trial on FaultLine E1M1 first ramp: continuous eye-position interpolation and heavier gravity rotation smoothing, with immediate mouse aiming.",
       "date": "2026-10-10",
