@@ -2,6 +2,122 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Gate's cavern: your own grass, baked",
+      "description": "The Gate stands in the skylight's light, a clearing round its broken road. The grass is the player's own (Northern Grass here), baked into one mesh so the cavern's lamps light it; pebbles in drifts over the dark floor, which now rolls.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T11:18:07.447326-04:00",
+      "images": [
+        {
+          "id": "0fca464f59e908952e43902c55d76721646d997c7396aabdd4a61e42e4dda263",
+          "title": "1-from-the-mouth",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4493852,
+          "filename": "1-from-the-mouth.png",
+          "original": "assets/2026-10-10/0fca464f59e908952e43902c55d76721646d997c7396aabdd4a61e42e4dda263.png",
+          "thumbnail": "assets/2026-10-10/0fca464f59e908952e43902c55d76721646d997c7396aabdd4a61e42e4dda263-thumb.webp",
+          "preview": "assets/2026-10-10/0fca464f59e908952e43902c55d76721646d997c7396aabdd4a61e42e4dda263-view.webp"
+        },
+        {
+          "id": "cbb06b9a00f57a1e953404ed35be586f81a7bf77c00bfee6bfb561eff3f869b8",
+          "title": "2-the-gate-in-the-light",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4279598,
+          "filename": "2-the-gate-in-the-light.png",
+          "original": "assets/2026-10-10/cbb06b9a00f57a1e953404ed35be586f81a7bf77c00bfee6bfb561eff3f869b8.png",
+          "thumbnail": "assets/2026-10-10/cbb06b9a00f57a1e953404ed35be586f81a7bf77c00bfee6bfb561eff3f869b8-thumb.webp",
+          "preview": "assets/2026-10-10/cbb06b9a00f57a1e953404ed35be586f81a7bf77c00bfee6bfb561eff3f869b8-view.webp"
+        },
+        {
+          "id": "4178a00e93a68edf5f4e159c5a3ce46a1ca0854144d21a20177e95a55f443506",
+          "title": "3-the-clearing-east",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4438876,
+          "filename": "3-the-clearing-east.png",
+          "original": "assets/2026-10-10/4178a00e93a68edf5f4e159c5a3ce46a1ca0854144d21a20177e95a55f443506.png",
+          "thumbnail": "assets/2026-10-10/4178a00e93a68edf5f4e159c5a3ce46a1ca0854144d21a20177e95a55f443506-thumb.webp",
+          "preview": "assets/2026-10-10/4178a00e93a68edf5f4e159c5a3ce46a1ca0854144d21a20177e95a55f443506-view.webp"
+        },
+        {
+          "id": "c0d11b5f6f10c0d14dbd92e3cc0a509de271fb0f1ba49e44608fe7773719cbea",
+          "title": "4-the-clearing-west",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4246833,
+          "filename": "4-the-clearing-west.png",
+          "original": "assets/2026-10-10/c0d11b5f6f10c0d14dbd92e3cc0a509de271fb0f1ba49e44608fe7773719cbea.png",
+          "thumbnail": "assets/2026-10-10/c0d11b5f6f10c0d14dbd92e3cc0a509de271fb0f1ba49e44608fe7773719cbea-thumb.webp",
+          "preview": "assets/2026-10-10/c0d11b5f6f10c0d14dbd92e3cc0a509de271fb0f1ba49e44608fe7773719cbea-view.webp"
+        },
+        {
+          "id": "46eb235e2b20b63d1ab921faa6ec288cdba662678150c5d72d7ba64f4873bf96",
+          "title": "5-at-the-portal",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4391321,
+          "filename": "5-at-the-portal.png",
+          "original": "assets/2026-10-10/46eb235e2b20b63d1ab921faa6ec288cdba662678150c5d72d7ba64f4873bf96.png",
+          "thumbnail": "assets/2026-10-10/46eb235e2b20b63d1ab921faa6ec288cdba662678150c5d72d7ba64f4873bf96-thumb.webp",
+          "preview": "assets/2026-10-10/46eb235e2b20b63d1ab921faa6ec288cdba662678150c5d72d7ba64f4873bf96-view.webp"
+        },
+        {
+          "id": "418dac7f98ee75bfec770fd9c0db7d21c8a48394262c1e48e7c00281b912d027",
+          "title": "6-under-the-skylight",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4189639,
+          "filename": "6-under-the-skylight.png",
+          "original": "assets/2026-10-10/418dac7f98ee75bfec770fd9c0db7d21c8a48394262c1e48e7c00281b912d027.png",
+          "thumbnail": "assets/2026-10-10/418dac7f98ee75bfec770fd9c0db7d21c8a48394262c1e48e7c00281b912d027-thumb.webp",
+          "preview": "assets/2026-10-10/418dac7f98ee75bfec770fd9c0db7d21c8a48394262c1e48e7c00281b912d027-view.webp"
+        },
+        {
+          "id": "66da0289ed1916d86a102e35b64258b11fe01fd227597086338d7fa92371c582",
+          "title": "7-the-dark-floor",
+          "label": "Screenshots",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4460586,
+          "filename": "7-the-dark-floor.png",
+          "original": "assets/2026-10-10/66da0289ed1916d86a102e35b64258b11fe01fd227597086338d7fa92371c582.png",
+          "thumbnail": "assets/2026-10-10/66da0289ed1916d86a102e35b64258b11fe01fd227597086338d7fa92371c582-thumb.webp",
+          "preview": "assets/2026-10-10/66da0289ed1916d86a102e35b64258b11fe01fd227597086338d7fa92371c582-view.webp"
+        },
+        {
+          "id": "464e295fc2b9d89c258c1ff13197bc418f9067e21f99b5ec0d4d613ea69b5e3e",
+          "title": "8-map-of-the-baked-grass",
+          "label": "Screenshots",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95675,
+          "filename": "8-map-of-the-baked-grass.png",
+          "original": "assets/2026-10-10/464e295fc2b9d89c258c1ff13197bc418f9067e21f99b5ec0d4d613ea69b5e3e.png",
+          "thumbnail": "assets/2026-10-10/464e295fc2b9d89c258c1ff13197bc418f9067e21f99b5ec0d4d613ea69b5e3e-thumb.webp",
+          "preview": "assets/2026-10-10/464e295fc2b9d89c258c1ff13197bc418f9067e21f99b5ec0d4d613ea69b5e3e-view.webp"
+        }
+      ],
+      "result": "dig 18/18",
+      "label": "Screenshots",
+      "results": [
+        {
+          "at": "2026-10-10T11:18:07.447326-04:00",
+          "text": "dig 18/18",
+          "status": "passed",
+          "label": "Screenshots"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T11:18:07.447326-04:00"
+    },
+    {
       "title": "The Gate's cavern: a clearing like Eldergleam's",
       "description": "Under the skylight, the ground as Eldergleam Sanctuary's: painted field grass and forest floor in drifts, a worn path to the Gate, fern banks, thicket, forest shrubs, flowers, a log, a stump and mossy stones, moss hanging from the opening, glow fill and a green bounce light.",
       "date": "2026-10-10",
