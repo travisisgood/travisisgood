@@ -2,6 +2,158 @@
   "version": 1,
   "albums": [
     {
+      "title": "Dig Site Aurora: the bulkhead and the way down",
+      "description": "The sealed Hyperion bulkhead at the foot of the rock face, then the cave's dressing as re-seated: crates, Eridian tiles and stone on the rock (not floating), the camp round the dead Constructor, the deep door's passage with a dim red light.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T16:02:54.701334-04:00",
+      "images": [
+        {
+          "id": "caaef2533ee20b35b735ae901a7f7e2f9542023b924f7515eec0757474a14eda",
+          "title": "00-dig-sealed",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3517320,
+          "filename": "00-dig-sealed.png",
+          "original": "assets/2026-10-10/caaef2533ee20b35b735ae901a7f7e2f9542023b924f7515eec0757474a14eda.png",
+          "thumbnail": "assets/2026-10-10/caaef2533ee20b35b735ae901a7f7e2f9542023b924f7515eec0757474a14eda-thumb.webp",
+          "preview": "assets/2026-10-10/caaef2533ee20b35b735ae901a7f7e2f9542023b924f7515eec0757474a14eda-view.webp"
+        },
+        {
+          "id": "0386088e63385be8f89e72e1cbb2d267f9c7ce1ec46623510049e75b1e002b5a",
+          "title": "01-dig-sealed-close",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3217512,
+          "filename": "01-dig-sealed-close.png",
+          "original": "assets/2026-10-10/0386088e63385be8f89e72e1cbb2d267f9c7ce1ec46623510049e75b1e002b5a.png",
+          "thumbnail": "assets/2026-10-10/0386088e63385be8f89e72e1cbb2d267f9c7ce1ec46623510049e75b1e002b5a-thumb.webp",
+          "preview": "assets/2026-10-10/0386088e63385be8f89e72e1cbb2d267f9c7ce1ec46623510049e75b1e002b5a-view.webp"
+        },
+        {
+          "id": "41f27f5f4398cd31758b5f0a47228e2be2e6027e98ec58e2c94ea315b6f971ec",
+          "title": "02-dig-mouth",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3644861,
+          "filename": "02-dig-mouth.png",
+          "original": "assets/2026-10-10/41f27f5f4398cd31758b5f0a47228e2be2e6027e98ec58e2c94ea315b6f971ec.png",
+          "thumbnail": "assets/2026-10-10/41f27f5f4398cd31758b5f0a47228e2be2e6027e98ec58e2c94ea315b6f971ec-thumb.webp",
+          "preview": "assets/2026-10-10/41f27f5f4398cd31758b5f0a47228e2be2e6027e98ec58e2c94ea315b6f971ec-view.webp"
+        },
+        {
+          "id": "91b93aad1a913f1e5504b66e5f83a54295841f17688df9a3c99a0ecbbe190e1f",
+          "title": "03-dig-hillside",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3603844,
+          "filename": "03-dig-hillside.png",
+          "original": "assets/2026-10-10/91b93aad1a913f1e5504b66e5f83a54295841f17688df9a3c99a0ecbbe190e1f.png",
+          "thumbnail": "assets/2026-10-10/91b93aad1a913f1e5504b66e5f83a54295841f17688df9a3c99a0ecbbe190e1f-thumb.webp",
+          "preview": "assets/2026-10-10/91b93aad1a913f1e5504b66e5f83a54295841f17688df9a3c99a0ecbbe190e1f-view.webp"
+        },
+        {
+          "id": "bcbc3a1cf650d9e64c1d3ab198f5822ad7ea8753273227dde473ea2fd1a0ba13",
+          "title": "04-dig-inside",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3750301,
+          "filename": "04-dig-inside.png",
+          "original": "assets/2026-10-10/bcbc3a1cf650d9e64c1d3ab198f5822ad7ea8753273227dde473ea2fd1a0ba13.png",
+          "thumbnail": "assets/2026-10-10/bcbc3a1cf650d9e64c1d3ab198f5822ad7ea8753273227dde473ea2fd1a0ba13-thumb.webp",
+          "preview": "assets/2026-10-10/bcbc3a1cf650d9e64c1d3ab198f5822ad7ea8753273227dde473ea2fd1a0ba13-view.webp"
+        },
+        {
+          "id": "18118223bd09113544a794037da38d87d7e328f91fe9f3f0325fdf68f96d2342",
+          "title": "05-dig-way-crates",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3798847,
+          "filename": "05-dig-way-crates.png",
+          "original": "assets/2026-10-10/18118223bd09113544a794037da38d87d7e328f91fe9f3f0325fdf68f96d2342.png",
+          "thumbnail": "assets/2026-10-10/18118223bd09113544a794037da38d87d7e328f91fe9f3f0325fdf68f96d2342-thumb.webp",
+          "preview": "assets/2026-10-10/18118223bd09113544a794037da38d87d7e328f91fe9f3f0325fdf68f96d2342-view.webp"
+        },
+        {
+          "id": "1bcc55edeced15248b54b6da0d47851d640c8c79324c483a18e7383aa3b5657f",
+          "title": "06-dig-way-tiles",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3462426,
+          "filename": "06-dig-way-tiles.png",
+          "original": "assets/2026-10-10/1bcc55edeced15248b54b6da0d47851d640c8c79324c483a18e7383aa3b5657f.png",
+          "thumbnail": "assets/2026-10-10/1bcc55edeced15248b54b6da0d47851d640c8c79324c483a18e7383aa3b5657f-thumb.webp",
+          "preview": "assets/2026-10-10/1bcc55edeced15248b54b6da0d47851d640c8c79324c483a18e7383aa3b5657f-view.webp"
+        },
+        {
+          "id": "b52df80ab9d04a8338c14993c2a99b8ec8e49e7f1f7cdaab669ec3a370de0776",
+          "title": "07-dig-way-stone",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3119444,
+          "filename": "07-dig-way-stone.png",
+          "original": "assets/2026-10-10/b52df80ab9d04a8338c14993c2a99b8ec8e49e7f1f7cdaab669ec3a370de0776.png",
+          "thumbnail": "assets/2026-10-10/b52df80ab9d04a8338c14993c2a99b8ec8e49e7f1f7cdaab669ec3a370de0776-thumb.webp",
+          "preview": "assets/2026-10-10/b52df80ab9d04a8338c14993c2a99b8ec8e49e7f1f7cdaab669ec3a370de0776-view.webp"
+        },
+        {
+          "id": "dfd4e4692bdb8568c9e5c0c7c151d3545bafab7710467ccb7541ab69246e2ca2",
+          "title": "08-dig-way-crates2",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3157982,
+          "filename": "08-dig-way-crates2.png",
+          "original": "assets/2026-10-10/dfd4e4692bdb8568c9e5c0c7c151d3545bafab7710467ccb7541ab69246e2ca2.png",
+          "thumbnail": "assets/2026-10-10/dfd4e4692bdb8568c9e5c0c7c151d3545bafab7710467ccb7541ab69246e2ca2-thumb.webp",
+          "preview": "assets/2026-10-10/dfd4e4692bdb8568c9e5c0c7c151d3545bafab7710467ccb7541ab69246e2ca2-view.webp"
+        },
+        {
+          "id": "0c12bddcef551d13ec010c9ae6759935ee2320444b709db757b9fcc5c4d8656e",
+          "title": "09-dig-way-camp",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3985643,
+          "filename": "09-dig-way-camp.png",
+          "original": "assets/2026-10-10/0c12bddcef551d13ec010c9ae6759935ee2320444b709db757b9fcc5c4d8656e.png",
+          "thumbnail": "assets/2026-10-10/0c12bddcef551d13ec010c9ae6759935ee2320444b709db757b9fcc5c4d8656e-thumb.webp",
+          "preview": "assets/2026-10-10/0c12bddcef551d13ec010c9ae6759935ee2320444b709db757b9fcc5c4d8656e-view.webp"
+        },
+        {
+          "id": "7e86cea48306d4c1816aa150430a08d50974e39be806d6fd879e70a32fbadd3e",
+          "title": "10-dig-way-deep",
+          "label": "Dig site",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 3169510,
+          "filename": "10-dig-way-deep.png",
+          "original": "assets/2026-10-10/7e86cea48306d4c1816aa150430a08d50974e39be806d6fd879e70a32fbadd3e.png",
+          "thumbnail": "assets/2026-10-10/7e86cea48306d4c1816aa150430a08d50974e39be806d6fd879e70a32fbadd3e-thumb.webp",
+          "preview": "assets/2026-10-10/7e86cea48306d4c1816aa150430a08d50974e39be806d6fd879e70a32fbadd3e-view.webp"
+        }
+      ],
+      "result": "dig 19/19; 43 pieces of dressing, one shadow light",
+      "label": "Dig site",
+      "results": [
+        {
+          "at": "2026-10-10T16:02:54.701334-04:00",
+          "text": "dig 19/19; 43 pieces of dressing, one shadow light",
+          "status": "passed",
+          "label": "Dig site"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T16:02:54.701334-04:00"
+    },
+    {
       "title": "Dig Site Aurora: the bulkhead on the ground",
       "description": "Moved to the foot of a rock face, on the ground; seated against Skyrim's own rocks and mountains this time (grey on the map), not just the terrain.",
       "date": "2026-10-10",
