@@ -2,6 +2,122 @@
   "version": 1,
   "albums": [
     {
+      "title": "Fallback guns in first person",
+      "description": "A gun without its generated BL2 model is held as a BL2 gun: Dawnguard's crossbow gets BL2's origin, eye, muzzle and flash in the hand.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T20:09:30.823199-04:00",
+      "images": [
+        {
+          "id": "1b911b15325764ea39979cf5152f952b8d6a4461d99e206ff91f5beda4ef5978",
+          "title": "fallback-bandit-0",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5471988,
+          "filename": "fallback-bandit-0.png",
+          "original": "assets/2026-10-09/1b911b15325764ea39979cf5152f952b8d6a4461d99e206ff91f5beda4ef5978.png",
+          "thumbnail": "assets/2026-10-09/1b911b15325764ea39979cf5152f952b8d6a4461d99e206ff91f5beda4ef5978-thumb.webp",
+          "preview": "assets/2026-10-09/1b911b15325764ea39979cf5152f952b8d6a4461d99e206ff91f5beda4ef5978-view.webp"
+        },
+        {
+          "id": "2b208633548889ad295226ee3581bf621ca39c733aa15f5ad4899a95ace16415",
+          "title": "fallback-common-ads",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5445838,
+          "filename": "fallback-common-ads.png",
+          "original": "assets/2026-10-09/2b208633548889ad295226ee3581bf621ca39c733aa15f5ad4899a95ace16415.png",
+          "thumbnail": "assets/2026-10-09/2b208633548889ad295226ee3581bf621ca39c733aa15f5ad4899a95ace16415-thumb.webp",
+          "preview": "assets/2026-10-09/2b208633548889ad295226ee3581bf621ca39c733aa15f5ad4899a95ace16415-view.webp"
+        },
+        {
+          "id": "c76b1cbda397f709fe1b1cf2a0f2400891e2e7f8b43ebf590a5384d5e833a921",
+          "title": "fallback-common-fire",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5220499,
+          "filename": "fallback-common-fire.png",
+          "original": "assets/2026-10-09/c76b1cbda397f709fe1b1cf2a0f2400891e2e7f8b43ebf590a5384d5e833a921.png",
+          "thumbnail": "assets/2026-10-09/c76b1cbda397f709fe1b1cf2a0f2400891e2e7f8b43ebf590a5384d5e833a921-thumb.webp",
+          "preview": "assets/2026-10-09/c76b1cbda397f709fe1b1cf2a0f2400891e2e7f8b43ebf590a5384d5e833a921-view.webp"
+        },
+        {
+          "id": "a1be1db179ec50e9803a67f72b0a10b3df2da8078db85190b382f750d9e7c30d",
+          "title": "fallback-common-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5677191,
+          "filename": "fallback-common-first.png",
+          "original": "assets/2026-10-09/a1be1db179ec50e9803a67f72b0a10b3df2da8078db85190b382f750d9e7c30d.png",
+          "thumbnail": "assets/2026-10-09/a1be1db179ec50e9803a67f72b0a10b3df2da8078db85190b382f750d9e7c30d-thumb.webp",
+          "preview": "assets/2026-10-09/a1be1db179ec50e9803a67f72b0a10b3df2da8078db85190b382f750d9e7c30d-view.webp"
+        },
+        {
+          "id": "b21aa4d2450681861b04469b0162c635284c062b9421c9f4b3d4b4d4a47bf5c2",
+          "title": "fallback-control-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5858580,
+          "filename": "fallback-control-first.png",
+          "original": "assets/2026-10-09/b21aa4d2450681861b04469b0162c635284c062b9421c9f4b3d4b4d4a47bf5c2.png",
+          "thumbnail": "assets/2026-10-09/b21aa4d2450681861b04469b0162c635284c062b9421c9f4b3d4b4d4a47bf5c2-thumb.webp",
+          "preview": "assets/2026-10-09/b21aa4d2450681861b04469b0162c635284c062b9421c9f4b3d4b4d4a47bf5c2-view.webp"
+        },
+        {
+          "id": "8852925b03a91990e2c32ee3352f29444c316d0a530d07acca07594367db1182",
+          "title": "fallback-very rare-ads",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5260476,
+          "filename": "fallback-very_rare-ads.png",
+          "original": "assets/2026-10-09/8852925b03a91990e2c32ee3352f29444c316d0a530d07acca07594367db1182.png",
+          "thumbnail": "assets/2026-10-09/8852925b03a91990e2c32ee3352f29444c316d0a530d07acca07594367db1182-thumb.webp",
+          "preview": "assets/2026-10-09/8852925b03a91990e2c32ee3352f29444c316d0a530d07acca07594367db1182-view.webp"
+        },
+        {
+          "id": "dc75876b52f7f4e72d9ad5da946847dc124e6b04ad06eb2250f3ae1d5ae2c8f3",
+          "title": "fallback-very rare-fire",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5081544,
+          "filename": "fallback-very_rare-fire.png",
+          "original": "assets/2026-10-09/dc75876b52f7f4e72d9ad5da946847dc124e6b04ad06eb2250f3ae1d5ae2c8f3.png",
+          "thumbnail": "assets/2026-10-09/dc75876b52f7f4e72d9ad5da946847dc124e6b04ad06eb2250f3ae1d5ae2c8f3-thumb.webp",
+          "preview": "assets/2026-10-09/dc75876b52f7f4e72d9ad5da946847dc124e6b04ad06eb2250f3ae1d5ae2c8f3-view.webp"
+        },
+        {
+          "id": "86b80ed230d0b4d3e3d3d1eb4e9f935e2425099a73a26ae3c6d9b6ff5bbd5b9b",
+          "title": "fallback-very rare-first",
+          "label": "fallback",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5503579,
+          "filename": "fallback-very_rare-first.png",
+          "original": "assets/2026-10-09/86b80ed230d0b4d3e3d3d1eb4e9f935e2425099a73a26ae3c6d9b6ff5bbd5b9b.png",
+          "thumbnail": "assets/2026-10-09/86b80ed230d0b4d3e3d3d1eb4e9f935e2425099a73a26ae3c6d9b6ff5bbd5b9b-thumb.webp",
+          "preview": "assets/2026-10-09/86b80ed230d0b4d3e3d3d1eb4e9f935e2425099a73a26ae3c6d9b6ff5bbd5b9b-view.webp"
+        }
+      ],
+      "result": "20/20 (default 41/41, showcase 28/28). Both crossbows in view where a BL2 rifle sits; aimed down the stock; BL2's flash at the front.",
+      "label": "fallback",
+      "results": [
+        {
+          "at": "2026-10-09T20:09:30.823199-04:00",
+          "text": "20/20 (default 41/41, showcase 28/28). Both crossbows in view where a BL2 rifle sits; aimed down the stock; BL2's flash at the front.",
+          "status": "passed",
+          "label": "fallback"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T20:09:30.823199-04:00"
+    },
+    {
       "title": "Fallback guns: Dawnguard's crossbows",
       "description": "A gun without its generated BL2 model now shows Dawnguard's crossbow (very rare and better: the Dwarven one) instead of the Arquebus Creation's meshes. NPC shots carry BL2's muzzle flash.",
       "date": "2026-10-09",
