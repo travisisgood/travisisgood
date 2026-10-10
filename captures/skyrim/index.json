@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Gate's cavern: Blackreach's mushrooms, and the portal turning",
+      "description": "Blackreach's great glowing mushrooms against the walls, groves of its tall mushrooms, low clusters, bushes and ferns at the walls' foot, clumps of its crystal rocks, and pebble piles over the floor. The Gate's portal animates now (it was never flagged animated, so Skyrim didn't tick its swirl) and turns faster; portal and portal2 are half a second apart.",
+      "date": "2026-10-09",
+      "created": "2026-10-09T22:29:59.486914-04:00",
+      "images": [
+        {
+          "id": "edd494776a4f203dff525c7cd958f296169667285ebeb63a329db5126b274a48",
+          "title": "dig-camp",
+          "label": "dig",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4415503,
+          "filename": "dig-camp.png",
+          "original": "assets/2026-10-09/edd494776a4f203dff525c7cd958f296169667285ebeb63a329db5126b274a48.png",
+          "thumbnail": "assets/2026-10-09/edd494776a4f203dff525c7cd958f296169667285ebeb63a329db5126b274a48-thumb.webp",
+          "preview": "assets/2026-10-09/edd494776a4f203dff525c7cd958f296169667285ebeb63a329db5126b274a48-view.webp"
+        },
+        {
+          "id": "83dfcb4465d750309ca7c185eacf60dd331eb813b8fec2c658b06934d159c08d",
+          "title": "dig-cavern",
+          "label": "dig",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4082730,
+          "filename": "dig-cavern.png",
+          "original": "assets/2026-10-09/83dfcb4465d750309ca7c185eacf60dd331eb813b8fec2c658b06934d159c08d.png",
+          "thumbnail": "assets/2026-10-09/83dfcb4465d750309ca7c185eacf60dd331eb813b8fec2c658b06934d159c08d-thumb.webp",
+          "preview": "assets/2026-10-09/83dfcb4465d750309ca7c185eacf60dd331eb813b8fec2c658b06934d159c08d-view.webp"
+        },
+        {
+          "id": "37c7527eef0c98f507196b15d6a6bb4448f6ca508f68ee18389316b2b7b7b91c",
+          "title": "dig-gate",
+          "label": "dig",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4355742,
+          "filename": "dig-gate.png",
+          "original": "assets/2026-10-09/37c7527eef0c98f507196b15d6a6bb4448f6ca508f68ee18389316b2b7b7b91c.png",
+          "thumbnail": "assets/2026-10-09/37c7527eef0c98f507196b15d6a6bb4448f6ca508f68ee18389316b2b7b7b91c-thumb.webp",
+          "preview": "assets/2026-10-09/37c7527eef0c98f507196b15d6a6bb4448f6ca508f68ee18389316b2b7b7b91c-view.webp"
+        },
+        {
+          "id": "97a6e72026b5f5f8683e0f4741315bf39014849d633b6666361e0a8ae8fd16a4",
+          "title": "dig-portal",
+          "label": "dig",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3916531,
+          "filename": "dig-portal.png",
+          "original": "assets/2026-10-09/97a6e72026b5f5f8683e0f4741315bf39014849d633b6666361e0a8ae8fd16a4.png",
+          "thumbnail": "assets/2026-10-09/97a6e72026b5f5f8683e0f4741315bf39014849d633b6666361e0a8ae8fd16a4-thumb.webp",
+          "preview": "assets/2026-10-09/97a6e72026b5f5f8683e0f4741315bf39014849d633b6666361e0a8ae8fd16a4-view.webp"
+        },
+        {
+          "id": "926116203dffe57c0b79b99cf8b43d8344973db85081508ea146d2bc54fa82c9",
+          "title": "dig-portal2",
+          "label": "dig",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3851112,
+          "filename": "dig-portal2.png",
+          "original": "assets/2026-10-09/926116203dffe57c0b79b99cf8b43d8344973db85081508ea146d2bc54fa82c9.png",
+          "thumbnail": "assets/2026-10-09/926116203dffe57c0b79b99cf8b43d8344973db85081508ea146d2bc54fa82c9-thumb.webp",
+          "preview": "assets/2026-10-09/926116203dffe57c0b79b99cf8b43d8344973db85081508ea146d2bc54fa82c9-view.webp"
+        },
+        {
+          "id": "969691060bcf3dc411095b2879fe78bf239f215d4859521aa1e1aa799d284b31",
+          "title": "portal-half-a-second-apart",
+          "label": "dig",
+          "width": 1536,
+          "height": 432,
+          "bytes": 1025913,
+          "filename": "portal-half-a-second-apart.png",
+          "original": "assets/2026-10-09/969691060bcf3dc411095b2879fe78bf239f215d4859521aa1e1aa799d284b31.png",
+          "thumbnail": "assets/2026-10-09/969691060bcf3dc411095b2879fe78bf239f215d4859521aa1e1aa799d284b31-thumb.webp",
+          "preview": "assets/2026-10-09/969691060bcf3dc411095b2879fe78bf239f215d4859521aa1e1aa799d284b31-view.webp"
+        }
+      ],
+      "result": "dig 18/18; the portal's pixels change by 63 levels between the two captures (static parts: under 1)",
+      "label": "dig",
+      "results": [
+        {
+          "at": "2026-10-09T22:29:59.486914-04:00",
+          "text": "dig 18/18; the portal's pixels change by 63 levels between the two captures (static parts: under 1)",
+          "status": "passed",
+          "label": "dig"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-09T22:29:59.486914-04:00"
+    },
+    {
       "title": "The Vault: brush, bushes, pebbles",
       "description": "The island dressed: Skyrim's grass on its ground (Solstheim's ash grass and pebbles, a thin Soul Cairn grass), and 324 pieces strewn over it -- ash stones and rock piles, dead and charred shrubs, red scathecraw, smoking shrubs, embers, Soul Cairn crystals with red beside them. The map: green shrubs, grey stones, orange charred/smoking, red embers, purple crystals; the T kept bare (tiles, dais).",
       "date": "2026-10-09",
