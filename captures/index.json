@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "Smooth crouch camera transitions",
+      "description": "Standing-height camera bounds and separate stance interpolation remove the initial crouch jolt. Screenshots show the actual FaultLine E1M1 project. Collision/QC unchanged; default smoothing rate 12 retains the accepted faster tuning.",
+      "date": "2026-10-10",
+      "created": "2026-10-10T23:52:49.556370-04:00",
+      "images": [
+        {
+          "id": "d2ffaf51a389ba69daa1ea48ed4619c955c8c8eed16bd116a2a4649debd72f29",
+          "title": "crouch down0000",
+          "label": "FaultLine / 0.183.164",
+          "width": 640,
+          "height": 480,
+          "bytes": 281616,
+          "filename": "crouch_down0000.png",
+          "original": "assets/2026-10-10/d2ffaf51a389ba69daa1ea48ed4619c955c8c8eed16bd116a2a4649debd72f29.png",
+          "thumbnail": "assets/2026-10-10/d2ffaf51a389ba69daa1ea48ed4619c955c8c8eed16bd116a2a4649debd72f29-thumb.webp",
+          "preview": "assets/2026-10-10/d2ffaf51a389ba69daa1ea48ed4619c955c8c8eed16bd116a2a4649debd72f29-view.webp"
+        },
+        {
+          "id": "11ab5e26256a7d8e9cd024427bc8e2a63f8940755e17797c2ea38bfff36abe7a",
+          "title": "crouch reverse0000",
+          "label": "FaultLine / 0.183.164",
+          "width": 640,
+          "height": 480,
+          "bytes": 348148,
+          "filename": "crouch_reverse0000.png",
+          "original": "assets/2026-10-10/11ab5e26256a7d8e9cd024427bc8e2a63f8940755e17797c2ea38bfff36abe7a.png",
+          "thumbnail": "assets/2026-10-10/11ab5e26256a7d8e9cd024427bc8e2a63f8940755e17797c2ea38bfff36abe7a-thumb.webp",
+          "preview": "assets/2026-10-10/11ab5e26256a7d8e9cd024427bc8e2a63f8940755e17797c2ea38bfff36abe7a-view.webp"
+        },
+        {
+          "id": "2912b506b1c1ddddc2c88ef7b244969ea657fb27e03811fa5c6339fd1108ee60",
+          "title": "crouch up0000",
+          "label": "FaultLine / 0.183.164",
+          "width": 640,
+          "height": 480,
+          "bytes": 328031,
+          "filename": "crouch_up0000.png",
+          "original": "assets/2026-10-10/2912b506b1c1ddddc2c88ef7b244969ea657fb27e03811fa5c6339fd1108ee60.png",
+          "thumbnail": "assets/2026-10-10/2912b506b1c1ddddc2c88ef7b244969ea657fb27e03811fa5c6339fd1108ee60-thumb.webp",
+          "preview": "assets/2026-10-10/2912b506b1c1ddddc2c88ef7b244969ea657fb27e03811fa5c6339fd1108ee60-view.webp"
+        }
+      ],
+      "result": "Passed: 36 crouch/down/up/reversal transitions across six gravity directions and both backends; 12 low-ceiling cases, including 410 clipped-camera frames and blocked standing; six actual E1M1 stance windows (18 physical checks); full movement regression 4,362 checks and all 48 ramp support gates with zero recovery moves; 12 ledge cases (48 checks), filtering all 868 mantle frames; 473 camera-math checks at 30–1,000 FPS; Python compilation and whitespace checks. Matched baseline at smoothing 12 showed a 10.041-unit initial crouch step; final envelope clamp is zero, maximum short-frame step 1.1303 units, speed 134.02 units/s. Baseline physical suite passed 132 checks but exhibited the reported camera defect. No test run failed or was stopped. First deployment verification stopped before copying because the expected hash was mistyped; corrected and all three deployed targets verified. Source 91add165; tested/deployed SHA256 fb72996822cfb234fb56d9c76e40d23b07d66c85775d43daabc99070ac220f26.",
+      "label": "FaultLine / 0.183.164",
+      "results": [
+        {
+          "at": "2026-10-10T23:52:49.556370-04:00",
+          "text": "Passed: 36 crouch/down/up/reversal transitions across six gravity directions and both backends; 12 low-ceiling cases, including 410 clipped-camera frames and blocked standing; six actual E1M1 stance windows (18 physical checks); full movement regression 4,362 checks and all 48 ramp support gates with zero recovery moves; 12 ledge cases (48 checks), filtering all 868 mantle frames; 473 camera-math checks at 30–1,000 FPS; Python compilation and whitespace checks. Matched baseline at smoothing 12 showed a 10.041-unit initial crouch step; final envelope clamp is zero, maximum short-frame step 1.1303 units, speed 134.02 units/s. Baseline physical suite passed 132 checks but exhibited the reported camera defect. No test run failed or was stopped. First deployment verification stopped before copying because the expected hash was mistyped; corrected and all three deployed targets verified. Source 91add165; tested/deployed SHA256 fb72996822cfb234fb56d9c76e40d23b07d66c85775d43daabc99070ac220f26.",
+          "status": "passed",
+          "label": "FaultLine / 0.183.164"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-10T23:52:49.556370-04:00"
+    },
+    {
       "title": "Supported player hull lookahead and slerp",
       "description": "",
       "date": "2026-10-10",
