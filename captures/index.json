@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Compile profile repairs - adaptive High and Geometry Full",
+      "description": "All five saved compile profiles repaired and backed up. High and Geometry Pass Full retain adaptive density and have an explicit final qmbsp -lmshifts stage. Low and Medium call qmbsp directly. Geometry Pass Full skips mover density probes because its atlas is off. Quoted paths were exercised with spaces in the map and project names; lighting, VIS and atlas settings were preserved. Preliminary fixed-density fixture checks passed but were superseded after the adaptive-setting correction. The first adaptive smoke harness stopped on an incorrect expected log phrase; a supplemental check initially required mixed grids even for a valid all-16u selection. Both assertions were corrected and final verification passed. Two initial sandbox build attempts failed on inaccessible Pandoc; the build completed after granting dependency access. No full E1M1 bake or in-game visual test was performed.",
+      "date": "2026-10-11",
+      "created": "2026-10-11T09:28:39.689732-04:00",
+      "images": [],
+      "result": "Passed: 18 adaptive unit tests; 392 assertions in 5 native profile test cases; real OptiX fixture pipelines for all 5 saved profiles (3 fixed plus 2 corrected adaptive). High final BSP matches selected 4/8/16u grids; Geometry Pass Full matches selected 16u grids, skips mover probes and produces no atlas. Editor build succeeded and deployed SHA256 matches source. Source repair commit 4b2006a8 pushed to main.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-11T09:28:39.689732-04:00",
+          "text": "Passed: 18 adaptive unit tests; 392 assertions in 5 native profile test cases; real OptiX fixture pipelines for all 5 saved profiles (3 fixed plus 2 corrected adaptive). High final BSP matches selected 4/8/16u grids; Geometry Pass Full matches selected 16u grids, skips mover probes and produces no atlas. Editor build succeeded and deployed SHA256 matches source. Source repair commit 4b2006a8 pushed to main.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-11T09:28:39.689732-04:00"
+    },
+    {
       "title": "Smooth crouch camera transitions",
       "description": "Standing-height camera bounds and separate stance interpolation remove the initial crouch jolt. Screenshots show the actual FaultLine E1M1 project. Collision/QC unchanged; default smoothing rate 12 retains the accepted faster tuning.",
       "date": "2026-10-10",
