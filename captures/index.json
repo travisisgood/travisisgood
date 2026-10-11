@@ -2,6 +2,122 @@
   "version": 1,
   "albums": [
     {
+      "title": "Gravity grapple: Backflip and Roll Right",
+      "description": "Options > Game > Gravity Grapple. Right roll keeps the departure heading; Backflip retains the previous behavior. Tested with canonical QuakeC in an isolated sealed room.",
+      "date": "2026-10-11",
+      "created": "2026-10-11T16:28:52.704975-04:00",
+      "images": [
+        {
+          "id": "bc6d55427878e9672e65e895b89b26d3f73875d7c0362116f8b40ac96659283f",
+          "title": "menu backflip",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 292551,
+          "filename": "menu_backflip.png",
+          "original": "assets/2026-10-11/bc6d55427878e9672e65e895b89b26d3f73875d7c0362116f8b40ac96659283f.png",
+          "thumbnail": "assets/2026-10-11/bc6d55427878e9672e65e895b89b26d3f73875d7c0362116f8b40ac96659283f-thumb.webp",
+          "preview": "assets/2026-10-11/bc6d55427878e9672e65e895b89b26d3f73875d7c0362116f8b40ac96659283f-view.webp"
+        },
+        {
+          "id": "f21e4d44c3f8cf795d65ecf818fb13c50fd9e9db60f25cf4d8cccd16ebdc85cf",
+          "title": "menu roll right",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 292665,
+          "filename": "menu_roll_right.png",
+          "original": "assets/2026-10-11/f21e4d44c3f8cf795d65ecf818fb13c50fd9e9db60f25cf4d8cccd16ebdc85cf.png",
+          "thumbnail": "assets/2026-10-11/f21e4d44c3f8cf795d65ecf818fb13c50fd9e9db60f25cf4d8cccd16ebdc85cf-thumb.webp",
+          "preview": "assets/2026-10-11/f21e4d44c3f8cf795d65ecf818fb13c50fd9e9db60f25cf4d8cccd16ebdc85cf-view.webp"
+        },
+        {
+          "id": "283d4b1254530e5f3687e1a01ca9c143c479fa3977dcf041e993a4440f15111e",
+          "title": "mode0 up arrival",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 357494,
+          "filename": "mode0_up_arrival.png",
+          "original": "assets/2026-10-11/283d4b1254530e5f3687e1a01ca9c143c479fa3977dcf041e993a4440f15111e.png",
+          "thumbnail": "assets/2026-10-11/283d4b1254530e5f3687e1a01ca9c143c479fa3977dcf041e993a4440f15111e-thumb.webp",
+          "preview": "assets/2026-10-11/283d4b1254530e5f3687e1a01ca9c143c479fa3977dcf041e993a4440f15111e-view.webp"
+        },
+        {
+          "id": "387d5cfbb426639b35be933205c57a065039bbbcecc1bea580ba14f370cc05ad",
+          "title": "mode0 up midpoint",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 379863,
+          "filename": "mode0_up_midpoint.png",
+          "original": "assets/2026-10-11/387d5cfbb426639b35be933205c57a065039bbbcecc1bea580ba14f370cc05ad.png",
+          "thumbnail": "assets/2026-10-11/387d5cfbb426639b35be933205c57a065039bbbcecc1bea580ba14f370cc05ad-thumb.webp",
+          "preview": "assets/2026-10-11/387d5cfbb426639b35be933205c57a065039bbbcecc1bea580ba14f370cc05ad-view.webp"
+        },
+        {
+          "id": "5dd649a6fe32ff386d4ab15809e67d542bcad14710aa17e2b5ac0cf0418c9f70",
+          "title": "mode1 up arrival",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 380699,
+          "filename": "mode1_up_arrival.png",
+          "original": "assets/2026-10-11/5dd649a6fe32ff386d4ab15809e67d542bcad14710aa17e2b5ac0cf0418c9f70.png",
+          "thumbnail": "assets/2026-10-11/5dd649a6fe32ff386d4ab15809e67d542bcad14710aa17e2b5ac0cf0418c9f70-thumb.webp",
+          "preview": "assets/2026-10-11/5dd649a6fe32ff386d4ab15809e67d542bcad14710aa17e2b5ac0cf0418c9f70-view.webp"
+        },
+        {
+          "id": "2efcca9e1e88957c93b38fab43fe578e74844e95c75b15f72db5cad40c6e8bb4",
+          "title": "mode1 up midpoint",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 382715,
+          "filename": "mode1_up_midpoint.png",
+          "original": "assets/2026-10-11/2efcca9e1e88957c93b38fab43fe578e74844e95c75b15f72db5cad40c6e8bb4.png",
+          "thumbnail": "assets/2026-10-11/2efcca9e1e88957c93b38fab43fe578e74844e95c75b15f72db5cad40c6e8bb4-thumb.webp",
+          "preview": "assets/2026-10-11/2efcca9e1e88957c93b38fab43fe578e74844e95c75b15f72db5cad40c6e8bb4-view.webp"
+        },
+        {
+          "id": "6568678ce7f655b2ef3f035a7d398a020c6e3cd8bee2cf324b9e064d52624a68",
+          "title": "mode1 up pole arrival",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 384480,
+          "filename": "mode1_up_pole_arrival.png",
+          "original": "assets/2026-10-11/6568678ce7f655b2ef3f035a7d398a020c6e3cd8bee2cf324b9e064d52624a68.png",
+          "thumbnail": "assets/2026-10-11/6568678ce7f655b2ef3f035a7d398a020c6e3cd8bee2cf324b9e064d52624a68-thumb.webp",
+          "preview": "assets/2026-10-11/6568678ce7f655b2ef3f035a7d398a020c6e3cd8bee2cf324b9e064d52624a68-view.webp"
+        },
+        {
+          "id": "bfe97a95d949868ba034ad210e50a1acc3392b4e9871e3819d0f4f0e0d4929b1",
+          "title": "mode1 wall midpoint",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 401176,
+          "filename": "mode1_wall_midpoint.png",
+          "original": "assets/2026-10-11/bfe97a95d949868ba034ad210e50a1acc3392b4e9871e3819d0f4f0e0d4929b1.png",
+          "thumbnail": "assets/2026-10-11/bfe97a95d949868ba034ad210e50a1acc3392b4e9871e3819d0f4f0e0d4929b1-thumb.webp",
+          "preview": "assets/2026-10-11/bfe97a95d949868ba034ad210e50a1acc3392b4e9871e3819d0f4f0e0d4929b1-view.webp"
+        }
+      ],
+      "result": "Release engine and canonical QC built; QC reported zero warnings. Final rendered test passed 93 Lua checks across 12 transitions plus 32 camera-basis checks: both directions, overhead aim, opposite walls, adjacent turns, early release, latched preference, and saved config. Initial attempts exposed test vector/ramp/reach/config issues, one compile error, and genuine right-roll yaw drift from destination-plane assistance; fixed and retested. A wall screen-up assertion at pole aim was unsuitable, so the wall camera check was repeated with non-pole aim. Engine deployed to all three shared targets with matching hashes; shared progs.dat matches the tested build. Specific game deployment awaits game selection.",
+      "label": "Engine playtest",
+      "results": [
+        {
+          "at": "2026-10-11T16:28:52.704975-04:00",
+          "text": "Release engine and canonical QC built; QC reported zero warnings. Final rendered test passed 93 Lua checks across 12 transitions plus 32 camera-basis checks: both directions, overhead aim, opposite walls, adjacent turns, early release, latched preference, and saved config. Initial attempts exposed test vector/ramp/reach/config issues, one compile error, and genuine right-roll yaw drift from destination-plane assistance; fixed and retested. A wall screen-up assertion at pole aim was unsuitable, so the wall camera check was repeated with non-pole aim. Engine deployed to all three shared targets with matching hashes; shared progs.dat matches the tested build. Specific game deployment awaits game selection.",
+          "status": "mixed",
+          "label": "Engine playtest"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-11T16:28:52.704975-04:00"
+    },
+    {
       "title": "Timed mover flipbooks and lighter density probes",
       "description": "",
       "date": "2026-10-11",
