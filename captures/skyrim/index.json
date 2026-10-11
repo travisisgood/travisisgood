@@ -2,6 +2,122 @@
   "version": 1,
   "albums": [
     {
+      "title": "The Guardian's skin, the Vault's sky, the fight on arrival",
+      "description": "The Guardian in its own skin: violet plates, red seams, crimson wings. Recolored from Alduin's at setup. The Vault's sky is Sovngarde's, recolored violet and crimson. The fight starts as you come in (no pedestal); its hoard bursts where it falls. The cavern's exit is now a Hyperion bulkhead set into the rock.",
+      "date": "2026-10-11",
+      "created": "2026-10-11T09:03:16.591403-04:00",
+      "images": [
+        {
+          "id": "0981ff4174f7c4347c04281ab85f292cb0a2ccd75d93e314caf0125dd7be204c",
+          "title": "00-vault-guardian-near",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3742437,
+          "filename": "00-vault-guardian-near.png",
+          "original": "assets/2026-10-11/0981ff4174f7c4347c04281ab85f292cb0a2ccd75d93e314caf0125dd7be204c.png",
+          "thumbnail": "assets/2026-10-11/0981ff4174f7c4347c04281ab85f292cb0a2ccd75d93e314caf0125dd7be204c-thumb.webp",
+          "preview": "assets/2026-10-11/0981ff4174f7c4347c04281ab85f292cb0a2ccd75d93e314caf0125dd7be204c-view.webp"
+        },
+        {
+          "id": "d315de18b2ed7e141a395721a76de21b4fd92b00ffe87b076d6800dacf7285e8",
+          "title": "01-vault-guardian-side",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 3829002,
+          "filename": "01-vault-guardian-side.png",
+          "original": "assets/2026-10-11/d315de18b2ed7e141a395721a76de21b4fd92b00ffe87b076d6800dacf7285e8.png",
+          "thumbnail": "assets/2026-10-11/d315de18b2ed7e141a395721a76de21b4fd92b00ffe87b076d6800dacf7285e8-thumb.webp",
+          "preview": "assets/2026-10-11/d315de18b2ed7e141a395721a76de21b4fd92b00ffe87b076d6800dacf7285e8-view.webp"
+        },
+        {
+          "id": "008537f154e2739ef0c31f1730b660fa31722d8dcd51ff4b5050b08483a1c527",
+          "title": "02-vault-view0",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4322578,
+          "filename": "02-vault-view0.png",
+          "original": "assets/2026-10-11/008537f154e2739ef0c31f1730b660fa31722d8dcd51ff4b5050b08483a1c527.png",
+          "thumbnail": "assets/2026-10-11/008537f154e2739ef0c31f1730b660fa31722d8dcd51ff4b5050b08483a1c527-thumb.webp",
+          "preview": "assets/2026-10-11/008537f154e2739ef0c31f1730b660fa31722d8dcd51ff4b5050b08483a1c527-view.webp"
+        },
+        {
+          "id": "80997413f355f0de3a0c681cb578e5e8483c535352af7970dbad58151224bdc7",
+          "title": "03-vault-guardian0",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4295125,
+          "filename": "03-vault-guardian0.png",
+          "original": "assets/2026-10-11/80997413f355f0de3a0c681cb578e5e8483c535352af7970dbad58151224bdc7.png",
+          "thumbnail": "assets/2026-10-11/80997413f355f0de3a0c681cb578e5e8483c535352af7970dbad58151224bdc7-thumb.webp",
+          "preview": "assets/2026-10-11/80997413f355f0de3a0c681cb578e5e8483c535352af7970dbad58151224bdc7-view.webp"
+        },
+        {
+          "id": "f761e10add808563f25d48a2df81dba5f8ff071e4e00e8370072b63971918b61",
+          "title": "04-vault-middle",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4708338,
+          "filename": "04-vault-middle.png",
+          "original": "assets/2026-10-11/f761e10add808563f25d48a2df81dba5f8ff071e4e00e8370072b63971918b61.png",
+          "thumbnail": "assets/2026-10-11/f761e10add808563f25d48a2df81dba5f8ff071e4e00e8370072b63971918b61-thumb.webp",
+          "preview": "assets/2026-10-11/f761e10add808563f25d48a2df81dba5f8ff071e4e00e8370072b63971918b61-view.webp"
+        },
+        {
+          "id": "7ecfa89924836285e57d17ffcc7602464e3f6529e9febd78fed0b700a6dfb991",
+          "title": "05-vault-hoard",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4757467,
+          "filename": "05-vault-hoard.png",
+          "original": "assets/2026-10-11/7ecfa89924836285e57d17ffcc7602464e3f6529e9febd78fed0b700a6dfb991.png",
+          "thumbnail": "assets/2026-10-11/7ecfa89924836285e57d17ffcc7602464e3f6529e9febd78fed0b700a6dfb991-thumb.webp",
+          "preview": "assets/2026-10-11/7ecfa89924836285e57d17ffcc7602464e3f6529e9febd78fed0b700a6dfb991-view.webp"
+        },
+        {
+          "id": "7383e22fd58886e1b65bfb7f3521b78c0e61bc48baa1576cd3efe915648d71e3",
+          "title": "06-dig-bulkhead-inside",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 5079638,
+          "filename": "06-dig-bulkhead-inside.png",
+          "original": "assets/2026-10-11/7383e22fd58886e1b65bfb7f3521b78c0e61bc48baa1576cd3efe915648d71e3.png",
+          "thumbnail": "assets/2026-10-11/7383e22fd58886e1b65bfb7f3521b78c0e61bc48baa1576cd3efe915648d71e3-thumb.webp",
+          "preview": "assets/2026-10-11/7383e22fd58886e1b65bfb7f3521b78c0e61bc48baa1576cd3efe915648d71e3-view.webp"
+        },
+        {
+          "id": "4efc3b976b3c4b63a36eb65842d4b9b9de6e4b14f0b0263275d335c935e9212c",
+          "title": "07-dig-mouth-inside",
+          "label": "Vault raid",
+          "width": 2304,
+          "height": 1296,
+          "bytes": 4890935,
+          "filename": "07-dig-mouth-inside.png",
+          "original": "assets/2026-10-11/4efc3b976b3c4b63a36eb65842d4b9b9de6e4b14f0b0263275d335c935e9212c.png",
+          "thumbnail": "assets/2026-10-11/4efc3b976b3c4b63a36eb65842d4b9b9de6e4b14f0b0263275d335c935e9212c-thumb.webp",
+          "preview": "assets/2026-10-11/4efc3b976b3c4b63a36eb65842d4b9b9de6e4b14f0b0263275d335c935e9212c-view.webp"
+        }
+      ],
+      "result": "vault 24/24, dig 19/19, default 41/41",
+      "label": "Vault raid",
+      "results": [
+        {
+          "at": "2026-10-11T09:03:16.591403-04:00",
+          "text": "vault 24/24, dig 19/19, default 41/41",
+          "status": "passed",
+          "label": "Vault raid"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-11T09:03:16.591403-04:00"
+    },
+    {
       "title": "The Guardian, its hoard, and the way home",
       "description": "Touch the Eridian Altar on the dais and the Guardian (Alduin, renamed, raid health and a BL2 shield) comes over the arch. Slain, its 18-piece hoard bursts out round the altar with beams. Behind where you arrive, the Gate's far side: the way home. The pedestal and altar from all four sides, no faces culled.",
       "date": "2026-10-10",
