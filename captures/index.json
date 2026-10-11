@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "StreetSweeper compiler, lighting and GameMaker object panels",
+      "description": "Fixed owned compiler-window shutdown and cancellation, caption buttons, translucent volumes in compiled lighting, all-edge panel resizing, compact Events without collapse or section breaks, movable/detachable linked object panels and an explicit Variable Definitions button. Corrected north/south gravity labels globally and in the active FaultLine FGD while preserving numeric values. Early build diagnostics and a missing object-metadata test fixture caused failures; these were corrected. The final focused checks, native Windows layout and real GPU render all passed.",
+      "date": "2026-10-11",
+      "created": "2026-10-11T10:16:52.327546-04:00",
+      "images": [
+        {
+          "id": "0948ff66f322f9ebc56f11adb4f4197c7091aabff82d36685e574c51dcfd4a19",
+          "title": "object workspace",
+          "label": "Checks",
+          "width": 1833,
+          "height": 851,
+          "bytes": 51790,
+          "filename": "object_workspace.png",
+          "original": "assets/2026-10-11/0948ff66f322f9ebc56f11adb4f4197c7091aabff82d36685e574c51dcfd4a19.png",
+          "thumbnail": "assets/2026-10-11/0948ff66f322f9ebc56f11adb4f4197c7091aabff82d36685e574c51dcfd4a19-thumb.webp",
+          "preview": "assets/2026-10-11/0948ff66f322f9ebc56f11adb4f4197c7091aabff82d36685e574c51dcfd4a19-view.webp"
+        },
+        {
+          "id": "60759ca76e9d72b22eb1f69d148b61b7d2d8ed31db010a827dbdb1646c0dc480",
+          "title": "compiled trigger alpha 0",
+          "label": "Checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 20353,
+          "filename": "compiled_trigger_alpha_0.png",
+          "original": "assets/2026-10-11/60759ca76e9d72b22eb1f69d148b61b7d2d8ed31db010a827dbdb1646c0dc480.png",
+          "thumbnail": "assets/2026-10-11/60759ca76e9d72b22eb1f69d148b61b7d2d8ed31db010a827dbdb1646c0dc480-thumb.webp",
+          "preview": "assets/2026-10-11/60759ca76e9d72b22eb1f69d148b61b7d2d8ed31db010a827dbdb1646c0dc480-view.webp"
+        },
+        {
+          "id": "e2078cebc1e27d5c78abc6af683124c0503c811f3abf8ebfc31afd37c24a23ea",
+          "title": "compiled trigger alpha 40",
+          "label": "Checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 19961,
+          "filename": "compiled_trigger_alpha_40.png",
+          "original": "assets/2026-10-11/e2078cebc1e27d5c78abc6af683124c0503c811f3abf8ebfc31afd37c24a23ea.png",
+          "thumbnail": "assets/2026-10-11/e2078cebc1e27d5c78abc6af683124c0503c811f3abf8ebfc31afd37c24a23ea-thumb.webp",
+          "preview": "assets/2026-10-11/e2078cebc1e27d5c78abc6af683124c0503c811f3abf8ebfc31afd37c24a23ea-view.webp"
+        },
+        {
+          "id": "14a0d3e9b03464ea201b7a9359d01c125cfa5129ed27b678cb440827f4ff7028",
+          "title": "compiled trigger alpha 100",
+          "label": "Checks",
+          "width": 640,
+          "height": 480,
+          "bytes": 14413,
+          "filename": "compiled_trigger_alpha_100.png",
+          "original": "assets/2026-10-11/14a0d3e9b03464ea201b7a9359d01c125cfa5129ed27b678cb440827f4ff7028.png",
+          "thumbnail": "assets/2026-10-11/14a0d3e9b03464ea201b7a9359d01c125cfa5129ed27b678cb440827f4ff7028-thumb.webp",
+          "preview": "assets/2026-10-11/14a0d3e9b03464ea201b7a9359d01c125cfa5129ed27b678cb440827f4ff7028-view.webp"
+        }
+      ],
+      "result": "1662 assertions passed in 10 focused UI cases; 22 assertions passed in the native Windows object-panel case; 19 passed in the GPU compiled-trigger case. OptiX fixture bake succeeded with 1568 lighting bytes. FGD generator and parity passed for 194 classes. Screenshots compare trigger opacity 0%, 40% and 100% with baked lighting.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-11T10:16:52.327546-04:00",
+          "text": "1662 assertions passed in 10 focused UI cases; 22 assertions passed in the native Windows object-panel case; 19 passed in the GPU compiled-trigger case. OptiX fixture bake succeeded with 1568 lighting bytes. FGD generator and parity passed for 194 classes. Screenshots compare trigger opacity 0%, 40% and 100% with baked lighting.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-11T10:16:52.327546-04:00"
+    },
+    {
       "title": "Compile profile repairs - adaptive High and Geometry Full",
       "description": "All five saved compile profiles repaired and backed up. High and Geometry Pass Full retain adaptive density and have an explicit final qmbsp -lmshifts stage. Low and Medium call qmbsp directly. Geometry Pass Full skips mover density probes because its atlas is off. Quoted paths were exercised with spaces in the map and project names; lighting, VIS and atlas settings were preserved. Preliminary fixed-density fixture checks passed but were superseded after the adaptive-setting correction. The first adaptive smoke harness stopped on an incorrect expected log phrase; a supplemental check initially required mixed grids even for a valid all-16u selection. Both assertions were corrected and final verification passed. Two initial sandbox build attempts failed on inaccessible Pandoc; the build completed after granting dependency access. No full E1M1 bake or in-game visual test was performed.",
       "date": "2026-10-11",
