@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Timed mover flipbooks and lighter density probes",
+      "description": "",
+      "date": "2026-10-11",
+      "created": "2026-10-11T12:44:08.765734-04:00",
+      "images": [],
+      "result": "83 Python tests and 7 native lighting tests passed; StreetSweeper profile tests passed 253 assertions. Deployed OptiX compiler smoke baked lighting successfully, with matching deployed binary/PTX hashes. Installed qmscript-to-qmatlas door pipeline passed and produced a complete 15-pose Medium atlas; all five saved profiles preserved their other task/lighting/grid settings. Copied-map density completed 107 key-position checks in 485.1s instead of scheduling 696 full bounce-lit entries; 601 narrow sides protected at 4u and 3562 smooth sides chose 16u. Final four-bounce static lighting completed in 125.498s. Initial missing-DLL, memory allocation and ANSI progress-parser failures were corrected. A full 48-pose cage test was stopped to bound validation; a three-position full-quality cage check is running. Full-map Ultra timing is not measured. Preflight found the initial 1u Ultra travel spacing increased atlas poses to 2260 from 1783; spacing is under review.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-11T12:44:08.765734-04:00",
+          "text": "83 Python tests and 7 native lighting tests passed; StreetSweeper profile tests passed 253 assertions. Deployed OptiX compiler smoke baked lighting successfully, with matching deployed binary/PTX hashes. Installed qmscript-to-qmatlas door pipeline passed and produced a complete 15-pose Medium atlas; all five saved profiles preserved their other task/lighting/grid settings. Copied-map density completed 107 key-position checks in 485.1s instead of scheduling 696 full bounce-lit entries; 601 narrow sides protected at 4u and 3562 smooth sides chose 16u. Final four-bounce static lighting completed in 125.498s. Initial missing-DLL, memory allocation and ANSI progress-parser failures were corrected. A full 48-pose cage test was stopped to bound validation; a three-position full-quality cage check is running. Full-map Ultra timing is not measured. Preflight found the initial 1u Ultra travel spacing increased atlas poses to 2260 from 1783; spacing is under review.",
+          "status": "incomplete",
+          "label": "Checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-11T12:44:08.765734-04:00"
+    },
+    {
       "title": "StreetSweeper compiler, lighting and GameMaker object panels",
       "description": "Fixed owned compiler-window shutdown and cancellation, caption buttons, translucent volumes in compiled lighting, all-edge panel resizing, compact Events without collapse or section breaks, movable/detachable linked object panels and an explicit Variable Definitions button. Corrected north/south gravity labels globally and in the active FaultLine FGD while preserving numeric values. Early build diagnostics and a missing object-metadata test fixture caused failures; these were corrected. The final focused checks, native Windows layout and real GPU render all passed.",
       "date": "2026-10-11",
