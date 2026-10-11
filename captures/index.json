@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "Gravity grapple: three roll styles",
+      "description": "Options > Game > Gravity Grapple now cycles Roll Back, Roll Right, Roll Left. Both sideways half rolls preserve heading and use the same distance-paced timing.",
+      "date": "2026-10-11",
+      "created": "2026-10-11T18:18:45.229601-04:00",
+      "images": [
+        {
+          "id": "7e4070c9ff881d10c634759f50edc2dc6651b2e36f5b935155111fad7ca94d9b",
+          "title": "menu roll back",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 292906,
+          "filename": "menu_roll_back.png",
+          "original": "assets/2026-10-11/7e4070c9ff881d10c634759f50edc2dc6651b2e36f5b935155111fad7ca94d9b.png",
+          "thumbnail": "assets/2026-10-11/7e4070c9ff881d10c634759f50edc2dc6651b2e36f5b935155111fad7ca94d9b-thumb.webp",
+          "preview": "assets/2026-10-11/7e4070c9ff881d10c634759f50edc2dc6651b2e36f5b935155111fad7ca94d9b-view.webp"
+        },
+        {
+          "id": "8e3defb529776558e797db40e6804f6316845d757e1eb8ea6b54fd889ad50bc4",
+          "title": "menu roll left",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 292915,
+          "filename": "menu_roll_left.png",
+          "original": "assets/2026-10-11/8e3defb529776558e797db40e6804f6316845d757e1eb8ea6b54fd889ad50bc4.png",
+          "thumbnail": "assets/2026-10-11/8e3defb529776558e797db40e6804f6316845d757e1eb8ea6b54fd889ad50bc4-thumb.webp",
+          "preview": "assets/2026-10-11/8e3defb529776558e797db40e6804f6316845d757e1eb8ea6b54fd889ad50bc4-view.webp"
+        },
+        {
+          "id": "31fa5574a40fe916680288f7fe3e58a6e5dcea9e1c3e2b0c7b0e584c235e479d",
+          "title": "menu roll right",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 292982,
+          "filename": "menu_roll_right.png",
+          "original": "assets/2026-10-11/31fa5574a40fe916680288f7fe3e58a6e5dcea9e1c3e2b0c7b0e584c235e479d.png",
+          "thumbnail": "assets/2026-10-11/31fa5574a40fe916680288f7fe3e58a6e5dcea9e1c3e2b0c7b0e584c235e479d-thumb.webp",
+          "preview": "assets/2026-10-11/31fa5574a40fe916680288f7fe3e58a6e5dcea9e1c3e2b0c7b0e584c235e479d-view.webp"
+        },
+        {
+          "id": "e307e3c1b171cdbdef0f9b5dc6b9743f4d1839f9aa6f9fb6068b0729bbe049d3",
+          "title": "mode2 up arrival",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 383742,
+          "filename": "mode2_up_arrival.png",
+          "original": "assets/2026-10-11/e307e3c1b171cdbdef0f9b5dc6b9743f4d1839f9aa6f9fb6068b0729bbe049d3.png",
+          "thumbnail": "assets/2026-10-11/e307e3c1b171cdbdef0f9b5dc6b9743f4d1839f9aa6f9fb6068b0729bbe049d3-thumb.webp",
+          "preview": "assets/2026-10-11/e307e3c1b171cdbdef0f9b5dc6b9743f4d1839f9aa6f9fb6068b0729bbe049d3-view.webp"
+        },
+        {
+          "id": "1aa0b29878e6099e215988bceb173903b8fb266eb8119e3dbd5c428043a40bbc",
+          "title": "mode2 up midpoint",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 385751,
+          "filename": "mode2_up_midpoint.png",
+          "original": "assets/2026-10-11/1aa0b29878e6099e215988bceb173903b8fb266eb8119e3dbd5c428043a40bbc.png",
+          "thumbnail": "assets/2026-10-11/1aa0b29878e6099e215988bceb173903b8fb266eb8119e3dbd5c428043a40bbc-thumb.webp",
+          "preview": "assets/2026-10-11/1aa0b29878e6099e215988bceb173903b8fb266eb8119e3dbd5c428043a40bbc-view.webp"
+        },
+        {
+          "id": "76e50090656c69682d5be49d73bdb1434140c5484122a2a7a556e077d95dd6f3",
+          "title": "mode2 wall midpoint",
+          "label": "Engine playtest",
+          "width": 960,
+          "height": 720,
+          "bytes": 409159,
+          "filename": "mode2_wall_midpoint.png",
+          "original": "assets/2026-10-11/76e50090656c69682d5be49d73bdb1434140c5484122a2a7a556e077d95dd6f3.png",
+          "thumbnail": "assets/2026-10-11/76e50090656c69682d5be49d73bdb1434140c5484122a2a7a556e077d95dd6f3-thumb.webp",
+          "preview": "assets/2026-10-11/76e50090656c69682d5be49d73bdb1434140c5484122a2a7a556e077d95dd6f3-view.webp"
+        }
+      ],
+      "result": "Release engine built successfully; canonical QuakeC compiled with zero warnings. Isolated real-client playtest passed 147 gameplay assertions across 19 transitions plus 56 rendered-camera checks, covering all three modes, floor/ceiling directions, overhead aiming, opposite walls, unchanged adjacent turns, release, latched mode selection, and saved left-roll preference. All three menu labels visually verified. Shared engine deployment verified at all three authorized targets; shared progs.dat matches tested QC. Source pushed as 0d0f6e75. FaultLine picks up canonical QC on its next Play rebuild.",
+      "label": "Engine playtest",
+      "results": [
+        {
+          "at": "2026-10-11T18:18:45.229601-04:00",
+          "text": "Release engine built successfully; canonical QuakeC compiled with zero warnings. Isolated real-client playtest passed 147 gameplay assertions across 19 transitions plus 56 rendered-camera checks, covering all three modes, floor/ceiling directions, overhead aiming, opposite walls, unchanged adjacent turns, release, latched mode selection, and saved left-roll preference. All three menu labels visually verified. Shared engine deployment verified at all three authorized targets; shared progs.dat matches tested QC. Source pushed as 0d0f6e75. FaultLine picks up canonical QC on its next Play rebuild.",
+          "status": "passed",
+          "label": "Engine playtest"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-11T18:18:45.229601-04:00"
+    },
+    {
       "title": "Gravity grapple: Backflip and Roll Right",
       "description": "Options > Game > Gravity Grapple. Right roll keeps the departure heading; Backflip retains the previous behavior. Tested with canonical QuakeC in an isolated sealed room.",
       "date": "2026-10-11",
