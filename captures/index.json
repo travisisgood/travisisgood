@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller v0.9: follows the game's interference changes",
+      "description": "New 'Follow noise changes' (on by default): when the game changes state after Learn (menu, gameplay, launch screen), the static filter and note detector re-tune themselves in the gaps between notes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T19:52:11.797458-04:00",
+      "images": [
+        {
+          "id": "a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3",
+          "title": "v0.8 vs v0.9 across game states",
+          "label": "Audio",
+          "width": 1914,
+          "height": 835,
+          "bytes": 102099,
+          "filename": "v0.8_vs_v0.9_across_game_states.png",
+          "original": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3.png",
+          "thumbnail": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-thumb.webp",
+          "preview": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-view.webp"
+        },
+        {
+          "id": "2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773",
+          "title": "game gets louder before v0.8 v0.9",
+          "label": "Audio",
+          "width": 1596,
+          "height": 1396,
+          "bytes": 2483227,
+          "filename": "game_gets_louder_before_v0.8_v0.9.png",
+          "original": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773.png",
+          "thumbnail": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-thumb.webp",
+          "preview": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-view.webp"
+        }
+      ],
+      "result": "Spectral mode, real interference + 5 clean takes; interference cut between / under notes, guitar above 2.5 kHz kept.\nSame state: v0.9 24.6 / 12.7 dB, highs -8.4 dB (v0.8 25.0 / 14.1, highs -11.3): slightly less cut, clearly less guitar damage.\nGame gets louder (learned on the launch screen, played in-game, +22 dB): v0.9 26.3 / 13.5 dB (v0.8 14.7 / 1.0, which barely touched the louder interference).\nGame gets quieter (learned in-game, played on the launch screen): re-tunes to a 41 dB cut between notes within ~1 s, guitar almost untouched (highs -1.9 vs -12.0). But the launch screen's never-learned tones pass under notes (3.2 dB cut vs 14.7): new tones still need a re-learn.\nNote detector after state changes: 100% of loud playing and 97-100% of decays caught.\nFailures along the way, fixed: a one-off spike while learning set the detector bar 20 dB too high and ate every note (now the 80th percentile of half-second peaks); letting the low band re-tune itself slowly learned the guitar's decays; learned crest/floor ratios don't transfer between game states; 2 s re-tuning was too slow (now 0.5 s from the high band).\nChecks passed: synthetic regression matches v0.8; save/reload identical to -148 dB; v0.8 and v0.7 projects load; no NaN/Inf. CPU unchanged in spectral mode. Not yet judged by ear.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T19:52:11.797458-04:00",
+          "text": "Spectral mode, real interference + 5 clean takes; interference cut between / under notes, guitar above 2.5 kHz kept.\nSame state: v0.9 24.6 / 12.7 dB, highs -8.4 dB (v0.8 25.0 / 14.1, highs -11.3): slightly less cut, clearly less guitar damage.\nGame gets louder (learned on the launch screen, played in-game, +22 dB): v0.9 26.3 / 13.5 dB (v0.8 14.7 / 1.0, which barely touched the louder interference).\nGame gets quieter (learned in-game, played on the launch screen): re-tunes to a 41 dB cut between notes within ~1 s, guitar almost untouched (highs -1.9 vs -12.0). But the launch screen's never-learned tones pass under notes (3.2 dB cut vs 14.7): new tones still need a re-learn.\nNote detector after state changes: 100% of loud playing and 97-100% of decays caught.\nFailures along the way, fixed: a one-off spike while learning set the detector bar 20 dB too high and ate every note (now the 80th percentile of half-second peaks); letting the low band re-tune itself slowly learned the guitar's decays; learned crest/floor ratios don't transfer between game states; 2 s re-tuning was too slow (now 0.5 s from the high band).\nChecks passed: synthetic regression matches v0.8; save/reload identical to -148 dB; v0.8 and v0.7 projects load; no NaN/Inf. CPU unchanged in spectral mode. Not yet judged by ear.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T19:52:11.797458-04:00"
+    },
+    {
       "title": "EMI noise canceller: Acon-style noise statistics vs the filter's ceiling",
       "description": "Test of Acon DeNoise 2's 'dynamic noise profile' idea on real GPU/VRM interference: does tracking the noise frame by frame, instead of one average profile, keep more of the guitar under notes?",
       "date": "2026-10-12",
