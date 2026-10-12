@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller: what the PC interference is",
+      "description": "Guitar DI recorded with the game running, hands off the strings. Target: an EMI denoiser for GPU coil whine, VRM switching noise and PC-fan induction, first in the chain before the amp sim.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T18:54:48.928440-04:00",
+      "images": [
+        {
+          "id": "15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204",
+          "title": "in-game interference spectrum",
+          "label": "Audio",
+          "width": 1596,
+          "height": 997,
+          "bytes": 152385,
+          "filename": "in-game_interference_spectrum.png",
+          "original": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204.png",
+          "thumbnail": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-thumb.webp",
+          "preview": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-view.webp"
+        },
+        {
+          "id": "2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492",
+          "title": "GPU bursts 40 ms",
+          "label": "Audio",
+          "width": 1596,
+          "height": 864,
+          "bytes": 231705,
+          "filename": "GPU_bursts_40_ms.png",
+          "original": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492.png",
+          "thumbnail": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-thumb.webp",
+          "preview": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-view.webp"
+        }
+      ],
+      "result": "Interference enters through the pickups: a volume-knob swell next to the PC (idle desktop) gave -93 dBFS with the knob at 0 and -64 dBFS with it up. In-game it reaches -38 dBFS RMS, about 55 dB above the clean floor.\nTonal part, cancellable by the v0.7 tone canceller: mains harmonics from 60 to 2640 Hz and a ~177 Hz buzz at game launch. A small share of the energy.\nAbout 90% of the energy (2.5-10 kHz) is GPU/VRM bursts: ~140 per second, 2-3 ms each, ringing the pickup near 5.5 kHz. No narrow tones and no repeating waveform.\nFailed: 'close enough' cancellation of the bursts removes at most 0.9-1.4 dB even with perfect timing, gain and polarity. Bursts match each other for only ~0.5 ms and their spacing jitters 1.5-2.5 ms.\nConclusion: the tones can be phase-cancelled; the bursts can only be reduced from a single input.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T18:54:48.928440-04:00",
+          "text": "Interference enters through the pickups: a volume-knob swell next to the PC (idle desktop) gave -93 dBFS with the knob at 0 and -64 dBFS with it up. In-game it reaches -38 dBFS RMS, about 55 dB above the clean floor.\nTonal part, cancellable by the v0.7 tone canceller: mains harmonics from 60 to 2640 Hz and a ~177 Hz buzz at game launch. A small share of the energy.\nAbout 90% of the energy (2.5-10 kHz) is GPU/VRM bursts: ~140 per second, 2-3 ms each, ringing the pickup near 5.5 kHz. No narrow tones and no repeating waveform.\nFailed: 'close enough' cancellation of the bursts removes at most 0.9-1.4 dB even with perfect timing, gain and polarity. Bursts match each other for only ~0.5 ms and their spacing jitters 1.5-2.5 ms.\nConclusion: the tones can be phase-cancelled; the bursts can only be reduced from a single input.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T18:54:48.928440-04:00"
+    },
+    {
       "title": "Gravity grapple: three roll styles",
       "description": "Options > Game > Gravity Grapple now cycles Roll Back, Roll Right, Roll Left. Both sideways half rolls preserve heading and use the same distance-paced timing.",
       "date": "2026-10-11",
