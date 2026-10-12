@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller: Acon-style noise statistics vs the filter's ceiling",
+      "description": "Test of Acon DeNoise 2's 'dynamic noise profile' idea on real GPU/VRM interference: does tracking the noise frame by frame, instead of one average profile, keep more of the guitar under notes?",
+      "date": "2026-10-12",
+      "created": "2026-10-12T19:52:07.427788-04:00",
+      "images": [
+        {
+          "id": "5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0",
+          "title": "what limits the filter under notes",
+          "label": "Audio",
+          "width": 1596,
+          "height": 904,
+          "bytes": 104516,
+          "filename": "what_limits_the_filter_under_notes.png",
+          "original": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0.png",
+          "thumbnail": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-thumb.webp",
+          "preview": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-view.webp"
+        }
+      ],
+      "result": "Measured on real in-game interference + 5 clean guitar takes, at ~14 dB interference cut under notes (guitar above 2.5 kHz kept).\nAverage profile (current): -11.2 dB. Realistic dynamic estimators (reference-band level tracking, burst on/off profiles, 90th-percentile profile): -11.1 to -15.1 dB, no gain.\nEven perfect per-frame knowledge of the interference (cheat): -8.7 dB, only +2.5 dB. The filter's decision-directed smoothing already averages over frames.\nIdeal mask (cheat: knows which bins are guitar): -2.6 dB at ~11 dB cut, the same at any window from 1.5 to 23 ms. The limit is knowing where the guitar is, not resolution or latency.\nOutcome: the Acon-style statistics idea was not adopted. Next candidate: predict the guitar's high harmonics from its clean low band (pitch-informed protection).",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T19:52:07.427788-04:00",
+          "text": "Measured on real in-game interference + 5 clean guitar takes, at ~14 dB interference cut under notes (guitar above 2.5 kHz kept).\nAverage profile (current): -11.2 dB. Realistic dynamic estimators (reference-band level tracking, burst on/off profiles, 90th-percentile profile): -11.1 to -15.1 dB, no gain.\nEven perfect per-frame knowledge of the interference (cheat): -8.7 dB, only +2.5 dB. The filter's decision-directed smoothing already averages over frames.\nIdeal mask (cheat: knows which bins are guitar): -2.6 dB at ~11 dB cut, the same at any window from 1.5 to 23 ms. The limit is knowing where the guitar is, not resolution or latency.\nOutcome: the Acon-style statistics idea was not adopted. Next candidate: predict the guitar's high harmonics from its clean low band (pitch-informed protection).",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T19:52:07.427788-04:00"
+    },
+    {
       "title": "EMI noise canceller v0.8: static filter and note detector",
       "description": "REAPER JSFX prototype. A new static filter turns the GPU/VRM bursts down (hard between notes, gently under notes), and the note detector now also listens at 80-700 Hz.",
       "date": "2026-10-12",
