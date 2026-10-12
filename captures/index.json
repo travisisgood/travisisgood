@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller v0.8: static filter and note detector",
+      "description": "REAPER JSFX prototype. A new static filter turns the GPU/VRM bursts down (hard between notes, gently under notes), and the note detector now also listens at 80-700 Hz.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T18:55:01.351249-04:00",
+      "images": [
+        {
+          "id": "272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418",
+          "title": "interference removed by mode",
+          "label": "Audio",
+          "width": 1596,
+          "height": 997,
+          "bytes": 89888,
+          "filename": "interference_removed_by_mode.png",
+          "original": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418.png",
+          "thumbnail": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-thumb.webp",
+          "preview": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-view.webp"
+        },
+        {
+          "id": "bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb",
+          "title": "note detector by band",
+          "label": "Audio",
+          "width": 1596,
+          "height": 864,
+          "bytes": 96109,
+          "filename": "note_detector_by_band.png",
+          "original": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb.png",
+          "thumbnail": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-thumb.webp",
+          "preview": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-view.webp"
+        },
+        {
+          "id": "2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b",
+          "title": "before vs after spectral",
+          "label": "Audio",
+          "width": 1596,
+          "height": 1130,
+          "bytes": 1667164,
+          "filename": "before_vs_after_spectral.png",
+          "original": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b.png",
+          "thumbnail": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-thumb.webp",
+          "preview": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-view.webp"
+        }
+      ],
+      "result": "Run through the real JSFX in ysfx on real in-game interference mixed with 5 clean guitar takes.\nInterference removed, between notes / under notes: spectral mode (+6 ms, default) 25.0 / 14.1 dB; zero-latency mode 22.7 / 12.2 dB; v0.7 tones only 3.5 / 0 dB.\nCost under notes: guitar above 2.5 kHz drops ~11 dB. Note decays kept within 0.6 dB.\nNote detector: caught 68-93% of real playing with the game running (v0.7 caught 0%), with 0% false alarms.\nChecks passed: synthetic regression identical to v0.7.1 with the static filter off; spectral path reconstructs bit-exactly with 256 samples of reported latency; output after a project save/reload matches a straight run to -147 dB; v0.7 projects still load (tones only until re-learn); no NaN/Inf in any run.\nFixed along the way: a subtractive-bandpass zero-latency design that only reached 5-11 dB, and a band split that shifted the low end's phase as bands opened (replaced with a Linkwitz-Riley split).\nNot yet judged by ear through the amp sim; the display's live-cut overlay compiles but hasn't been seen on screen.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T18:55:01.351249-04:00",
+          "text": "Run through the real JSFX in ysfx on real in-game interference mixed with 5 clean guitar takes.\nInterference removed, between notes / under notes: spectral mode (+6 ms, default) 25.0 / 14.1 dB; zero-latency mode 22.7 / 12.2 dB; v0.7 tones only 3.5 / 0 dB.\nCost under notes: guitar above 2.5 kHz drops ~11 dB. Note decays kept within 0.6 dB.\nNote detector: caught 68-93% of real playing with the game running (v0.7 caught 0%), with 0% false alarms.\nChecks passed: synthetic regression identical to v0.7.1 with the static filter off; spectral path reconstructs bit-exactly with 256 samples of reported latency; output after a project save/reload matches a straight run to -147 dB; v0.7 projects still load (tones only until re-learn); no NaN/Inf in any run.\nFixed along the way: a subtractive-bandpass zero-latency design that only reached 5-11 dB, and a band split that shifted the low end's phase as bands opened (replaced with a Linkwitz-Riley split).\nNot yet judged by ear through the amp sim; the display's live-cut overlay compiles but hasn't been seen on screen.",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T18:55:01.351249-04:00"
+    },
+    {
       "title": "EMI noise canceller: what the PC interference is",
       "description": "Guitar DI recorded with the game running, hands off the strings. Target: an EMI denoiser for GPU coil whine, VRM switching noise and PC-fan induction, first in the chain before the amp sim.",
       "date": "2026-10-12",
