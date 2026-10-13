@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller v0.10 draft: continuous learning (parked)",
+      "description": "Goal: learning that keeps adapting in real time, e.g. as the player moves relative to the PC. Tested on simulated movement (lean in: +10 dB, brighter, hum +12 dB; turn away) and game-state changes, against v0.9.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:29:29.486551-04:00",
+      "images": [],
+      "result": "Not ready; parked on a branch, v0.9.1 stays current.\nSame state: equal to v0.9. After simulated movement: still cuts the guitar's decays (-18.9 dB). Cut between notes after state changes dropped (quiet->loud 10.8 vs 26.3 dB; loud->quiet 3.6 vs 6.3). Synthetic under-note error -6.6 vs -1.0 dB.\nLearned: a 6 dB low-band 'pick attack' is faked by hopping buzz and bursty static (up to 0.6/s; 9 dB and up gave zero); a veto measured against a fast-moving level lapses before the bars re-measure; scaling one band from another breaks when movement changes the tilt.\nNext foundation: detect the guitar by harmonicity of its clean low band (pitched notes vs unpitched static), which is level- and tilt-independent.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T21:29:29.486551-04:00",
+          "text": "Not ready; parked on a branch, v0.9.1 stays current.\nSame state: equal to v0.9. After simulated movement: still cuts the guitar's decays (-18.9 dB). Cut between notes after state changes dropped (quiet->loud 10.8 vs 26.3 dB; loud->quiet 3.6 vs 6.3). Synthetic under-note error -6.6 vs -1.0 dB.\nLearned: a 6 dB low-band 'pick attack' is faked by hopping buzz and bursty static (up to 0.6/s; 9 dB and up gave zero); a veto measured against a fast-moving level lapses before the bars re-measure; scaling one band from another breaks when movement changes the tilt.\nNext foundation: detect the guitar by harmonicity of its clean low band (pitched notes vs unpitched static), which is level- and tilt-independent.",
+          "status": "failed",
+          "label": "Audio"
+        }
+      ],
+      "status": "failed",
+      "updated": "2026-10-12T21:29:29.486551-04:00"
+    },
+    {
       "title": "EMI noise canceller v0.9.1: live test on the real rig",
       "description": "Travis's own test on his guitar rig with the game running, plus the control cleanup: 6 plain-English dials instead of 14, expert ones behind an Advanced button.",
       "date": "2026-10-12",
