@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.13: review fixes and A/B switches",
+      "description": "Built while Travis was away from the rig, so nothing that changes the default sound ships enabled: with the new switches off, the output is bit-identical to v0.12 at 44.1/48 kHz. Fixes: FFT sizes scale with sample rate, the end-of-learn CPU spike is gone, sustained notes are no longer learned as noise, a per-stage 'listen to what was removed' monitor, and a fade when switching modes. Two A/B switches are waiting for ears: hold notes down to the noise, and let harmonics fade out. A new regression suite (every review measurement in one run) checked all of it.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T08:18:36.525281-04:00",
+      "images": [],
+      "result": "Harness: 96/192 kHz now learn 51 tones (was 16/13), tails -3.8 dB (was -5/-7); worst 32-sample buffer 139% -> 71%; compressed sustain kept (-60 -> -1.8 dB). 'Hold' switch: no measured cost, weak-guitar misses 13% -> 4.8%, quiet tails -60 -> -14 dB. 'Fade' switch: tails and highs kept, about 3 dB less noise removed under notes. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-13T08:18:36.525281-04:00",
+          "text": "Harness: 96/192 kHz now learn 51 tones (was 16/13), tails -3.8 dB (was -5/-7); worst 32-sample buffer 139% -> 71%; compressed sustain kept (-60 -> -1.8 dB). 'Hold' switch: no measured cost, weak-guitar misses 13% -> 4.8%, quiet tails -60 -> -14 dB. 'Fade' switch: tails and highs kept, about 3 dB less noise removed under notes. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-13T08:18:36.525281-04:00"
+    },
+    {
       "title": "Noise canceller: technical review before the C++ port",
       "description": "A code-verified review of v0.12 with controlled tests: hum canceller accuracy (mismatched, drifting, modulated and stepping tones), noise-filter resolution and sample rates, noise-estimator contamination by other sources, 84 synthetic ring-outs, pickup variants, per-band tonal change, attack integrity, CPU spikes and the port plan. No algorithm changes; two hysteresis prototypes were measured.",
       "date": "2026-10-13",
