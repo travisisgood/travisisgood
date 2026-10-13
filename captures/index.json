@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.13.1: crisp pick attacks (A/B)",
+      "description": "A fourth A/B switch, built blind while Travis is away from the rig. Under in-game noise the 12 dB threshold softens the first milliseconds of every pick and takes most of its click above 2 kHz. Cause: the filter's smoothed (decision-directed) estimate opens a bin over several frames. A 3 ms lookahead alone changed nothing. With the switch on, for 20 ms after a guitar-like pick a bin may open at once to its own level. No added latency; default Off.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T08:43:26.531767-04:00",
+      "images": [
+        {
+          "id": "fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba",
+          "title": "v0131 crisp attacks",
+          "label": "Audio",
+          "width": 1980,
+          "height": 726,
+          "bytes": 79562,
+          "filename": "v0131_crisp_attacks.png",
+          "original": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba.png",
+          "thumbnail": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-thumb.webp",
+          "preview": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-view.webp"
+        }
+      ],
+      "result": "Switch off: bit-identical to v0.13 in every mode. Switch on: first 3 ms of picks -4.6 -> -3.0 dB, guitar 4-8 kHz kept -37 -> -17 dB, 8-16 kHz -25 -> -10 dB. Costs: sparkles 0.1 -> 2.2/s on a steady game (bright pickup 3.1 -> 6.0) and 3-10 dB less top-end noise removed under notes. Variants that halve the sparkles also halve the gain: the pick click and the GPU bursts share the same bins. Not judged by ear yet; it may read as more bite or more fizz.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-13T08:43:26.531767-04:00",
+          "text": "Switch off: bit-identical to v0.13 in every mode. Switch on: first 3 ms of picks -4.6 -> -3.0 dB, guitar 4-8 kHz kept -37 -> -17 dB, 8-16 kHz -25 -> -10 dB. Costs: sparkles 0.1 -> 2.2/s on a steady game (bright pickup 3.1 -> 6.0) and 3-10 dB less top-end noise removed under notes. Variants that halve the sparkles also halve the gain: the pick click and the GPU bursts share the same bins. Not judged by ear yet; it may read as more bite or more fizz.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T08:43:26.531767-04:00"
+    },
+    {
       "title": "Noise canceller v0.13: review fixes and A/B switches",
       "description": "Built while Travis was away from the rig, so nothing that changes the default sound ships enabled: with the new switches off, the output is bit-identical to v0.12 at 44.1/48 kHz. Fixes: FFT sizes scale with sample rate, the end-of-learn CPU spike is gone, sustained notes are no longer learned as noise, a per-stage 'listen to what was removed' monitor, and a fade when switching modes. Two A/B switches are waiting for ears: hold notes down to the noise, and let harmonics fade out. A new regression suite (every review measurement in one run) checked all of it.",
       "date": "2026-10-13",
