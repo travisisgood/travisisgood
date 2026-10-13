@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.11: following new hum",
+      "description": "The adaptive part, continued: the hum/buzz canceller now keeps learning in the gaps between notes. New steady tones join, each tone's cut limit follows its level (hum that got louder as you turned), and steadiness is re-checked. Two older problems were fixed along the way: a pick dragged the hum fit in the instant before the detector reacted and froze it wrong for the whole phrase (notes now start from a fit snapshot taken 6-12 ms before the pick), and locked tones now fade out under very long phrases before phase drift can add hum. Harness tests: synthetic hum and buzz changes over Travis's real in-game interference, plus clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T23:40:46.848986-04:00",
+      "images": [
+        {
+          "id": "dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c",
+          "title": "v011 tones",
+          "label": "Audio",
+          "width": 1624,
+          "height": 788,
+          "bytes": 52503,
+          "filename": "v011_tones.png",
+          "original": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c.png",
+          "thumbnail": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-thumb.webp",
+          "preview": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-view.webp"
+        }
+      ],
+      "result": "Harness: hum +20 dB at 60 Hz removed under notes 5.4 -> 18.1 dB (phrases), 4.9 -> 15.8 (13 s riff); hum +12 16.4 -> 26.7; new buzz +3 dB. Picked up a real 55 Hz tone that appears in the in-game recording, but it wanders so gains are small. No guitar tails mistaken for hum (32 runs); steady results match v0.10; CPU +9%. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T23:40:46.848986-04:00",
+          "text": "Harness: hum +20 dB at 60 Hz removed under notes 5.4 -> 18.1 dB (phrases), 4.9 -> 15.8 (13 s riff); hum +12 16.4 -> 26.7; new buzz +3 dB. Picked up a real 55 Hz tone that appears in the in-game recording, but it wanders so gains are small. No guitar tails mistaken for hum (32 runs); steady results match v0.10; CPU +9%. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T23:40:46.848986-04:00"
+    },
+    {
       "title": "Noise canceller v0.10: no more Learn button",
       "description": "Travis's idea: drop the manual Learn step. A second of noise is enough, and the output stays muted while the plugin learns, so you never hear it. With no profile the plugin listens for a second with no guitar in it (no pick attack, a steady level, nothing ringing out, not right after an even riff), learns from it, then opens. After that it never hard-mutes: ring-outs survive, and the noise following keeps the profile current. Learn by hand moved under Advanced. Harness tests on real interference and clean takes.",
       "date": "2026-10-12",
