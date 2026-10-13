@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller: why maxed-out settings sound best",
+      "description": "Travis found his best settings at the slider extremes (noise threshold 12, cut between notes 60, cut under notes 40, tone tracking 0.5 ms): guitar rings out and decays naturally with no gate and the noise is gone. Investigation of why.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:47:21.560272-04:00",
+      "images": [],
+      "result": "1. A high-gain amp is a huge compressor. Leftover interference between notes, measured after a stand-in high-gain chain, below playing level: no plugin 0.8 dB, 35/35 defaults 8.5 dB, his settings 21.4 dB. It takes about 60 dB on the DI for gaps to be silent after the amp.\n2. The guitar's energy is concentrated: 95.5% of it sits in frequency bins more than 12 dB above the interference, so a 12 dB threshold keeps the body of every note and removes everything between the harmonics (20.3 dB cut under notes vs 13.3 at threshold 2).\n3. The cost: only 8% of the guitar's energy above 2.5 kHz clears 12 dB, so the DI's top end drops about 25 dB; after the amp the tone measurably changes (spectral difference 8.2 vs 4.3 dB). Heavy distortion regenerates highs and the cab cuts above about 5 kHz, so it reads as smoother, less fizzy distortion: partly tone shaping. Likely too dark on clean tones, which suggests separate high-gain and clean presets.\n4. Decays survive because the note detector holds 'playing' through them and lets go only once a note has sunk into the interference.\n5. Tone tracking 0.5 ms really doubles hum refit speed (only ~9 base tones, so it stays stable).",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T21:47:21.560272-04:00",
+          "text": "1. A high-gain amp is a huge compressor. Leftover interference between notes, measured after a stand-in high-gain chain, below playing level: no plugin 0.8 dB, 35/35 defaults 8.5 dB, his settings 21.4 dB. It takes about 60 dB on the DI for gaps to be silent after the amp.\n2. The guitar's energy is concentrated: 95.5% of it sits in frequency bins more than 12 dB above the interference, so a 12 dB threshold keeps the body of every note and removes everything between the harmonics (20.3 dB cut under notes vs 13.3 at threshold 2).\n3. The cost: only 8% of the guitar's energy above 2.5 kHz clears 12 dB, so the DI's top end drops about 25 dB; after the amp the tone measurably changes (spectral difference 8.2 vs 4.3 dB). Heavy distortion regenerates highs and the cab cuts above about 5 kHz, so it reads as smoother, less fizzy distortion: partly tone shaping. Likely too dark on clean tones, which suggests separate high-gain and clean presets.\n4. Decays survive because the note detector holds 'playing' through them and lets go only once a note has sunk into the interference.\n5. Tone tracking 0.5 ms really doubles hum refit speed (only ~9 base tones, so it stays stable).",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T21:47:21.560272-04:00"
+    },
+    {
       "title": "EMI noise canceller v0.9.2: locked defaults, bypass fix, -54 dBFS live",
       "description": "Travis's tuned settings locked in as defaults, plus a fix for the learned profile being lost on a bypass toggle.",
       "date": "2026-10-12",
