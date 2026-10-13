@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.9.3: following the noise while playing",
+      "description": "Where the sparkles came from: following the interference only in gaps between notes left the filter stale while playing through a change, like leaning toward the PC. v0.9.3 measures the interference level every 1.5 ms from the 2.5-10 kHz median, notes or not; on real takes the guitar moves that by at most 0.4 dB. Harness tests on real in-game interference plus 5 clean takes, with Travis's settings. A first attempt, holding the top end down on sudden bursts, changed nothing and was dropped.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T22:16:35.602694-04:00",
+      "images": [
+        {
+          "id": "ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961",
+          "title": "v093 movement timeline",
+          "label": "Audio",
+          "width": 1914,
+          "height": 835,
+          "bytes": 382337,
+          "filename": "v093_movement_timeline.png",
+          "original": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961.png",
+          "thumbnail": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-thumb.webp",
+          "preview": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-view.webp"
+        },
+        {
+          "id": "90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040",
+          "title": "v093 sparkles",
+          "label": "Audio",
+          "width": 1392,
+          "height": 765,
+          "bytes": 35536,
+          "filename": "v093_sparkles.png",
+          "original": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040.png",
+          "thumbnail": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-thumb.webp",
+          "preview": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-view.webp"
+        }
+      ],
+      "result": "Harness: sparkles 4.1 to 1.5/s while moving (loudest leak -31 to -58 dBFS), 0.4 to 0.1/s steady; gaps stay airtight; guitar damage unchanged; other modes bit-identical. Burst rejection failed. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T22:16:35.602694-04:00",
+          "text": "Harness: sparkles 4.1 to 1.5/s while moving (loudest leak -31 to -58 dBFS), 0.4 to 0.1/s steady; gaps stay airtight; guitar damage unchanged; other modes bit-identical. Burst rejection failed. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T22:16:35.602694-04:00"
+    },
+    {
       "title": "EMI noise canceller: why maxed-out settings sound best",
       "description": "Travis found his best settings at the slider extremes (noise threshold 12, cut between notes 60, cut under notes 40, tone tracking 0.5 ms): guitar rings out and decays naturally with no gate and the noise is gone. Investigation of why.",
       "date": "2026-10-12",
