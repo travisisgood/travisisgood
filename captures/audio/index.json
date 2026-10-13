@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.13.3: zero latency, fine filter (A/B)",
+      "description": "Travis: a competitor (4D Audio ShutUp) claims 0 ms latency, so our zero-latency mode should match our best mode. The old zero-latency mode cut wide 1/3-octave bands, which open whole for any guitar harmonic. The new A/B switch uses best mode's per-bin gains (172 Hz bins), turned every 32 samples into a minimum-phase filter that runs on the live input with no delay (a filter-bank equalizer). Below 1 kHz it stays open while playing, so pick attacks pass.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T11:40:39.285156-04:00",
+      "images": [
+        {
+          "id": "470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334",
+          "title": "zero latency fine",
+          "label": "Noise canceller",
+          "width": 1980,
+          "height": 792,
+          "bytes": 82451,
+          "filename": "zero_latency_fine.png",
+          "original": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334.png",
+          "thumbnail": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334-thumb.webp",
+          "preview": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334-view.webp"
+        }
+      ],
+      "result": "Real plugin, under notes, at 0 ms: noise removed 1-2/2-4/4-8 kHz 12.9/23.6/32.6 -> 24.0/35.6/40.1 dB, best mode (+6 ms) is 24.9/36.2/40.1. Gaps 50.5 -> 60 dB, sparkles 3.9 -> 0.2/s, pick attacks -0.9 dB (best -3.0). Costs: CPU 16 -> 23% average; it keeps less of the DI's top end (like best mode); and strong held 3-6 kHz partials get some phase warble (emulated sidebands -20 to -25 dB vs best's -45 to -50), not yet judged by ear. Default sound unchanged (switch off: golden hashes identical).",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T11:40:39.285156-04:00",
+          "text": "Real plugin, under notes, at 0 ms: noise removed 1-2/2-4/4-8 kHz 12.9/23.6/32.6 -> 24.0/35.6/40.1 dB, best mode (+6 ms) is 24.9/36.2/40.1. Gaps 50.5 -> 60 dB, sparkles 3.9 -> 0.2/s, pick attacks -0.9 dB (best -3.0). Costs: CPU 16 -> 23% average; it keeps less of the DI's top end (like best mode); and strong held 3-6 kHz partials get some phase warble (emulated sidebands -20 to -25 dB vs best's -45 to -50), not yet judged by ear. Default sound unchanged (switch off: golden hashes identical).",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T11:40:39.285156-04:00"
+    },
+    {
       "title": "Noise canceller v0.13.2: save, close, reopen",
       "description": "Travis asked whether learned profiles survive save, close REAPER, reopen. New regression test: the plugin state is saved mid-take, loaded into a fresh instance, and its setup code runs again after loading (REAPER sometimes does that), then the output is compared with a run that never closed.",
       "date": "2026-10-13",
