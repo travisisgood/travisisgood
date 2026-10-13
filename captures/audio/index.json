@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller: port scaffolding and licensing",
+      "description": "Ready for the C++ port once the sound passes Travis's listen. An iPlug2 project builds the plugin as VST3 and CLAP on Windows around a framework-free DSP core, which passes audio through for now. Every shipped dependency's license file was checked for GPL and for costs.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T09:52:16.548464-04:00",
+      "images": [],
+      "result": "VST3 passes Steinberg's validator (47 tests passed, 0 failed); the CLAP loads and reports the right id, name and features. Licenses: all permissive (iPlug2/WDL zlib, VST3 SDK MIT since 3.8 in Oct 2025, CLAP MIT, NanoVG zlib, Yoga MIT). No GPL ships: the standalone app isn't built because it would compile Steinberg's ASIO files (GPLv3 or a signed agreement). Cost for Windows VST3+CLAP: nothing. Mac/AU (Apple, $99/yr) and AAX (iLok + Avid registration) are later and optional. Not yet loaded in REAPER.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T09:52:16.548464-04:00",
+          "text": "VST3 passes Steinberg's validator (47 tests passed, 0 failed); the CLAP loads and reports the right id, name and features. Licenses: all permissive (iPlug2/WDL zlib, VST3 SDK MIT since 3.8 in Oct 2025, CLAP MIT, NanoVG zlib, Yoga MIT). No GPL ships: the standalone app isn't built because it would compile Steinberg's ASIO files (GPLv3 or a signed agreement). Cost for Windows VST3+CLAP: nothing. Mac/AU (Apple, $99/yr) and AAX (iLok + Avid registration) are later and optional. Not yet loaded in REAPER.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-13T09:52:16.548464-04:00"
+    },
+    {
       "title": "Noise canceller: harmonic protection, tested and dropped",
       "description": "Idea: find the notes from the clean low band and protect their harmonics up top, so the 12 dB threshold stops eating the guitar's top end. Tested on all 205 guitar takes from 2024 (24 min of playing; old room, so near-clean in the top end) mixed with the in-game interference. The filter was emulated in Python and given a perfect pitch tracker: the clean take's actual partial positions. Its trade-off was compared with simply lowering the threshold.",
       "date": "2026-10-13",
