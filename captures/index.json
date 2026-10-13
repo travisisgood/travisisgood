@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller: technical review before the C++ port",
+      "description": "A code-verified review of v0.12 with controlled tests: hum canceller accuracy (mismatched, drifting, modulated and stepping tones), noise-filter resolution and sample rates, noise-estimator contamination by other sources, 84 synthetic ring-outs, pickup variants, per-band tonal change, attack integrity, CPU spikes and the port plan. No algorithm changes; two hysteresis prototypes were measured.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T01:27:40.224574-04:00",
+      "images": [],
+      "result": "Sound: gaps airtight; Full mode removes 18-43 dB of test tones under notes with no amplification. Fragile: fixed FFT sizes break hum learning at 96/192 kHz; CPU spikes to 140% of a 32-sample buffer; hum-only and zero-latency modes can add hum under notes; ring-outs cut about 12-15 dB above the noise; never-re-picked sustains get learned as noise. Release hysteresis prototype is neutral and helps quiet-state tails.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-13T01:27:40.224574-04:00",
+          "text": "Sound: gaps airtight; Full mode removes 18-43 dB of test tones under notes with no amplification. Fragile: fixed FFT sizes break hum learning at 96/192 kHz; CPU spikes to 140% of a 32-sample buffer; hum-only and zero-latency modes can add hum under notes; ring-outs cut about 12-15 dB above the noise; never-re-picked sustains get learned as noise. Release hysteresis prototype is neutral and helps quiet-state tails.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T01:27:40.224574-04:00"
+    },
+    {
       "title": "Noise canceller v0.12: hum tracking under notes (A/B)",
       "description": "Two overnight builds for Travis to A/B. Hum tracking gives each hum tone its own narrow listener (a 2 Hz-wide filter around the tone), so the hum keeps being measured while you play, with notes that sit right on a hum line detected and held off; it also tracks pitch drift. It's behind an A/B switch, default off. Tonal protection (telling sustained guitar partials from random GPU bursts by phase) was prototyped and dropped: in the top end the two don't separate, so it would have dulled the guitar. Harness tests: synthetic hum and buzz changes over real in-game interference, plus clean takes.",
       "date": "2026-10-13",
