@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller: harmonic protection, tested and dropped",
+      "description": "Idea: find the notes from the clean low band and protect their harmonics up top, so the 12 dB threshold stops eating the guitar's top end. Tested on all 205 guitar takes from 2024 (24 min of playing; old room, so near-clean in the top end) mixed with the in-game interference. The filter was emulated in Python and given a perfect pitch tracker: the clean take's actual partial positions. Its trade-off was compared with simply lowering the threshold.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T09:31:25.967288-04:00",
+      "images": [
+        {
+          "id": "2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476",
+          "title": "harmonic protection",
+          "label": "Noise canceller",
+          "width": 1870,
+          "height": 770,
+          "bytes": 109830,
+          "filename": "harmonic_protection.png",
+          "original": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476.png",
+          "thumbnail": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476-thumb.webp",
+          "preview": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476-view.webp"
+        }
+      ],
+      "result": "The top end is mostly harmonic (72% of 2.5-10 kHz energy on partials), but protecting the partials lands on the same curve as the Noise threshold dial, or 0.2-0.5 dB under it, at every window from 6 to 46 ms. Reason: a bin where a partial sits under the noise also passes that noise; only finer frequency resolution separates them. A 46 ms window keeps ~4 dB more top end at the same cut: too slow to play through, possible for re-amping recorded DIs. Also measured: 2024 takes' top-end floor is ~58 dB under in-game noise; from Sept 2025 (new room) the floor is 15-20 dB higher.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T09:31:25.967288-04:00",
+          "text": "The top end is mostly harmonic (72% of 2.5-10 kHz energy on partials), but protecting the partials lands on the same curve as the Noise threshold dial, or 0.2-0.5 dB under it, at every window from 6 to 46 ms. Reason: a bin where a partial sits under the noise also passes that noise; only finer frequency resolution separates them. A 46 ms window keeps ~4 dB more top end at the same cut: too slow to play through, possible for re-amping recorded DIs. Also measured: 2024 takes' top-end floor is ~58 dB under in-game noise; from Sept 2025 (new room) the floor is 15-20 dB higher.",
+          "status": "failed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "failed",
+      "updated": "2026-10-13T09:31:25.967288-04:00"
+    },
+    {
       "title": "Noise canceller v0.13.1: crisp pick attacks (A/B)",
       "description": "A fourth A/B switch, built blind while Travis is away from the rig. Under in-game noise the 12 dB threshold softens the first milliseconds of every pick and takes most of its click above 2 kHz. Cause: the filter's smoothed (decision-directed) estimate opens a bin over several frames. A 3 ms lookahead alone changed nothing. With the switch on, for 20 ms after a guitar-like pick a bin may open at once to its own level. No added latency; default Off.",
       "date": "2026-10-13",
