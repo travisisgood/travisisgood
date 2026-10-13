@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "EMI noise canceller v0.9.1: live test on the real rig",
+      "description": "Travis's own test on his guitar rig with the game running, plus the control cleanup: 6 plain-English dials instead of 14, expert ones behind an Advanced button.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:29:26.752701-04:00",
+      "images": [],
+      "result": "Live (Travis, REAPER, Mode 'Full - best (+6 ms)', no gate): master meter about -42 dBFS level / -36 peak with the plugin on, vs about -19 / -14.6 to -16 off. That is 20+ dB less interference.\nHis settings: cut between notes 25 dB, cut under notes 35 dB, noise threshold 2 dB, follow noise changes on, max tones learned 64.\nControls: 'Hop duck' removed (redundant with the cut between notes), 'Buzz during notes' removed (its alternatives measured worse), five expert dials moved behind Advanced. Audio output bit-identical to v0.9 in all three modes.\nOpen issue: toggling the plugin off and on loses the learned profile (to reproduce and fix in v0.10.1).",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T21:29:26.752701-04:00",
+          "text": "Live (Travis, REAPER, Mode 'Full - best (+6 ms)', no gate): master meter about -42 dBFS level / -36 peak with the plugin on, vs about -19 / -14.6 to -16 off. That is 20+ dB less interference.\nHis settings: cut between notes 25 dB, cut under notes 35 dB, noise threshold 2 dB, follow noise changes on, max tones learned 64.\nControls: 'Hop duck' removed (redundant with the cut between notes), 'Buzz during notes' removed (its alternatives measured worse), five expert dials moved behind Advanced. Audio output bit-identical to v0.9 in all three modes.\nOpen issue: toggling the plugin off and on loses the learned profile (to reproduce and fix in v0.10.1).",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T21:29:26.752701-04:00"
+    },
+    {
       "title": "EMI noise canceller v0.9: follows the game's interference changes",
       "description": "New 'Follow noise changes' (on by default): when the game changes state after Learn (menu, gameplay, launch screen), the static filter and note detector re-tune themselves in the gaps between notes.",
       "date": "2026-10-12",
