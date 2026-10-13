@@ -1,0 +1,499 @@
+{
+  "version": 1,
+  "albums": [
+    {
+      "title": "Noise canceller v0.13.1: crisp pick attacks (A/B)",
+      "description": "A fourth A/B switch, built blind while Travis is away from the rig. Under in-game noise the 12 dB threshold softens the first milliseconds of every pick and takes most of its click above 2 kHz. Cause: the filter's smoothed (decision-directed) estimate opens a bin over several frames. A 3 ms lookahead alone changed nothing. With the switch on, for 20 ms after a guitar-like pick a bin may open at once to its own level. No added latency; default Off.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T08:43:26.531767-04:00",
+      "images": [
+        {
+          "id": "fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba",
+          "title": "v0131 crisp attacks",
+          "label": "Noise canceller",
+          "width": 1980,
+          "height": 726,
+          "bytes": 79562,
+          "filename": "v0131_crisp_attacks.png",
+          "original": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba.png",
+          "thumbnail": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-thumb.webp",
+          "preview": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-view.webp"
+        }
+      ],
+      "result": "Switch off: bit-identical to v0.13 in every mode. Switch on: first 3 ms of picks -4.6 -> -3.0 dB, guitar 4-8 kHz kept -37 -> -17 dB, 8-16 kHz -25 -> -10 dB. Costs: sparkles 0.1 -> 2.2/s on a steady game (bright pickup 3.1 -> 6.0) and 3-10 dB less top-end noise removed under notes. Variants that halve the sparkles also halve the gain: the pick click and the GPU bursts share the same bins. Not judged by ear yet; it may read as more bite or more fizz.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T08:43:26.531767-04:00",
+          "text": "Switch off: bit-identical to v0.13 in every mode. Switch on: first 3 ms of picks -4.6 -> -3.0 dB, guitar 4-8 kHz kept -37 -> -17 dB, 8-16 kHz -25 -> -10 dB. Costs: sparkles 0.1 -> 2.2/s on a steady game (bright pickup 3.1 -> 6.0) and 3-10 dB less top-end noise removed under notes. Variants that halve the sparkles also halve the gain: the pick click and the GPU bursts share the same bins. Not judged by ear yet; it may read as more bite or more fizz.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T08:43:26.531767-04:00"
+    },
+    {
+      "title": "Noise canceller v0.13: review fixes and A/B switches",
+      "description": "Built while Travis was away from the rig, so nothing that changes the default sound ships enabled: with the new switches off, the output is bit-identical to v0.12 at 44.1/48 kHz. Fixes: FFT sizes scale with sample rate, the end-of-learn CPU spike is gone, sustained notes are no longer learned as noise, a per-stage 'listen to what was removed' monitor, and a fade when switching modes. Two A/B switches are waiting for ears: hold notes down to the noise, and let harmonics fade out. A new regression suite (every review measurement in one run) checked all of it.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T08:18:36.525281-04:00",
+      "images": [],
+      "result": "Harness: 96/192 kHz now learn 51 tones (was 16/13), tails -3.8 dB (was -5/-7); worst 32-sample buffer 139% -> 71%; compressed sustain kept (-60 -> -1.8 dB). 'Hold' switch: no measured cost, weak-guitar misses 13% -> 4.8%, quiet tails -60 -> -14 dB. 'Fade' switch: tails and highs kept, about 3 dB less noise removed under notes. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T08:18:36.525281-04:00",
+          "text": "Harness: 96/192 kHz now learn 51 tones (was 16/13), tails -3.8 dB (was -5/-7); worst 32-sample buffer 139% -> 71%; compressed sustain kept (-60 -> -1.8 dB). 'Hold' switch: no measured cost, weak-guitar misses 13% -> 4.8%, quiet tails -60 -> -14 dB. 'Fade' switch: tails and highs kept, about 3 dB less noise removed under notes. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-13T08:18:36.525281-04:00"
+    },
+    {
+      "title": "Noise canceller: technical review before the C++ port",
+      "description": "A code-verified review of v0.12 with controlled tests: hum canceller accuracy (mismatched, drifting, modulated and stepping tones), noise-filter resolution and sample rates, noise-estimator contamination by other sources, 84 synthetic ring-outs, pickup variants, per-band tonal change, attack integrity, CPU spikes and the port plan. No algorithm changes; two hysteresis prototypes were measured.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T01:27:40.224574-04:00",
+      "images": [],
+      "result": "Sound: gaps airtight; Full mode removes 18-43 dB of test tones under notes with no amplification. Fragile: fixed FFT sizes break hum learning at 96/192 kHz; CPU spikes to 140% of a 32-sample buffer; hum-only and zero-latency modes can add hum under notes; ring-outs cut about 12-15 dB above the noise; never-re-picked sustains get learned as noise. Release hysteresis prototype is neutral and helps quiet-state tails.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T01:27:40.224574-04:00",
+          "text": "Sound: gaps airtight; Full mode removes 18-43 dB of test tones under notes with no amplification. Fragile: fixed FFT sizes break hum learning at 96/192 kHz; CPU spikes to 140% of a 32-sample buffer; hum-only and zero-latency modes can add hum under notes; ring-outs cut about 12-15 dB above the noise; never-re-picked sustains get learned as noise. Release hysteresis prototype is neutral and helps quiet-state tails.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T01:27:40.224574-04:00"
+    },
+    {
+      "title": "Noise canceller v0.12: hum tracking under notes (A/B)",
+      "description": "Two overnight builds for Travis to A/B. Hum tracking gives each hum tone its own narrow listener (a 2 Hz-wide filter around the tone), so the hum keeps being measured while you play, with notes that sit right on a hum line detected and held off; it also tracks pitch drift. It's behind an A/B switch, default off. Tonal protection (telling sustained guitar partials from random GPU bursts by phase) was prototyped and dropped: in the top end the two don't separate, so it would have dulled the guitar. Harness tests: synthetic hum and buzz changes over real in-game interference, plus clean takes.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T00:06:03.285881-04:00",
+      "images": [
+        {
+          "id": "83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce",
+          "title": "v012 hum tracking",
+          "label": "Noise canceller",
+          "width": 1740,
+          "height": 788,
+          "bytes": 63149,
+          "filename": "v012_hum_tracking.png",
+          "original": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce.png",
+          "thumbnail": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-thumb.webp",
+          "preview": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-view.webp"
+        }
+      ],
+      "result": "Hum tracking: hum +20 dB at 60 Hz removed under notes 18.1 -> 38.6 dB, 120/180 Hz 8/5 -> 24/25, new buzz 7.8 -> 20.5; guitar unchanged, notes tuned next to hum lines kept, CPU +2%, off = bit-identical to v0.11. Tonal protection failed: GPU noise coherence 0.32-0.44 vs guitar top end 0.5-0.6, not separable. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T00:06:03.285881-04:00",
+          "text": "Hum tracking: hum +20 dB at 60 Hz removed under notes 18.1 -> 38.6 dB, 120/180 Hz 8/5 -> 24/25, new buzz 7.8 -> 20.5; guitar unchanged, notes tuned next to hum lines kept, CPU +2%, off = bit-identical to v0.11. Tonal protection failed: GPU noise coherence 0.32-0.44 vs guitar top end 0.5-0.6, not separable. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T00:06:03.285881-04:00"
+    },
+    {
+      "title": "Noise canceller v0.11: following new hum",
+      "description": "The adaptive part, continued: the hum/buzz canceller now keeps learning in the gaps between notes. New steady tones join, each tone's cut limit follows its level (hum that got louder as you turned), and steadiness is re-checked. Two older problems were fixed along the way: a pick dragged the hum fit in the instant before the detector reacted and froze it wrong for the whole phrase (notes now start from a fit snapshot taken 6-12 ms before the pick), and locked tones now fade out under very long phrases before phase drift can add hum. Harness tests: synthetic hum and buzz changes over Travis's real in-game interference, plus clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T23:40:46.848986-04:00",
+      "images": [
+        {
+          "id": "dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c",
+          "title": "v011 tones",
+          "label": "Noise canceller",
+          "width": 1624,
+          "height": 788,
+          "bytes": 52503,
+          "filename": "v011_tones.png",
+          "original": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c.png",
+          "thumbnail": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-thumb.webp",
+          "preview": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-view.webp"
+        }
+      ],
+      "result": "Harness: hum +20 dB at 60 Hz removed under notes 5.4 -> 18.1 dB (phrases), 4.9 -> 15.8 (13 s riff); hum +12 16.4 -> 26.7; new buzz +3 dB. Picked up a real 55 Hz tone that appears in the in-game recording, but it wanders so gains are small. No guitar tails mistaken for hum (32 runs); steady results match v0.10; CPU +9%. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T23:40:46.848986-04:00",
+          "text": "Harness: hum +20 dB at 60 Hz removed under notes 5.4 -> 18.1 dB (phrases), 4.9 -> 15.8 (13 s riff); hum +12 16.4 -> 26.7; new buzz +3 dB. Picked up a real 55 Hz tone that appears in the in-game recording, but it wanders so gains are small. No guitar tails mistaken for hum (32 runs); steady results match v0.10; CPU +9%. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T23:40:46.848986-04:00"
+    },
+    {
+      "title": "Noise canceller v0.10: no more Learn button",
+      "description": "Travis's idea: drop the manual Learn step. A second of noise is enough, and the output stays muted while the plugin learns, so you never hear it. With no profile the plugin listens for a second with no guitar in it (no pick attack, a steady level, nothing ringing out, not right after an even riff), learns from it, then opens. After that it never hard-mutes: ring-outs survive, and the noise following keeps the profile current. Learn by hand moved under Advanced. Harness tests on real interference and clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T23:19:24.094757-04:00",
+      "images": [
+        {
+          "id": "905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c",
+          "title": "v010 auto learn",
+          "label": "Noise canceller",
+          "width": 1856,
+          "height": 788,
+          "bytes": 167903,
+          "filename": "v010_auto_learn.png",
+          "original": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c.png",
+          "thumbnail": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-thumb.webp",
+          "preview": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-view.webp"
+        }
+      ],
+      "result": "Harness: learns ~1.5 s after start, or 1.6 s after the guitar volume comes up; playing from the start, 0 of 28 runs learned the guitar; noise removal and guitar damage match an 8 s manual learn; gaps airtight. A 20 ms blip when the gate opened was found and fixed. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T23:19:24.094757-04:00",
+          "text": "Harness: learns ~1.5 s after start, or 1.6 s after the guitar volume comes up; playing from the start, 0 of 28 runs learned the guitar; noise removal and guitar damage match an 8 s manual learn; gaps airtight. A 20 ms blip when the gate opened was found and fixed. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T23:19:24.094757-04:00"
+    },
+    {
+      "title": "Noise canceller v0.9.4: gaps that catch up",
+      "description": "Travis heard 'a gap that doesn't catch up' and sparkles. Cause: with nobody playing, the note detector sometimes still said 'playing', so the gap got the gentle under-note cut and nothing re-tuned. Fixes: only the tests that actually catch notes count, a pick attack needs a 9 dB jump, a fast veto for game sound bursts, and an escape when a steady hum holds it. Also: Travis's extreme settings are now the defaults, and a test showed 1 s of learning works as well as 8 s (steady in-game noise). Harness tests, interference alone and with 5 clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T22:54:24.207301-04:00",
+      "images": [
+        {
+          "id": "0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082",
+          "title": "v094 false playing",
+          "label": "Noise canceller",
+          "width": 1624,
+          "height": 788,
+          "bytes": 54545,
+          "filename": "v094_false_playing.png",
+          "original": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082.png",
+          "thumbnail": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-thumb.webp",
+          "preview": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-view.webp"
+        }
+      ],
+      "result": "Harness: wrongly 'playing' 7.6-10.8% -> 0% after state changes, hum +20 dB 74% -> 9%; steady play unchanged. Costs: the harsh movement simulation misses more guitar (34% vs 27%). Open: bursts under notes in quiet game states, noise getting much darker. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T22:54:24.207301-04:00",
+          "text": "Harness: wrongly 'playing' 7.6-10.8% -> 0% after state changes, hum +20 dB 74% -> 9%; steady play unchanged. Costs: the harsh movement simulation misses more guitar (34% vs 27%). Open: bursts under notes in quiet game states, noise getting much darker. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T22:54:24.207301-04:00"
+    },
+    {
+      "title": "Noise canceller v0.9.3: following the noise while playing",
+      "description": "Where the sparkles came from: following the interference only in gaps between notes left the filter stale while playing through a change, like leaning toward the PC. v0.9.3 measures the interference level every 1.5 ms from the 2.5-10 kHz median, notes or not; on real takes the guitar moves that by at most 0.4 dB. Harness tests on real in-game interference plus 5 clean takes, with Travis's settings. A first attempt, holding the top end down on sudden bursts, changed nothing and was dropped.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T22:16:35.602694-04:00",
+      "images": [
+        {
+          "id": "ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961",
+          "title": "v093 movement timeline",
+          "label": "Noise canceller",
+          "width": 1914,
+          "height": 835,
+          "bytes": 382337,
+          "filename": "v093_movement_timeline.png",
+          "original": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961.png",
+          "thumbnail": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-thumb.webp",
+          "preview": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-view.webp"
+        },
+        {
+          "id": "90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040",
+          "title": "v093 sparkles",
+          "label": "Noise canceller",
+          "width": 1392,
+          "height": 765,
+          "bytes": 35536,
+          "filename": "v093_sparkles.png",
+          "original": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040.png",
+          "thumbnail": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-thumb.webp",
+          "preview": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-view.webp"
+        }
+      ],
+      "result": "Harness: sparkles 4.1 to 1.5/s while moving (loudest leak -31 to -58 dBFS), 0.4 to 0.1/s steady; gaps stay airtight; guitar damage unchanged; other modes bit-identical. Burst rejection failed. Not yet tried on the real rig.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T22:16:35.602694-04:00",
+          "text": "Harness: sparkles 4.1 to 1.5/s while moving (loudest leak -31 to -58 dBFS), 0.4 to 0.1/s steady; gaps stay airtight; guitar damage unchanged; other modes bit-identical. Burst rejection failed. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T22:16:35.602694-04:00"
+    },
+    {
+      "title": "EMI noise canceller: why maxed-out settings sound best",
+      "description": "Travis found his best settings at the slider extremes (noise threshold 12, cut between notes 60, cut under notes 40, tone tracking 0.5 ms): guitar rings out and decays naturally with no gate and the noise is gone. Investigation of why.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:47:21.560272-04:00",
+      "images": [],
+      "result": "1. A high-gain amp is a huge compressor. Leftover interference between notes, measured after a stand-in high-gain chain, below playing level: no plugin 0.8 dB, 35/35 defaults 8.5 dB, his settings 21.4 dB. It takes about 60 dB on the DI for gaps to be silent after the amp.\n2. The guitar's energy is concentrated: 95.5% of it sits in frequency bins more than 12 dB above the interference, so a 12 dB threshold keeps the body of every note and removes everything between the harmonics (20.3 dB cut under notes vs 13.3 at threshold 2).\n3. The cost: only 8% of the guitar's energy above 2.5 kHz clears 12 dB, so the DI's top end drops about 25 dB; after the amp the tone measurably changes (spectral difference 8.2 vs 4.3 dB). Heavy distortion regenerates highs and the cab cuts above about 5 kHz, so it reads as smoother, less fizzy distortion: partly tone shaping. Likely too dark on clean tones, which suggests separate high-gain and clean presets.\n4. Decays survive because the note detector holds 'playing' through them and lets go only once a note has sunk into the interference.\n5. Tone tracking 0.5 ms really doubles hum refit speed (only ~9 base tones, so it stays stable).",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T21:47:21.560272-04:00",
+          "text": "1. A high-gain amp is a huge compressor. Leftover interference between notes, measured after a stand-in high-gain chain, below playing level: no plugin 0.8 dB, 35/35 defaults 8.5 dB, his settings 21.4 dB. It takes about 60 dB on the DI for gaps to be silent after the amp.\n2. The guitar's energy is concentrated: 95.5% of it sits in frequency bins more than 12 dB above the interference, so a 12 dB threshold keeps the body of every note and removes everything between the harmonics (20.3 dB cut under notes vs 13.3 at threshold 2).\n3. The cost: only 8% of the guitar's energy above 2.5 kHz clears 12 dB, so the DI's top end drops about 25 dB; after the amp the tone measurably changes (spectral difference 8.2 vs 4.3 dB). Heavy distortion regenerates highs and the cab cuts above about 5 kHz, so it reads as smoother, less fizzy distortion: partly tone shaping. Likely too dark on clean tones, which suggests separate high-gain and clean presets.\n4. Decays survive because the note detector holds 'playing' through them and lets go only once a note has sunk into the interference.\n5. Tone tracking 0.5 ms really doubles hum refit speed (only ~9 base tones, so it stays stable).",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T21:47:21.560272-04:00"
+    },
+    {
+      "title": "EMI noise canceller v0.9.2: locked defaults, bypass fix, -54 dBFS live",
+      "description": "Travis's tuned settings locked in as defaults, plus a fix for the learned profile being lost on a bypass toggle.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:39:01.778820-04:00",
+      "images": [],
+      "result": "Live (Travis): guitar volume up on its stand, no gate, through his full high-gain chain (TSE 808, Ignite Emissary, NadIR): master around -54 dBFS with the plugin, vs about -19 off. REAPER showed 1.2% CPU for the whole FX chain.\nLocked defaults: cut between/under notes 35/35 dB, noise threshold 2, follow noise changes on, tone cut limit 3x, note detection 20 dB, max tones 64, tone threshold 3 dB.\nHarness with these defaults (real in-game interference + 5 clean takes): 22.9 dB between notes, 12.5 under notes, guitar highs -7.4 dB (old defaults -8.4), decays kept.\nBypass bug: the harness keeps the profile through every toggle it can emulate, so the cause is REAPER restoring an older saved state. Fixes: after Learn the plugin asks REAPER to save (sliderchange(-1) undo point), and Learn no longer restarts by itself from a restored mid-learn state. Display shows 'Profile #N' to confirm. Awaiting Travis's bypass test in REAPER.\nChecks: DSP bit-identical to v0.9.1 given the same settings; v0.9.1 and v0.10-draft projects load.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T21:39:01.778820-04:00",
+          "text": "Live (Travis): guitar volume up on its stand, no gate, through his full high-gain chain (TSE 808, Ignite Emissary, NadIR): master around -54 dBFS with the plugin, vs about -19 off. REAPER showed 1.2% CPU for the whole FX chain.\nLocked defaults: cut between/under notes 35/35 dB, noise threshold 2, follow noise changes on, tone cut limit 3x, note detection 20 dB, max tones 64, tone threshold 3 dB.\nHarness with these defaults (real in-game interference + 5 clean takes): 22.9 dB between notes, 12.5 under notes, guitar highs -7.4 dB (old defaults -8.4), decays kept.\nBypass bug: the harness keeps the profile through every toggle it can emulate, so the cause is REAPER restoring an older saved state. Fixes: after Learn the plugin asks REAPER to save (sliderchange(-1) undo point), and Learn no longer restarts by itself from a restored mid-learn state. Display shows 'Profile #N' to confirm. Awaiting Travis's bypass test in REAPER.\nChecks: DSP bit-identical to v0.9.1 given the same settings; v0.9.1 and v0.10-draft projects load.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T21:39:01.778820-04:00"
+    },
+    {
+      "title": "EMI noise canceller v0.10 draft: continuous learning (parked)",
+      "description": "Goal: learning that keeps adapting in real time, e.g. as the player moves relative to the PC. Tested on simulated movement (lean in: +10 dB, brighter, hum +12 dB; turn away) and game-state changes, against v0.9.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:29:29.486551-04:00",
+      "images": [],
+      "result": "Not ready; parked on a branch, v0.9.1 stays current.\nSame state: equal to v0.9. After simulated movement: still cuts the guitar's decays (-18.9 dB). Cut between notes after state changes dropped (quiet->loud 10.8 vs 26.3 dB; loud->quiet 3.6 vs 6.3). Synthetic under-note error -6.6 vs -1.0 dB.\nLearned: a 6 dB low-band 'pick attack' is faked by hopping buzz and bursty static (up to 0.6/s; 9 dB and up gave zero); a veto measured against a fast-moving level lapses before the bars re-measure; scaling one band from another breaks when movement changes the tilt.\nNext foundation: detect the guitar by harmonicity of its clean low band (pitched notes vs unpitched static), which is level- and tilt-independent.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T21:29:29.486551-04:00",
+          "text": "Not ready; parked on a branch, v0.9.1 stays current.\nSame state: equal to v0.9. After simulated movement: still cuts the guitar's decays (-18.9 dB). Cut between notes after state changes dropped (quiet->loud 10.8 vs 26.3 dB; loud->quiet 3.6 vs 6.3). Synthetic under-note error -6.6 vs -1.0 dB.\nLearned: a 6 dB low-band 'pick attack' is faked by hopping buzz and bursty static (up to 0.6/s; 9 dB and up gave zero); a veto measured against a fast-moving level lapses before the bars re-measure; scaling one band from another breaks when movement changes the tilt.\nNext foundation: detect the guitar by harmonicity of its clean low band (pitched notes vs unpitched static), which is level- and tilt-independent.",
+          "status": "failed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "failed",
+      "updated": "2026-10-12T21:29:29.486551-04:00"
+    },
+    {
+      "title": "EMI noise canceller v0.9.1: live test on the real rig",
+      "description": "Travis's own test on his guitar rig with the game running, plus the control cleanup: 6 plain-English dials instead of 14, expert ones behind an Advanced button.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T21:29:26.752701-04:00",
+      "images": [],
+      "result": "Live (Travis, REAPER, Mode 'Full - best (+6 ms)', no gate): master meter about -42 dBFS level / -36 peak with the plugin on, vs about -19 / -14.6 to -16 off. That is 20+ dB less interference.\nHis settings: cut between notes 25 dB, cut under notes 35 dB, noise threshold 2 dB, follow noise changes on, max tones learned 64.\nControls: 'Hop duck' removed (redundant with the cut between notes), 'Buzz during notes' removed (its alternatives measured worse), five expert dials moved behind Advanced. Audio output bit-identical to v0.9 in all three modes.\nOpen issue: toggling the plugin off and on loses the learned profile (to reproduce and fix in v0.10.1).",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T21:29:26.752701-04:00",
+          "text": "Live (Travis, REAPER, Mode 'Full - best (+6 ms)', no gate): master meter about -42 dBFS level / -36 peak with the plugin on, vs about -19 / -14.6 to -16 off. That is 20+ dB less interference.\nHis settings: cut between notes 25 dB, cut under notes 35 dB, noise threshold 2 dB, follow noise changes on, max tones learned 64.\nControls: 'Hop duck' removed (redundant with the cut between notes), 'Buzz during notes' removed (its alternatives measured worse), five expert dials moved behind Advanced. Audio output bit-identical to v0.9 in all three modes.\nOpen issue: toggling the plugin off and on loses the learned profile (to reproduce and fix in v0.10.1).",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T21:29:26.752701-04:00"
+    },
+    {
+      "title": "EMI noise canceller v0.9: follows the game's interference changes",
+      "description": "New 'Follow noise changes' (on by default): when the game changes state after Learn (menu, gameplay, launch screen), the static filter and note detector re-tune themselves in the gaps between notes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T19:52:11.797458-04:00",
+      "images": [
+        {
+          "id": "a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3",
+          "title": "v0.8 vs v0.9 across game states",
+          "label": "Noise canceller",
+          "width": 1914,
+          "height": 835,
+          "bytes": 102099,
+          "filename": "v0.8_vs_v0.9_across_game_states.png",
+          "original": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3.png",
+          "thumbnail": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-thumb.webp",
+          "preview": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-view.webp"
+        },
+        {
+          "id": "2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773",
+          "title": "game gets louder before v0.8 v0.9",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 1396,
+          "bytes": 2483227,
+          "filename": "game_gets_louder_before_v0.8_v0.9.png",
+          "original": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773.png",
+          "thumbnail": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-thumb.webp",
+          "preview": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-view.webp"
+        }
+      ],
+      "result": "Spectral mode, real interference + 5 clean takes; interference cut between / under notes, guitar above 2.5 kHz kept.\nSame state: v0.9 24.6 / 12.7 dB, highs -8.4 dB (v0.8 25.0 / 14.1, highs -11.3): slightly less cut, clearly less guitar damage.\nGame gets louder (learned on the launch screen, played in-game, +22 dB): v0.9 26.3 / 13.5 dB (v0.8 14.7 / 1.0, which barely touched the louder interference).\nGame gets quieter (learned in-game, played on the launch screen): re-tunes to a 41 dB cut between notes within ~1 s, guitar almost untouched (highs -1.9 vs -12.0). But the launch screen's never-learned tones pass under notes (3.2 dB cut vs 14.7): new tones still need a re-learn.\nNote detector after state changes: 100% of loud playing and 97-100% of decays caught.\nFailures along the way, fixed: a one-off spike while learning set the detector bar 20 dB too high and ate every note (now the 80th percentile of half-second peaks); letting the low band re-tune itself slowly learned the guitar's decays; learned crest/floor ratios don't transfer between game states; 2 s re-tuning was too slow (now 0.5 s from the high band).\nChecks passed: synthetic regression matches v0.8; save/reload identical to -148 dB; v0.8 and v0.7 projects load; no NaN/Inf. CPU unchanged in spectral mode. Not yet judged by ear.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T19:52:11.797458-04:00",
+          "text": "Spectral mode, real interference + 5 clean takes; interference cut between / under notes, guitar above 2.5 kHz kept.\nSame state: v0.9 24.6 / 12.7 dB, highs -8.4 dB (v0.8 25.0 / 14.1, highs -11.3): slightly less cut, clearly less guitar damage.\nGame gets louder (learned on the launch screen, played in-game, +22 dB): v0.9 26.3 / 13.5 dB (v0.8 14.7 / 1.0, which barely touched the louder interference).\nGame gets quieter (learned in-game, played on the launch screen): re-tunes to a 41 dB cut between notes within ~1 s, guitar almost untouched (highs -1.9 vs -12.0). But the launch screen's never-learned tones pass under notes (3.2 dB cut vs 14.7): new tones still need a re-learn.\nNote detector after state changes: 100% of loud playing and 97-100% of decays caught.\nFailures along the way, fixed: a one-off spike while learning set the detector bar 20 dB too high and ate every note (now the 80th percentile of half-second peaks); letting the low band re-tune itself slowly learned the guitar's decays; learned crest/floor ratios don't transfer between game states; 2 s re-tuning was too slow (now 0.5 s from the high band).\nChecks passed: synthetic regression matches v0.8; save/reload identical to -148 dB; v0.8 and v0.7 projects load; no NaN/Inf. CPU unchanged in spectral mode. Not yet judged by ear.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T19:52:11.797458-04:00"
+    },
+    {
+      "title": "EMI noise canceller: Acon-style noise statistics vs the filter's ceiling",
+      "description": "Test of Acon DeNoise 2's 'dynamic noise profile' idea on real GPU/VRM interference: does tracking the noise frame by frame, instead of one average profile, keep more of the guitar under notes?",
+      "date": "2026-10-12",
+      "created": "2026-10-12T19:52:07.427788-04:00",
+      "images": [
+        {
+          "id": "5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0",
+          "title": "what limits the filter under notes",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 904,
+          "bytes": 104516,
+          "filename": "what_limits_the_filter_under_notes.png",
+          "original": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0.png",
+          "thumbnail": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-thumb.webp",
+          "preview": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-view.webp"
+        }
+      ],
+      "result": "Measured on real in-game interference + 5 clean guitar takes, at ~14 dB interference cut under notes (guitar above 2.5 kHz kept).\nAverage profile (current): -11.2 dB. Realistic dynamic estimators (reference-band level tracking, burst on/off profiles, 90th-percentile profile): -11.1 to -15.1 dB, no gain.\nEven perfect per-frame knowledge of the interference (cheat): -8.7 dB, only +2.5 dB. The filter's decision-directed smoothing already averages over frames.\nIdeal mask (cheat: knows which bins are guitar): -2.6 dB at ~11 dB cut, the same at any window from 1.5 to 23 ms. The limit is knowing where the guitar is, not resolution or latency.\nOutcome: the Acon-style statistics idea was not adopted. Next candidate: predict the guitar's high harmonics from its clean low band (pitch-informed protection).",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T19:52:07.427788-04:00",
+          "text": "Measured on real in-game interference + 5 clean guitar takes, at ~14 dB interference cut under notes (guitar above 2.5 kHz kept).\nAverage profile (current): -11.2 dB. Realistic dynamic estimators (reference-band level tracking, burst on/off profiles, 90th-percentile profile): -11.1 to -15.1 dB, no gain.\nEven perfect per-frame knowledge of the interference (cheat): -8.7 dB, only +2.5 dB. The filter's decision-directed smoothing already averages over frames.\nIdeal mask (cheat: knows which bins are guitar): -2.6 dB at ~11 dB cut, the same at any window from 1.5 to 23 ms. The limit is knowing where the guitar is, not resolution or latency.\nOutcome: the Acon-style statistics idea was not adopted. Next candidate: predict the guitar's high harmonics from its clean low band (pitch-informed protection).",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T19:52:07.427788-04:00"
+    },
+    {
+      "title": "EMI noise canceller v0.8: static filter and note detector",
+      "description": "REAPER JSFX prototype. A new static filter turns the GPU/VRM bursts down (hard between notes, gently under notes), and the note detector now also listens at 80-700 Hz.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T18:55:01.351249-04:00",
+      "images": [
+        {
+          "id": "272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418",
+          "title": "interference removed by mode",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 997,
+          "bytes": 89888,
+          "filename": "interference_removed_by_mode.png",
+          "original": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418.png",
+          "thumbnail": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-thumb.webp",
+          "preview": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-view.webp"
+        },
+        {
+          "id": "bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb",
+          "title": "note detector by band",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 864,
+          "bytes": 96109,
+          "filename": "note_detector_by_band.png",
+          "original": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb.png",
+          "thumbnail": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-thumb.webp",
+          "preview": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-view.webp"
+        },
+        {
+          "id": "2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b",
+          "title": "before vs after spectral",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 1130,
+          "bytes": 1667164,
+          "filename": "before_vs_after_spectral.png",
+          "original": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b.png",
+          "thumbnail": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-thumb.webp",
+          "preview": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-view.webp"
+        }
+      ],
+      "result": "Run through the real JSFX in ysfx on real in-game interference mixed with 5 clean guitar takes.\nInterference removed, between notes / under notes: spectral mode (+6 ms, default) 25.0 / 14.1 dB; zero-latency mode 22.7 / 12.2 dB; v0.7 tones only 3.5 / 0 dB.\nCost under notes: guitar above 2.5 kHz drops ~11 dB. Note decays kept within 0.6 dB.\nNote detector: caught 68-93% of real playing with the game running (v0.7 caught 0%), with 0% false alarms.\nChecks passed: synthetic regression identical to v0.7.1 with the static filter off; spectral path reconstructs bit-exactly with 256 samples of reported latency; output after a project save/reload matches a straight run to -147 dB; v0.7 projects still load (tones only until re-learn); no NaN/Inf in any run.\nFixed along the way: a subtractive-bandpass zero-latency design that only reached 5-11 dB, and a band split that shifted the low end's phase as bands opened (replaced with a Linkwitz-Riley split).\nNot yet judged by ear through the amp sim; the display's live-cut overlay compiles but hasn't been seen on screen.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T18:55:01.351249-04:00",
+          "text": "Run through the real JSFX in ysfx on real in-game interference mixed with 5 clean guitar takes.\nInterference removed, between notes / under notes: spectral mode (+6 ms, default) 25.0 / 14.1 dB; zero-latency mode 22.7 / 12.2 dB; v0.7 tones only 3.5 / 0 dB.\nCost under notes: guitar above 2.5 kHz drops ~11 dB. Note decays kept within 0.6 dB.\nNote detector: caught 68-93% of real playing with the game running (v0.7 caught 0%), with 0% false alarms.\nChecks passed: synthetic regression identical to v0.7.1 with the static filter off; spectral path reconstructs bit-exactly with 256 samples of reported latency; output after a project save/reload matches a straight run to -147 dB; v0.7 projects still load (tones only until re-learn); no NaN/Inf in any run.\nFixed along the way: a subtractive-bandpass zero-latency design that only reached 5-11 dB, and a band split that shifted the low end's phase as bands opened (replaced with a Linkwitz-Riley split).\nNot yet judged by ear through the amp sim; the display's live-cut overlay compiles but hasn't been seen on screen.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T18:55:01.351249-04:00"
+    },
+    {
+      "title": "EMI noise canceller: what the PC interference is",
+      "description": "Guitar DI recorded with the game running, hands off the strings. Target: an EMI denoiser for GPU coil whine, VRM switching noise and PC-fan induction, first in the chain before the amp sim.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T18:54:48.928440-04:00",
+      "images": [
+        {
+          "id": "15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204",
+          "title": "in-game interference spectrum",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 997,
+          "bytes": 152385,
+          "filename": "in-game_interference_spectrum.png",
+          "original": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204.png",
+          "thumbnail": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-thumb.webp",
+          "preview": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-view.webp"
+        },
+        {
+          "id": "2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492",
+          "title": "GPU bursts 40 ms",
+          "label": "Noise canceller",
+          "width": 1596,
+          "height": 864,
+          "bytes": 231705,
+          "filename": "GPU_bursts_40_ms.png",
+          "original": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492.png",
+          "thumbnail": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-thumb.webp",
+          "preview": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-view.webp"
+        }
+      ],
+      "result": "Interference enters through the pickups: a volume-knob swell next to the PC (idle desktop) gave -93 dBFS with the knob at 0 and -64 dBFS with it up. In-game it reaches -38 dBFS RMS, about 55 dB above the clean floor.\nTonal part, cancellable by the v0.7 tone canceller: mains harmonics from 60 to 2640 Hz and a ~177 Hz buzz at game launch. A small share of the energy.\nAbout 90% of the energy (2.5-10 kHz) is GPU/VRM bursts: ~140 per second, 2-3 ms each, ringing the pickup near 5.5 kHz. No narrow tones and no repeating waveform.\nFailed: 'close enough' cancellation of the bursts removes at most 0.9-1.4 dB even with perfect timing, gain and polarity. Bursts match each other for only ~0.5 ms and their spacing jitters 1.5-2.5 ms.\nConclusion: the tones can be phase-cancelled; the bursts can only be reduced from a single input.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-12T18:54:48.928440-04:00",
+          "text": "Interference enters through the pickups: a volume-knob swell next to the PC (idle desktop) gave -93 dBFS with the knob at 0 and -64 dBFS with it up. In-game it reaches -38 dBFS RMS, about 55 dB above the clean floor.\nTonal part, cancellable by the v0.7 tone canceller: mains harmonics from 60 to 2640 Hz and a ~177 Hz buzz at game launch. A small share of the energy.\nAbout 90% of the energy (2.5-10 kHz) is GPU/VRM bursts: ~140 per second, 2-3 ms each, ringing the pickup near 5.5 kHz. No narrow tones and no repeating waveform.\nFailed: 'close enough' cancellation of the bursts removes at most 0.9-1.4 dB even with perfect timing, gain and polarity. Bursts match each other for only ~0.5 ms and their spacing jitters 1.5-2.5 ms.\nConclusion: the tones can be phase-cancelled; the bursts can only be reduced from a single input.",
+          "status": "mixed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T18:54:48.928440-04:00"
+    }
+  ]
+}
