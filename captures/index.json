@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.9.4: gaps that catch up",
+      "description": "Travis heard 'a gap that doesn't catch up' and sparkles. Cause: with nobody playing, the note detector sometimes still said 'playing', so the gap got the gentle under-note cut and nothing re-tuned. Fixes: only the tests that actually catch notes count, a pick attack needs a 9 dB jump, a fast veto for game sound bursts, and an escape when a steady hum holds it. Also: Travis's extreme settings are now the defaults, and a test showed 1 s of learning works as well as 8 s (steady in-game noise). Harness tests, interference alone and with 5 clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T22:54:24.207301-04:00",
+      "images": [
+        {
+          "id": "0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082",
+          "title": "v094 false playing",
+          "label": "Audio",
+          "width": 1624,
+          "height": 788,
+          "bytes": 54545,
+          "filename": "v094_false_playing.png",
+          "original": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082.png",
+          "thumbnail": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-thumb.webp",
+          "preview": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-view.webp"
+        }
+      ],
+      "result": "Harness: wrongly 'playing' 7.6-10.8% -> 0% after state changes, hum +20 dB 74% -> 9%; steady play unchanged. Costs: the harsh movement simulation misses more guitar (34% vs 27%). Open: bursts under notes in quiet game states, noise getting much darker. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T22:54:24.207301-04:00",
+          "text": "Harness: wrongly 'playing' 7.6-10.8% -> 0% after state changes, hum +20 dB 74% -> 9%; steady play unchanged. Costs: the harsh movement simulation misses more guitar (34% vs 27%). Open: bursts under notes in quiet game states, noise getting much darker. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-12T22:54:24.207301-04:00"
+    },
+    {
       "title": "Noise canceller v0.9.3: following the noise while playing",
       "description": "Where the sparkles came from: following the interference only in gaps between notes left the filter stale while playing through a change, like leaning toward the PC. v0.9.3 measures the interference level every 1.5 ms from the 2.5-10 kHz median, notes or not; on real takes the guitar moves that by at most 0.4 dB. Harness tests on real in-game interference plus 5 clean takes, with Travis's settings. A first attempt, holding the top end down on sudden bursts, changed nothing and was dropped.",
       "date": "2026-10-12",
