@@ -13,9 +13,9 @@
           "label": "Noise canceller",
           "width": 1980,
           "height": 792,
-          "bytes": 82451,
-          "filename": "zero_latency_fine.png",
-          "original": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334.png",
+          "bytes": 25276,
+          "filename": "zero_latency_fine.webp",
+          "original": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334.webp",
           "thumbnail": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334-thumb.webp",
           "preview": "assets/2026-10-13/470d89012b31616ed861f514cc552c1b1b924255a191245f06e2d8aa018f8334-view.webp"
         }
@@ -83,9 +83,9 @@
           "label": "Noise canceller",
           "width": 1870,
           "height": 770,
-          "bytes": 109830,
-          "filename": "harmonic_protection.png",
-          "original": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476.png",
+          "bytes": 43744,
+          "filename": "harmonic_protection.webp",
+          "original": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476.webp",
           "thumbnail": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476-thumb.webp",
           "preview": "assets/2026-10-13/2361fdb2e267c8ab293e1e829b0640206ac0556937107b8c03750cabf0bbf476-view.webp"
         }
@@ -115,9 +115,9 @@
           "label": "Noise canceller",
           "width": 1980,
           "height": 726,
-          "bytes": 79562,
-          "filename": "v0131_crisp_attacks.png",
-          "original": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba.png",
+          "bytes": 24134,
+          "filename": "v0131_crisp_attacks.webp",
+          "original": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba.webp",
           "thumbnail": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-thumb.webp",
           "preview": "assets/2026-10-13/fd118939ccd1e0a2526d54d619afa3dd103d119477b61e5124afb3207662c9ba-view.webp"
         }
@@ -185,9 +185,9 @@
           "label": "Noise canceller",
           "width": 1740,
           "height": 788,
-          "bytes": 63149,
-          "filename": "v012_hum_tracking.png",
-          "original": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce.png",
+          "bytes": 18672,
+          "filename": "v012_hum_tracking.webp",
+          "original": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce.webp",
           "thumbnail": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-thumb.webp",
           "preview": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-view.webp"
         }
@@ -217,9 +217,9 @@
           "label": "Noise canceller",
           "width": 1624,
           "height": 788,
-          "bytes": 52503,
-          "filename": "v011_tones.png",
-          "original": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c.png",
+          "bytes": 16650,
+          "filename": "v011_tones.webp",
+          "original": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c.webp",
           "thumbnail": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-thumb.webp",
           "preview": "assets/2026-10-12/dae46bb2d8b450ddc02ea1b717a457d1c2503b72cb8b288737c6856160775f7c-view.webp"
         }
@@ -249,9 +249,9 @@
           "label": "Noise canceller",
           "width": 1856,
           "height": 788,
-          "bytes": 167903,
-          "filename": "v010_auto_learn.png",
-          "original": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c.png",
+          "bytes": 69584,
+          "filename": "v010_auto_learn.webp",
+          "original": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c.webp",
           "thumbnail": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-thumb.webp",
           "preview": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-view.webp"
         }
@@ -281,9 +281,9 @@
           "label": "Noise canceller",
           "width": 1624,
           "height": 788,
-          "bytes": 54545,
-          "filename": "v094_false_playing.png",
-          "original": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082.png",
+          "bytes": 17474,
+          "filename": "v094_false_playing.webp",
+          "original": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082.webp",
           "thumbnail": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-thumb.webp",
           "preview": "assets/2026-10-12/0ecb255a5572b15d3529eb9221d6f78794fdb3480b4693aba472f13d0051d082-view.webp"
         }
@@ -313,9 +313,9 @@
           "label": "Noise canceller",
           "width": 1914,
           "height": 835,
-          "bytes": 382337,
-          "filename": "v093_movement_timeline.png",
-          "original": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961.png",
+          "bytes": 140760,
+          "filename": "v093_movement_timeline.webp",
+          "original": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961.webp",
           "thumbnail": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-thumb.webp",
           "preview": "assets/2026-10-12/ba60f5948251c6dac741517437e8cd3f009ca0dc95cc619a0e280a89e8630961-view.webp"
         },
@@ -325,9 +325,9 @@
           "label": "Noise canceller",
           "width": 1392,
           "height": 765,
-          "bytes": 35536,
-          "filename": "v093_sparkles.png",
-          "original": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040.png",
+          "bytes": 11520,
+          "filename": "v093_sparkles.webp",
+          "original": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040.webp",
           "thumbnail": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-thumb.webp",
           "preview": "assets/2026-10-12/90cf330aea2c86479ea8c7e7c3164f68c673dd30aad538c11dbd41f702c23040-view.webp"
         }
@@ -433,9 +433,9 @@
           "label": "Noise canceller",
           "width": 1914,
           "height": 835,
-          "bytes": 102099,
-          "filename": "v0.8_vs_v0.9_across_game_states.png",
-          "original": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3.png",
+          "bytes": 32552,
+          "filename": "v0.8_vs_v0.9_across_game_states.webp",
+          "original": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3.webp",
           "thumbnail": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-thumb.webp",
           "preview": "assets/2026-10-12/a3d54f24254269e30da66d866498d4a404ef0e4b6303289bc589e7bfcbf197c3-view.webp"
         },
@@ -445,9 +445,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 1396,
-          "bytes": 2483227,
-          "filename": "game_gets_louder_before_v0.8_v0.9.png",
-          "original": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773.png",
+          "bytes": 675974,
+          "filename": "game_gets_louder_before_v0.8_v0.9.webp",
+          "original": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773.webp",
           "thumbnail": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-thumb.webp",
           "preview": "assets/2026-10-12/2181074552bb8a2a8429d7b6b189fac64cdfc38c2174766e2e7519fd7a070773-view.webp"
         }
@@ -477,9 +477,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 904,
-          "bytes": 104516,
-          "filename": "what_limits_the_filter_under_notes.png",
-          "original": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0.png",
+          "bytes": 33078,
+          "filename": "what_limits_the_filter_under_notes.webp",
+          "original": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0.webp",
           "thumbnail": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-thumb.webp",
           "preview": "assets/2026-10-12/5b8959ece36fedcbe93e8b8a2383779c1be9d8b00efbbc5f531ac42dbf10b0e0-view.webp"
         }
@@ -509,9 +509,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 997,
-          "bytes": 89888,
-          "filename": "interference_removed_by_mode.png",
-          "original": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418.png",
+          "bytes": 28336,
+          "filename": "interference_removed_by_mode.webp",
+          "original": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418.webp",
           "thumbnail": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-thumb.webp",
           "preview": "assets/2026-10-12/272984de7aeccdba1d6dd7f579e68b5d33b1e6dda6fb2cf8a73696e908c4c418-view.webp"
         },
@@ -521,9 +521,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 864,
-          "bytes": 96109,
-          "filename": "note_detector_by_band.png",
-          "original": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb.png",
+          "bytes": 31334,
+          "filename": "note_detector_by_band.webp",
+          "original": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb.webp",
           "thumbnail": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-thumb.webp",
           "preview": "assets/2026-10-12/bb7e7066216900b68d62d6621dd37b8c59e7af6a023c3be3bd30d126917f9ddb-view.webp"
         },
@@ -533,9 +533,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 1130,
-          "bytes": 1667164,
-          "filename": "before_vs_after_spectral.png",
-          "original": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b.png",
+          "bytes": 520740,
+          "filename": "before_vs_after_spectral.webp",
+          "original": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b.webp",
           "thumbnail": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-thumb.webp",
           "preview": "assets/2026-10-12/2daad5dc72be7e5c57990952ecdecdc9d3ab1907b078eb47dcc58ff566a8df9b-view.webp"
         }
@@ -565,9 +565,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 997,
-          "bytes": 152385,
-          "filename": "in-game_interference_spectrum.png",
-          "original": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204.png",
+          "bytes": 60522,
+          "filename": "in-game_interference_spectrum.webp",
+          "original": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204.webp",
           "thumbnail": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-thumb.webp",
           "preview": "assets/2026-10-12/15798b734809f43997c842215417f2122cf1d7246a48e328babf4d641c1ba204-view.webp"
         },
@@ -577,9 +577,9 @@
           "label": "Noise canceller",
           "width": 1596,
           "height": 864,
-          "bytes": 231705,
-          "filename": "GPU_bursts_40_ms.png",
-          "original": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492.png",
+          "bytes": 91602,
+          "filename": "GPU_bursts_40_ms.webp",
+          "original": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492.webp",
           "thumbnail": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-thumb.webp",
           "preview": "assets/2026-10-12/2666f06b8a8e509f3d6bfb8d9759953502271f5f8c74c929fde9b3a9d2e7f492-view.webp"
         }
