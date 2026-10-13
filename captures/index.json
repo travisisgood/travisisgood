@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.10: no more Learn button",
+      "description": "Travis's idea: drop the manual Learn step. A second of noise is enough, and the output stays muted while the plugin learns, so you never hear it. With no profile the plugin listens for a second with no guitar in it (no pick attack, a steady level, nothing ringing out, not right after an even riff), learns from it, then opens. After that it never hard-mutes: ring-outs survive, and the noise following keeps the profile current. Learn by hand moved under Advanced. Harness tests on real interference and clean takes.",
+      "date": "2026-10-12",
+      "created": "2026-10-12T23:19:24.094757-04:00",
+      "images": [
+        {
+          "id": "905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c",
+          "title": "v010 auto learn",
+          "label": "Audio",
+          "width": 1856,
+          "height": 788,
+          "bytes": 167903,
+          "filename": "v010_auto_learn.png",
+          "original": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c.png",
+          "thumbnail": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-thumb.webp",
+          "preview": "assets/2026-10-12/905879ffe324752ae7ccd29d804c16b8b62222dfc06923e1d0768dc0958b576c-view.webp"
+        }
+      ],
+      "result": "Harness: learns ~1.5 s after start, or 1.6 s after the guitar volume comes up; playing from the start, 0 of 28 runs learned the guitar; noise removal and guitar damage match an 8 s manual learn; gaps airtight. A 20 ms blip when the gate opened was found and fixed. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-12T23:19:24.094757-04:00",
+          "text": "Harness: learns ~1.5 s after start, or 1.6 s after the guitar volume comes up; playing from the start, 0 of 28 runs learned the guitar; noise removal and guitar damage match an 8 s manual learn; gaps airtight. A 20 ms blip when the gate opened was found and fixed. Not yet tried on the real rig.",
+          "status": "passed",
+          "label": "Audio"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-12T23:19:24.094757-04:00"
+    },
+    {
       "title": "Noise canceller v0.9.4: gaps that catch up",
       "description": "Travis heard 'a gap that doesn't catch up' and sparkles. Cause: with nobody playing, the note detector sometimes still said 'playing', so the gap got the gentle under-note cut and nothing re-tuned. Fixes: only the tests that actually catch notes count, a pick attack needs a 9 dB jump, a fast veto for game sound bursts, and an escape when a steady hum holds it. Also: Travis's extreme settings are now the defaults, and a test showed 1 s of learning works as well as 8 s (steady in-game noise). Harness tests, interference alone and with 5 clean takes.",
       "date": "2026-10-12",
