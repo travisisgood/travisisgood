@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.12: hum tracking under notes (A/B)",
+      "description": "Two overnight builds for Travis to A/B. Hum tracking gives each hum tone its own narrow listener (a 2 Hz-wide filter around the tone), so the hum keeps being measured while you play, with notes that sit right on a hum line detected and held off; it also tracks pitch drift. It's behind an A/B switch, default off. Tonal protection (telling sustained guitar partials from random GPU bursts by phase) was prototyped and dropped: in the top end the two don't separate, so it would have dulled the guitar. Harness tests: synthetic hum and buzz changes over real in-game interference, plus clean takes.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T00:06:03.285881-04:00",
+      "images": [
+        {
+          "id": "83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce",
+          "title": "v012 hum tracking",
+          "label": "Audio",
+          "width": 1740,
+          "height": 788,
+          "bytes": 63149,
+          "filename": "v012_hum_tracking.png",
+          "original": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce.png",
+          "thumbnail": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-thumb.webp",
+          "preview": "assets/2026-10-13/83587002b49cd58286eb66a669b20a4bc05cc684d9714bfb732ef4abde5102ce-view.webp"
+        }
+      ],
+      "result": "Hum tracking: hum +20 dB at 60 Hz removed under notes 18.1 -> 38.6 dB, 120/180 Hz 8/5 -> 24/25, new buzz 7.8 -> 20.5; guitar unchanged, notes tuned next to hum lines kept, CPU +2%, off = bit-identical to v0.11. Tonal protection failed: GPU noise coherence 0.32-0.44 vs guitar top end 0.5-0.6, not separable. Not yet tried on the real rig.",
+      "label": "Audio",
+      "results": [
+        {
+          "at": "2026-10-13T00:06:03.285881-04:00",
+          "text": "Hum tracking: hum +20 dB at 60 Hz removed under notes 18.1 -> 38.6 dB, 120/180 Hz 8/5 -> 24/25, new buzz 7.8 -> 20.5; guitar unchanged, notes tuned next to hum lines kept, CPU +2%, off = bit-identical to v0.11. Tonal protection failed: GPU noise coherence 0.32-0.44 vs guitar top end 0.5-0.6, not separable. Not yet tried on the real rig.",
+          "status": "mixed",
+          "label": "Audio"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-13T00:06:03.285881-04:00"
+    },
+    {
       "title": "Noise canceller v0.11: following new hum",
       "description": "The adaptive part, continued: the hum/buzz canceller now keeps learning in the gaps between notes. New steady tones join, each tone's cut limit follows its level (hum that got louder as you turned), and steadiness is re-checked. Two older problems were fixed along the way: a pick dragged the hum fit in the instant before the detector reacted and froze it wrong for the whole phrase (notes now start from a fit snapshot taken 6-12 ms before the pick), and locked tones now fade out under very long phrases before phase drift can add hum. Harness tests: synthetic hum and buzz changes over Travis's real in-game interference, plus clean takes.",
       "date": "2026-10-12",
