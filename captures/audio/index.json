@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Noise canceller v0.13.2: save, close, reopen",
+      "description": "Travis asked whether learned profiles survive save, close REAPER, reopen. New regression test: the plugin state is saved mid-take, loaded into a fresh instance, and its setup code runs again after loading (REAPER sometimes does that), then the output is compared with a run that never closed.",
+      "date": "2026-10-13",
+      "created": "2026-10-13T10:32:26.199651-04:00",
+      "images": [],
+      "result": "The profile survives in all three modes, with auto and manual learn, at 44.1/48/96 kHz: no re-learn, no mute, output within -57 to -72 dB of the never-closed run. Found and fixed: the 'let harmonics fade out' A/B switch held harmonics fully open in a reopened project until any slider moved (a value computed in the wrong order). Default sound unchanged. Also fixed a test-harness bug (ysfx dropped the A/B switch settings on save; REAPER itself doesn't). Untested without REAPER: if the plugin learns while its window is closed, REAPER may not ask to save on close; an explicit save still keeps the profile.",
+      "label": "Noise canceller",
+      "results": [
+        {
+          "at": "2026-10-13T10:32:26.199651-04:00",
+          "text": "The profile survives in all three modes, with auto and manual learn, at 44.1/48/96 kHz: no re-learn, no mute, output within -57 to -72 dB of the never-closed run. Found and fixed: the 'let harmonics fade out' A/B switch held harmonics fully open in a reopened project until any slider moved (a value computed in the wrong order). Default sound unchanged. Also fixed a test-harness bug (ysfx dropped the A/B switch settings on save; REAPER itself doesn't). Untested without REAPER: if the plugin learns while its window is closed, REAPER may not ask to save on close; an explicit save still keeps the profile.",
+          "status": "passed",
+          "label": "Noise canceller"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-13T10:32:26.199651-04:00"
+    },
+    {
       "title": "Noise canceller: port scaffolding and licensing",
       "description": "Ready for the C++ port once the sound passes Travis's listen. An iPlug2 project builds the plugin as VST3 and CLAP on Windows around a framework-free DSP core, which passes audio through for now. Every shipped dependency's license file was checked for GPL and for costs.",
       "date": "2026-10-13",
