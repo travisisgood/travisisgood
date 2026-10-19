@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2a0038">
+    <meta name="theme-color" content="#211c25">
     <title>fingerball · travisisgood</title>
     <meta name="description" content="fingerball: listen on Spotify, Apple Music, Deezer and more.">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Nunito', sans-serif;
-            background: linear-gradient(135deg, #2a0038, #1a0025);
+            font-family: 'Geist', system-ui, sans-serif;
+            background: linear-gradient(135deg, #211c25, #141216);
             background-attachment: fixed;
-            color: white;
+            color: #eeebf0;
             text-align: center;
             padding: 20px;
             margin: 0;
@@ -37,6 +37,7 @@
         h1 {
             font-size: 56px;
             font-weight: 700;
+            letter-spacing: -0.04em;
             margin: 0 0 10px;
             text-transform: lowercase;
         }
@@ -44,7 +45,7 @@
             width: 70%;
             max-width: 250px;
             height: 3px;
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(255, 255, 255, 0.18);
             margin: 20px 0;
             border-radius: 2px;
         }
@@ -52,7 +53,7 @@
             font-size: 15px;
             letter-spacing: .12em;
             text-transform: lowercase;
-            color: rgba(255, 255, 255, 0.65);
+            color: #a8a2ad;
             margin: 18px 0 4px;
         }
         .button {
@@ -64,20 +65,21 @@
             padding: 20px;
             margin: 12px;
             text-align: center;
-            background-color: #00cc66;
-            color: white;
+            background-color: #467c61;
+            color: #f4f2f5;
             text-decoration: none;
             font-size: 22px;
-            font-weight: bold;
+            font-weight: 600;
+            letter-spacing: -0.01em;
             border-radius: 10px;
             transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
             text-transform: lowercase;
             box-sizing: border-box;
         }
         .button:hover, .chip:hover {
-            background-color: #00ff7f;
+            background-color: #508b6d;
             transform: scale(1.05);
-            box-shadow: 0 0 10px rgba(0, 255, 127, 0.7);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
         }
         .button:active, .chip:active {
             transform: scale(0.95);
@@ -93,23 +95,23 @@
         .chip {
             padding: 10px 16px;
             border-radius: 10px;
-            background-color: rgba(0, 204, 102, 0.18);
-            border: 1px solid rgba(0, 255, 127, 0.45);
-            color: white;
+            background-color: rgba(70, 124, 97, 0.22);
+            border: 1px solid rgba(122, 184, 153, 0.4);
+            color: #eeebf0;
             text-decoration: none;
             font-size: 17px;
-            font-weight: bold;
+            font-weight: 600;
             text-transform: lowercase;
             transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
         }
         .home {
             margin-top: 36px;
-            color: rgba(255, 255, 255, 0.65);
+            color: #a8a2ad;
             text-decoration: none;
             font-size: 16px;
         }
-        .home:hover { color: white; }
-        a:focus-visible { outline: 3px solid #b5ffd9; outline-offset: 4px; }
+        .home:hover { color: #eeebf0; }
+        a:focus-visible { outline: 3px solid #a9d4bd; outline-offset: 4px; }
     </style>
 </head>
 <body>
