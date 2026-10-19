@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "Recall beacons - 1024-unit proximity",
+      "description": "Real rendered FaultLine client, isolated two-room fixture with checker textures. Nearest visible beacon activates automatically within 1024 units; walls and closed brush-door geometry block it, and leaving range retains the last destination. Screenshots show the closed and open doorway. Initial QC compile failed on a missing forward declaration; fixed before the successful run. Production workspace progs.dat matches the tested binary; game project repositories unchanged.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T17:29:43.611572-04:00",
+      "images": [
+        {
+          "id": "d319f120e1815803ab0b91eaa1280a8c9e3e32d74aaf8b39c32398636d1c95b1",
+          "title": "recall closed door0000",
+          "label": "Recall",
+          "width": 960,
+          "height": 540,
+          "bytes": 105242,
+          "filename": "recall_closed_door0000.webp",
+          "original": "assets/2026-10-19/d319f120e1815803ab0b91eaa1280a8c9e3e32d74aaf8b39c32398636d1c95b1.webp",
+          "thumbnail": "assets/2026-10-19/d319f120e1815803ab0b91eaa1280a8c9e3e32d74aaf8b39c32398636d1c95b1-thumb.webp",
+          "preview": "assets/2026-10-19/d319f120e1815803ab0b91eaa1280a8c9e3e32d74aaf8b39c32398636d1c95b1-view.webp"
+        },
+        {
+          "id": "ade381a2aa03ec314624e668983b1865976b9db2a2451c0324a3b4f14cfb53a6",
+          "title": "recall open door0000",
+          "label": "Recall",
+          "width": 960,
+          "height": 540,
+          "bytes": 105026,
+          "filename": "recall_open_door0000.webp",
+          "original": "assets/2026-10-19/ade381a2aa03ec314624e668983b1865976b9db2a2451c0324a3b4f14cfb53a6.webp",
+          "thumbnail": "assets/2026-10-19/ade381a2aa03ec314624e668983b1865976b9db2a2451c0324a3b4f14cfb53a6-thumb.webp",
+          "preview": "assets/2026-10-19/ade381a2aa03ec314624e668983b1865976b9db2a2451c0324a3b4f14cfb53a6-view.webp"
+        }
+      ],
+      "result": "PASS: 32 real-engine assertions, including 1024/1025 boundary, 3D distance, wall/door blocking, facing away, nearest selection, remembered destination, actor occlusion, dying-player exclusion, six-plane recall and ledge-grab acquisition. Canonical QC build: 0 warnings; FGD parity: 194 classes passed; LuaLS generation check passed.",
+      "label": "Recall",
+      "results": [
+        {
+          "at": "2026-10-19T17:29:43.611572-04:00",
+          "text": "PASS: 32 real-engine assertions, including 1024/1025 boundary, 3D distance, wall/door blocking, facing away, nearest selection, remembered destination, actor occlusion, dying-player exclusion, six-plane recall and ledge-grab acquisition. Canonical QC build: 0 warnings; FGD parity: 194 classes passed; LuaLS generation check passed.",
+          "status": "passed",
+          "label": "Recall"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-19T17:29:43.611572-04:00"
+    },
+    {
       "title": "Gravity grapple: three roll styles",
       "description": "Options > Game > Gravity Grapple now cycles Roll Back, Roll Right, Roll Left. Both sideways half rolls preserve heading and use the same distance-paced timing.",
       "date": "2026-10-11",
