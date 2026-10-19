@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2a0038">
+    <title>fingerball · travisisgood</title>
+    <meta name="description" content="fingerball: listen on Spotify, Apple Music, Deezer and more.">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(135deg, #2a0038, #1a0025);
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            animation: fadeIn 1s ease-in forwards;
+            padding: 6vh 0 8vh;
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin: 0 0 10px;
+            text-transform: lowercase;
+        }
+        .divider {
+            width: 70%;
+            max-width: 250px;
+            height: 3px;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 20px 0;
+            border-radius: 2px;
+        }
+        .label {
+            font-size: 15px;
+            letter-spacing: .12em;
+            text-transform: lowercase;
+            color: rgba(255, 255, 255, 0.65);
+            margin: 18px 0 4px;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            max-width: 300px;
+            padding: 20px;
+            margin: 12px;
+            text-align: center;
+            background-color: #00cc66;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+            text-transform: lowercase;
+            box-sizing: border-box;
+        }
+        .button:hover, .chip:hover {
+            background-color: #00ff7f;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 255, 127, 0.7);
+        }
+        .button:active, .chip:active {
+            transform: scale(0.95);
+        }
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            max-width: 480px;
+            margin-top: 8px;
+        }
+        .chip {
+            padding: 10px 16px;
+            border-radius: 10px;
+            background-color: rgba(0, 204, 102, 0.18);
+            border: 1px solid rgba(0, 255, 127, 0.45);
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            text-transform: lowercase;
+            transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+        }
+        .home {
+            margin-top: 36px;
+            color: rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .home:hover { color: white; }
+        a:focus-visible { outline: 3px solid #b5ffd9; outline-offset: 4px; }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>fingerball</h1>
+        <div class="divider"></div>
+        <div class="label">releases</div>
+        <a href="https://distrokid.com/hyperfollow/fingerball/fingerball-ep-iii" target="_blank" rel="noopener" class="button">💿 fingerball ep iii</a>
+        <a href="https://distrokid.com/hyperfollow/fingerball/fingerball-ep-ii" target="_blank" rel="noopener" class="button">💿 fingerball ep ii</a>
+        <a href="https://distrokid.com/hyperfollow/fingerball/fingerball-ep" target="_blank" rel="noopener" class="button">💿 fingerball ep i</a>
+        <div class="label">follow on</div>
+        <div class="chips">
+            <a href="https://open.spotify.com/artist/52fGgZWL38qHvtlrhMQcFd" target="_blank" rel="noopener" class="chip">spotify</a>
+            <a href="https://music.apple.com/us/artist/fingerball/1790089285" target="_blank" rel="noopener" class="chip">apple music</a>
+            <a href="https://www.deezer.com/artist/297856641" target="_blank" rel="noopener" class="chip">deezer</a>
+            <a href="https://www.iheart.com/artist/id-45387634/" target="_blank" rel="noopener" class="chip">iheartradio</a>
+        </div>
+        <a href="/" class="home">← travisisgood</a>
+    </div>
+</body>
+</html>
