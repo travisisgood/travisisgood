@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.1: first amp head and tube morpher",
+      "description": "The first DI Tube Lab amp-head prototype: 55 controls across six pages, editable custom tubes, five literature-based power-tube recipes, and an A/B tube-parameter morpher with linear or log spacing. Bake a blend into the manual controls and continue shaping it. Uses an external cabinet/IR loader.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T16:24:26.718235-04:00",
+      "images": [
+        {
+          "id": "eda2674b07b2bf586e4ae7347b7d15aabb91ba18c35a96b47a6f9c5863e35906",
+          "title": "Amp head: main controls",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 76426,
+          "filename": "amp-head.webp",
+          "original": "assets/2026-10-19/eda2674b07b2bf586e4ae7347b7d15aabb91ba18c35a96b47a6f9c5863e35906.webp",
+          "thumbnail": "assets/2026-10-19/eda2674b07b2bf586e4ae7347b7d15aabb91ba18c35a96b47a6f9c5863e35906-thumb.webp",
+          "preview": "assets/2026-10-19/eda2674b07b2bf586e4ae7347b7d15aabb91ba18c35a96b47a6f9c5863e35906-view.webp"
+        },
+        {
+          "id": "6c4eb3df4d086f5b0f35918278c2299fb3b32a825a42dad8f3990f4e725a6cf0",
+          "title": "Tube morpher: EL34 to KT88, log spacing",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 60248,
+          "filename": "tube-morph.webp",
+          "original": "assets/2026-10-19/6c4eb3df4d086f5b0f35918278c2299fb3b32a825a42dad8f3990f4e725a6cf0.webp",
+          "thumbnail": "assets/2026-10-19/6c4eb3df4d086f5b0f35918278c2299fb3b32a825a42dad8f3990f4e725a6cf0-thumb.webp",
+          "preview": "assets/2026-10-19/6c4eb3df4d086f5b0f35918278c2299fb3b32a825a42dad8f3990f4e725a6cf0-view.webp"
+        },
+        {
+          "id": "71b875de7b42969d3ca90249a635d5e6061d8a3eaef091ca31b10126b7dd17b6",
+          "title": "Custom preamp tube controls",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 57866,
+          "filename": "preamp-tube.webp",
+          "original": "assets/2026-10-19/71b875de7b42969d3ca90249a635d5e6061d8a3eaef091ca31b10126b7dd17b6.webp",
+          "thumbnail": "assets/2026-10-19/71b875de7b42969d3ca90249a635d5e6061d8a3eaef091ca31b10126b7dd17b6-thumb.webp",
+          "preview": "assets/2026-10-19/71b875de7b42969d3ca90249a635d5e6061d8a3eaef091ca31b10126b7dd17b6-view.webp"
+        },
+        {
+          "id": "9cebe51164e05d95c62ccd44e9b5adb60c0d473fa8fea8c3348ae990ed48dd81",
+          "title": "Stage bias and overload recovery",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 68760,
+          "filename": "bias-recovery.webp",
+          "original": "assets/2026-10-19/9cebe51164e05d95c62ccd44e9b5adb60c0d473fa8fea8c3348ae990ed48dd81.webp",
+          "thumbnail": "assets/2026-10-19/9cebe51164e05d95c62ccd44e9b5adb60c0d473fa8fea8c3348ae990ed48dd81-thumb.webp",
+          "preview": "assets/2026-10-19/9cebe51164e05d95c62ccd44e9b5adb60c0d473fa8fea8c3348ae990ed48dd81-view.webp"
+        },
+        {
+          "id": "b9597eade16fa93dabebe86ae7f3a9967ff5da893b907a7fa30680d29c682223",
+          "title": "Power tube controls: EL34 recipe",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 75942,
+          "filename": "power-tube-el34.webp",
+          "original": "assets/2026-10-19/b9597eade16fa93dabebe86ae7f3a9967ff5da893b907a7fa30680d29c682223.webp",
+          "thumbnail": "assets/2026-10-19/b9597eade16fa93dabebe86ae7f3a9967ff5da893b907a7fa30680d29c682223-thumb.webp",
+          "preview": "assets/2026-10-19/b9597eade16fa93dabebe86ae7f3a9967ff5da893b907a7fa30680d29c682223-view.webp"
+        },
+        {
+          "id": "9cc897aeaa6714ca41209084457284c7d4ee64f5eedac09675d21151367d62b1",
+          "title": "Alternative material from the DI family",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 149420,
+          "filename": "family-material.webp",
+          "original": "assets/2026-10-19/9cc897aeaa6714ca41209084457284c7d4ee64f5eedac09675d21151367d62b1.webp",
+          "thumbnail": "assets/2026-10-19/9cc897aeaa6714ca41209084457284c7d4ee64f5eedac09675d21151367d62b1-thumb.webp",
+          "preview": "assets/2026-10-19/9cc897aeaa6714ca41209084457284c7d4ee64f5eedac09675d21151367d62b1-view.webp"
+        }
+      ],
+      "result": "Final build: VST3 47/47; CLAP 35 passed, 0 failed and 0 warnings (9 optional/platform skips); 250 linear/log morph combinations checked. An initial subnormal-output failure and stale selector labels were fixed before the final checks. Fixed 4x oversampling, 32 samples latency (0.67 ms at 48 kHz); about 20% of one core for mono at 48 kHz on this PC. Real DI/IR tone audition is still pending.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-19T16:24:26.718235-04:00",
+          "text": "Final build: VST3 47/47; CLAP 35 passed, 0 failed and 0 warnings (9 optional/platform skips); 250 linear/log morph combinations checked. An initial subnormal-output failure and stale selector labels were fixed before the final checks. Fixed 4x oversampling, 32 samples latency (0.67 ms at 48 kHz); about 20% of one core for mono at 48 kHz on this PC. Real DI/IR tone audition is still pending.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-19T16:24:26.718235-04:00"
+    },
+    {
       "title": "Noise canceller v0.13.3: zero latency, fine filter (A/B)",
       "description": "Travis: a competitor (4D Audio ShutUp) claims 0 ms latency, so our zero-latency mode should match our best mode. The old zero-latency mode cut wide 1/3-octave bands, which open whole for any guitar harmonic. The new A/B switch uses best mode's per-bin gains (172 Hz bins), turned every 32 samples into a minimum-phase filter that runs on the live input with no delay (a filter-bank equalizer). Below 1 kHz it stays open while playing, so pick attacks pass.",
       "date": "2026-10-13",
