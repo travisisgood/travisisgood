@@ -2,6 +2,98 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.2: direct tube editing and rectifier supply",
+      "description": "Native amp prototype with direct coefficient editing, Values modified indicator, same-position blend restoration, and a separate editable rectifier power supply. Silicon and custom vacuum modes charge a reservoir; stiff, soft and twin vacuum experiments are not measured GZ34/5U4 fits or a complete Dual Rectifier clone. Seven pages, 66 visible controls. Existing audition tone stays the default. Real DI/mix listening remains to be done.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T18:56:07.608066-04:00",
+      "images": [
+        {
+          "id": "3aa17826099878f4d1d98cc7a1e569de7772b5d0e12557030fa66f6735eed5d1",
+          "title": "amp-head",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 86800,
+          "filename": "amp-head.webp",
+          "original": "assets/2026-10-19/3aa17826099878f4d1d98cc7a1e569de7772b5d0e12557030fa66f6735eed5d1.webp",
+          "thumbnail": "assets/2026-10-19/3aa17826099878f4d1d98cc7a1e569de7772b5d0e12557030fa66f6735eed5d1-thumb.webp",
+          "preview": "assets/2026-10-19/3aa17826099878f4d1d98cc7a1e569de7772b5d0e12557030fa66f6735eed5d1-view.webp"
+        },
+        {
+          "id": "a59a781aca7c6987310ff6f3fd127cf51c99817a229b48a8c7732538c09bc7d6",
+          "title": "tube-morph",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 68626,
+          "filename": "tube-morph.webp",
+          "original": "assets/2026-10-19/a59a781aca7c6987310ff6f3fd127cf51c99817a229b48a8c7732538c09bc7d6.webp",
+          "thumbnail": "assets/2026-10-19/a59a781aca7c6987310ff6f3fd127cf51c99817a229b48a8c7732538c09bc7d6-thumb.webp",
+          "preview": "assets/2026-10-19/a59a781aca7c6987310ff6f3fd127cf51c99817a229b48a8c7732538c09bc7d6-view.webp"
+        },
+        {
+          "id": "67691c0291d88c3baec5df3a98f0a286686cfef8c4c1d5ffbe8b3a6bc05185a2",
+          "title": "morph-modified",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 67840,
+          "filename": "morph-modified.webp",
+          "original": "assets/2026-10-19/67691c0291d88c3baec5df3a98f0a286686cfef8c4c1d5ffbe8b3a6bc05185a2.webp",
+          "thumbnail": "assets/2026-10-19/67691c0291d88c3baec5df3a98f0a286686cfef8c4c1d5ffbe8b3a6bc05185a2-thumb.webp",
+          "preview": "assets/2026-10-19/67691c0291d88c3baec5df3a98f0a286686cfef8c4c1d5ffbe8b3a6bc05185a2-view.webp"
+        },
+        {
+          "id": "6261bcf38314c6c0546b48e1acae5bc71cf64ea9caa5d6c0e537167fb5ecf53b",
+          "title": "rectifier-silicon",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 85176,
+          "filename": "rectifier-silicon.webp",
+          "original": "assets/2026-10-19/6261bcf38314c6c0546b48e1acae5bc71cf64ea9caa5d6c0e537167fb5ecf53b.webp",
+          "thumbnail": "assets/2026-10-19/6261bcf38314c6c0546b48e1acae5bc71cf64ea9caa5d6c0e537167fb5ecf53b-thumb.webp",
+          "preview": "assets/2026-10-19/6261bcf38314c6c0546b48e1acae5bc71cf64ea9caa5d6c0e537167fb5ecf53b-view.webp"
+        },
+        {
+          "id": "63abf9128df626174d538bbb86a995aeeea794f19a63e76f84ad67db022b62b4",
+          "title": "rectifier-twin",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 85394,
+          "filename": "rectifier-twin.webp",
+          "original": "assets/2026-10-19/63abf9128df626174d538bbb86a995aeeea794f19a63e76f84ad67db022b62b4.webp",
+          "thumbnail": "assets/2026-10-19/63abf9128df626174d538bbb86a995aeeea794f19a63e76f84ad67db022b62b4-thumb.webp",
+          "preview": "assets/2026-10-19/63abf9128df626174d538bbb86a995aeeea794f19a63e76f84ad67db022b62b4-view.webp"
+        },
+        {
+          "id": "3d1c1e68707d9b938629470612bdcee83452162a2f46f73fa24eb9fc1b3a1a2e",
+          "title": "family-material",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 85690,
+          "filename": "family-material.webp",
+          "original": "assets/2026-10-19/3d1c1e68707d9b938629470612bdcee83452162a2f46f73fa24eb9fc1b3a1a2e.webp",
+          "thumbnail": "assets/2026-10-19/3d1c1e68707d9b938629470612bdcee83452162a2f46f73fa24eb9fc1b3a1a2e-thumb.webp",
+          "preview": "assets/2026-10-19/3d1c1e68707d9b938629470612bdcee83452162a2f46f73fa24eb9fc1b3a1a2e-view.webp"
+        }
+      ],
+      "result": "PASS final build: VST3 47/47; CLAP 35 passed, 0 failed, 0 warnings, 9 optional skips. Core tube/blend and rectifier conservation, ripple, load-step recovery, allocation and block checks passed. Twelve native UI scenarios passed fresh-instance parameter/state round trips; blend/edit/reapply and silicon/twin values independently checked. Earlier derived-parameter cache and test-coordinate/ID failures were corrected before this final run. Audio convergence rerun; packaged plugin hashes match validated binaries.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-19T18:56:07.608066-04:00",
+          "text": "PASS final build: VST3 47/47; CLAP 35 passed, 0 failed, 0 warnings, 9 optional skips. Core tube/blend and rectifier conservation, ripple, load-step recovery, allocation and block checks passed. Twelve native UI scenarios passed fresh-instance parameter/state round trips; blend/edit/reapply and silicon/twin values independently checked. Earlier derived-parameter cache and test-coordinate/ID failures were corrected before this final run. Audio convergence rerun; packaged plugin hashes match validated binaries.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-19T18:56:07.608066-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.1: first amp head and tube morpher",
       "description": "The first DI Tube Lab amp-head prototype: 55 controls across six pages, editable custom tubes, five literature-based power-tube recipes, and an A/B tube-parameter morpher with linear or log spacing. Bake a blend into the manual controls and continue shaping it. Uses an external cabinet/IR loader.",
       "date": "2026-10-19",
