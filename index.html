@@ -63,6 +63,16 @@
             transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
             text-transform: lowercase;
         }
+        .button {
+            flex-direction: column;
+            gap: 2px;
+        }
+        .button .kind {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            opacity: .75;
+        }
         .button:hover {
             background-color: #00ff7f;
             transform: scale(1.05);
@@ -77,9 +87,9 @@
     <div class="content-wrapper">
         <h1>my stuff</h1>
         <div class="divider"></div>
-        <a href="/fingerball/" class="button">🎵 fingerball</a>
-        <a href="https://store.steampowered.com/app/2947110/Core_Descent/" target="_blank" class="button">🎮 core descent</a>
-        <a href="https://travisgood3.gumroad.com/l/di-denoiser" target="_blank" class="button">🎸 di denoiser</a>
+        <a href="/fingerball/" class="button"><span class="kind">music</span>fingerball</a>
+        <a href="https://store.steampowered.com/app/2947110/Core_Descent/" target="_blank" class="button"><span class="kind">game</span>core descent</a>
+        <a href="https://travisgood3.gumroad.com/l/di-denoiser" target="_blank" class="button"><span class="kind">audio plugin</span>di denoiser</a>
     </div>
 </body>
 </html>
