@@ -2,6 +2,158 @@
   "version": 1,
   "albums": [
     {
+      "title": "Palette controllers - trigger-driven presets",
+      "description": "New func_palette presets are activated by ordinary trigger target/targetname wiring. Worldspawn palette controls removed from the editor; existing maps remain compatible. Captures show directional presets, a mid-fade transition, interrupted fade continuity, fixed room colour, grayscale detail and text. The first image records the initial incomplete-LUT failure, corrected before deployment. The existing glued/frozen text issue is unchanged from the deployed engine baseline.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T18:45:28.023200-04:00",
+      "images": [
+        {
+          "id": "a85604f7c3435b2e248d7600398794353f700a5523a91d299d30d6c595228e44",
+          "title": "01-initial-lookup-failure-before-fix",
+          "label": "Palettes",
+          "width": 1000,
+          "height": 700,
+          "bytes": 106,
+          "filename": "01-initial-lookup-failure-before-fix.webp",
+          "original": "assets/2026-10-19/a85604f7c3435b2e248d7600398794353f700a5523a91d299d30d6c595228e44.webp",
+          "thumbnail": "assets/2026-10-19/a85604f7c3435b2e248d7600398794353f700a5523a91d299d30d6c595228e44-thumb.webp",
+          "preview": "assets/2026-10-19/a85604f7c3435b2e248d7600398794353f700a5523a91d299d30d6c595228e44-view.webp"
+        },
+        {
+          "id": "1e7dc8d5c367c0c57427ca0ae21b9c6d7496c8e7c82247475eef5c4a90cbb5ab",
+          "title": "02-directional-floor-red",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 25788,
+          "filename": "02-directional-floor-red.webp",
+          "original": "assets/2026-10-19/1e7dc8d5c367c0c57427ca0ae21b9c6d7496c8e7c82247475eef5c4a90cbb5ab.webp",
+          "thumbnail": "assets/2026-10-19/1e7dc8d5c367c0c57427ca0ae21b9c6d7496c8e7c82247475eef5c4a90cbb5ab-thumb.webp",
+          "preview": "assets/2026-10-19/1e7dc8d5c367c0c57427ca0ae21b9c6d7496c8e7c82247475eef5c4a90cbb5ab-view.webp"
+        },
+        {
+          "id": "7a67661831205cce39becd41b73a565b7ed2e6c7b26788b864e521767f89723b",
+          "title": "03-directional-east-wall-green",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 26610,
+          "filename": "03-directional-east-wall-green.webp",
+          "original": "assets/2026-10-19/7a67661831205cce39becd41b73a565b7ed2e6c7b26788b864e521767f89723b.webp",
+          "thumbnail": "assets/2026-10-19/7a67661831205cce39becd41b73a565b7ed2e6c7b26788b864e521767f89723b-thumb.webp",
+          "preview": "assets/2026-10-19/7a67661831205cce39becd41b73a565b7ed2e6c7b26788b864e521767f89723b-view.webp"
+        },
+        {
+          "id": "ce2e3541b09c0e17cba1837d8ae88eed287ef083c9392f037ec82c679a9fb7f3",
+          "title": "04-midway-red-to-green",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 46948,
+          "filename": "04-midway-red-to-green.webp",
+          "original": "assets/2026-10-19/ce2e3541b09c0e17cba1837d8ae88eed287ef083c9392f037ec82c679a9fb7f3.webp",
+          "thumbnail": "assets/2026-10-19/ce2e3541b09c0e17cba1837d8ae88eed287ef083c9392f037ec82c679a9fb7f3-thumb.webp",
+          "preview": "assets/2026-10-19/ce2e3541b09c0e17cba1837d8ae88eed287ef083c9392f037ec82c679a9fb7f3-view.webp"
+        },
+        {
+          "id": "6ee27e0ad4005c09675f4858a8aa04fb5c9af1489e3edd476bc1e3be702130a8",
+          "title": "05-directional-floor-green",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 30696,
+          "filename": "05-directional-floor-green.webp",
+          "original": "assets/2026-10-19/6ee27e0ad4005c09675f4858a8aa04fb5c9af1489e3edd476bc1e3be702130a8.webp",
+          "thumbnail": "assets/2026-10-19/6ee27e0ad4005c09675f4858a8aa04fb5c9af1489e3edd476bc1e3be702130a8-thumb.webp",
+          "preview": "assets/2026-10-19/6ee27e0ad4005c09675f4858a8aa04fb5c9af1489e3edd476bc1e3be702130a8-view.webp"
+        },
+        {
+          "id": "d183ba3beaf5021a1c756fb0cb659f412890ba48b61270693add6eaf8ae8bc5f",
+          "title": "06-interrupted-fade-before",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 46926,
+          "filename": "06-interrupted-fade-before.webp",
+          "original": "assets/2026-10-19/d183ba3beaf5021a1c756fb0cb659f412890ba48b61270693add6eaf8ae8bc5f.webp",
+          "thumbnail": "assets/2026-10-19/d183ba3beaf5021a1c756fb0cb659f412890ba48b61270693add6eaf8ae8bc5f-thumb.webp",
+          "preview": "assets/2026-10-19/d183ba3beaf5021a1c756fb0cb659f412890ba48b61270693add6eaf8ae8bc5f-view.webp"
+        },
+        {
+          "id": "977d9d3c19c1d449c9d36a556f3cc1f32d61bb8f85cf3c0a6513e49dd9a778fa",
+          "title": "07-interrupted-fade-after",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 46926,
+          "filename": "07-interrupted-fade-after.webp",
+          "original": "assets/2026-10-19/977d9d3c19c1d449c9d36a556f3cc1f32d61bb8f85cf3c0a6513e49dd9a778fa.webp",
+          "thumbnail": "assets/2026-10-19/977d9d3c19c1d449c9d36a556f3cc1f32d61bb8f85cf3c0a6513e49dd9a778fa-thumb.webp",
+          "preview": "assets/2026-10-19/977d9d3c19c1d449c9d36a556f3cc1f32d61bb8f85cf3c0a6513e49dd9a778fa-view.webp"
+        },
+        {
+          "id": "bad902dc66bd80eef192994664d3ac81ae7850b5b5469975ea42b3f0e5bcead1",
+          "title": "08-fixed-room-blue",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 26054,
+          "filename": "08-fixed-room-blue.webp",
+          "original": "assets/2026-10-19/bad902dc66bd80eef192994664d3ac81ae7850b5b5469975ea42b3f0e5bcead1.webp",
+          "thumbnail": "assets/2026-10-19/bad902dc66bd80eef192994664d3ac81ae7850b5b5469975ea42b3f0e5bcead1-thumb.webp",
+          "preview": "assets/2026-10-19/bad902dc66bd80eef192994664d3ac81ae7850b5b5469975ea42b3f0e5bcead1-view.webp"
+        },
+        {
+          "id": "3dece865f32896104407f8000794177887c19a8b15773b1a0b444cbe2451dc17",
+          "title": "09-grayscale-scene-detail",
+          "label": "Palettes",
+          "width": 800,
+          "height": 450,
+          "bytes": 72280,
+          "filename": "09-grayscale-scene-detail.webp",
+          "original": "assets/2026-10-19/3dece865f32896104407f8000794177887c19a8b15773b1a0b444cbe2451dc17.webp",
+          "thumbnail": "assets/2026-10-19/3dece865f32896104407f8000794177887c19a8b15773b1a0b444cbe2451dc17-thumb.webp",
+          "preview": "assets/2026-10-19/3dece865f32896104407f8000794177887c19a8b15773b1a0b444cbe2451dc17-view.webp"
+        },
+        {
+          "id": "c633d4e5f10797124c69225a2048e1bfa2ae423f966695c8ab5b395519233d97",
+          "title": "10-text-and-band-dither",
+          "label": "Palettes",
+          "width": 1000,
+          "height": 700,
+          "bytes": 6704,
+          "filename": "10-text-and-band-dither.webp",
+          "original": "assets/2026-10-19/c633d4e5f10797124c69225a2048e1bfa2ae423f966695c8ab5b395519233d97.webp",
+          "thumbnail": "assets/2026-10-19/c633d4e5f10797124c69225a2048e1bfa2ae423f966695c8ab5b395519233d97-thumb.webp",
+          "preview": "assets/2026-10-19/c633d4e5f10797124c69225a2048e1bfa2ae423f966695c8ab5b395519233d97-view.webp"
+        },
+        {
+          "id": "e0ae7d14a887ca84256e28f79373a55a1e64f30371438a5395f594d3889161da",
+          "title": "11-existing-glued-text-limitation",
+          "label": "Palettes",
+          "width": 1000,
+          "height": 700,
+          "bytes": 10228,
+          "filename": "11-existing-glued-text-limitation.webp",
+          "original": "assets/2026-10-19/e0ae7d14a887ca84256e28f79373a55a1e64f30371438a5395f594d3889161da.webp",
+          "thumbnail": "assets/2026-10-19/e0ae7d14a887ca84256e28f79373a55a1e64f30371438a5395f594d3889161da-thumb.webp",
+          "preview": "assets/2026-10-19/e0ae7d14a887ca84256e28f79373a55a1e64f30371438a5395f594d3889161da-view.webp"
+        }
+      ],
+      "result": "PASS: 28 real-client assertions, 15 image checks, 5 rendering-baseline comparisons, 195-class FGD parity, generated FGD/LuaLS checks and C room-fade regression. Canonical QC: zero warnings. MIXED broader suite: glued/frozen text each changes 3850/10716 glyph pixels identically in the old and new engines; banding, pixelation, scaled text and room/mapping fades pass. Initial build/interface and title-overlay checks were corrected, and incomplete lookup mip settings were fixed.",
+      "label": "Palettes",
+      "results": [
+        {
+          "at": "2026-10-19T18:45:28.023200-04:00",
+          "text": "PASS: 28 real-client assertions, 15 image checks, 5 rendering-baseline comparisons, 195-class FGD parity, generated FGD/LuaLS checks and C room-fade regression. Canonical QC: zero warnings. MIXED broader suite: glued/frozen text each changes 3850/10716 glyph pixels identically in the old and new engines; banding, pixelation, scaled text and room/mapping fades pass. Initial build/interface and title-overlay checks were corrected, and incomplete lookup mip settings were fixed.",
+          "status": "mixed",
+          "label": "Palettes"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-19T18:45:28.023200-04:00"
+    },
+    {
       "title": "Recall beacons - 1024-unit proximity",
       "description": "Real rendered FaultLine client, isolated two-room fixture with checker textures. Nearest visible beacon activates automatically within 1024 units; walls and closed brush-door geometry block it, and leaving range retains the last destination. Screenshots show the closed and open doorway. Initial QC compile failed on a missing forward declaration; fixed before the successful run. Production workspace progs.dat matches the tested binary; game project repositories unchanged.",
       "date": "2026-10-19",
