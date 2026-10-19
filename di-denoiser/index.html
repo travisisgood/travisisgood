@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a0025">
+  <title>DI Denoiser · travisisgood</title>
+  <meta name="description" content="Hear DI Denoiser off and on: the same take, through a high-gain amp sim. A zero-latency noise remover for guitar and bass DIs.">
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #1a0025; color: #f9f5fb;
+            --text: #f9f5fb; --muted: #c7b4ce; --green: #00cc66; --accent: #00cc66; --ink: #062410;
+            --well: #2b1338; --edge: #ffffff28; --on: #00cc66; --off: #ff6a77; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(ellipse at top left, #330a44, transparent 70%); min-height: 100vh; }
+    a { color: inherit; }
+    header { max-width: 1440px; margin: auto; padding: 28px 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid #ffffff15; }
+    .home { font-weight: 750; text-decoration: none; letter-spacing: -.03em; font-size: 23px; }
+    header span, footer { color: var(--muted); font-size: 13px; }
+    main { max-width: 760px; padding: 52px 32px 32px; margin: auto; }
+    .eyebrow { color: var(--green); text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 750; margin: 0; }
+    h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1.06; letter-spacing: -.05em; margin: 18px 0; }
+    .intro p.lede { color: var(--muted); line-height: 1.7; font-size: 17px; margin: 0 0 34px; }
+    .card { background: #ffffff06; border: 1px solid #ffffff14; border-radius: 16px; padding: 24px; }
+    .card h2 { margin: 0 0 18px; font-size: 13px; color: var(--green); text-transform: uppercase; letter-spacing: .08em; font-weight: 750; }
+    .buy { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin: 30px 0 40px; }
+    .action { text-decoration: none; background: var(--green); border-radius: 9px; color: var(--ink); padding: 13px 18px; font-weight: 700; }
+    .buy span { color: var(--muted); font-size: 14px; }
+    .shot { display: block; width: 100%; height: auto; border-radius: 12px; }
+    button:focus-visible, a:focus-visible, .sw:focus-visible { outline: 3px solid #b5ffd9; outline-offset: 4px; }
+    footer { max-width: 760px; margin: auto; padding: 0 32px 36px; line-height: 1.6; }
+    @media (max-width: 600px) { header { padding: 22px 20px; } header span { display: none; } main { padding: 35px 20px 24px; } .card { padding: 18px; } footer { padding: 0 20px 28px; } }
+
+.clips { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 20px; }
+@media (max-width: 480px) { .clips { grid-template-columns: repeat(2, 1fr); } }
+.clips button { background: var(--well); color: var(--muted); border: 1px solid var(--edge); border-radius: 9px; padding: 11px 4px; font: inherit; font-size: 14px; cursor: pointer; }
+.clips button.sel { color: var(--text); border-color: var(--accent); }
+.row { display: flex; align-items: center; gap: 14px; }
+.play { width: 54px; height: 54px; border-radius: 50%; border: none; background: var(--accent); color: var(--ink); font-size: 20px; cursor: pointer; flex: none; }
+.bar { flex: 1; height: 8px; background: var(--well); border-radius: 4px; overflow: hidden; cursor: pointer; }
+.bar div { height: 100%; width: 0; background: var(--accent); }
+.time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; width: 44px; text-align: right; }
+.toggle { margin-top: 22px; display: flex; align-items: center; justify-content: center; gap: 14px; user-select: none; }
+.toggle span { font-weight: 750; letter-spacing: .1em; font-size: 14px; color: var(--muted); }
+.toggle span.lit.off { color: var(--off); } .toggle span.lit.on { color: var(--on); }
+.sw { width: 74px; height: 36px; border-radius: 18px; background: var(--well); border: 1px solid var(--edge); position: relative; cursor: pointer; }
+.sw::after { content: ""; position: absolute; top: 3px; left: 3px; width: 28px; height: 28px; border-radius: 50%; background: var(--off); transition: left .12s, background .12s; }
+.sw.on::after { left: 41px; background: var(--on); }
+.note { margin: 16px 0 0; text-align: center; color: var(--muted); font-size: 13px; }
+
+  </style>
+</head>
+<body>
+  <header><a class="home" href="/">travisisgood</a><span>Software development</span></header>
+  <main>
+    <div class="intro">
+      <p class="eyebrow">Audio plug-in · Windows VST3 / CLAP</p>
+      <h1>DI Denoiser</h1>
+      <p class="lede">Removes the noise your pickups catch from your PC: GPU whine, VRM buzz and mains hum. Zero latency, it learns
+        the noise by itself, and your notes ring out while the gaps go silent.</p>
+    </div>
+    <section class="card" aria-label="Off and on comparison">
+      <h2>Same take, off and on</h2>
+      <div class="clips" id="clips"></div>
+  <div class="row"><button class="play" id="play" aria-label="Play">&#9654;</button>
+    <div class="bar" id="bar"><div id="fill"></div></div><div class="time" id="time">0:00</div></div>
+  <div class="toggle"><span id="lOff" class="lit off">OFF</span><div class="sw" id="sw" role="switch" aria-checked="false" aria-label="DI Denoiser on" tabindex="0"></div><span id="lOn" class="on">ON</span></div>
+  <p class="note">Through a high-gain amp sim, PC noise and all. Flip it while it plays.</p>
+    </section>
+    <div class="buy"><a class="action" href="https://travisgood3.gumroad.com/l/di-denoiser">Get DI Denoiser</a><span>On Gumroad. No licence key, no account, no activation.</span></div>
+    <img class="shot" src="plugin.webp" width="1200" height="810" alt="The DI Denoiser plug-in window, cutting in-game noise above 1 kHz while a guitar plays.">
+  </main>
+  <footer>DI Denoiser by Travis MacKinnon.</footer>
+<script>
+const CLIPS = [
+{name: "Open strings", off: "audio/1_open_string_off.mp3", on: "audio/1_open_string_on.mp3"},
+{name: "Palm muted", off: "audio/2_palm_muted_off.mp3", on: "audio/2_palm_muted_on.mp3"},
+{name: "Slap / thump", off: "audio/3_slap_thump_off.mp3", on: "audio/3_slap_thump_on.mp3"},
+{name: "Ring-out", off: "audio/4_ringout_off.mp3", on: "audio/4_ringout_on.mp3"}
+];
+let ctx, gOff, gOn, srcs = [], bufs = {}, cur = 0, on = false, playing = false, t0 = 0, pos = 0;
+const $ = id => document.getElementById(id);
+const load = url => fetch(url).then(r => r.arrayBuffer());
+function buffers(i) {
+  if (!bufs[i]) bufs[i] = Promise.all([load(CLIPS[i].off), load(CLIPS[i].on)])
+    .then(([a, b]) => Promise.all([ctx.decodeAudioData(a), ctx.decodeAudioData(b)]));
+  return bufs[i];
+}
+function stop() { srcs.forEach(s => { try { s.stop(); } catch (e) {} }); srcs = []; }
+async function start(at) {
+  const [bOff, bOn] = await buffers(cur);
+  stop();
+  // both renders start on the same sample of the audio clock, so they stay locked for as long as they play
+  const when = ctx.currentTime + 0.03;
+  [[bOff, gOff], [bOn, gOn]].forEach(([b, g]) => { const s = ctx.createBufferSource(); s.buffer = b; s.loop = true; s.connect(g); s.start(when, at % b.duration); srcs.push(s); });
+  t0 = when - at; playing = true; $('play').innerHTML = '&#10074;&#10074;'; $('play').setAttribute('aria-label', 'Pause');
+}
+async function play() {
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    gOff = ctx.createGain(); gOn = ctx.createGain(); gOff.connect(ctx.destination); gOn.connect(ctx.destination);
+    gOff.gain.value = on ? 0 : 1; gOn.gain.value = on ? 1 : 0;
+  }
+  if (playing) { pos = Math.max(0, ctx.currentTime - t0); stop(); playing = false; $('play').innerHTML = '&#9654;'; $('play').setAttribute('aria-label', 'Play'); return; }
+  await ctx.resume(); await start(pos);
+}
+function setOn(v) {
+  on = v; $('sw').classList.toggle('on', on); $('sw').setAttribute('aria-checked', on);
+  $('lOn').classList.toggle('lit', on); $('lOff').classList.toggle('lit', !on);
+  if (!ctx) return;
+  // the two renders are near opposite in phase after the amp (the band split's phase shift), so a crossfade dips for
+  // its few milliseconds instead of summing; 12 ms keeps it short and click-free
+  const t = ctx.currentTime, a = on ? gOff : gOn, b = on ? gOn : gOff;
+  a.gain.cancelScheduledValues(t); b.gain.cancelScheduledValues(t);
+  a.gain.setValueAtTime(a.gain.value, t); a.gain.linearRampToValueAtTime(0, t + 0.012);
+  b.gain.setValueAtTime(b.gain.value, t); b.gain.linearRampToValueAtTime(1, t + 0.012);
+}
+function pick(i) {
+  cur = i; pos = 0;
+  document.querySelectorAll('.clips button').forEach((b, k) => b.classList.toggle('sel', k === i));
+  if (playing) start(0);
+}
+CLIPS.forEach((c, i) => { const b = document.createElement('button'); b.textContent = c.name; b.onclick = () => pick(i); $('clips').appendChild(b); });
+pick(0);
+$('play').onclick = play;
+$('sw').onclick = () => setOn(!on);
+$('sw').onkeydown = e => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); setOn(!on); } };
+$('bar').onclick = async e => {
+  if (!ctx) return;
+  const [b] = await buffers(cur), r = $('bar').getBoundingClientRect(), at = (e.clientX - r.left) / r.width * b.duration;
+  if (playing) start(at); else pos = at;
+};
+(function tick() {
+  if (ctx && bufs[cur]) bufs[cur].then(([b]) => {
+    const raw = playing ? ctx.currentTime - t0 : pos, t = ((raw % b.duration) + b.duration) % b.duration;
+    $('fill').style.width = (100 * t / b.duration) + '%';
+    $('time').textContent = Math.floor(t / 60) + ':' + String(Math.floor(t % 60)).padStart(2, '0');
+  });
+  requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
