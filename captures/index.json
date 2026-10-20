@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Studio 0.183.63: closing a map while its models load",
+      "description": "Crash dump 29028 (7:14 PM): a queued entity model loader ran after its map closed and called into the destroyed file system (pure virtual call on a task-pool worker). Fix: closing a map cancels its unstarted model loads and waits for running ones; each load reads a snapshot of the mounts.",
+      "date": "2026-10-20",
+      "created": "2026-10-20T19:55:53.033442-04:00",
+      "images": [],
+      "result": "New EntityModelManager test: 3 checks FAIL on the old code (0 snapshot reads, 1 read after close, close did not wait), all pass on the fix in 6 of 6 runs. TbMdlLibTest full: 293 cases, 166993 assertions pass. TbUiLibTest MapWindow/close/shell/AppController: 5 cases, 1304 assertions pass. Deployed streetsweeper.exe hash matches build, ProductVersion 0.183.63. Live multi-map close in the editor not yet exercised.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-20T19:55:53.033442-04:00",
+          "text": "New EntityModelManager test: 3 checks FAIL on the old code (0 snapshot reads, 1 read after close, close did not wait), all pass on the fix in 6 of 6 runs. TbMdlLibTest full: 293 cases, 166993 assertions pass. TbUiLibTest MapWindow/close/shell/AppController: 5 cases, 1304 assertions pass. Deployed streetsweeper.exe hash matches build, ProductVersion 0.183.63. Live multi-map close in the editor not yet exercised.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-20T19:55:53.033442-04:00"
+    },
+    {
       "title": "Palette controllers - trigger-driven presets",
       "description": "New func_palette presets are activated by ordinary trigger target/targetname wiring. Worldspawn palette controls removed from the editor; existing maps remain compatible. Captures show directional presets, a mid-fade transition, interrupted fade continuity, fixed room colour, grayscale detail and text. The first image records the initial incomplete-LUT failure, corrected before deployment. The existing glued/frozen text issue is unchanged from the deployed engine baseline.",
       "date": "2026-10-19",
