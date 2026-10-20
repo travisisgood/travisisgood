@@ -2,6 +2,74 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.3: Clean and Lead gain staging",
+      "description": "Revised audition build with explicit Lab/Clean/Lead routes, interstage filtering and levels, a passive tone network, and experimental Blocking at zero in the starting tone. Stable preamp calculations use a bounded cache, with exact fallback when needed. Existing 0.1/0.2 states retain the Lab path. This is a listening iteration, not a claim of finished tone or parity with a reference amp. Only native test screenshots are published; private DI, IR and listening renders stay local.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T21:00:59.192296-04:00",
+      "images": [
+        {
+          "id": "c703697b1587d07870c565fe022abe9c58832157fc36f36238b1ef5294586169",
+          "title": "amp-head",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 91532,
+          "filename": "amp-head.webp",
+          "original": "assets/2026-10-19/c703697b1587d07870c565fe022abe9c58832157fc36f36238b1ef5294586169.webp",
+          "thumbnail": "assets/2026-10-19/c703697b1587d07870c565fe022abe9c58832157fc36f36238b1ef5294586169-thumb.webp",
+          "preview": "assets/2026-10-19/c703697b1587d07870c565fe022abe9c58832157fc36f36238b1ef5294586169-view.webp"
+        },
+        {
+          "id": "c93d3a1ba093889101ba943432222ff07c55c39ff889999d52e171facb28888e",
+          "title": "clean-head",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 91594,
+          "filename": "clean-head.webp",
+          "original": "assets/2026-10-19/c93d3a1ba093889101ba943432222ff07c55c39ff889999d52e171facb28888e.webp",
+          "thumbnail": "assets/2026-10-19/c93d3a1ba093889101ba943432222ff07c55c39ff889999d52e171facb28888e-thumb.webp",
+          "preview": "assets/2026-10-19/c93d3a1ba093889101ba943432222ff07c55c39ff889999d52e171facb28888e-view.webp"
+        },
+        {
+          "id": "0ac81827cd58b7a641f0f87dc6f5cdef6658ec284205c44e4debc3034c7e01b4",
+          "title": "preamp-voicing",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 90616,
+          "filename": "preamp-voicing.webp",
+          "original": "assets/2026-10-19/0ac81827cd58b7a641f0f87dc6f5cdef6658ec284205c44e4debc3034c7e01b4.webp",
+          "thumbnail": "assets/2026-10-19/0ac81827cd58b7a641f0f87dc6f5cdef6658ec284205c44e4debc3034c7e01b4-thumb.webp",
+          "preview": "assets/2026-10-19/0ac81827cd58b7a641f0f87dc6f5cdef6658ec284205c44e4debc3034c7e01b4-view.webp"
+        },
+        {
+          "id": "f5932dc04cdcdb52f63592347cad881cbd4a2c9c37f48854a48d703a6022fce1",
+          "title": "bias-recovery",
+          "label": "DI Tube Lab",
+          "width": 1650,
+          "height": 1080,
+          "bytes": 78418,
+          "filename": "bias-recovery.webp",
+          "original": "assets/2026-10-19/f5932dc04cdcdb52f63592347cad881cbd4a2c9c37f48854a48d703a6022fce1.webp",
+          "thumbnail": "assets/2026-10-19/f5932dc04cdcdb52f63592347cad881cbd4a2c9c37f48854a48d703a6022fce1-thumb.webp",
+          "preview": "assets/2026-10-19/f5932dc04cdcdb52f63592347cad881cbd4a2c9c37f48854a48d703a6022fce1-view.webp"
+        }
+      ],
+      "result": "Final checks passed: VST3 47/47; CLAP 35 passed, 0 failed, 0 warnings, 9 optional skips. Core checks include cache/reference errors, passive-network stability, state migration, allocations, block invariance and existing tube/rectifier checks. Fourteen offscreen native UI/state scenarios passed, plus headless fresh-instance checks of all 85 host parameters. Measured core mono processing about 0.07 s per audio second, previously about 0.20 s. User reported major tone improvement and reduced clicking at Blocking=0 in 0.2; the remaining clicking and 0.3 sonic acceptance require the next DAW audition. A solver-boundary check initially failed its tight curve-error bound; the boundary issue was fixed and the final check passed. Installed 0.3 matches the validated binary, with 0.2 backed up.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-19T21:00:59.192296-04:00",
+          "text": "Final checks passed: VST3 47/47; CLAP 35 passed, 0 failed, 0 warnings, 9 optional skips. Core checks include cache/reference errors, passive-network stability, state migration, allocations, block invariance and existing tube/rectifier checks. Fourteen offscreen native UI/state scenarios passed, plus headless fresh-instance checks of all 85 host parameters. Measured core mono processing about 0.07 s per audio second, previously about 0.20 s. User reported major tone improvement and reduced clicking at Blocking=0 in 0.2; the remaining clicking and 0.3 sonic acceptance require the next DAW audition. A solver-boundary check initially failed its tight curve-error bound; the boundary issue was fixed and the final check passed. Installed 0.3 matches the validated binary, with 0.2 backed up.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-19T21:00:59.192296-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.2: direct tube editing and rectifier supply",
       "description": "Native amp prototype with direct coefficient editing, Values modified indicator, same-position blend restoration, and a separate editable rectifier power supply. Silicon and custom vacuum modes charge a reservoir; stiff, soft and twin vacuum experiments are not measured GZ34/5U4 fits or a complete Dual Rectifier clone. Seven pages, 66 visible controls. Existing audition tone stays the default. Real DI/mix listening remains to be done.",
       "date": "2026-10-19",
