@@ -2,6 +2,170 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.3.5: palette matches DI Denoiser",
+      "description": "Skinner palette moved to the bottom right to match DI Denoiser. The compact amp faceplate and tube curves are retained. Family consistency is a standing design rule.",
+      "date": "2026-10-20",
+      "created": "2026-10-20T09:15:14.782058-04:00",
+      "images": [
+        {
+          "id": "c294e2ab82ebe40693084f06f8d1ed6c865050ff4db5b05e903fe3df04a4407a",
+          "title": "amp-head",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 59494,
+          "filename": "amp-head.webp",
+          "original": "assets/2026-10-20/c294e2ab82ebe40693084f06f8d1ed6c865050ff4db5b05e903fe3df04a4407a.webp",
+          "thumbnail": "assets/2026-10-20/c294e2ab82ebe40693084f06f8d1ed6c865050ff4db5b05e903fe3df04a4407a-thumb.webp",
+          "preview": "assets/2026-10-20/c294e2ab82ebe40693084f06f8d1ed6c865050ff4db5b05e903fe3df04a4407a-view.webp"
+        },
+        {
+          "id": "de558682704351c9999bf7d96ac21dc2ad26d40124762c63b6bdb87875334587",
+          "title": "gain-stages",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 62660,
+          "filename": "gain-stages.webp",
+          "original": "assets/2026-10-20/de558682704351c9999bf7d96ac21dc2ad26d40124762c63b6bdb87875334587.webp",
+          "thumbnail": "assets/2026-10-20/de558682704351c9999bf7d96ac21dc2ad26d40124762c63b6bdb87875334587-thumb.webp",
+          "preview": "assets/2026-10-20/de558682704351c9999bf7d96ac21dc2ad26d40124762c63b6bdb87875334587-view.webp"
+        },
+        {
+          "id": "526b435e079757c1e1ce6d7049583a510361fdcd50e1ea170226cc901dc79244",
+          "title": "lab-skinner-close",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 61414,
+          "filename": "lab-skinner-close.webp",
+          "original": "assets/2026-10-20/526b435e079757c1e1ce6d7049583a510361fdcd50e1ea170226cc901dc79244.webp",
+          "thumbnail": "assets/2026-10-20/526b435e079757c1e1ce6d7049583a510361fdcd50e1ea170226cc901dc79244-thumb.webp",
+          "preview": "assets/2026-10-20/526b435e079757c1e1ce6d7049583a510361fdcd50e1ea170226cc901dc79244-view.webp"
+        },
+        {
+          "id": "b4ff47583ba20722040cd9d679f28a00700179a981b3b2be60d7257cbd9b8a83",
+          "title": "material-marble",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 274052,
+          "filename": "material-marble.webp",
+          "original": "assets/2026-10-20/b4ff47583ba20722040cd9d679f28a00700179a981b3b2be60d7257cbd9b8a83.webp",
+          "thumbnail": "assets/2026-10-20/b4ff47583ba20722040cd9d679f28a00700179a981b3b2be60d7257cbd9b8a83-thumb.webp",
+          "preview": "assets/2026-10-20/b4ff47583ba20722040cd9d679f28a00700179a981b3b2be60d7257cbd9b8a83-view.webp"
+        },
+        {
+          "id": "580d8972f2b55c529108f96e123709828a802a208fcfb6231c0ce73f005f8eb1",
+          "title": "material-polished",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 65292,
+          "filename": "material-polished.webp",
+          "original": "assets/2026-10-20/580d8972f2b55c529108f96e123709828a802a208fcfb6231c0ce73f005f8eb1.webp",
+          "thumbnail": "assets/2026-10-20/580d8972f2b55c529108f96e123709828a802a208fcfb6231c0ce73f005f8eb1-thumb.webp",
+          "preview": "assets/2026-10-20/580d8972f2b55c529108f96e123709828a802a208fcfb6231c0ce73f005f8eb1-view.webp"
+        },
+        {
+          "id": "6d735599e8f8bbcd51e4b81ba535bd3bc49af750c8d684550f973d1b5d656141",
+          "title": "preamp-tube",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 55686,
+          "filename": "preamp-tube.webp",
+          "original": "assets/2026-10-20/6d735599e8f8bbcd51e4b81ba535bd3bc49af750c8d684550f973d1b5d656141.webp",
+          "thumbnail": "assets/2026-10-20/6d735599e8f8bbcd51e4b81ba535bd3bc49af750c8d684550f973d1b5d656141-thumb.webp",
+          "preview": "assets/2026-10-20/6d735599e8f8bbcd51e4b81ba535bd3bc49af750c8d684550f973d1b5d656141-view.webp"
+        },
+        {
+          "id": "f5c5eb3bed531d7f47f6462f8b7116f3e5754e39864fb59c5e0b19f61a80126d",
+          "title": "rectifier-menu",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 54888,
+          "filename": "rectifier-menu.webp",
+          "original": "assets/2026-10-20/f5c5eb3bed531d7f47f6462f8b7116f3e5754e39864fb59c5e0b19f61a80126d.webp",
+          "thumbnail": "assets/2026-10-20/f5c5eb3bed531d7f47f6462f8b7116f3e5754e39864fb59c5e0b19f61a80126d-thumb.webp",
+          "preview": "assets/2026-10-20/f5c5eb3bed531d7f47f6462f8b7116f3e5754e39864fb59c5e0b19f61a80126d-view.webp"
+        },
+        {
+          "id": "de7384d954f6e3eb10482f330736795963648ad42ebcc465f4a08688673d875b",
+          "title": "skinner",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 71546,
+          "filename": "skinner.webp",
+          "original": "assets/2026-10-20/de7384d954f6e3eb10482f330736795963648ad42ebcc465f4a08688673d875b.webp",
+          "thumbnail": "assets/2026-10-20/de7384d954f6e3eb10482f330736795963648ad42ebcc465f4a08688673d875b-thumb.webp",
+          "preview": "assets/2026-10-20/de7384d954f6e3eb10482f330736795963648ad42ebcc465f4a08688673d875b-view.webp"
+        },
+        {
+          "id": "4ae14372badcbda8e17f5a3106579b177b67066545d31e166d65f4dcf2cdd737",
+          "title": "tone-clean",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 59036,
+          "filename": "tone-clean.webp",
+          "original": "assets/2026-10-20/4ae14372badcbda8e17f5a3106579b177b67066545d31e166d65f4dcf2cdd737.webp",
+          "thumbnail": "assets/2026-10-20/4ae14372badcbda8e17f5a3106579b177b67066545d31e166d65f4dcf2cdd737-thumb.webp",
+          "preview": "assets/2026-10-20/4ae14372badcbda8e17f5a3106579b177b67066545d31e166d65f4dcf2cdd737-view.webp"
+        },
+        {
+          "id": "061c48d1264a8f416bd0638f33ece907525fe06d300f6b810ac688b0fa03f21f",
+          "title": "tone-crunch",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 59130,
+          "filename": "tone-crunch.webp",
+          "original": "assets/2026-10-20/061c48d1264a8f416bd0638f33ece907525fe06d300f6b810ac688b0fa03f21f.webp",
+          "thumbnail": "assets/2026-10-20/061c48d1264a8f416bd0638f33ece907525fe06d300f6b810ac688b0fa03f21f-thumb.webp",
+          "preview": "assets/2026-10-20/061c48d1264a8f416bd0638f33ece907525fe06d300f6b810ac688b0fa03f21f-view.webp"
+        },
+        {
+          "id": "a506dadf0b701b3d5847b9be7aae67126778a62b62357b814a66e9524a730fbc",
+          "title": "tone-lead",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 59192,
+          "filename": "tone-lead.webp",
+          "original": "assets/2026-10-20/a506dadf0b701b3d5847b9be7aae67126778a62b62357b814a66e9524a730fbc.webp",
+          "thumbnail": "assets/2026-10-20/a506dadf0b701b3d5847b9be7aae67126778a62b62357b814a66e9524a730fbc-thumb.webp",
+          "preview": "assets/2026-10-20/a506dadf0b701b3d5847b9be7aae67126778a62b62357b814a66e9524a730fbc-view.webp"
+        },
+        {
+          "id": "a6ac8b59bce4b6d5efba3a4582ccfbe5ec9b4d57abfbbf12851f4f8d959e8d0f",
+          "title": "tube-morph",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 55452,
+          "filename": "tube-morph.webp",
+          "original": "assets/2026-10-20/a6ac8b59bce4b6d5efba3a4582ccfbe5ec9b4d57abfbbf12851f4f8d959e8d0f.webp",
+          "thumbnail": "assets/2026-10-20/a6ac8b59bce4b6d5efba3a4582ccfbe5ec9b4d57abfbbf12851f4f8d959e8d0f-thumb.webp",
+          "preview": "assets/2026-10-20/a6ac8b59bce4b6d5efba3a4582ccfbe5ec9b4d57abfbbf12851f4f8d959e8d0f-view.webp"
+        }
+      ],
+      "result": "14 focused native editor scenarios passed all 85 host-parameter fresh-instance recalls. Skinner opens at bottom right and closes to pixel-identical Amp Head and Power Tube pages, preserving all parameters. Lead restores archived C exactly; Clean/Crunch and polished/marble rendering checked. Core/theme checks passed; saved A/B/C audio remains bit-identical to the working regression baseline. No DSP changes. Installed 0.3.5 with 0.3.4 rollback and DI Denoiser unchanged.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-20T09:15:14.782058-04:00",
+          "text": "14 focused native editor scenarios passed all 85 host-parameter fresh-instance recalls. Skinner opens at bottom right and closes to pixel-identical Amp Head and Power Tube pages, preserving all parameters. Lead restores archived C exactly; Clean/Crunch and polished/marble rendering checked. Core/theme checks passed; saved A/B/C audio remains bit-identical to the working regression baseline. No DSP changes. Installed 0.3.5 with 0.3.4 rollback and DI Denoiser unchanged.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-20T09:15:14.782058-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.3.4: amp faceplate and shared tube curves",
       "description": "Compact amp controls above the tube-current graph. The curves keep the same position across all nine amp/Lab tabs. Skinner is at bottom left with the DI Denoiser palette icon. Native offscreen editor captures; no personal audio or cabinet IRs.",
       "date": "2026-10-20",
