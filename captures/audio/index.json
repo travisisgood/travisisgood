@@ -2,6 +2,182 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.3.6: all 12 themes at full resolution",
+      "description": "The cleaned-up amp head in every real factory theme and its assigned material. Decorative feet and simulated screws are removed. The three-column collage pastes all twelve 1375 x 900 native views without shrinking or cropping them; individual full-resolution captures are included.",
+      "date": "2026-10-20",
+      "created": "2026-10-20T09:40:16.961555-04:00",
+      "images": [
+        {
+          "id": "447fa28fe10f448e789ac143345c12d636a8e84e8526d584824f8e177061c1d0",
+          "title": "00-all-themes-full-resolution",
+          "label": "DI Tube Lab",
+          "width": 4221,
+          "height": 3984,
+          "bytes": 1158014,
+          "filename": "00-all-themes-full-resolution.webp",
+          "original": "assets/2026-10-20/447fa28fe10f448e789ac143345c12d636a8e84e8526d584824f8e177061c1d0.webp",
+          "thumbnail": "assets/2026-10-20/447fa28fe10f448e789ac143345c12d636a8e84e8526d584824f8e177061c1d0-thumb.webp",
+          "preview": "assets/2026-10-20/447fa28fe10f448e789ac143345c12d636a8e84e8526d584824f8e177061c1d0-view.webp"
+        },
+        {
+          "id": "34c5a8e9b213ef3bb095b6461bc3e7da8a1b2070111575cc54d3151af5288869",
+          "title": "01-graphite",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 57978,
+          "filename": "01-graphite.webp",
+          "original": "assets/2026-10-20/34c5a8e9b213ef3bb095b6461bc3e7da8a1b2070111575cc54d3151af5288869.webp",
+          "thumbnail": "assets/2026-10-20/34c5a8e9b213ef3bb095b6461bc3e7da8a1b2070111575cc54d3151af5288869-thumb.webp",
+          "preview": "assets/2026-10-20/34c5a8e9b213ef3bb095b6461bc3e7da8a1b2070111575cc54d3151af5288869-view.webp"
+        },
+        {
+          "id": "7eef9d6c31c7371db0198b9786ed7138adc5b1cd1aa66d39b5d748e4e6dc8131",
+          "title": "02-purple-teal",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 72068,
+          "filename": "02-purple-teal.webp",
+          "original": "assets/2026-10-20/7eef9d6c31c7371db0198b9786ed7138adc5b1cd1aa66d39b5d748e4e6dc8131.webp",
+          "thumbnail": "assets/2026-10-20/7eef9d6c31c7371db0198b9786ed7138adc5b1cd1aa66d39b5d748e4e6dc8131-thumb.webp",
+          "preview": "assets/2026-10-20/7eef9d6c31c7371db0198b9786ed7138adc5b1cd1aa66d39b5d748e4e6dc8131-view.webp"
+        },
+        {
+          "id": "8a57142ace2451c128882fb6cb45c343dfcf7cc812505ce0d2efe397169ba81f",
+          "title": "03-red",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 64346,
+          "filename": "03-red.webp",
+          "original": "assets/2026-10-20/8a57142ace2451c128882fb6cb45c343dfcf7cc812505ce0d2efe397169ba81f.webp",
+          "thumbnail": "assets/2026-10-20/8a57142ace2451c128882fb6cb45c343dfcf7cc812505ce0d2efe397169ba81f-thumb.webp",
+          "preview": "assets/2026-10-20/8a57142ace2451c128882fb6cb45c343dfcf7cc812505ce0d2efe397169ba81f-view.webp"
+        },
+        {
+          "id": "3489914a1bd9301bd2df805135cdaf6e922df36d1276f00bceed6b67ec25d18a",
+          "title": "04-oled-blackout",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 37274,
+          "filename": "04-oled-blackout.webp",
+          "original": "assets/2026-10-20/3489914a1bd9301bd2df805135cdaf6e922df36d1276f00bceed6b67ec25d18a.webp",
+          "thumbnail": "assets/2026-10-20/3489914a1bd9301bd2df805135cdaf6e922df36d1276f00bceed6b67ec25d18a-thumb.webp",
+          "preview": "assets/2026-10-20/3489914a1bd9301bd2df805135cdaf6e922df36d1276f00bceed6b67ec25d18a-view.webp"
+        },
+        {
+          "id": "e665b9499d9ccc56a2a0dc81a82f1dc00d9b434086cd29270bcd38cded8ab053",
+          "title": "05-high-contrast",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 37972,
+          "filename": "05-high-contrast.webp",
+          "original": "assets/2026-10-20/e665b9499d9ccc56a2a0dc81a82f1dc00d9b434086cd29270bcd38cded8ab053.webp",
+          "thumbnail": "assets/2026-10-20/e665b9499d9ccc56a2a0dc81a82f1dc00d9b434086cd29270bcd38cded8ab053-thumb.webp",
+          "preview": "assets/2026-10-20/e665b9499d9ccc56a2a0dc81a82f1dc00d9b434086cd29270bcd38cded8ab053-view.webp"
+        },
+        {
+          "id": "a7b405a2171bc778aadc849fd35b6f035b5c58630ce8637b964aa0a1eec978e4",
+          "title": "06-sunset",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 75952,
+          "filename": "06-sunset.webp",
+          "original": "assets/2026-10-20/a7b405a2171bc778aadc849fd35b6f035b5c58630ce8637b964aa0a1eec978e4.webp",
+          "thumbnail": "assets/2026-10-20/a7b405a2171bc778aadc849fd35b6f035b5c58630ce8637b964aa0a1eec978e4-thumb.webp",
+          "preview": "assets/2026-10-20/a7b405a2171bc778aadc849fd35b6f035b5c58630ce8637b964aa0a1eec978e4-view.webp"
+        },
+        {
+          "id": "0e4815a68f64a9110634cddc14ac464519e9a5ece9dfe8caf6ca817ecd8fe889",
+          "title": "07-mint",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 322832,
+          "filename": "07-mint.webp",
+          "original": "assets/2026-10-20/0e4815a68f64a9110634cddc14ac464519e9a5ece9dfe8caf6ca817ecd8fe889.webp",
+          "thumbnail": "assets/2026-10-20/0e4815a68f64a9110634cddc14ac464519e9a5ece9dfe8caf6ca817ecd8fe889-thumb.webp",
+          "preview": "assets/2026-10-20/0e4815a68f64a9110634cddc14ac464519e9a5ece9dfe8caf6ca817ecd8fe889-view.webp"
+        },
+        {
+          "id": "c9069b2f102373472bdd3f82dcae14a5fb97aa365ca88f3967dba37101ce93d6",
+          "title": "08-gold",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 77552,
+          "filename": "08-gold.webp",
+          "original": "assets/2026-10-20/c9069b2f102373472bdd3f82dcae14a5fb97aa365ca88f3967dba37101ce93d6.webp",
+          "thumbnail": "assets/2026-10-20/c9069b2f102373472bdd3f82dcae14a5fb97aa365ca88f3967dba37101ce93d6-thumb.webp",
+          "preview": "assets/2026-10-20/c9069b2f102373472bdd3f82dcae14a5fb97aa365ca88f3967dba37101ce93d6-view.webp"
+        },
+        {
+          "id": "924621d50b9cd4f22d267e9c62af04f8ba1fb02b8ed048c9d9ab77ff60f27217",
+          "title": "09-rose-gold",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 72020,
+          "filename": "09-rose-gold.webp",
+          "original": "assets/2026-10-20/924621d50b9cd4f22d267e9c62af04f8ba1fb02b8ed048c9d9ab77ff60f27217.webp",
+          "thumbnail": "assets/2026-10-20/924621d50b9cd4f22d267e9c62af04f8ba1fb02b8ed048c9d9ab77ff60f27217-thumb.webp",
+          "preview": "assets/2026-10-20/924621d50b9cd4f22d267e9c62af04f8ba1fb02b8ed048c9d9ab77ff60f27217-view.webp"
+        },
+        {
+          "id": "2552c5f044ce1920e633a4334a593dfdc4bdc6497402e776f0e1c48a356fbe65",
+          "title": "10-media-player-a",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 135490,
+          "filename": "10-media-player-a.webp",
+          "original": "assets/2026-10-20/2552c5f044ce1920e633a4334a593dfdc4bdc6497402e776f0e1c48a356fbe65.webp",
+          "thumbnail": "assets/2026-10-20/2552c5f044ce1920e633a4334a593dfdc4bdc6497402e776f0e1c48a356fbe65-thumb.webp",
+          "preview": "assets/2026-10-20/2552c5f044ce1920e633a4334a593dfdc4bdc6497402e776f0e1c48a356fbe65-view.webp"
+        },
+        {
+          "id": "7412dd31f71b0020c3bbf47ece4198b8748ccbe77e3112e8164547c62682f6d7",
+          "title": "11-media-player-b",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 47016,
+          "filename": "11-media-player-b.webp",
+          "original": "assets/2026-10-20/7412dd31f71b0020c3bbf47ece4198b8748ccbe77e3112e8164547c62682f6d7.webp",
+          "thumbnail": "assets/2026-10-20/7412dd31f71b0020c3bbf47ece4198b8748ccbe77e3112e8164547c62682f6d7-thumb.webp",
+          "preview": "assets/2026-10-20/7412dd31f71b0020c3bbf47ece4198b8748ccbe77e3112e8164547c62682f6d7-view.webp"
+        },
+        {
+          "id": "2333b2771509c3b775fb0e5dd5dd0f18cb43d215f0102b36d2e5dbc8504788b5",
+          "title": "12-media-player-c",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 70842,
+          "filename": "12-media-player-c.webp",
+          "original": "assets/2026-10-20/2333b2771509c3b775fb0e5dd5dd0f18cb43d215f0102b36d2e5dbc8504788b5.webp",
+          "thumbnail": "assets/2026-10-20/2333b2771509c3b775fb0e5dd5dd0f18cb43d215f0102b36d2e5dbc8504788b5-thumb.webp",
+          "preview": "assets/2026-10-20/2333b2771509c3b775fb0e5dd5dd0f18cb43d215f0102b36d2e5dbc8504788b5-view.webp"
+        }
+      ],
+      "result": "All 12 real Skinner preset cards and their assigned materials verified. Each capture preserves exact archived Lead values and passes 85-host-parameter fresh-instance recall. Collage 4221 x 3984; every tile verified pixel-identical to its 1375 x 900 original. Initial theme inspection exposed faint Media Player A controls; the existing family contrast helper was applied and final captures regenerated and inspected. Core/theme checks passed; saved A/B/C audio remains bit-identical to the working baseline. Version 0.3.6 installed with rollback, denoiser and live preset bank unchanged.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-20T09:40:16.961555-04:00",
+          "text": "All 12 real Skinner preset cards and their assigned materials verified. Each capture preserves exact archived Lead values and passes 85-host-parameter fresh-instance recall. Collage 4221 x 3984; every tile verified pixel-identical to its 1375 x 900 original. Initial theme inspection exposed faint Media Player A controls; the existing family contrast helper was applied and final captures regenerated and inspected. Core/theme checks passed; saved A/B/C audio remains bit-identical to the working baseline. Version 0.3.6 installed with rollback, denoiser and live preset bank unchanged.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-20T09:40:16.961555-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.3.5: palette matches DI Denoiser",
       "description": "Skinner palette moved to the bottom right to match DI Denoiser. The compact amp faceplate and tube curves are retained. Family consistency is a standing design rule.",
       "date": "2026-10-20",
