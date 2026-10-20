@@ -2,6 +2,122 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.3.1: Skinner and supply controls",
+      "description": "Full family Skinner with palette cards, materials, colour controls and saved palettes. Rectifier groups supplies and shows only controls used by each selected model. Native offscreen captures; no user recordings or private preset configuration.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T22:09:00.255181-04:00",
+      "images": [
+        {
+          "id": "4e66a5bd495f1398747d25cb334a7fe2627b3af16c3ee06789d572635eed187e",
+          "title": "skinner",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 70226,
+          "filename": "skinner.webp",
+          "original": "assets/2026-10-19/4e66a5bd495f1398747d25cb334a7fe2627b3af16c3ee06789d572635eed187e.webp",
+          "thumbnail": "assets/2026-10-19/4e66a5bd495f1398747d25cb334a7fe2627b3af16c3ee06789d572635eed187e-thumb.webp",
+          "preview": "assets/2026-10-19/4e66a5bd495f1398747d25cb334a7fe2627b3af16c3ee06789d572635eed187e-view.webp"
+        },
+        {
+          "id": "f77b5ce3b193b74e84e4016b3e03539f9dadd62c9360837462ebb90aa8401bae",
+          "title": "skinner-marble",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 429432,
+          "filename": "skinner-marble.webp",
+          "original": "assets/2026-10-19/f77b5ce3b193b74e84e4016b3e03539f9dadd62c9360837462ebb90aa8401bae.webp",
+          "thumbnail": "assets/2026-10-19/f77b5ce3b193b74e84e4016b3e03539f9dadd62c9360837462ebb90aa8401bae-thumb.webp",
+          "preview": "assets/2026-10-19/f77b5ce3b193b74e84e4016b3e03539f9dadd62c9360837462ebb90aa8401bae-view.webp"
+        },
+        {
+          "id": "a007c09f4db3d097882a370f91a9eff06e4372bad79170a923dd41ccc494fddc",
+          "title": "skinner-colours",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 77256,
+          "filename": "skinner-colours.webp",
+          "original": "assets/2026-10-19/a007c09f4db3d097882a370f91a9eff06e4372bad79170a923dd41ccc494fddc.webp",
+          "thumbnail": "assets/2026-10-19/a007c09f4db3d097882a370f91a9eff06e4372bad79170a923dd41ccc494fddc-thumb.webp",
+          "preview": "assets/2026-10-19/a007c09f4db3d097882a370f91a9eff06e4372bad79170a923dd41ccc494fddc-view.webp"
+        },
+        {
+          "id": "76c56c9bb9016453097baf0e1e012513ff45c819b47cf4d28b9b8ad051765557",
+          "title": "family-material",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 386610,
+          "filename": "family-material.webp",
+          "original": "assets/2026-10-19/76c56c9bb9016453097baf0e1e012513ff45c819b47cf4d28b9b8ad051765557.webp",
+          "thumbnail": "assets/2026-10-19/76c56c9bb9016453097baf0e1e012513ff45c819b47cf4d28b9b8ad051765557-thumb.webp",
+          "preview": "assets/2026-10-19/76c56c9bb9016453097baf0e1e012513ff45c819b47cf4d28b9b8ad051765557-view.webp"
+        },
+        {
+          "id": "6712584fe36fa1201d3367e52cdda6181ab1971231f8046d2215d394096f0977",
+          "title": "rectifier-legacy",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 53578,
+          "filename": "rectifier-legacy.webp",
+          "original": "assets/2026-10-19/6712584fe36fa1201d3367e52cdda6181ab1971231f8046d2215d394096f0977.webp",
+          "thumbnail": "assets/2026-10-19/6712584fe36fa1201d3367e52cdda6181ab1971231f8046d2215d394096f0977-thumb.webp",
+          "preview": "assets/2026-10-19/6712584fe36fa1201d3367e52cdda6181ab1971231f8046d2215d394096f0977-view.webp"
+        },
+        {
+          "id": "75a1663a344cbe2d46efb8faa71315fdad2149c94facf6d21b65b39dd7609a13",
+          "title": "rectifier-ideal",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 54572,
+          "filename": "rectifier-ideal.webp",
+          "original": "assets/2026-10-19/75a1663a344cbe2d46efb8faa71315fdad2149c94facf6d21b65b39dd7609a13.webp",
+          "thumbnail": "assets/2026-10-19/75a1663a344cbe2d46efb8faa71315fdad2149c94facf6d21b65b39dd7609a13-thumb.webp",
+          "preview": "assets/2026-10-19/75a1663a344cbe2d46efb8faa71315fdad2149c94facf6d21b65b39dd7609a13-view.webp"
+        },
+        {
+          "id": "1b0797f600fc300564d81e2dbde1bedc0ec3a86415898457009f8146eab63212",
+          "title": "rectifier-silicon",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 70226,
+          "filename": "rectifier-silicon.webp",
+          "original": "assets/2026-10-19/1b0797f600fc300564d81e2dbde1bedc0ec3a86415898457009f8146eab63212.webp",
+          "thumbnail": "assets/2026-10-19/1b0797f600fc300564d81e2dbde1bedc0ec3a86415898457009f8146eab63212-thumb.webp",
+          "preview": "assets/2026-10-19/1b0797f600fc300564d81e2dbde1bedc0ec3a86415898457009f8146eab63212-view.webp"
+        },
+        {
+          "id": "d0c4514197d43f42ed14d23a05532659e1929c6fac66c950e963c684e36b0c5c",
+          "title": "rectifier-twin",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 76218,
+          "filename": "rectifier-twin.webp",
+          "original": "assets/2026-10-19/d0c4514197d43f42ed14d23a05532659e1929c6fac66c950e963c684e36b0c5c.webp",
+          "thumbnail": "assets/2026-10-19/d0c4514197d43f42ed14d23a05532659e1929c6fac66c950e963c684e36b0c5c-thumb.webp",
+          "preview": "assets/2026-10-19/d0c4514197d43f42ed14d23a05532659e1929c6fac66c950e963c684e36b0c5c-view.webp"
+        }
+      ],
+      "result": "Final core checks, 47 VST3 checks, 35 CLAP checks and 21 native UI scenarios passed. All 85 host values stay unchanged during cosmetic edits. Three saved tones render bit-identically to 0.3.0 with generated excitation. Initial visual inspection found missing large-panel marble; corrected, rebuilt and recaptured. Installed 0.3.1 hash verified; previous build retained for rollback.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-19T22:09:00.255181-04:00",
+          "text": "Final core checks, 47 VST3 checks, 35 CLAP checks and 21 native UI scenarios passed. All 85 host values stay unchanged during cosmetic edits. Three saved tones render bit-identically to 0.3.0 with generated excitation. Initial visual inspection found missing large-panel marble; corrected, rebuilt and recaptured. Installed 0.3.1 hash verified; previous build retained for rollback.",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-19T22:09:00.255181-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.3: Clean and Lead gain staging",
       "description": "Revised audition build with explicit Lab/Clean/Lead routes, interstage filtering and levels, a passive tone network, and experimental Blocking at zero in the starting tone. Stable preamp calculations use a bounded cache, with exact fallback when needed. Existing 0.1/0.2 states retain the Lab path. This is a listening iteration, not a claim of finished tone or parity with a reference amp. Only native test screenshots are published; private DI, IR and listening renders stay local.",
       "date": "2026-10-19",
