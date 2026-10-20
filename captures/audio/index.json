@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab: offline Lab experiments",
+      "description": "Offline behavioral prototypes across 16 experiment families, plus one/four/eight virtual-control-electrode comparisons. Published chart uses generated notes and chords only. Personal DI, IR, preset data and listening audio remain private. Installed 0.3.1 unchanged.",
+      "date": "2026-10-19",
+      "created": "2026-10-19T22:54:34.929805-04:00",
+      "images": [
+        {
+          "id": "b83e28195193da35ccdd7d0404071df7b23b3c210229b91c6af636322ffa9fbb",
+          "title": "generated-signal-comparison",
+          "label": "DI Tube Lab",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 31772,
+          "filename": "generated-signal-comparison.webp",
+          "original": "assets/2026-10-19/b83e28195193da35ccdd7d0404071df7b23b3c210229b91c6af636322ffa9fbb.webp",
+          "thumbnail": "assets/2026-10-19/b83e28195193da35ccdd7d0404071df7b23b3c210229b91c6af636322ffa9fbb-thumb.webp",
+          "preview": "assets/2026-10-19/b83e28195193da35ccdd7d0404071df7b23b3c210229b91c6af636322ffa9fbb-view.webp"
+        }
+      ],
+      "result": "Final core and Lab CTests passed. All 16 modes checked at 22050/44100/48000/96000 Hz: exact zero-depth bypass, block partition invariance, finite output and explicit silence bounds. All 1..8 electrode counts differ. 52 offline renders completed with zero safety interventions; canonical and Lab references bit-identical on generated and guitar inputs. 19 private WAVs matched to -23 dBFS whole-clip RMS; hashes/peaks verified. Initial test call preceded build completion; initial overstrict silence threshold exposed a tiny baseline startup transient and was replaced with documented startup/settled bounds. Wavefolder antiderivative refinement improved the 1337 Hz sample-rate waveform comparison from -14.99 to -27.37 dB; this is not alias-free certification. Gain/EQ residuals measure a limited comparison, not audibility or better tone. Browser playback and listening judgment remain untested.",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-19T22:54:34.929805-04:00",
+          "text": "Final core and Lab CTests passed. All 16 modes checked at 22050/44100/48000/96000 Hz: exact zero-depth bypass, block partition invariance, finite output and explicit silence bounds. All 1..8 electrode counts differ. 52 offline renders completed with zero safety interventions; canonical and Lab references bit-identical on generated and guitar inputs. 19 private WAVs matched to -23 dBFS whole-clip RMS; hashes/peaks verified. Initial test call preceded build completion; initial overstrict silence threshold exposed a tiny baseline startup transient and was replaced with documented startup/settled bounds. Wavefolder antiderivative refinement improved the 1337 Hz sample-rate waveform comparison from -14.99 to -27.37 dB; this is not alias-free certification. Gain/EQ residuals measure a limited comparison, not audibility or better tone. Browser playback and listening judgment remain untested.",
+          "status": "mixed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-19T22:54:34.929805-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.3.1: Skinner and supply controls",
       "description": "Full family Skinner with palette cards, materials, colour controls and saved palettes. Rectifier groups supplies and shows only controls used by each selected model. Native offscreen captures; no user recordings or private preset configuration.",
       "date": "2026-10-19",
