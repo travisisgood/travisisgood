@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "qmatlas: E1M1 linked doors with unequal travel",
+      "description": "FaultLine E1M1 ultra compile died in bake_shadow_flipbook.py (IndexError) at the joint door layer: linked leaves *1/*2 travel 96/94 units, so timed flipbooks gave them 19/18 poses and the shorter leaf was never upsampled to the leader's count.",
+      "date": "2026-10-20",
+      "created": "2026-10-20T21:39:52.985978-04:00",
+      "images": [],
+      "result": "Reproduced the IndexError with the deployed baker. New linked-door test fails on the old code (19 != 18) and passes on the fix; all 70 flipbook tests pass. Rerun of the E1M1 ultra atlas step gets past the joint layers and renders the 1010 pose entries (no cache, about 8 poses/min); full bake still running at publish time.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-20T21:39:52.985978-04:00",
+          "text": "Reproduced the IndexError with the deployed baker. New linked-door test fails on the old code (19 != 18) and passes on the fix; all 70 flipbook tests pass. Rerun of the E1M1 ultra atlas step gets past the joint layers and renders the 1010 pose entries (no cache, about 8 poses/min); full bake still running at publish time.",
+          "status": "incomplete",
+          "label": "Checks"
+        }
+      ],
+      "status": "incomplete",
+      "updated": "2026-10-20T21:39:52.985978-04:00"
+    },
+    {
       "title": "Special textures wad",
       "description": "special.wad: the 22 tool and liquid textures lost in the foxtex trim of fear_gravity.qlb, decoded from the built wad (truecolor QTX1 payloads).",
       "date": "2026-10-20",
