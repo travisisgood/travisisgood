@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "qmlight delta pose passes: FaultLine E1M1 atlas",
+      "description": "qmlight 0.183.34 lights mover poses as deltas against one rest solve. Checks: full vs delta pose output, atlas run-to-run, cold Ultra bake time, unit tests, deploy smoke bake.",
+      "date": "2026-10-21",
+      "created": "2026-10-21T15:29:53.090343-04:00",
+      "images": [],
+      "result": "Ultra atlas bake 995 s cold with deployed qmtools (was ~2 h projected; 34 min before surface reuse). Medium pose pass 1.9 s to 0.42 s, Ultra 7.4 s to 0.97 s. Full vs delta passes: worst difference 1 per channel on the Medium 9-entry, door-33 and Ultra 13-entry batches. Two Ultra atlases agree within 2 (noise floor). 79 qmatlas Python tests pass. qmtools C++ suite: 367 pass, 17 skipped, 2 fail (ltfaceQ2.lowLuxelRes, testmapsQ1.displacementSpheroidVisualOnly), both failing identically on the previous HEAD, so not from this change. Deploy smoke bake: exit 0, OptiX initialized, lit BSP; exe and PTX hashes match.",
+      "label": "Atlas bake",
+      "results": [
+        {
+          "at": "2026-10-21T15:29:53.090343-04:00",
+          "text": "Ultra atlas bake 995 s cold with deployed qmtools (was ~2 h projected; 34 min before surface reuse). Medium pose pass 1.9 s to 0.42 s, Ultra 7.4 s to 0.97 s. Full vs delta passes: worst difference 1 per channel on the Medium 9-entry, door-33 and Ultra 13-entry batches. Two Ultra atlases agree within 2 (noise floor). 79 qmatlas Python tests pass. qmtools C++ suite: 367 pass, 17 skipped, 2 fail (ltfaceQ2.lowLuxelRes, testmapsQ1.displacementSpheroidVisualOnly), both failing identically on the previous HEAD, so not from this change. Deploy smoke bake: exit 0, OptiX initialized, lit BSP; exe and PTX hashes match.",
+          "status": "mixed",
+          "label": "Atlas bake"
+        }
+      ],
+      "status": "mixed",
+      "updated": "2026-10-21T15:29:53.090343-04:00"
+    },
+    {
       "title": "Mover atlas bake: where the time goes (E1M1)",
       "description": "Measurement runs for the atlas speed review (docs/atlas_bake_speed_review_2026-10-21.md).",
       "date": "2026-10-21",
