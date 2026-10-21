@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "Mover atlas bake: where the time goes (E1M1)",
+      "description": "Measurement runs for the atlas speed review (docs/atlas_bake_speed_review_2026-10-21.md).",
+      "date": "2026-10-21",
+      "created": "2026-10-21T12:18:59.628476-04:00",
+      "images": [],
+      "result": "Static bake run twice on one input: per-face lightmaps equal within 1 level, but lightofs differ on 14,277 of 14,882 faces, so the pose-cache key (whole lit BSP) changes every compile. 9-entry Medium pose batch: 1.9 s/pass, bounce 47%, sun 37%, setup 13%, scene rebuild <1%. Medium .qmf: 0.56% of luxels change by 2+ levels per door; 84% of stored pixels are |delta|=1. Sun can change 1.4% of luxels per door; 1.6% of faces change by 2+ levels. Error-driven pose placement saves 0-5% (ruled out).",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-21T12:18:59.628476-04:00",
+          "text": "Static bake run twice on one input: per-face lightmaps equal within 1 level, but lightofs differ on 14,277 of 14,882 faces, so the pose-cache key (whole lit BSP) changes every compile. 9-entry Medium pose batch: 1.9 s/pass, bounce 47%, sun 37%, setup 13%, scene rebuild <1%. Medium .qmf: 0.56% of luxels change by 2+ levels per door; 84% of stored pixels are |delta|=1. Sun can change 1.4% of luxels per door; 1.6% of faces change by 2+ levels. Error-driven pose placement saves 0-5% (ruled out).",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-21T12:18:59.628476-04:00"
+    },
+    {
       "title": "qmatlas: E1M1 linked doors with unequal travel",
       "description": "FaultLine E1M1 ultra compile died in bake_shadow_flipbook.py (IndexError) at the joint door layer: linked leaves *1/*2 travel 96/94 units, so timed flipbooks gave them 19/18 poses and the shorter leaf was never upsampled to the leader's count.",
       "date": "2026-10-20",
