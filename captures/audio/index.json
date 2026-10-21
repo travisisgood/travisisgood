@@ -2,6 +2,62 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.9.0: Speaker load",
+      "description": "Tube Lab 0.9.0 lets the power tubes drive a 4x12's speakers instead of a resistor (Power Amp page): Off, Damped (an amp with negative feedback) or Raw (without). The cabinet's 118 Hz resonance and treble rise shape the amp's output and how it clips, the part of a real amp and cab an IR can't hold. Quietly, Damped lifts the resonance 4.6 dB and Raw 15.2 dB, the mids untouched; on Travis's Lead tone +0.9 / +2.4 dB. Off by default.",
+      "date": "2026-10-21",
+      "created": "2026-10-21T17:44:52.972743-04:00",
+      "images": [
+        {
+          "id": "5ba75bfc50f6672bc02d69404494bd7ec66b7dbb21bb81b7f7f9174881f929ae",
+          "title": "speaker-load-menu",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 38870,
+          "filename": "speaker-load-menu.webp",
+          "original": "assets/2026-10-21/5ba75bfc50f6672bc02d69404494bd7ec66b7dbb21bb81b7f7f9174881f929ae.webp",
+          "thumbnail": "assets/2026-10-21/5ba75bfc50f6672bc02d69404494bd7ec66b7dbb21bb81b7f7f9174881f929ae-thumb.webp",
+          "preview": "assets/2026-10-21/5ba75bfc50f6672bc02d69404494bd7ec66b7dbb21bb81b7f7f9174881f929ae-view.webp"
+        },
+        {
+          "id": "14de4013912484042a1213b41a2950603278ff6f9ee0759081a2bdebf34fb023",
+          "title": "speaker-load-raw",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 38480,
+          "filename": "speaker-load-raw.webp",
+          "original": "assets/2026-10-21/14de4013912484042a1213b41a2950603278ff6f9ee0759081a2bdebf34fb023.webp",
+          "thumbnail": "assets/2026-10-21/14de4013912484042a1213b41a2950603278ff6f9ee0759081a2bdebf34fb023-thumb.webp",
+          "preview": "assets/2026-10-21/14de4013912484042a1213b41a2950603278ff6f9ee0759081a2bdebf34fb023-view.webp"
+        },
+        {
+          "id": "d3a4dbefdd4b317fa491f09b02420a759ab9470183bc5acd70905d8ff2127d99",
+          "title": "power-tube",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 38428,
+          "filename": "power-tube.webp",
+          "original": "assets/2026-10-21/d3a4dbefdd4b317fa491f09b02420a759ab9470183bc5acd70905d8ff2127d99.webp",
+          "thumbnail": "assets/2026-10-21/d3a4dbefdd4b317fa491f09b02420a759ab9470183bc5acd70905d8ff2127d99-thumb.webp",
+          "preview": "assets/2026-10-21/d3a4dbefdd4b317fa491f09b02420a759ab9470183bc5acd70905d8ff2127d99-view.webp"
+        }
+      ],
+      "result": "58 UI and state checks, core tests (the speaker curve against Celestion/Eminence data, the quiet response, every power tube driven hard, no audio-thread allocation), VST3 47/47, CLAP 35; saved tones unchanged (A/B/C null at -102.9 dB RMS or better).",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-21T17:44:52.972743-04:00",
+          "text": "58 UI and state checks, core tests (the speaker curve against Celestion/Eminence data, the quiet response, every power tube driven hard, no audio-thread allocation), VST3 47/47, CLAP 35; saved tones unchanged (A/B/C null at -102.9 dB RMS or better).",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-21T17:44:52.972743-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.8.1: Biased for (auto bias, or an amp biased for another tube)",
       "description": "Tube Lab 0.8.1 adds Travis's bias table: a Biased for dropdown on each row of the Tube Blender. Auto re-biases on every tube change, as a tech would; a chosen tube keeps the amp biased for that tube whatever is fitted, and menu entries that would run the fitted tubes far hot or cold are marked. First: the power Biased for menu (with the warnings), a KT88 blend in an amp biased for the 6L6GC (the meter: past its rating, 136%), the preamp Biased for menu, a tube pick re-biased under Auto, and the Tube Blender with the bias meter.",
       "date": "2026-10-21",
