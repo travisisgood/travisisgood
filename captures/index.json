@@ -2,6 +2,25 @@
   "version": 1,
   "albums": [
     {
+      "title": "qmtools test suite: two stale tests fixed",
+      "description": "displacementSpheroidVisualOnly and ltfaceQ2.lowLuxelRes failed identically before qmlight 0.183.34. Both followed deliberate behaviour changes (b679f683 flat displacement host receivers; 25a950ab minlight stays a floor under -dirt), so the tests were updated to check the current contract.",
+      "date": "2026-10-21",
+      "created": "2026-10-21T17:48:06.566879-04:00",
+      "images": [],
+      "result": "qmtools C++ suite: 386 run, 369 pass, 17 skipped, 0 failed, built from the current sources including qmlight 0.183.34.",
+      "label": "Checks",
+      "results": [
+        {
+          "at": "2026-10-21T17:48:06.566879-04:00",
+          "text": "qmtools C++ suite: 386 run, 369 pass, 17 skipped, 0 failed, built from the current sources including qmlight 0.183.34.",
+          "status": "passed",
+          "label": "Checks"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-21T17:48:06.566879-04:00"
+    },
+    {
       "title": "qmlight delta pose passes: FaultLine E1M1 atlas",
       "description": "qmlight 0.183.34 lights mover poses as deltas against one rest solve. Checks: full vs delta pose output, atlas run-to-run, cold Ultra bake time, unit tests, deploy smoke bake.",
       "date": "2026-10-21",
