@@ -2,6 +2,86 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Tube Lab 0.8.1: Biased for (auto bias, or an amp biased for another tube)",
+      "description": "Tube Lab 0.8.1 adds Travis's bias table: a Biased for dropdown on each row of the Tube Blender. Auto re-biases on every tube change, as a tech would; a chosen tube keeps the amp biased for that tube whatever is fitted, and menu entries that would run the fitted tubes far hot or cold are marked. First: the power Biased for menu (with the warnings), a KT88 blend in an amp biased for the 6L6GC (the meter: past its rating, 136%), the preamp Biased for menu, a tube pick re-biased under Auto, and the Tube Blender with the bias meter.",
+      "date": "2026-10-21",
+      "created": "2026-10-21T16:30:41.061350-04:00",
+      "images": [
+        {
+          "id": "567ff9331ecf99b6070d0bcb92a75bd33e42f6f34707aa1add19a06f8ee2cdd2",
+          "title": "power-bias-menu",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 49948,
+          "filename": "power-bias-menu.webp",
+          "original": "assets/2026-10-21/567ff9331ecf99b6070d0bcb92a75bd33e42f6f34707aa1add19a06f8ee2cdd2.webp",
+          "thumbnail": "assets/2026-10-21/567ff9331ecf99b6070d0bcb92a75bd33e42f6f34707aa1add19a06f8ee2cdd2-thumb.webp",
+          "preview": "assets/2026-10-21/567ff9331ecf99b6070d0bcb92a75bd33e42f6f34707aa1add19a06f8ee2cdd2-view.webp"
+        },
+        {
+          "id": "3e61fec5236c46a2f99ce4774d23a82db7cf317d15ee47cc7d63fd95fcaaec84",
+          "title": "power-bias-6l6-then-kt88",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 48704,
+          "filename": "power-bias-6l6-then-kt88.webp",
+          "original": "assets/2026-10-21/3e61fec5236c46a2f99ce4774d23a82db7cf317d15ee47cc7d63fd95fcaaec84.webp",
+          "thumbnail": "assets/2026-10-21/3e61fec5236c46a2f99ce4774d23a82db7cf317d15ee47cc7d63fd95fcaaec84-thumb.webp",
+          "preview": "assets/2026-10-21/3e61fec5236c46a2f99ce4774d23a82db7cf317d15ee47cc7d63fd95fcaaec84-view.webp"
+        },
+        {
+          "id": "4a879fa266e6e29c314355fe4ce94a420fca19c591153749de947bd3727372ef",
+          "title": "pre-bias-menu",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 47888,
+          "filename": "pre-bias-menu.webp",
+          "original": "assets/2026-10-21/4a879fa266e6e29c314355fe4ce94a420fca19c591153749de947bd3727372ef.webp",
+          "thumbnail": "assets/2026-10-21/4a879fa266e6e29c314355fe4ce94a420fca19c591153749de947bd3727372ef-thumb.webp",
+          "preview": "assets/2026-10-21/4a879fa266e6e29c314355fe4ce94a420fca19c591153749de947bd3727372ef-view.webp"
+        },
+        {
+          "id": "af90f00a0801f4af4bc23dd0fe8c30a372a077f870ef1814f58977b23ce59eed",
+          "title": "tube-b-select",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 47710,
+          "filename": "tube-b-select.webp",
+          "original": "assets/2026-10-21/af90f00a0801f4af4bc23dd0fe8c30a372a077f870ef1814f58977b23ce59eed.webp",
+          "thumbnail": "assets/2026-10-21/af90f00a0801f4af4bc23dd0fe8c30a372a077f870ef1814f58977b23ce59eed-thumb.webp",
+          "preview": "assets/2026-10-21/af90f00a0801f4af4bc23dd0fe8c30a372a077f870ef1814f58977b23ce59eed-view.webp"
+        },
+        {
+          "id": "e01432021af633b2aa00970b33d5f5870677e954ffade817792d612d0568414b",
+          "title": "tube-morph",
+          "label": "DI Tube Lab",
+          "width": 1375,
+          "height": 900,
+          "bytes": 47290,
+          "filename": "tube-morph.webp",
+          "original": "assets/2026-10-21/e01432021af633b2aa00970b33d5f5870677e954ffade817792d612d0568414b.webp",
+          "thumbnail": "assets/2026-10-21/e01432021af633b2aa00970b33d5f5870677e954ffade817792d612d0568414b-thumb.webp",
+          "preview": "assets/2026-10-21/e01432021af633b2aa00970b33d5f5870677e954ffade817792d612d0568414b-view.webp"
+        }
+      ],
+      "result": "56 UI and state checks passed (both Biased for menus, re-bias under Auto, bias kept when biased for a tube); core and theme tests, VST3 47/47, CLAP 35; saved tones unchanged (A/B/C null at -102.9 dB RMS or better).",
+      "label": "DI Tube Lab",
+      "results": [
+        {
+          "at": "2026-10-21T16:30:41.061350-04:00",
+          "text": "56 UI and state checks passed (both Biased for menus, re-bias under Auto, bias kept when biased for a tube); core and theme tests, VST3 47/47, CLAP 35; saved tones unchanged (A/B/C null at -102.9 dB RMS or better).",
+          "status": "passed",
+          "label": "DI Tube Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-21T16:30:41.061350-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.8.0: real preamp tubes, experimental tubes, seven tabs",
       "description": "Tube Lab 0.8.0. First: the Tube Blender with the new preamp tubes (12AX7, 5751, 12AT7, 12AU7, 12AY7) above the power tubes, and 'Show experimental tubes' listing tubes never meant for guitar under a separator (TV/FM tuner triodes for the preamp; TV sweep, transmitting and regulator tubes for the power amp), all fitted to their datasheets. Then the Preamp and Power Amp pages of the new seven-tab layout, the RE-TUBE AND BIAS menu, the 12 themes, and every UI and state check.",
       "date": "2026-10-21",
