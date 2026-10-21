@@ -2,6 +2,38 @@
   "version": 1,
   "albums": [
     {
+      "title": "Special textures wad",
+      "description": "special.wad: the 22 tool and liquid textures lost in the foxtex trim of fear_gravity.qlb, decoded from the built wad (truecolor QTX1 payloads).",
+      "date": "2026-10-20",
+      "created": "2026-10-20T20:07:01.001952-04:00",
+      "images": [
+        {
+          "id": "467e9f97892833fdbc1ea3aaf8d10f54ac58092057302e072591b8318d960739",
+          "title": "special wad all 22 tiles",
+          "label": "Textures",
+          "width": 1024,
+          "height": 384,
+          "bytes": 48672,
+          "filename": "special_wad_all_22_tiles.webp",
+          "original": "assets/2026-10-20/467e9f97892833fdbc1ea3aaf8d10f54ac58092057302e072591b8318d960739.webp",
+          "thumbnail": "assets/2026-10-20/467e9f97892833fdbc1ea3aaf8d10f54ac58092057302e072591b8318d960739-thumb.webp",
+          "preview": "assets/2026-10-20/467e9f97892833fdbc1ea3aaf8d10f54ac58092057302e072591b8318d960739-view.webp"
+        }
+      ],
+      "result": "22/22 lumps built with valid QTX1 footers; build is byte-identical on rerun. Deployed qmbsp: fixture using all 22 names embeds every one with pixels (PASS). F&G rendertest.map now resolves clip/skip/hintskip; its one remaining warning is an art texture the trim removed (@mrust1a_ORG), not a special. Not checked in Studio's material browser.",
+      "label": "Textures",
+      "results": [
+        {
+          "at": "2026-10-20T20:07:01.001952-04:00",
+          "text": "22/22 lumps built with valid QTX1 footers; build is byte-identical on rerun. Deployed qmbsp: fixture using all 22 names embeds every one with pixels (PASS). F&G rendertest.map now resolves clip/skip/hintskip; its one remaining warning is an art texture the trim removed (@mrust1a_ORG), not a special. Not checked in Studio's material browser.",
+          "status": "passed",
+          "label": "Textures"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-20T20:07:01.001952-04:00"
+    },
+    {
       "title": "Studio 0.183.63: closing a map while its models load",
       "description": "Crash dump 29028 (7:14 PM): a queued entity model loader ran after its map closed and called into the destroyed file system (pure virtual call on a task-pool worker). Fix: closing a map cancels its unstarted model loads and waits for running ones; each load reads a snapshot of the mounts.",
       "date": "2026-10-20",
