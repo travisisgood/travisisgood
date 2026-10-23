@@ -2,6 +2,50 @@
   "version": 1,
   "albums": [
     {
+      "title": "DI Cab Lab 0.8.7: mic types and themes",
+      "description": "The 17 mic types against their makers' published on-axis curves (what the plugin plays at 48 and 96 kHz), and the CAB BLENDER page in all 12 family themes, captured from the native editor.",
+      "date": "2026-10-23",
+      "created": "2026-10-23T17:37:31.883904-04:00",
+      "images": [
+        {
+          "id": "2da24000ef98df737f5d4ef96d0a28646d1d66c7d638efc6af532723a8c31bd5",
+          "title": "mic-types-0.8.7",
+          "label": "DI Cab Lab",
+          "width": 1980,
+          "height": 1056,
+          "bytes": 62194,
+          "filename": "mic-types-0.8.7.webp",
+          "original": "assets/2026-10-23/2da24000ef98df737f5d4ef96d0a28646d1d66c7d638efc6af532723a8c31bd5.webp",
+          "thumbnail": "assets/2026-10-23/2da24000ef98df737f5d4ef96d0a28646d1d66c7d638efc6af532723a8c31bd5-thumb.webp",
+          "preview": "assets/2026-10-23/2da24000ef98df737f5d4ef96d0a28646d1d66c7d638efc6af532723a8c31bd5-view.webp"
+        },
+        {
+          "id": "6d7c56be9a98a509a4e96adbfa8feadebf8f40c6c05a0e3de39ed161ab05af71",
+          "title": "00-all-themes-full-resolution",
+          "label": "DI Cab Lab",
+          "width": 4221,
+          "height": 4684,
+          "bytes": 915734,
+          "filename": "00-all-themes-full-resolution.webp",
+          "original": "assets/2026-10-23/6d7c56be9a98a509a4e96adbfa8feadebf8f40c6c05a0e3de39ed161ab05af71.webp",
+          "thumbnail": "assets/2026-10-23/6d7c56be9a98a509a4e96adbfa8feadebf8f40c6c05a0e3de39ed161ab05af71-thumb.webp",
+          "preview": "assets/2026-10-23/6d7c56be9a98a509a4e96adbfa8feadebf8f40c6c05a0e3de39ed161ab05af71-view.webp"
+        }
+      ],
+      "result": "Mic types within 1.05 dB of the published curves at 44.1/48 kHz, 2.1 dB at 96 kHz; every theme leaves every setting unchanged; VST3 47/47, CLAP 0 failures",
+      "label": "DI Cab Lab",
+      "results": [
+        {
+          "at": "2026-10-23T17:37:31.883904-04:00",
+          "text": "Mic types within 1.05 dB of the published curves at 44.1/48 kHz, 2.1 dB at 96 kHz; every theme leaves every setting unchanged; VST3 47/47, CLAP 0 failures",
+          "status": "passed",
+          "label": "DI Cab Lab"
+        }
+      ],
+      "status": "passed",
+      "updated": "2026-10-23T17:37:31.883904-04:00"
+    },
+    {
       "title": "DI Tube Lab 0.9.0: Speaker load",
       "description": "Tube Lab 0.9.0 lets the power tubes drive a 4x12's speakers instead of a resistor (Power Amp page): Off, Damped (an amp with negative feedback) or Raw (without). The cabinet's 118 Hz resonance and treble rise shape the amp's output and how it clips, the part of a real amp and cab an IR can't hold. Quietly, Damped lifts the resonance 4.6 dB and Raw 15.2 dB, the mids untouched; on Travis's Lead tone +0.9 / +2.4 dB. Off by default.",
       "date": "2026-10-21",
